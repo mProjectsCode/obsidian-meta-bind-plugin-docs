@@ -14,31 +14,31 @@
 </template>
 
 <script lang="ts">
-import {Options, Vue} from 'vue-class-component';
 import {CalloutType} from '@/main';
+import {defineComponent} from 'vue';
 
 
-@Options({
+export default defineComponent ({
     name: 'CalloutComponent',
 
     props: {
-        type: CalloutType,
+        calloutType: String,
         header: String,
     },
 
     methods: {
         getColor(): string {
-            if (this.type === CalloutType.INFO) {
+            if (this.calloutType === CalloutType.INFO) {
                 return 'var(--info)'
-            } else if (this.type === CalloutType.SUCCESS) {
+            } else if (this.calloutType === CalloutType.SUCCESS) {
                 return 'var(--success)'
-            } else if (this.type === CalloutType.WARNING) {
+            } else if (this.calloutType === CalloutType.WARNING) {
                 return 'var(--warning)'
-            } else if (this.type === CalloutType.DANGER) {
+            } else if (this.calloutType === CalloutType.DANGER) {
                 return 'var(--danger)'
-            } else if (this.type === CalloutType.ERROR) {
+            } else if (this.calloutType === CalloutType.ERROR) {
                 return 'var(--error)'
-            } else if (this.type === CalloutType.QUOTE) {
+            } else if (this.calloutType === CalloutType.QUOTE) {
                 return 'var(--quote)'
             } else {
                 return '#000000';
@@ -46,17 +46,17 @@ import {CalloutType} from '@/main';
         },
 
         getColorLight(): string {
-            if (this.type === CalloutType.INFO) {
+            if (this.calloutType === CalloutType.INFO) {
                 return 'var(--info-light)'
-            } else if (this.type === CalloutType.SUCCESS) {
+            } else if (this.calloutType === CalloutType.SUCCESS) {
                 return 'var(--success-light)'
-            } else if (this.type === CalloutType.WARNING) {
+            } else if (this.calloutType === CalloutType.WARNING) {
                 return 'var(--warning-light)'
-            } else if (this.type === CalloutType.DANGER) {
+            } else if (this.calloutType === CalloutType.DANGER) {
                 return 'var(--danger-light)'
-            } else if (this.type === CalloutType.ERROR) {
+            } else if (this.calloutType === CalloutType.ERROR) {
                 return 'var(--error-light)'
-            } else if (this.type === CalloutType.QUOTE) {
+            } else if (this.calloutType === CalloutType.QUOTE) {
                 return 'var(--quote-light)'
             } else {
                 return '#000000';
@@ -64,17 +64,17 @@ import {CalloutType} from '@/main';
         },
 
         getIcon(): string {
-            if (this.type === CalloutType.INFO) {
+            if (this.calloutType === CalloutType.INFO) {
                 return 'info'
-            } else if (this.type === CalloutType.SUCCESS) {
+            } else if (this.calloutType === CalloutType.SUCCESS) {
                 return 'check_circle'
-            } else if (this.type === CalloutType.WARNING) {
+            } else if (this.calloutType === CalloutType.WARNING) {
                 return 'warning'
-            } else if (this.type === CalloutType.DANGER) {
+            } else if (this.calloutType === CalloutType.DANGER) {
                 return 'error'
-            } else if (this.type === CalloutType.ERROR) {
+            } else if (this.calloutType === CalloutType.ERROR) {
                 return 'dangerous'
-            } else if (this.type === CalloutType.QUOTE) {
+            } else if (this.calloutType === CalloutType.QUOTE) {
                 return 'format_quote'
             } else {
                 return 'info';
@@ -82,9 +82,6 @@ import {CalloutType} from '@/main';
         }
     }
 })
-export default class CalloutComponent extends Vue {
-
-}
 </script>
 
 <style scoped>

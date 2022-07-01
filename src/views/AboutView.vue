@@ -12,22 +12,22 @@
             Cras ornare suscipit ligula, id dictum nibh malesuada egestas. Curabitur at pellentesque turpis. Fusce consectetur nisl id lorem hendrerit porttitor. Aenean vehicula blandit viverra. Vestibulum auctor vehicula luctus. Sed sodales, augue id aliquam lobortis, nibh dui maximus augue, eu placerat arcu nunc sit amet mauris. Vestibulum euismod risus in mattis dignissim. Aliquam interdum magna id purus malesuada efficitur.
         </p>
         <h2 id="heading 2">Test 2</h2>
-        <callout-component header="Test callout 1" type="info">
+        <callout-component header="Test callout 1" calloutType="info">
             Aenean sodales elit vel consectetur sodales.
         </callout-component>
-        <callout-component header="Test callout 1" type="success">
+        <callout-component header="Test callout 1" calloutType="success">
             Aenean sodales elit vel consectetur sodales.
         </callout-component>
-        <callout-component header="Test callout 1" type="warning">
+        <callout-component header="Test callout 1" calloutType="warning">
             Aenean sodales elit vel consectetur sodales.
         </callout-component>
-        <callout-component header="Test callout 1" type="danger">
+        <callout-component header="Test callout 1" calloutType="danger">
             Aenean sodales elit vel consectetur sodales.
         </callout-component>
-        <callout-component header="Test callout 1" type="error">
+        <callout-component header="Test callout 1" calloutType="error">
             Aenean sodales elit vel consectetur sodales.
         </callout-component>
-        <callout-component header="Test callout 1" type="quote">
+        <callout-component header="Test callout 1" calloutType="quote">
             Aenean sodales elit vel consectetur sodales.
         </callout-component>
         <p>

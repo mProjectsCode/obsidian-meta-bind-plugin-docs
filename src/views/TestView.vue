@@ -9,22 +9,22 @@
 
         <hr/>
 
-        <callout-component header="Test callout Info" type="info">
+        <callout-component header="Test callout Info" calloutType="info">
             Quisque et urna quis lectus ullamcorper viverra eget vitae nulla. Donec ornare ligula leo. Nam vitae pharetra massa, quis fringilla elit. Nunc facilisis eros dignissim, elementum quam in, iaculis magna. Duis tristique, mauris vitae ultricies tincidunt, turpis orci pulvinar libero, et ultricies neque sapien vel eros. Ut fringilla turpis non rutrum rutrum. Donec vel quam vitae magna molestie cursus et sit amet quam. Sed fringilla a ex sed molestie. Donec ultricies et neque vitae sollicitudin. Nam magna nibh, ultricies sit amet odio quis, porta bibendum ex.
         </callout-component>
-        <callout-component header="Test callout Success" type="success">
+        <callout-component header="Test callout Success" calloutType="success">
             Quisque et urna quis lectus ullamcorper viverra eget vitae nulla. Donec ornare ligula leo. Nam vitae pharetra massa, quis fringilla elit. Nunc facilisis eros dignissim, elementum quam in, iaculis magna. Duis tristique, mauris vitae ultricies tincidunt, turpis orci pulvinar libero, et ultricies neque sapien vel eros. Ut fringilla turpis non rutrum rutrum. Donec vel quam vitae magna molestie cursus et sit amet quam. Sed fringilla a ex sed molestie. Donec ultricies et neque vitae sollicitudin. Nam magna nibh, ultricies sit amet odio quis, porta bibendum ex.
         </callout-component>
-        <callout-component header="Test callout Warning" type="warning">
+        <callout-component header="Test callout Warning" calloutType="warning">
             Quisque et urna quis lectus ullamcorper viverra eget vitae nulla. Donec ornare ligula leo. Nam vitae pharetra massa, quis fringilla elit. Nunc facilisis eros dignissim, elementum quam in, iaculis magna. Duis tristique, mauris vitae ultricies tincidunt, turpis orci pulvinar libero, et ultricies neque sapien vel eros. Ut fringilla turpis non rutrum rutrum. Donec vel quam vitae magna molestie cursus et sit amet quam. Sed fringilla a ex sed molestie. Donec ultricies et neque vitae sollicitudin. Nam magna nibh, ultricies sit amet odio quis, porta bibendum ex.
         </callout-component>
-        <callout-component header="Test callout Danger" type="danger">
+        <callout-component header="Test callout Danger" calloutType="danger">
             Quisque et urna quis lectus ullamcorper viverra eget vitae nulla. Donec ornare ligula leo. Nam vitae pharetra massa, quis fringilla elit. Nunc facilisis eros dignissim, elementum quam in, iaculis magna. Duis tristique, mauris vitae ultricies tincidunt, turpis orci pulvinar libero, et ultricies neque sapien vel eros. Ut fringilla turpis non rutrum rutrum. Donec vel quam vitae magna molestie cursus et sit amet quam. Sed fringilla a ex sed molestie. Donec ultricies et neque vitae sollicitudin. Nam magna nibh, ultricies sit amet odio quis, porta bibendum ex.
         </callout-component>
-        <callout-component header="Test callout Error" type="error">
+        <callout-component header="Test callout Error" calloutType="error">
             Quisque et urna quis lectus ullamcorper viverra eget vitae nulla. Donec ornare ligula leo. Nam vitae pharetra massa, quis fringilla elit. Nunc facilisis eros dignissim, elementum quam in, iaculis magna. Duis tristique, mauris vitae ultricies tincidunt, turpis orci pulvinar libero, et ultricies neque sapien vel eros. Ut fringilla turpis non rutrum rutrum. Donec vel quam vitae magna molestie cursus et sit amet quam. Sed fringilla a ex sed molestie. Donec ultricies et neque vitae sollicitudin. Nam magna nibh, ultricies sit amet odio quis, porta bibendum ex.
         </callout-component>
-        <callout-component header="Test callout Quote" type="quote">
+        <callout-component header="Test callout Quote" calloutType="quote">
             Quisque et urna quis lectus ullamcorper viverra eget vitae nulla. Donec ornare ligula leo. Nam vitae pharetra massa, quis fringilla elit. Nunc facilisis eros dignissim, elementum quam in, iaculis magna. Duis tristique, mauris vitae ultricies tincidunt, turpis orci pulvinar libero, et ultricies neque sapien vel eros. Ut fringilla turpis non rutrum rutrum. Donec vel quam vitae magna molestie cursus et sit amet quam. Sed fringilla a ex sed molestie. Donec ultricies et neque vitae sollicitudin. Nam magna nibh, ultricies sit amet odio quis, porta bibendum ex.
         </callout-component>
 
@@ -46,14 +46,14 @@
 
         <h1>Full Article Test</h1>
         <p>Aenean sodales elit vel consectetur sodales. Nam id urna vulputate, lacinia lorem quis, pharetra sem. Pellentesque scelerisque sed ante vitae aliquam. Nunc pulvinar odio at ligula facilisis, id ultricies lacus consectetur. Etiam condimentum consequat est, eu consectetur tortor malesuada vel. Donec faucibus diam eu vestibulum interdum. Ut id lobortis est.</p>
-        <callout-component header="Test callout Info" type="info">
+        <callout-component header="Test callout Info" calloutType="info">
             Stacking callouts
-            <callout-component header="Test callout Success" type="success">
-                <callout-component header="Test callout Warning" type="warning">
-                    <callout-component header="Test callout Danger" type="danger">
+            <callout-component header="Test callout Success" calloutType="success">
+                <callout-component header="Test callout Warning" calloutType="warning">
+                    <callout-component header="Test callout Danger" calloutType="danger">
                         Quisque et urna quis lectus ullamcorper viverra eget vitae nulla. Donec ornare ligula leo. Nam vitae pharetra massa, quis fringilla elit. Nunc facilisis eros dignissim, elementum quam in, iaculis magna. Duis tristique, mauris vitae ultricies tincidunt, turpis orci pulvinar libero, et ultricies neque sapien vel eros. Ut fringilla turpis non rutrum rutrum. Donec vel quam vitae magna molestie cursus et sit amet quam. Sed fringilla a ex sed molestie. Donec ultricies et neque vitae sollicitudin. Nam magna nibh, ultricies sit amet odio quis, porta bibendum ex.
                     </callout-component>
-                    <callout-component header="Test callout Error" type="error">
+                    <callout-component header="Test callout Error" calloutType="error">
                         Quisque et urna quis lectus ullamcorper viverra eget vitae nulla. Donec ornare ligula leo. Nam vitae pharetra massa, quis fringilla elit. Nunc facilisis eros dignissim, elementum quam in, iaculis magna. Duis tristique, mauris vitae ultricies tincidunt, turpis orci pulvinar libero, et ultricies neque sapien vel eros. Ut fringilla turpis non rutrum rutrum. Donec vel quam vitae magna molestie cursus et sit amet quam. Sed fringilla a ex sed molestie. Donec ultricies et neque vitae sollicitudin. Nam magna nibh, ultricies sit amet odio quis, porta bibendum ex.
                     </callout-component>
                 </callout-component>

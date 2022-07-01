@@ -8,9 +8,7 @@
 </template>
 
 <script lang="ts">
-import { computed } from 'vue';
-import {Options, Vue} from 'vue-class-component';
-import {useRoute, useRouter} from 'vue-router';
+import {computed, defineComponent} from 'vue';
 
 interface Data {
     sidebarItems: SidebarItem[];
@@ -28,7 +26,7 @@ interface SidebarSubItem {
     id: string;
 }
 
-@Options({
+export default defineComponent ({
     name: 'SidebarComponent',
 
     data(): Data {
@@ -90,11 +88,7 @@ interface SidebarSubItem {
             });
         }
     }
-
 })
-export default class SidebarComponent extends Vue {
-
-}
 </script>
 
 <style scoped>

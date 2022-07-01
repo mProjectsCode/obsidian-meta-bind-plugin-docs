@@ -14,10 +14,10 @@
 </template>
 
 <script lang="ts">
-import {Options, Vue} from 'vue-class-component';
+import {defineComponent} from 'vue';
 
 
-@Options({
+export default defineComponent ({
     name: 'CodeBlockComponent',
 
     data() {
@@ -33,7 +33,7 @@ import {Options, Vue} from 'vue-class-component';
 
     methods: {
         copy() {
-            navigator.clipboard.writeText(this.$refs.code.innerText);
+            navigator.clipboard.writeText((this.$refs.code as HTMLElement).innerText);
             this.copied = true;
         },
 
@@ -48,9 +48,6 @@ import {Options, Vue} from 'vue-class-component';
         }
     }
 })
-export default class CodeBlockComponent extends Vue {
-
-}
 </script>
 
 <style scoped>
