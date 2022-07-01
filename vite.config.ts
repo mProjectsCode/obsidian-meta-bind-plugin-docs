@@ -13,5 +13,6 @@ export default defineConfig({
   },
   build: {
     outDir: './docs'
-  }
+  },
+  base: "/obsidian-meta-bind-plugin-docs"
 })
