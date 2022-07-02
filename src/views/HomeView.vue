@@ -1,67 +1,62 @@
 <template>
     <div class="content">
-        <h1>Test</h1>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus arcu nunc, luctus quis erat iaculis, tempus lacinia libero. Praesent vel lorem leo. Proin viverra ex at urna eleifend accumsan. Nam et turpis sed leo eleifend semper. Vivamus nisl odio, molestie sed commodo eu, pulvinar id lectus. Nullam urna elit, euismod quis posuere at, sodales vitae massa. Mauris gravida laoreet semper. Morbi bibendum sapien ut varius blandit. Maecenas mauris diam, interdum ut placerat et, ultricies in lacus. Quisque congue erat id dui maximus porttitor. Phasellus id leo quis erat commodo euismod. Donec elit felis, posuere quis arcu eu, condimentum viverra nisi.
+            <strong>Obsidian Meta Bind Plugin</strong> is a plugin for <a href="https://obsidian.md/">Obsidian</a>,
+            that allows you to create input fields inside your notes.
+            Those input fields can then be bound to metadata fields in your notes.
         </p>
         <p>
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus molestie vel mi vestibulum porttitor. Sed accumsan sodales quam ut gravida. Donec suscipit interdum mi, id rhoncus nisi vestibulum eu. Donec condimentum nisi non sapien rutrum, in convallis velit sollicitudin. Aliquam erat volutpat. Sed viverra posuere eros, non tincidunt enim auctor nec. Morbi eget tortor tempus, vulputate tortor nec, mollis sem. Aliquam eleifend nunc sed imperdiet vestibulum. Etiam vehicula laoreet viverra.
+            So you can for example add a toggle on your task note, that automatically marks the note as completed when
+            toggled.
+            And the best thing is, it even works inside your <a
+                href="https://github.com/blacksmithgu/obsidian-dataview">Dataview</a> tables. :D
+        </p>
+
+        <h3 id="getting-started">Getting Started</h3>
+        <p>
+            I made a small
+            <router-link to="/tutorial">tutorial</router-link>
+            you can follow. <br>
+            Alternatively you can explore these docs or the
+            <router-link to="/exampleVault">example vault</router-link>
+            I use for testing.
+        </p>
+
+        <h3 id="issues">Bugs, Errors or Unexpected Behavior?</h3>
+        <p>
+            Please take a look at the
+            <router-link to="troubleShooting">trouble shooting</router-link>
+            page.
+        </p>
+
+        <h3 id="contributing">Features Requests and Contributing</h3>
+        <p>
+            Contributions are always welcome. If you have an idea, feel free to open a feature request under the <a
+                href="https://github.com/mProjectsCode/obsidian-meta-bind-plugin/issues">issues tab on GitHub</a> or
+            even create a pull request.
+        </p>
+
+        <h3 id="other-work">Check out my other work</h3>
+        <p>
+            Other Plugins that i meade for Obsidian <br/>
+            - <a href="https://github.com/mProjectsCode/obsidian-media-db-plugin">Obsidian Media DB Plugin</a>
         </p>
         <p>
-            Cras ornare suscipit ligula, id dictum nibh malesuada egestas. Curabitur at pellentesque turpis. Fusce consectetur nisl id lorem hendrerit porttitor. Aenean vehicula blandit viverra. Vestibulum auctor vehicula luctus. Sed sodales, augue id aliquam lobortis, nibh dui maximus augue, eu placerat arcu nunc sit amet mauris. Vestibulum euismod risus in mattis dignissim. Aliquam interdum magna id purus malesuada efficitur.
+            Take a look at my other projects on my <a href="https://mprojectscode.github.io/">website</a>. Alternatively
+            you can check me out on <a href="https://github.com/mProjectsCode">GitHub</a>.
         </p>
-        <h2 id="heading 1">Test 3</h2>
-        <p>
-            Aenean sodales elit vel consectetur sodales. Nam id urna vulputate, lacinia lorem quis, pharetra sem. Pellentesque scelerisque sed ante vitae aliquam. Nunc pulvinar odio at ligula facilisis, id ultricies lacus consectetur. Etiam condimentum consequat est, eu consectetur tortor malesuada vel. Donec faucibus diam eu vestibulum interdum. Ut id lobortis est.
-        </p>
-        <p>
-            Quisque et urna quis lectus ullamcorper viverra eget vitae nulla. Donec ornare ligula leo. Nam vitae pharetra massa, quis fringilla elit. Nunc facilisis eros dignissim, elementum quam in, iaculis magna. Duis tristique, mauris vitae ultricies tincidunt, turpis orci pulvinar libero, et ultricies neque sapien vel eros. Ut fringilla turpis non rutrum rutrum. Donec vel quam vitae magna molestie cursus et sit amet quam. Sed fringilla a ex sed molestie. Donec ultricies et neque vitae sollicitudin. Nam magna nibh, ultricies sit amet odio quis, porta bibendum ex.
-        </p>
-        <p>
-            Aenean sodales elit vel consectetur sodales. Nam id urna vulputate, lacinia lorem quis, pharetra sem. Pellentesque scelerisque sed ante vitae aliquam. Nunc pulvinar odio at ligula facilisis, id ultricies lacus consectetur. Etiam condimentum consequat est, eu consectetur tortor malesuada vel. Donec faucibus diam eu vestibulum interdum. Ut id lobortis est.
-        </p>
-        <p>
-            Quisque et urna quis lectus ullamcorper viverra eget vitae nulla. Donec ornare ligula leo. Nam vitae pharetra massa, quis fringilla elit. Nunc facilisis eros dignissim, elementum quam in, iaculis magna. Duis tristique, mauris vitae ultricies tincidunt, turpis orci pulvinar libero, et ultricies neque sapien vel eros. Ut fringilla turpis non rutrum rutrum. Donec vel quam vitae magna molestie cursus et sit amet quam. Sed fringilla a ex sed molestie. Donec ultricies et neque vitae sollicitudin. Nam magna nibh, ultricies sit amet odio quis, porta bibendum ex.
-        </p>
-        <p>
-            Aenean sodales elit vel consectetur sodales. Nam id urna vulputate, lacinia lorem quis, pharetra sem. Pellentesque scelerisque sed ante vitae aliquam. Nunc pulvinar odio at ligula facilisis, id ultricies lacus consectetur. Etiam condimentum consequat est, eu consectetur tortor malesuada vel. Donec faucibus diam eu vestibulum interdum. Ut id lobortis est.
-        </p>
-        <p>
-            Quisque et urna quis lectus ullamcorper viverra eget vitae nulla. Donec ornare ligula leo. Nam vitae pharetra massa, quis fringilla elit. Nunc facilisis eros dignissim, elementum quam in, iaculis magna. Duis tristique, mauris vitae ultricies tincidunt, turpis orci pulvinar libero, et ultricies neque sapien vel eros. Ut fringilla turpis non rutrum rutrum. Donec vel quam vitae magna molestie cursus et sit amet quam. Sed fringilla a ex sed molestie. Donec ultricies et neque vitae sollicitudin. Nam magna nibh, ultricies sit amet odio quis, porta bibendum ex.
-        </p>
-        <h2 id="heading 2">Test 3</h2>
-        <p>
-            Aenean sodales elit vel consectetur sodales. Nam id urna vulputate, lacinia lorem quis, pharetra sem. Pellentesque scelerisque sed ante vitae aliquam. Nunc pulvinar odio at ligula facilisis, id ultricies lacus consectetur. Etiam condimentum consequat est, eu consectetur tortor malesuada vel. Donec faucibus diam eu vestibulum interdum. Ut id lobortis est.
-        </p>
-        <p>
-            Quisque et urna quis lectus ullamcorper viverra eget vitae nulla. Donec ornare ligula leo. Nam vitae pharetra massa, quis fringilla elit. Nunc facilisis eros dignissim, elementum quam in, iaculis magna. Duis tristique, mauris vitae ultricies tincidunt, turpis orci pulvinar libero, et ultricies neque sapien vel eros. Ut fringilla turpis non rutrum rutrum. Donec vel quam vitae magna molestie cursus et sit amet quam. Sed fringilla a ex sed molestie. Donec ultricies et neque vitae sollicitudin. Nam magna nibh, ultricies sit amet odio quis, porta bibendum ex.
-        </p>
-        <p>
-            Aenean sodales elit vel consectetur sodales. Nam id urna vulputate, lacinia lorem quis, pharetra sem. Pellentesque scelerisque sed ante vitae aliquam. Nunc pulvinar odio at ligula facilisis, id ultricies lacus consectetur. Etiam condimentum consequat est, eu consectetur tortor malesuada vel. Donec faucibus diam eu vestibulum interdum. Ut id lobortis est.
-        </p>
-        <p>
-            Quisque et urna quis lectus ullamcorper viverra eget vitae nulla. Donec ornare ligula leo. Nam vitae pharetra massa, quis fringilla elit. Nunc facilisis eros dignissim, elementum quam in, iaculis magna. Duis tristique, mauris vitae ultricies tincidunt, turpis orci pulvinar libero, et ultricies neque sapien vel eros. Ut fringilla turpis non rutrum rutrum. Donec vel quam vitae magna molestie cursus et sit amet quam. Sed fringilla a ex sed molestie. Donec ultricies et neque vitae sollicitudin. Nam magna nibh, ultricies sit amet odio quis, porta bibendum ex.
-        </p>
-        <p>
-            Aenean sodales elit vel consectetur sodales. Nam id urna vulputate, lacinia lorem quis, pharetra sem. Pellentesque scelerisque sed ante vitae aliquam. Nunc pulvinar odio at ligula facilisis, id ultricies lacus consectetur. Etiam condimentum consequat est, eu consectetur tortor malesuada vel. Donec faucibus diam eu vestibulum interdum. Ut id lobortis est.
-        </p>
-        <p>
-            Quisque et urna quis lectus ullamcorper viverra eget vitae nulla. Donec ornare ligula leo. Nam vitae pharetra massa, quis fringilla elit. Nunc facilisis eros dignissim, elementum quam in, iaculis magna. Duis tristique, mauris vitae ultricies tincidunt, turpis orci pulvinar libero, et ultricies neque sapien vel eros. Ut fringilla turpis non rutrum rutrum. Donec vel quam vitae magna molestie cursus et sit amet quam. Sed fringilla a ex sed molestie. Donec ultricies et neque vitae sollicitudin. Nam magna nibh, ultricies sit amet odio quis, porta bibendum ex.
-        </p>
-        <p>
-            Aenean sodales elit vel consectetur sodales. Nam id urna vulputate, lacinia lorem quis, pharetra sem. Pellentesque scelerisque sed ante vitae aliquam. Nunc pulvinar odio at ligula facilisis, id ultricies lacus consectetur. Etiam condimentum consequat est, eu consectetur tortor malesuada vel. Donec faucibus diam eu vestibulum interdum. Ut id lobortis est.
-        </p>
-        <p>
-            Quisque et urna quis lectus ullamcorper viverra eget vitae nulla. Donec ornare ligula leo. Nam vitae pharetra massa, quis fringilla elit. Nunc facilisis eros dignissim, elementum quam in, iaculis magna. Duis tristique, mauris vitae ultricies tincidunt, turpis orci pulvinar libero, et ultricies neque sapien vel eros. Ut fringilla turpis non rutrum rutrum. Donec vel quam vitae magna molestie cursus et sit amet quam. Sed fringilla a ex sed molestie. Donec ultricies et neque vitae sollicitudin. Nam magna nibh, ultricies sit amet odio quis, porta bibendum ex.
-        </p>
+
+
     </div>
 </template>
 
 <script lang="ts">
 import {Options, Vue} from 'vue-class-component';
+import CalloutComponent from '@/components/CalloutComponent.vue';
 
 @Options({
     name: 'HomeView',
+    components: {CalloutComponent},
 })
 export default class HomeView extends Vue {
 }

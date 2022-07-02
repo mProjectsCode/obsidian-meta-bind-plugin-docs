@@ -1,14 +1,21 @@
 <template>
- <div class="sidebar">
-     <div class="sidebar-item-container" v-for="sidebarItem in sidebarItems">
-         <router-link :to="sidebarItem.route" class="sidebar-item" :class="sidebarItem.active ? 'sidebar-item-active': ''" v-on:click="() => setActive(sidebarItem)">{{ sidebarItem.name }}</router-link>
-         <router-link :to="`${sidebarItem.route}#${sidebarSubItem.id}`" class="sidebar-item sidebar-sub-item" v-for="sidebarSubItem in sidebarItem.subItems" v-if="sidebarItem.active">{{ sidebarSubItem.name }}</router-link>
-     </div>
- </div>
+    <div class="sidebar">
+        <div v-for="sidebarItem in sidebarItems" class="sidebar-item-container">
+            <router-link :class="sidebarItem.active ? 'sidebar-item-active': ''" :to="sidebarItem.route"
+                         class="sidebar-item"
+                         v-on:click="() => setActive(sidebarItem)">{{ sidebarItem.name }}
+            </router-link>
+            <router-link v-for="sidebarSubItem in sidebarItem.subItems" v-if="sidebarItem.active"
+                         :to="`${sidebarItem.route}#${sidebarSubItem.id}`" class="sidebar-item sidebar-sub-item">{{
+                    sidebarSubItem.name
+                }}
+            </router-link>
+        </div>
+    </div>
 </template>
 
 <script lang="ts">
-import {computed, defineComponent} from 'vue';
+import {defineComponent} from 'vue';
 
 interface Data {
     sidebarItems: SidebarItem[];
@@ -26,7 +33,7 @@ interface SidebarSubItem {
     id: string;
 }
 
-export default defineComponent ({
+export default defineComponent({
     name: 'SidebarComponent',
 
     data(): Data {
@@ -36,28 +43,52 @@ export default defineComponent ({
                     name: 'Home',
                     route: '/',
                     subItems: [{
-                        name: 'Sub Item 1',
-                        id: 'heading 1',
+                        name: 'Getting Started',
+                        id: 'getting-started',
                     }, {
-                        name: 'Sub Item 2',
-                        id: 'heading 2',
+                        name: 'Bugs, Errors or Unexpected Behavior?',
+                        id: 'issues',
+                    }, {
+                        name: 'Features Requests and Contributing',
+                        id: 'contributing',
+                    }, {
+                        name: 'Check out my other work',
+                        id: 'other-work',
                     }],
                     active: false,
                 },
                 {
-                    name: 'About',
-                    route: '/about',
-                    subItems: [{
-                        name: 'Sub Item 3',
-                        id: 'heading 1',
-                    }, {
-                        name: 'Sub Item 4',
-                        id: 'heading 2',
-                    }],
+                    name: 'Tutorial',
+                    route: '/tutorial',
+                    subItems: [],
                     active: false,
                 },
                 {
-                    name: 'Website Layout Tests',
+                    name: 'Input Fields',
+                    route: '/inputFields',
+                    subItems: [],
+                    active: false,
+                },
+                {
+                    name: 'Arguments',
+                    route: '/arguments',
+                    subItems: [],
+                    active: false,
+                },
+                {
+                    name: 'Trouble Shooting',
+                    route: '/troubleShooting',
+                    subItems: [],
+                    active: false,
+                },
+                {
+                    name: 'Example Vault',
+                    route: '/exampleVault',
+                    subItems: [],
+                    active: false,
+                },
+                {
+                    name: 'Website Layout Test',
                     route: '/test',
                     subItems: [],
                     active: false,
@@ -67,7 +98,7 @@ export default defineComponent ({
     },
 
     watch: {
-        '$route': 'currentRoute'
+        '$route': 'currentRoute',
     },
 
     mounted() {
@@ -86,9 +117,9 @@ export default defineComponent ({
                     sidebarItem.active = sidebarItem.route === this.$route.path;
                 }
             });
-        }
-    }
-})
+        },
+    },
+});
 </script>
 
 <style scoped>

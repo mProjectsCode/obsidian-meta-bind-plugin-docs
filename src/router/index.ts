@@ -1,21 +1,25 @@
 import {createRouter, createWebHistory} from 'vue-router';
 import HomeView from '../views/HomeView.vue';
-import AboutView from '@/views/AboutView.vue';
 import TestView from '@/views/TestView.vue';
 import NotFoundView from '@/views/NotFoundView.vue';
+import TutorialView from '@/views/TutorialView.vue';
+import ExampleVaultView from '@/views/ExampleVaultView.vue';
+import TroubleShootingView from '@/views/TroubleShootingView.vue';
+import InputFieldsView from '@/views/InputTypesView.vue';
+import ArgumentsView from '@/views/ArgumentsView.vue';
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     scrollBehavior: (to, from, savedPosition) => {
         if (savedPosition) {
-            return  { ...savedPosition, behavior: 'smooth' };
+            return {...savedPosition, behavior: 'smooth'};
         }
 
         if (to.hash) {
-            return { el: to.hash, behavior: 'smooth' }
+            return {el: to.hash, behavior: 'smooth'};
         }
 
-        return { top: 0, behavior: 'smooth' }
+        return {top: 0, behavior: 'smooth'};
     },
     routes: [
         {
@@ -24,9 +28,29 @@ const router = createRouter({
             component: HomeView,
         },
         {
-            path: '/about',
-            name: 'about',
-            component: AboutView,
+            path: '/tutorial',
+            name: 'tutorial',
+            component: TutorialView,
+        },
+        {
+            path: '/inputFields',
+            name: 'inputFields',
+            component: InputFieldsView,
+        },
+        {
+            path: '/arguments',
+            name: 'arguments',
+            component: ArgumentsView,
+        },
+        {
+            path: '/troubleShooting',
+            name: 'troubleShooting',
+            component: TroubleShootingView,
+        },
+        {
+            path: '/exampleVault',
+            name: 'exampleVault',
+            component: ExampleVaultView,
         },
         {
             path: '/test',

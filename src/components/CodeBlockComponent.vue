@@ -1,15 +1,19 @@
 <template>
     <div class="code-block">
-        <div class="code-block-copy tooltip"  v-on:click="copy()" v-on:mouseenter="mouseEnter()" v-on:mouseleave="mouseLeave()">
+        <div class="code-block-copy tooltip" v-on:click="copy()" v-on:mouseenter="mouseEnter()"
+             v-on:mouseleave="mouseLeave()">
             <span class="material-symbols-outlined">
                 content_copy
             </span>
-            <div class="bottom" v-show="hover" :style="{color: copied ? 'var(--success-light)' : 'var(--text-important)'}">
+            <div v-show="hover" :style="{color: copied ? 'var(--success-light)' : 'var(--text-important)'}"
+                 class="bottom">
                 {{ copied ? 'copied' : 'copy' }}
                 <i></i>
             </div>
         </div>
-        <div class="code-block-block"><code class="block" ref="code"><slot></slot></code></div>
+        <div class="code-block-block"><code ref="code" class="block">
+            <slot></slot>
+        </code></div>
     </div>
 </template>
 
@@ -17,19 +21,17 @@
 import {defineComponent} from 'vue';
 
 
-export default defineComponent ({
+export default defineComponent({
     name: 'CodeBlockComponent',
 
     data() {
         return {
             hover: false,
             copied: false,
-        }
+        };
     },
 
-    props: {
-
-    },
+    props: {},
 
     methods: {
         copy() {
@@ -45,9 +47,9 @@ export default defineComponent ({
         mouseLeave() {
             this.hover = false;
             this.copied = false;
-        }
-    }
-})
+        },
+    },
+});
 </script>
 
 <style scoped>
