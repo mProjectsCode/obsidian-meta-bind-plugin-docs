@@ -12,6 +12,13 @@
             </callout-component>
             <RouterView/>
         </div>
+
+    </div>
+    <div class="footer">
+        <span>Copyright All Rights Reserved</span>
+        <a href="https://mprojectscode.github.io/privacy_statement_english">Privacy Policy</a>
+        <a href="https://mprojectscode.github.io/privacy_statement_german">Datenschutz</a>
+        <a href="https://mprojectscode.github.io/impressum">Impressum</a>
     </div>
 </template>
 

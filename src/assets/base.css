@@ -267,3 +267,13 @@ pre {
     background-color: var(--background-tertiary);
 }
 
+.footer {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: var(--default-spacing);
+    margin: var(--default-spacing);
+    background: var(--background-secondary);
+    border-radius: var(--default-border-radius);
+}
+
