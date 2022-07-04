@@ -33,7 +33,7 @@ import CodeBlockComponent from '@/components/CodeBlockComponent.vue';
 
     components: {CodeBlockComponent, CalloutComponent},
 })
-export default class InputFieldsView extends Vue {
+export default class InputTypesView extends Vue {
 }
 </script>
 

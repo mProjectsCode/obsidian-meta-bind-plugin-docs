@@ -5,7 +5,7 @@ import NotFoundView from '@/views/NotFoundView.vue';
 import TutorialView from '@/views/TutorialView.vue';
 import ExampleVaultView from '@/views/ExampleVaultView.vue';
 import TroubleShootingView from '@/views/TroubleShootingView.vue';
-import InputFieldsView from '@/views/InputTypesView.vue';
+import InputTypesView from '@/views/InputTypesView.vue';
 import ArgumentsView from '@/views/ArgumentsView.vue';
 
 const router = createRouter({
@@ -33,9 +33,9 @@ const router = createRouter({
             component: TutorialView,
         },
         {
-            path: '/inputFields',
-            name: 'inputFields',
-            component: InputFieldsView,
+            path: '/inputTypes',
+            name: 'inputTypes',
+            component: InputTypesView,
         },
         {
             path: '/arguments',

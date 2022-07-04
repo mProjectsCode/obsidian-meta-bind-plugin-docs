@@ -64,8 +64,8 @@ export default defineComponent({
                     active: false,
                 },
                 {
-                    name: 'Input Fields',
-                    route: '/inputFields',
+                    name: 'Input Types',
+                    route: '/inputTypes',
                     subItems: [],
                     active: false,
                 },

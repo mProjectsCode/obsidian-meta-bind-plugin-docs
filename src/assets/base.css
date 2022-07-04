@@ -2,9 +2,9 @@
     --background:            #000000;
     --background-secondary:  #161616;
     --background-tertiary:   #323232;
-    --text:                  #bbbbbb;
+    --text:                  #cccccc;
     --text-important:        #ffffff;
-    --text-muted:            #777777;
+    --text-muted:            #888888;
 
     --default-spacing:       10px;
     --default-border-radius: 5px;
@@ -16,12 +16,12 @@
     --success-light:         #7bed9f;
     --warning:               #ffa50220;
     --warning-light:         #eccc68;
-    --info:                  #1e90ff20;
-    --info-light:            #70a1ff;
     --danger:                #ff634820;
     --danger-light:          #ff7f50;
     --error:                 #ff475720;
     --error-light:           #ff6b81;
+    --info:                  #1e90ff20;
+    --info-light:            #70a1ff;
     --quote:                 #747d8c20;
     --quote-light:           #a4b0be;
 }
@@ -204,6 +204,46 @@ code.block {
 pre {
     margin:     0;
     overflow-x: auto;
+}
+
+.callout {
+    background:    var(--background-secondary);
+    border-radius: var(--default-border-radius);
+    margin-block:  1em;
+}
+
+.callout-bg {
+    border-radius: var(--default-border-radius);
+}
+
+.callout-header {
+    padding:       var(--default-spacing);
+    display:       flex;
+    gap:           var(--default-spacing);
+    border-radius: var(--default-border-radius);
+}
+
+.callout-icon {
+    color: #000000;
+}
+
+.callout-title {
+    flex:        1;
+    color:       #000000;
+    font-weight: bold;
+}
+
+.callout-content {
+    padding: var(--default-spacing);
+    color:   var(--text-important);
+}
+
+.callout-content > *:first-child {
+    margin-top: 0;
+}
+
+.callout-content > *:last-child {
+    margin-bottom: 0;
 }
 
 .code-block {

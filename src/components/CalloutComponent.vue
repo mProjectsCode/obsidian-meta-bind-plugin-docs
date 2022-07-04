@@ -98,35 +98,4 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.callout {
-    background:    var(--background-secondary);
-    border-radius: var(--default-border-radius);
-    margin-block:  1em;
-}
-
-.callout-bg {
-    border-radius: var(--default-border-radius);
-}
-
-.callout-header {
-    padding:       var(--default-spacing);
-    display:       flex;
-    gap:           var(--default-spacing);
-    border-radius: var(--default-border-radius);
-}
-
-.callout-icon {
-    color: #000000;
-}
-
-.callout-title {
-    flex:        1;
-    color:       #000000;
-    font-weight: bold;
-}
-
-.callout-content {
-    padding: var(--default-spacing);
-    color:   var(--text-important);
-}
 </style>
