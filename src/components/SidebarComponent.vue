@@ -2,11 +2,11 @@
     <div class="sidebar">
         <div v-for="sidebarItem in sidebarItems" class="sidebar-item-container">
             <router-link :class="sidebarItem.active ? 'sidebar-item-active': ''" :to="sidebarItem.route"
-                         class="sidebar-item"
+                         class="sidebar-item no-icon"
                          v-on:click="() => setActive(sidebarItem)">{{ sidebarItem.name }}
             </router-link>
             <router-link v-for="sidebarSubItem in sidebarItem.subItems" v-if="sidebarItem.active"
-                         :to="`${sidebarItem.route}#${sidebarSubItem.id}`" class="sidebar-item sidebar-sub-item">{{
+                         :to="`${sidebarItem.route}#${sidebarSubItem.id}`" class="sidebar-item sidebar-sub-item no-icon">{{
                     sidebarSubItem.name
                 }}
             </router-link>

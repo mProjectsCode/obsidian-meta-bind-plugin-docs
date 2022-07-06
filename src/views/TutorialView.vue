@@ -8,8 +8,8 @@
         <h3>Installation</h3>
         <p>
             Before you can start using the plugin you have to install it.
-            You can do that either from the <a href="https://github.com/mProjectsCode/obsidian-meta-bind-plugin/releases/latest">latest release on GitHub</a>
-            or from obsidian's plugin browser once <a href="https://github.com/obsidianmd/obsidian-releases/pull/1030">this</a> PR gets through.
+            You can do that either from the <external-link to="https://github.com/mProjectsCode/obsidian-meta-bind-plugin/releases/latest">latest release on GitHub</external-link>
+            or from obsidian's plugin browser once <external-link to="https://github.com/obsidianmd/obsidian-releases/pull/1030">this</external-link> PR gets through.
         </p>
         <p>
             Should you choose to install the plugin manually from GitHub, extract the zip-archive into the .obsidian/plugins folder in your vault. <br>
@@ -113,11 +113,12 @@ INPUT[text_area(class(meta-bind-full-width), class(meta-bind-high)):bind_target]
 import {Options, Vue} from 'vue-class-component';
 import CalloutComponent from '@/components/CalloutComponent.vue';
 import CodeBlockComponent from '@/components/CodeBlockComponent.vue';
+import ExternalLink from '@/components/ExternalLinkComponent.vue';
 
 @Options({
     name: 'TutorialView',
 
-    components: {CodeBlockComponent, CalloutComponent},
+    components: {ExternalLink, CodeBlockComponent, CalloutComponent},
 })
 export default class TutorialView extends Vue {
 }
