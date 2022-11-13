@@ -1,14 +1,14 @@
 <template>
     <div class="sidebar">
         <div v-for="sidebarItem in sidebarItems" class="sidebar-item-container">
-            <router-link :class="sidebarItem.active ? 'sidebar-item-active': ''" :to="sidebarItem.route"
+            <router-link :class="sidebarItem.active ? 'sidebar-item-active': ''" :to="sidebarItem.path"
                          class="sidebar-item no-icon"
-                         v-on:click="() => setActive(sidebarItem)">{{ sidebarItem.name }}
+                         v-on:click="() => setActive(sidebarItem)">
+                {{ sidebarItem.name }}
             </router-link>
-            <router-link v-for="sidebarSubItem in sidebarItem.subItems" v-if="sidebarItem.active"
-                         :to="`${sidebarItem.route}#${sidebarSubItem.id}`" class="sidebar-item sidebar-sub-item no-icon">{{
-                    sidebarSubItem.name
-                }}
+            <router-link v-for="sidebarSubItem in subItems" v-if="sidebarItem.active"
+                         :to="`${sidebarItem.path}#${sidebarSubItem.id}`" class="sidebar-item sidebar-sub-item no-icon">
+                {{ sidebarSubItem.name }}
             </router-link>
         </div>
     </div>
@@ -16,9 +16,12 @@
 
 <script lang="ts">
 import {defineComponent} from 'vue';
+import HomeView from '@/views/HomeView.vue';
+import {getSidebarRoutes} from '@/router/routes';
 
 interface Data {
-    sidebarItems: SidebarItem[];
+    sidebarItems: any[];
+    subItems: SidebarSubItem[];
 }
 
 interface SidebarItem {
@@ -38,62 +41,8 @@ export default defineComponent({
 
     data(): Data {
         return {
-            sidebarItems: [
-                {
-                    name: 'Home',
-                    route: '/',
-                    subItems: [{
-                        name: 'Getting Started',
-                        id: 'getting-started',
-                    }, {
-                        name: 'Bugs, Errors or Unexpected Behavior?',
-                        id: 'issues',
-                    }, {
-                        name: 'Features Requests and Contributing',
-                        id: 'contributing',
-                    }, {
-                        name: 'Check out my other work',
-                        id: 'other-work',
-                    }],
-                    active: false,
-                },
-                {
-                    name: 'Tutorial',
-                    route: '/tutorial',
-                    subItems: [],
-                    active: false,
-                },
-                {
-                    name: 'Input Types',
-                    route: '/inputTypes',
-                    subItems: [],
-                    active: false,
-                },
-                {
-                    name: 'Arguments',
-                    route: '/arguments',
-                    subItems: [],
-                    active: false,
-                },
-                {
-                    name: 'Trouble Shooting',
-                    route: '/troubleShooting',
-                    subItems: [],
-                    active: false,
-                },
-                {
-                    name: 'Example Vault',
-                    route: '/exampleVault',
-                    subItems: [],
-                    active: false,
-                },
-                {
-                    name: 'Website Layout Test',
-                    route: '/test',
-                    subItems: [],
-                    active: false,
-                },
-            ],
+            subItems: [],
+            sidebarItems: getSidebarRoutes(),
         };
     },
 
@@ -102,11 +51,13 @@ export default defineComponent({
     },
 
     mounted() {
+        console.log(HomeView);
 
+        // console.log((router.getRoutes()[0].components?.['default'] as any).data());
     },
 
     methods: {
-        setActive(sidebarItem: SidebarItem): void {
+        setActive(sidebarItem: any): void {
             for (const otherSidebarItem of this.sidebarItems) {
                 otherSidebarItem.active = otherSidebarItem.name === sidebarItem.name;
             }
@@ -114,7 +65,15 @@ export default defineComponent({
         currentRoute() {
             this.$nextTick(() => {
                 for (const sidebarItem of this.sidebarItems) {
-                    sidebarItem.active = sidebarItem.route === this.$route.path;
+                    sidebarItem.active = sidebarItem.path === this.$route.path;
+                }
+                this.subItems = [];
+                const headings = document.querySelectorAll('h1,h2,h3,h4,h6,h6');
+                for (const heading of headings) {
+                    if (!heading.id) {
+                        continue;
+                    }
+                    this.subItems.push({id: heading.id, name: heading.innerHTML})
                 }
             });
         },

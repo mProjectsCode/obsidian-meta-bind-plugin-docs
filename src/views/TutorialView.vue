@@ -5,7 +5,7 @@
             This is a quick tutorial that should make you familliar with the plugin.
         </p>
 
-        <h3>Installation</h3>
+        <h2 id="installation">Installation</h2>
         <p>
             Before you can start using the plugin you have to install it.
             You can do that either from the <external-link to="https://github.com/mProjectsCode/obsidian-meta-bind-plugin/releases/latest">latest release on GitHub</external-link>
@@ -24,7 +24,7 @@
          |_ manifest.json
          |_ styles.css</pre></code-block-component>
 
-        <h3>Getting started</h3>
+        <h2>Getting started</h2>
         <p>
             There are two ways of creating an input field in your note.
         </p>
@@ -49,7 +49,7 @@ INPUT[input_type]
             </p>
         </callout-component>
 
-        <h3>Binding to Metadata</h3>
+        <h2 id="binding_to_metadata">Binding to Metadata</h2>
         <p>
             Input fields can and should be bound to metadata fields, so properties in your front-matter.
             This is achieved by adding the bind target behind the input type, seperated by a colon.
@@ -79,7 +79,7 @@ INPUT[input_type:path/to/file_name#bind_target]
             </p>
         </callout-component>
 
-        <h3>Arguments</h3>
+        <h2 id="arguments">Arguments</h2>
         <p>
             Some input types also support arguments to further customize them. <br/>
             Arguments are specified in parathesies behind the input type.

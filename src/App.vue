@@ -7,9 +7,6 @@
     <div class="main">
         <SidebarComponent/>
         <div class="content-wrapper">
-            <callout-component calloutType="warning" header="UNDER CONSTRUCTION" style="margin-top: 0">
-                These docs are still under construction.
-            </callout-component>
             <RouterView/>
         </div>
 
