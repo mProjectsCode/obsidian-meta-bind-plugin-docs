@@ -7,6 +7,7 @@ import InputTypesView from '@/views/InputTypesView.vue';
 import ArgumentsView from '@/views/ArgumentsView.vue';
 import TroubleShootingView from '@/views/TroubleShootingView.vue';
 import ExampleVaultView from '@/views/ExampleVaultView.vue';
+import TemplateView from '@/views/TemplateView.vue';
 
 export interface Route {
 	path: string,
@@ -38,6 +39,12 @@ export const routes: Route[] = [
 		path: '/arguments',
 		name: 'Input Field Arguments',
 		component: ArgumentsView,
+		showInSidebar: true,
+	},
+	{
+		path: '/templates',
+		name: 'Templates',
+		component: TemplateView,
 		showInSidebar: true,
 	},
 	{

@@ -221,7 +221,6 @@ code.block {
     background-color: var(--background-secondary);
     border-radius:    var(--default-border-radius);
     padding:          var(--default-spacing);
-    margin-block:     1em;
 }
 
 pre {
@@ -270,6 +269,7 @@ pre {
 }
 
 .code-block {
+    margin-block:     1em;
     position: relative;
 }
 

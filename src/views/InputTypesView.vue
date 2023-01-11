@@ -186,6 +186,78 @@
             <router-link to="/arguments#alignRight"><code class="inline">alignRight</code></router-link>
             argument.
         </p>
+
+
+        <h2 id="number">Number</h2>
+        <div class="table">
+            <div class="table-row">
+                <div class="table-cell">Identifier</div>
+                <div class="table-cell"><code class="inline">number</code></div>
+            </div>
+            <div class="table-row">
+                <div class="table-cell">Allowed in</div>
+                <div class="table-cell">code block and inline code block</div>
+            </div>
+        </div>
+
+        <h3>Description</h3>
+        <p>
+            A text input field limited only to numbers.
+        </p>
+
+
+        <h2 id="suggester">Suggester</h2>
+        <div class="table">
+            <div class="table-row">
+                <div class="table-cell">Identifier</div>
+                <div class="table-cell"><code class="inline">suggester</code></div>
+            </div>
+            <div class="table-row">
+                <div class="table-cell">Allowed in</div>
+                <div class="table-cell">code block and inline code block</div>
+            </div>
+        </div>
+
+        <h3>Description</h3>
+        <p>
+            An input field that allows selection from a fuzzy search modal.
+        </p>
+
+
+        <h2 id="image-suggester">Image Suggester</h2>
+        <div class="table">
+            <div class="table-row">
+                <div class="table-cell">Identifier</div>
+                <div class="table-cell"><code class="inline">image_suggester</code></div>
+            </div>
+            <div class="table-row">
+                <div class="table-cell">Allowed in</div>
+                <div class="table-cell">code block and inline code block</div>
+            </div>
+        </div>
+
+        <h3>Description</h3>
+        <p>
+            An input field that allows selection of images.
+        </p>
+
+
+        <h2 id="editor">Editor</h2>
+        <div class="table">
+            <div class="table-row">
+                <div class="table-cell">Identifier</div>
+                <div class="table-cell"><code class="inline">editor</code></div>
+            </div>
+            <div class="table-row">
+                <div class="table-cell">Allowed in</div>
+                <div class="table-cell">code block and inline code block</div>
+            </div>
+        </div>
+
+        <h3>Description</h3>
+        <p>
+            A text area with full markdown support.
+        </p>
     </div>
 </template>
 
