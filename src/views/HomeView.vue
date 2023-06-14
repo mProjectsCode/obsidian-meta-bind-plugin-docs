@@ -2,8 +2,9 @@
     <div class="content">
         <p>
             <strong>Obsidian Meta Bind Plugin</strong> is a plugin for <external-link to="https://obsidian.md/">Obsidian</external-link>,
-            that allows you to create input fields inside your notes.
-            Those input fields can then be bound to metadata fields in your notes.
+            that allows you to create input and view fields inside your notes.
+            Those input and view fields can then be bound to metadata fields in your notes.
+            The plugin features live preview support as well as <router-link to="/publishSupport">Obsidian Publish support</router-link>.
         </p>
         <p>
             So you can for example add a toggle on your task note, that automatically marks the note as completed when

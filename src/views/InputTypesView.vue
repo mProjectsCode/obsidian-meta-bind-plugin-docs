@@ -258,6 +258,42 @@
         <p>
             A text area with full markdown support.
         </p>
+
+
+        <h2 id="progress_bar">Progress Bar</h2>
+        <div class="table">
+            <div class="table-row">
+                <div class="table-cell">Identifier</div>
+                <div class="table-cell"><code class="inline">progressBar</code></div>
+            </div>
+            <div class="table-row">
+                <div class="table-cell">Allowed in</div>
+                <div class="table-cell">code block</div>
+            </div>
+        </div>
+
+        <h3>Description</h3>
+        <p>
+            An editable progress bar or a bigger slider, depending on how you want to see it.
+        </p>
+
+
+        <h2 id="editor">Inline Select</h2>
+        <div class="table">
+            <div class="table-row">
+                <div class="table-cell">Identifier</div>
+                <div class="table-cell"><code class="inline">inlineSelect</code></div>
+            </div>
+            <div class="table-row">
+                <div class="table-cell">Allowed in</div>
+                <div class="table-cell">inline code block</div>
+            </div>
+        </div>
+
+        <h3>Description</h3>
+        <p>
+            An inline version of the select input field, using a dropdown.
+        </p>
     </div>
 </template>
 

@@ -45,7 +45,7 @@ INPUT[input_type(class(class_name_1), class(class_name_2):bind_target]
             </div>
             <div class="table-row">
                 <div class="table-cell">Applicable to</div>
-                <div class="table-cell"><router-link to="/inputTypes#slider">Slider</router-link></div>
+                <div class="table-cell"><router-link to="/inputTypes#slider">Slider</router-link> and <router-link to="/inputTypes#progress_bar">Progress Bar</router-link></div>
             </div>
             <div class="table-row">
                 <div class="table-cell">Values</div>
@@ -59,7 +59,7 @@ INPUT[input_type(class(class_name_1), class(class_name_2):bind_target]
 
         <h3>Description</h3>
         <p>
-            The <code class="inline">addLabels</code> argument adds labels to the slider input field that mark the min and max value.
+            The <code class="inline">addLabels</code> argument adds labels to the slider or progress bar input field that mark the min and max value.
         </p>
 
         <h3>Example</h3>
@@ -76,7 +76,7 @@ INPUT[slider(addLabels):bind_target]
             </div>
             <div class="table-row">
                 <div class="table-cell">Applicable to</div>
-                <div class="table-cell"><router-link to="/inputTypes#slider">Slider</router-link></div>
+                <div class="table-cell"><router-link to="/inputTypes#slider">Slider</router-link> and <router-link to="/inputTypes#progress_bar">Progress Bar</router-link></div>
             </div>
             <div class="table-row">
                 <div class="table-cell">Values</div>
@@ -90,13 +90,13 @@ INPUT[slider(addLabels):bind_target]
 
         <h3>Description</h3>
         <p>
-            The <code class="inline">minValue</code> and <code class="inline">maxValue</code> arguments set a min and max value for a slider respectively.
+            The <code class="inline">minValue</code> and <code class="inline">maxValue</code> arguments set a min and max value for a slider or progress bar.
             The default for the min value is 0 and 100 for the max value.
         </p>
 
         <h3>Example</h3>
         <code-block-component><pre>```meta-bind
-INPUT[slider(minValue(0), maxValue(10):bind_target]
+INPUT[slider(minValue(0), maxValue(10)):bind_target]
 ```</pre></code-block-component>
 
 
@@ -108,7 +108,7 @@ INPUT[slider(minValue(0), maxValue(10):bind_target]
             </div>
             <div class="table-row">
                 <div class="table-cell">Applicable to</div>
-                <div class="table-cell"><router-link to="/inputTypes#select">select</router-link>, <router-link to="/inputTypes#multi_select">multi_select</router-link>, <router-link to="/inputTypes#suggester">suggester</router-link> and <router-link to="/inputTypes#image_suggester">image_suggester</router-link></div>
+                <div class="table-cell"><router-link to="/inputTypes#select">select</router-link>, <router-link to="/inputTypes#multi_select">multi_select</router-link>, <router-link to="/inputTypes#inline_select">multi_select</router-link>, <router-link to="/inputTypes#suggester">suggester</router-link> and <router-link to="/inputTypes#image_suggester">image_suggester</router-link></div>
             </div>
             <div class="table-row">
                 <div class="table-cell">Values</div>
@@ -237,7 +237,7 @@ INPUT[suggester(optionQuery("path/to/folder")):bind_target]
 INPUT[image_suggester(optionQuery("path/to/folder")):bind_target]
 ```</pre></code-block-component>
 
-        <h2 id="alignRight">Showcase Argument</h2>
+        <h2 id="showcase">Showcase Argument</h2>
         <div class="table">
             <div class="table-row">
                 <div class="table-cell">Identifier</div>
@@ -266,6 +266,36 @@ INPUT[image_suggester(optionQuery("path/to/folder")):bind_target]
         <h3>Example</h3>
         <code-block-component><pre>```meta-bind
 INPUT[toggle(showcase):bind_target]
+```</pre></code-block-component>
+
+        <h2 id="on_off_value">On/Off Value Argument</h2>
+        <div class="table">
+            <div class="table-row">
+                <div class="table-cell">Identifier</div>
+                <div class="table-cell"><code class="inline">onValue</code> and <code class="inline">offValue</code></div>
+            </div>
+            <div class="table-row">
+                <div class="table-cell">Applicable to</div>
+                <div class="table-cell"><router-link to="/inputTypes#toggle">Toggle</router-link></div>
+            </div>
+            <div class="table-row">
+                <div class="table-cell">Values</div>
+                <div class="table-cell"><code class="inline">true</code> or <code class="inline">or</code></div>
+            </div>
+            <div class="table-row">
+                <div class="table-cell">Allows multiple</div>
+                <div class="table-cell">false</div>
+            </div>
+        </div>
+
+        <h3>Description</h3>
+        <p>
+            The <code class="inline">onValue</code> and <code class="inline">offValue</code> arguments allow you to set custom on and off values for the toggle input field.
+        </p>
+
+        <h3>Example</h3>
+        <code-block-component><pre>```meta-bind
+INPUT[toggle(onValue(on), offValue(off)):bind_target]
 ```</pre></code-block-component>
     </div>
 </template>

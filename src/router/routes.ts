@@ -8,6 +8,9 @@ import ArgumentsView from '@/views/ArgumentsView.vue';
 import TroubleShootingView from '@/views/TroubleShootingView.vue';
 import ExampleVaultView from '@/views/ExampleVaultView.vue';
 import TemplateView from '@/views/TemplateView.vue';
+import PublishSupportView from '@/views/PublishSupportView.vue';
+import ViewFieldsView from '@/views/ViewFieldsView.vue';
+import InputFieldsView from '@/views/InputFieldsView.vue';
 
 export interface Route {
 	path: string,
@@ -30,6 +33,18 @@ export const routes: Route[] = [
 		showInSidebar: true,
 	},
 	{
+		path: '/inputFields',
+		name: 'Input Fields',
+		component: InputFieldsView,
+		showInSidebar: true,
+	},
+	{
+		path: '/viewFields',
+		name: 'View Fields',
+		component: ViewFieldsView,
+		showInSidebar: true,
+	},
+	{
 		path: '/inputTypes',
 		name: 'Input Field Types',
 		component: InputTypesView,
@@ -45,6 +60,12 @@ export const routes: Route[] = [
 		path: '/templates',
 		name: 'Templates',
 		component: TemplateView,
+		showInSidebar: true,
+	},
+	{
+		path: '/publishSupport',
+		name: 'Obsidian Publish Support',
+		component: PublishSupportView,
 		showInSidebar: true,
 	},
 	{
