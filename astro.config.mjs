@@ -5,22 +5,28 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Meta Bind Docs',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/mProjectsCode/obsidian-meta-bind-plugin',
 			},
 			sidebar: [
 				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'Installation', link: '/guides/installation/' },
+						{ label: 'Input Fields', link: '/guides/inputfields/' },
+						{ label: 'View Fields', link: '/guides/viewfields/' },
 					],
 				},
 				{
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
 				},
+			],
+			customCss: [
+				// Relative path to your custom CSS file
+				'./src/styles/custom.css',
 			],
 		}),
 	],
