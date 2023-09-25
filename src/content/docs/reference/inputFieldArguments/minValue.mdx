@@ -1,0 +1,28 @@
+---
+title: Min Value Argument
+description: Min Value argument reference.
+---
+
+import InputFieldArgumentInfo from '../../../../components/InputFieldArgumentInfo.astro';
+import InputFieldArgumentAllowedInputFields from '../../../../components/InputFieldArgumentAllowedInputFields.astro';
+import InputFieldLink from '../../../../components/InputFieldLink.astro';
+import { InputFieldArgumentType, InputFieldType } from '../../../../config/static.js';
+
+<InputFieldArgumentInfo type={InputFieldArgumentType.MIN_VALUE}></InputFieldArgumentInfo>
+
+The `minValue` argument lets specify a minimum value for a <InputFieldLink type={InputFieldType.SLIDER}></InputFieldLink> or <InputFieldLink type={InputFieldType.PROGRESS_BAR}></InputFieldLink> input.
+The value passed to this argument must be a number.
+
+### Allowed Input Fields
+
+<InputFieldArgumentAllowedInputFields type={InputFieldArgumentType.MIN_VALUE}></InputFieldArgumentAllowedInputFields>
+
+### Examples
+
+```
+INPUT[slider(minValue(-10)):bind_target]
+```
+
+```
+INPUT[slider(minValue(-10), maxValue(10)):bind_target]
+```

@@ -1,0 +1,23 @@
+---
+title: On Value Argument
+description: On Value argument reference.
+---
+
+import InputFieldArgumentInfo from '../../../../components/InputFieldArgumentInfo.astro';
+import InputFieldArgumentAllowedInputFields from '../../../../components/InputFieldArgumentAllowedInputFields.astro';
+import InputFieldLink from '../../../../components/InputFieldLink.astro';
+import { InputFieldArgumentType, InputFieldType } from '../../../../config/static.js';
+
+<InputFieldArgumentInfo type={InputFieldArgumentType.ON_VALUE}></InputFieldArgumentInfo>
+
+The `onValue` argument lets specify a custom on value for the <InputFieldLink type={InputFieldType.TOGGLE}></InputFieldLink> input.
+
+### Allowed Input Fields
+
+<InputFieldArgumentAllowedInputFields type={InputFieldArgumentType.ON_VALUE}></InputFieldArgumentAllowedInputFields>
+
+### Examples
+
+```
+INPUT[toggle(onValue(on), offValue(off)):bind_target]
+```

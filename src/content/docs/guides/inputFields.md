@@ -119,7 +119,7 @@ INPUT[inlineSelect(
     option(bad),
     option(ok),
     option(good),
-    option(great),
+    option(great)
 ):rating]
 ```
 
@@ -133,7 +133,7 @@ INPUT[inlineSelect(
     option(2, bad),
     option(3, ok),
     option(4, good),
-    option(5, great),
+    option(5, great)
 ):rating]
 ```
 

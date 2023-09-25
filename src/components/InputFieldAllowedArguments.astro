@@ -1,0 +1,19 @@
+---
+import InputFieldArgumentLink from './InputFieldArgumentLink.astro';
+import {InputFieldArgumentConfigs, InputFieldArgumentType, InputFieldType} from '../config/static';
+
+interface Props {
+	type: InputFieldType;
+}
+
+const {type} = Astro.props;
+const allowedArguments = Object.values(InputFieldArgumentConfigs).filter(x => (x.allowedInputFieldTypes.length === 0 || x.allowedInputFieldTypes.includes(type)) && x.type !== InputFieldArgumentType.INVALID);
+---
+
+<p>The following input field arguments are allowed for the <code>{type}</code> input field.</p>
+
+<ul>
+	{allowedArguments.map(x =>
+            <li><InputFieldArgumentLink type={x.type}></InputFieldArgumentLink></li>
+	)}
+</ul>

@@ -1,0 +1,32 @@
+---
+title: Option Query Argument
+description: Option Query argument reference.
+---
+
+import InputFieldArgumentInfo from '../../../../components/InputFieldArgumentInfo.astro';
+import InputFieldArgumentAllowedInputFields from '../../../../components/InputFieldArgumentAllowedInputFields.astro';
+import InputFieldLink from '../../../../components/InputFieldLink.astro';
+import { InputFieldArgumentType, InputFieldType } from '../../../../config/static.js';
+
+<InputFieldArgumentInfo type={InputFieldArgumentType.OPTION_QUERY}></InputFieldArgumentInfo>
+
+The `optionQuery` argument lets you add multiple options based on a [dataview data source](https://blacksmithgu.github.io/obsidian-dataview/reference/sources/).
+The <InputFieldLink type={InputFieldType.IMAGE_SUGGESTER}></InputFieldLink> input only supports folders with `"path/to/folder"`.
+
+### Allowed Input Fields
+
+<InputFieldArgumentAllowedInputFields type={InputFieldArgumentType.OPTION_QUERY}></InputFieldArgumentAllowedInputFields>
+
+### Examples
+
+```
+INPUT[suggester(optionQuery(#tag)):bind_target
+```
+
+```
+INPUT[suggester(optionQuery("path/to/folder")):bind_target]
+```
+
+```
+INPUT[image_suggester(optionQuery("path/to/folder")):bind_target]
+```

@@ -1,0 +1,11 @@
+---
+import {InputFieldType} from '../config/static';
+
+interface Props {
+	type: InputFieldType;
+}
+
+const {type} = Astro.props;
+---
+
+<a href={`/obsidian-meta-bind-plugin-docs/reference/inputfields/${type.toLowerCase()}/`}><code>{type}</code></a>

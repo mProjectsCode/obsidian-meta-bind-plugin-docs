@@ -1,0 +1,34 @@
+---
+title: Option Argument
+description: Option argument reference.
+---
+
+import InputFieldArgumentInfo from '../../../../components/InputFieldArgumentInfo.astro';
+import InputFieldArgumentAllowedInputFields from '../../../../components/InputFieldArgumentAllowedInputFields.astro';
+import InputFieldLink from '../../../../components/InputFieldLink.astro';
+import { InputFieldArgumentType, InputFieldType } from '../../../../config/static.js';
+
+<InputFieldArgumentInfo type={InputFieldArgumentType.OPTION}></InputFieldArgumentInfo>
+
+The `option` argument lets you add a single option. If you supply only one value, the value will be displayed in the input field and written to the front-matter.
+If you supply two values, the first one will be written to the front-matter and the second one will be displayed in the input field.
+
+### Allowed Input Fields
+
+<InputFieldArgumentAllowedInputFields type={InputFieldArgumentType.OPTION}></InputFieldArgumentAllowedInputFields>
+
+### Examples
+
+```
+INPUT[select(option(banana), option(apple)):bind_target]
+```
+
+```
+INPUT[select(
+    option(1, 1 Star),
+    option(2, 2 Stars),
+    option(3, 3 Stars),
+    option(4, 4 Stars),
+    option(5, 5 Stars)
+):bind_target]
+```

@@ -3,6 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://mprojectscode.github.io',
+	base: '/obsidian-meta-bind-plugin-docs',
 	integrations: [
 		starlight({
 			title: 'Meta Bind Docs',
@@ -21,7 +23,10 @@ export default defineConfig({
 				},
 				{
 					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					items: [
+						{ label: 'Input Fields', autogenerate: { directory: 'reference/inputFields' } },
+						{ label: 'Input Field Arguments', autogenerate: { directory: 'reference/inputFieldArguments' } },
+					],
 				},
 			],
 			customCss: [
