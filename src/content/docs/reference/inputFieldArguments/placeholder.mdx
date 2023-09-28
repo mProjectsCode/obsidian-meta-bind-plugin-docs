@@ -1,0 +1,23 @@
+---
+title: Placeholder Argument
+description: Placeholder argument reference.
+---
+
+import InputFieldArgumentInfo from '../../../../components/InputFieldArgumentInfo.astro';
+import InputFieldArgumentAllowedInputFields from '../../../../components/InputFieldArgumentAllowedInputFields.astro';
+import InputFieldLink from '../../../../components/InputFieldLink.astro';
+import { InputFieldArgumentType, InputFieldType } from '../../../../config/static.js';
+
+<InputFieldArgumentInfo type={InputFieldArgumentType.PLACEHOLDER}></InputFieldArgumentInfo>
+
+The `placeholder` argument allows for the specification of a placeholder value, which will be displayed when the input field has no data.
+
+### Allowed Input Fields
+
+<InputFieldArgumentAllowedInputFields type={InputFieldArgumentType.PLACEHOLDER}></InputFieldArgumentAllowedInputFields>
+
+### Examples
+
+```
+INPUT[text(placeholder(Appointment Location)):bind_target]
+```

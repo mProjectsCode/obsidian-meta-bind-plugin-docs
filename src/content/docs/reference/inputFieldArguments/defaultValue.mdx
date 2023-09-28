@@ -1,0 +1,23 @@
+---
+title: Default Value Argument
+description: Default Value argument reference.
+---
+
+import InputFieldArgumentInfo from '../../../../components/InputFieldArgumentInfo.astro';
+import InputFieldArgumentAllowedInputFields from '../../../../components/InputFieldArgumentAllowedInputFields.astro';
+import InputFieldLink from '../../../../components/InputFieldLink.astro';
+import { InputFieldArgumentType, InputFieldType } from '../../../../config/static.js';
+
+<InputFieldArgumentInfo type={InputFieldArgumentType.DEFAULT_VALUE}></InputFieldArgumentInfo>
+
+The `defaultValue` argument allows for the specification of a custom default value to which the bind target will be set, when there is no value present in the input field.
+
+### Allowed Input Fields
+
+<InputFieldArgumentAllowedInputFields type={InputFieldArgumentType.DEFAULT_VALUE}></InputFieldArgumentAllowedInputFields>
+
+### Examples
+
+```
+INPUT[number(defaultValue(-1)):bind_target]
+```

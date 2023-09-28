@@ -19,6 +19,8 @@ export default defineConfig({
 						{ label: 'Installation', link: '/guides/installation/' },
 						{ label: 'Input Fields', link: '/guides/inputfields/' },
 						{ label: 'View Fields', link: '/guides/viewfields/' },
+						{ label: 'Templates', link: '/guides/templates/' },
+						{ label: 'Obsidian Publish', link: '/guides/obsidianpublish/' },
 					],
 				},
 				{
