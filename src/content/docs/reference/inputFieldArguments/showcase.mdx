@@ -5,12 +5,17 @@ description: Showcase argument reference.
 
 import InputFieldArgumentInfo from '../../../../components/InputFieldArgumentInfo.astro';
 import InputFieldArgumentAllowedInputFields from '../../../../components/InputFieldArgumentAllowedInputFields.astro';
+import InputFieldArgumentValuesInfo from '../../../../components/InputFieldArgumentValuesInfo.astro';
 import InputFieldLink from '../../../../components/InputFieldLink.astro';
 import { InputFieldArgumentType, InputFieldType } from '../../../../config/static.js';
 
 <InputFieldArgumentInfo type={InputFieldArgumentType.SHOWCASE}></InputFieldArgumentInfo>
 
 The `showcase` argument creates a card around the input field, showing the input field declaration at the bottom. This is used in the [Example Vault](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/tree/master/exampleVault).
+
+### Values
+
+<InputFieldArgumentValuesInfo type={InputFieldArgumentType.SHOWCASE}></InputFieldArgumentValuesInfo>
 
 ### Allowed Input Fields
 

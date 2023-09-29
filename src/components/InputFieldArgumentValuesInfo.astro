@@ -1,0 +1,42 @@
+---
+import {InputFieldArgumentConfigs, InputFieldArgumentType, InputFieldArgumentValueConfig, InputFieldConfigs, InputFieldType} from '../config/static';
+interface Props {
+	type: InputFieldArgumentType;
+	}
+
+const {type} = Astro.props;
+const config = InputFieldArgumentConfigs[type];
+
+function generateTypeSignature(valueConfig: InputFieldArgumentValueConfig[]): string {
+    return config.type + generateValuesSignature(valueConfig);
+}
+
+function generateValuesSignature(valueConfig: InputFieldArgumentValueConfig[]): string {
+    if (valueConfig.length === 0) {
+        return '';
+    } else {
+        return `(${valueConfig.map(x => generateValueSignature(x)).join(', ')})`;
+    }
+}
+
+function generateValueSignature(config: InputFieldArgumentValueConfig): string {
+    return `${config.name}: ${config.allowed.length === 0 ? 'any' : config.allowed.join(' | ')}`
+}
+
+---
+
+<p>The input field argument <code>{config.type}</code> accepts the following value configurations.</p>
+
+<ul>
+    {config.values.map(valueConfig =>
+        <li>
+            <code>{generateTypeSignature(valueConfig)}</code>
+            <ul>
+                {valueConfig.map(x =>
+                    x.description ? <li><code>{x.name}</code> is {x.description}</li> : <></>
+                )}
+            </ul>
+        </li>
+    )}
+</ul>
+

@@ -6,14 +6,6 @@ interface Props {
 
 const {type} = Astro.props;
 const config = InputFieldArgumentConfigs[type];
-
-function getNumberOfValues(): string {
-	if (config.valueLengthMin === config.valueLengthMax) {
-		return config.valueLengthMin.toString();
-	} else {
-		return `${config.valueLengthMin} to ${config.valueLengthMax}`;
-	}
-}
 ---
 
 <table>
@@ -25,10 +17,6 @@ function getNumberOfValues(): string {
     <tr>
         <td>Allows Multiple</td>
         <td><code>{config.allowMultiple ? 'true' : 'false'}</code></td>
-    </tr>
-    <tr>
-        <td>Number of Values</td>
-        <td><code>{getNumberOfValues()}</code></td>
     </tr>
     </tbody>
 </table>

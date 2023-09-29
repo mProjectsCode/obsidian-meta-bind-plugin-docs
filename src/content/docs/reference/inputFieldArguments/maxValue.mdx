@@ -5,6 +5,7 @@ description: Max Value argument reference.
 
 import InputFieldArgumentInfo from '../../../../components/InputFieldArgumentInfo.astro';
 import InputFieldArgumentAllowedInputFields from '../../../../components/InputFieldArgumentAllowedInputFields.astro';
+import InputFieldArgumentValuesInfo from '../../../../components/InputFieldArgumentValuesInfo.astro';
 import InputFieldLink from '../../../../components/InputFieldLink.astro';
 import { InputFieldArgumentType, InputFieldType } from '../../../../config/static.js';
 
@@ -12,6 +13,10 @@ import { InputFieldArgumentType, InputFieldType } from '../../../../config/stati
 
 The `maxValue` argument lets specify a maximum value for a <InputFieldLink type={InputFieldType.SLIDER}></InputFieldLink> or <InputFieldLink type={InputFieldType.PROGRESS_BAR}></InputFieldLink> input.
 The value passed to this argument must be a number.
+
+### Values
+
+<InputFieldArgumentValuesInfo type={InputFieldArgumentType.MAX_VALUE}></InputFieldArgumentValuesInfo>
 
 ### Allowed Input Fields
 

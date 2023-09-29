@@ -5,13 +5,18 @@ description: Option argument reference.
 
 import InputFieldArgumentInfo from '../../../../components/InputFieldArgumentInfo.astro';
 import InputFieldArgumentAllowedInputFields from '../../../../components/InputFieldArgumentAllowedInputFields.astro';
+import InputFieldArgumentValuesInfo from '../../../../components/InputFieldArgumentValuesInfo.astro';
 import InputFieldLink from '../../../../components/InputFieldLink.astro';
 import { InputFieldArgumentType, InputFieldType } from '../../../../config/static.js';
 
 <InputFieldArgumentInfo type={InputFieldArgumentType.OPTION}></InputFieldArgumentInfo>
 
-The `option` argument lets you add a single option. If you supply only one value, the value will be displayed in the input field and written to the front-matter.
-If you supply two values, the first one will be written to the front-matter and the second one will be displayed in the input field.
+The `option` argument lets you add a single option. If you supply only one value (`value`), the `value` will be displayed in the input field and written to the front-matter.
+If you supply two values (`value`, `name`), the `value` will be written to the front-matter and the `name` will be displayed in the input field.
+
+### Values
+
+<InputFieldArgumentValuesInfo type={InputFieldArgumentType.OPTION}></InputFieldArgumentValuesInfo>
 
 ### Allowed Input Fields
 
