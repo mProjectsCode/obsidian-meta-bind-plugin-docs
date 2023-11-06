@@ -1,0 +1,33 @@
+---
+title: Step Size Value Argument
+description: Step Size Value argument reference.
+---
+
+import InputFieldArgumentInfo from '../../../../components/inputField/InputFieldArgumentInfo.astro';
+import InputFieldArgumentAllowedInputFields from '../../../../components/inputField/InputFieldArgumentAllowedInputFields.astro';
+import InputFieldArgumentValuesInfo from '../../../../components/inputField/InputFieldArgumentValuesInfo.astro';
+import InputFieldLink from '../../../../components/inputField/InputFieldLink.astro';
+import { InputFieldArgumentType, InputFieldType } from '../../../../config/static.js';
+
+<InputFieldArgumentInfo type={InputFieldArgumentType.STEP_SIZE}></InputFieldArgumentInfo>
+
+The `stepSize` argument lets specify a step size value for a <InputFieldLink type={InputFieldType.SLIDER}></InputFieldLink> or <InputFieldLink type={InputFieldType.PROGRESS_BAR}></InputFieldLink> input.
+The value passed to this argument must be a number.
+
+### Values
+
+<InputFieldArgumentValuesInfo type={InputFieldArgumentType.STEP_SIZE}></InputFieldArgumentValuesInfo>
+
+### Allowed Input Fields
+
+<InputFieldArgumentAllowedInputFields type={InputFieldArgumentType.STEP_SIZE}></InputFieldArgumentAllowedInputFields>
+
+### Examples
+
+```
+INPUT[slider(stepSize(2)):bind_target]
+```
+
+```
+INPUT[slider(stepSize(0.1)):bind_target]
+```

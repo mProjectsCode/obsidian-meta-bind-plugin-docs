@@ -1,6 +1,6 @@
 ---
-title: Title Argument
-description: Title argument reference.
+title: Use Links Argument
+description: Use Links argument reference.
 ---
 
 import InputFieldArgumentInfo from '../../../../components/inputField/InputFieldArgumentInfo.astro';
@@ -9,20 +9,20 @@ import InputFieldArgumentValuesInfo from '../../../../components/inputField/Inpu
 import InputFieldLink from '../../../../components/inputField/InputFieldLink.astro';
 import { InputFieldArgumentType, InputFieldType } from '../../../../config/static.js';
 
-<InputFieldArgumentInfo type={InputFieldArgumentType.TITLE}></InputFieldArgumentInfo>
+<InputFieldArgumentInfo type={InputFieldArgumentType.USE_LINKS}></InputFieldArgumentInfo>
 
-The `title` argument lets you add a descriptive title to an input field.
+The `useLinks` argument lets you disable the usage of links for certain input fields.
 
 ### Values
 
-<InputFieldArgumentValuesInfo type={InputFieldArgumentType.TITLE}></InputFieldArgumentValuesInfo>
+<InputFieldArgumentValuesInfo type={InputFieldArgumentType.USE_LINKS}></InputFieldArgumentValuesInfo>
 
 ### Allowed Input Fields
 
-<InputFieldArgumentAllowedInputFields type={InputFieldArgumentType.TITLE}></InputFieldArgumentAllowedInputFields>
+<InputFieldArgumentAllowedInputFields type={InputFieldArgumentType.USE_LINKS}></InputFieldArgumentAllowedInputFields>
 
 ### Examples
 
 ```
-INPUT[toggle(title(this is a cool title)):bind_target]
+INPUT[suggester(optionQuery("someFolder"), useLinks(false)):bind_target]
 ```

@@ -1,0 +1,21 @@
+---
+import ViewFieldArgumentLink from './ViewFieldArgumentLink.astro';
+import {ViewFieldArgumentConfigs, ViewFieldArgumentType, ViewFieldType} from '../../config/static';
+
+interface Props {
+	type: ViewFieldType;
+}
+
+const {type} = Astro.props;
+const allowedArguments = Object.values(ViewFieldArgumentConfigs).filter(x => (x.allowedFieldTypes.length === 0 || x.allowedFieldTypes.includes(type)) && x.type !== ViewFieldArgumentType.INVALID);
+---
+
+<p>The following view field arguments are allowed for the <code>{type}</code> view field.</p>
+
+<ul>
+	{allowedArguments.map(x =>
+            <li>
+                <ViewFieldArgumentLink type={x.type}></ViewFieldArgumentLink>
+            </li>,
+	)}
+</ul>

@@ -28,6 +28,8 @@ export default defineConfig({
 					items: [
 						{ label: 'Input Fields', autogenerate: { directory: 'reference/inputFields' } },
 						{ label: 'Input Field Arguments', autogenerate: { directory: 'reference/inputFieldArguments' } },
+						{ label: 'View Fields', autogenerate: { directory: 'reference/viewFields' } },
+						{ label: 'View Field Arguments', autogenerate: { directory: 'reference/viewFieldArguments' } },
 					],
 				},
 			],

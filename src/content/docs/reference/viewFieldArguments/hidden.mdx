@@ -1,0 +1,30 @@
+---
+title: Hidden Argument
+description: Hidden view field argument reference.
+---
+
+import ViewFieldArgumentInfo from '../../../../components/viewField/ViewFieldArgumentInfo.astro';
+import ViewFieldArgumentAllowedInputFields from '../../../../components/viewField/ViewFieldArgumentAllowedInputFields.astro';
+import ViewFieldArgumentValuesInfo from '../../../../components/viewField/ViewFieldArgumentValuesInfo.astro';
+import ViewFieldLink from '../../../../components/viewField/ViewFieldLink.astro';
+import { InputFieldArgumentType, InputFieldType, ViewFieldArgumentType } from '../../../../config/static.js';
+
+<ViewFieldArgumentInfo type={ViewFieldArgumentType.HIDDEN}></ViewFieldArgumentInfo>
+
+The `hidden` argument allows a view field to be hidden and not rendered. This can be useful if you want to view field to compute an intermediate value and write that value to the frontmatter.
+
+### Values
+
+<ViewFieldArgumentValuesInfo type={ViewFieldArgumentType.HIDDEN}></ViewFieldArgumentValuesInfo>
+
+### Allowed Input Fields
+
+<ViewFieldArgumentAllowedInputFields type={ViewFieldArgumentType.HIDDEN}></ViewFieldArgumentAllowedInputFields>
+
+### Examples
+
+This view field calculates `a * b` and write it to `c`, but it is not visible in your note.
+
+```
+VIEW[{a} * {b}][math(hidden):c]
+```

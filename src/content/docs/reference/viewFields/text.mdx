@@ -1,0 +1,22 @@
+---
+title: Text
+description: Text view field reference.
+---
+
+import ViewFieldInfo from '../../../../components/viewField/ViewFieldInfo.astro';
+import ViewFieldAllowedArguments from '../../../../components/viewField/ViewFieldAllowedArguments.astro';
+import { ViewFieldType } from '../../../../config/static.js';
+
+<ViewFieldInfo type={ViewFieldType.TEXT}></ViewFieldInfo>
+
+A text view field displays its content as plain text.
+
+### Allowed Arguments
+
+<ViewFieldAllowedArguments type={ViewFieldType.TEXT}></ViewFieldAllowedArguments>
+
+### Examples
+
+````
+VIEW[{a} * {b}]
+````

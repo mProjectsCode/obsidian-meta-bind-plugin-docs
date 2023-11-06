@@ -1,11 +1,11 @@
 ---
-import {InputFieldArgumentConfigs, InputFieldArgumentType, InputFieldConfigs, InputFieldType} from '../config/static';
+import {ViewFieldArgumentConfigs, ViewFieldArgumentType} from '../../config/static';
 interface Props {
-	type: InputFieldArgumentType;
+	type: ViewFieldArgumentType;
 }
 
 const {type} = Astro.props;
-const config = InputFieldArgumentConfigs[type];
+const config = ViewFieldArgumentConfigs[type];
 ---
 
 <table>

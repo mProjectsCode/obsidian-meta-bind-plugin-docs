@@ -1,6 +1,6 @@
 ---
-title: Title Argument
-description: Title argument reference.
+title: Limit Argument
+description: Limit argument reference.
 ---
 
 import InputFieldArgumentInfo from '../../../../components/inputField/InputFieldArgumentInfo.astro';
@@ -9,20 +9,20 @@ import InputFieldArgumentValuesInfo from '../../../../components/inputField/Inpu
 import InputFieldLink from '../../../../components/inputField/InputFieldLink.astro';
 import { InputFieldArgumentType, InputFieldType } from '../../../../config/static.js';
 
-<InputFieldArgumentInfo type={InputFieldArgumentType.TITLE}></InputFieldArgumentInfo>
+<InputFieldArgumentInfo type={InputFieldArgumentType.LIMIT}></InputFieldArgumentInfo>
 
-The `title` argument lets you add a descriptive title to an input field.
+The `limit` argument allows you to limit the length of a value that can be entered into some input fields.
 
 ### Values
 
-<InputFieldArgumentValuesInfo type={InputFieldArgumentType.TITLE}></InputFieldArgumentValuesInfo>
+<InputFieldArgumentValuesInfo type={InputFieldArgumentType.LIMIT}></InputFieldArgumentValuesInfo>
 
 ### Allowed Input Fields
 
-<InputFieldArgumentAllowedInputFields type={InputFieldArgumentType.TITLE}></InputFieldArgumentAllowedInputFields>
+<InputFieldArgumentAllowedInputFields type={InputFieldArgumentType.LIMIT}></InputFieldArgumentAllowedInputFields>
 
 ### Examples
 
 ```
-INPUT[toggle(title(this is a cool title)):bind_target]
+INPUT[text(limit(10)):bind_target]
 ```

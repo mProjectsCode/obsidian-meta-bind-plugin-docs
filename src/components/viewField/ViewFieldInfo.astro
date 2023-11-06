@@ -1,0 +1,18 @@
+---
+import {ViewFieldType} from '../../config/static';
+interface Props {
+	type: ViewFieldType;
+}
+
+const {type} = Astro.props;
+---
+
+<table>
+    <tbody>
+    <tr>
+        <td>Identifier</td>
+        <td><code>{type}</code></td>
+    </tr>
+    </tbody>
+</table>
+

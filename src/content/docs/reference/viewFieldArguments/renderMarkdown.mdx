@@ -1,0 +1,30 @@
+---
+title: Render Markdown Argument
+description: Render Markdown view field argument reference.
+---
+
+import ViewFieldArgumentInfo from '../../../../components/viewField/ViewFieldArgumentInfo.astro';
+import ViewFieldArgumentAllowedInputFields from '../../../../components/viewField/ViewFieldArgumentAllowedInputFields.astro';
+import ViewFieldArgumentValuesInfo from '../../../../components/viewField/ViewFieldArgumentValuesInfo.astro';
+import ViewFieldLink from '../../../../components/viewField/ViewFieldLink.astro';
+import { InputFieldArgumentType, InputFieldType, ViewFieldArgumentType } from '../../../../config/static.js';
+
+<ViewFieldArgumentInfo type={ViewFieldArgumentType.RENDER_MARKDOWN}></ViewFieldArgumentInfo>
+
+The `renderMarkdown` argument allows a view field to render its content as markdown.
+
+### Values
+
+<ViewFieldArgumentValuesInfo type={ViewFieldArgumentType.RENDER_MARKDOWN}></ViewFieldArgumentValuesInfo>
+
+### Allowed Input Fields
+
+<ViewFieldArgumentAllowedInputFields type={ViewFieldArgumentType.RENDER_MARKDOWN}></ViewFieldArgumentAllowedInputFields>
+
+### Examples
+
+This will render the text stored in the `someText` frontmatter property as markdown.
+
+```
+VIEW[**{someText}**][text(renderMarkdown)]
+```

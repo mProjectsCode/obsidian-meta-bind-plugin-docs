@@ -1,0 +1,27 @@
+---
+import {InputFieldConfigs, InputFieldType} from '../../config/static';
+interface Props {
+	type: InputFieldType;
+}
+
+const {type} = Astro.props;
+const config = InputFieldConfigs[type];
+---
+
+<table>
+    <tbody>
+    <tr>
+        <td>Identifier</td>
+        <td><code>{config.type}</code></td>
+    </tr>
+    <tr>
+        <td>Allowed in Code Block</td>
+        <td><code>{config.allowInBlock ? 'true' : 'false'}</code></td>
+    </tr>
+    <tr>
+        <td>Allowed Inline</td>
+        <td><code>{config.allowInline ? 'true' : 'false'}</code></td>
+    </tr>
+    </tbody>
+</table>
+
