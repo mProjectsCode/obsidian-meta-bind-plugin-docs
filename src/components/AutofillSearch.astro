@@ -1,0 +1,55 @@
+---
+
+---
+
+<script>
+	// Helper to repeatedly run a test, resolving when it passes.
+	function waitFor(test: () => boolean, { timeout = 1000, interval = 50 } = {}): Promise<void> {
+		return new Promise((resolve, reject) => {
+			const start = Date.now();
+			const runTest = () => {
+				const isSuccessful = test();
+				if (isSuccessful) resolve();
+				else if (Date.now() - start > timeout) reject();
+				else setTimeout(runTest, interval);
+			};
+			runTest();
+		});
+	}
+
+	// Wait for site search to have loaded.
+	waitFor(() => !!document.querySelector<HTMLInputElement>('site-search input'))
+		.then(() => {
+			// Read your search params
+			const params = new URLSearchParams(document.location.search);
+			const query = params.get('s'); // use your preferred query string key here: s, search, query, etc.
+			console.log({ query });
+			if (query) {
+				openAndFillSearch(query);
+			}
+		})
+		.catch(() => {
+			console.error('Failed to load search in time.');
+		});
+
+	function openAndFillSearch(query: string) {
+		// Open the search modal
+		const openModalButton = document.querySelector<HTMLButtonElement>(
+			'site-search [data-open-modal]'
+		);
+		console.log({ openModalButton });
+		if (!openModalButton) {
+			return;
+		}
+		openModalButton.click();
+
+		// Input your search query
+		const input = document.querySelector<HTMLInputElement>('site-search input');
+		console.log({ input });
+		if (!input) {
+			return;
+		}
+		input.value = query;
+		input.dispatchEvent(new InputEvent('input', { bubbles: true, cancelable: true }));
+	}
+</script>
