@@ -23,7 +23,7 @@ Where `inputType` is a valid input field type, like `toggle`.
 
 ## Binding to Metadata
 
-Input fields can and should be bound to metadata fields, so properties in your front-matter. 
+Input fields can and should be bound to metadata fields, so properties in your frontmatter. 
 This is achieved by adding the bind target behind the input type, seperated by a colon. 
 
 In this example we will build a toggle that toggles the notes completion status by switching the `completed` front-mater field between `true` and `false`.
@@ -36,7 +36,7 @@ INPUT[toggle]
 ```
 ````
 
-Then we tell it to bind to then `completed` front-matter field.
+Then we tell it to bind to the `completed` frontmatter field.
 
 ````
 ```meta-bind
@@ -62,7 +62,7 @@ INPUT[toggle:Task A#completed]
 ```
 ````
 
-If you have multiple notes with the same name, simply specifying the name will not be enough, as the plugin can't figure out which not you are referring to. 
+If you have multiple notes with the same name, simply specifying the name will not be enough, as the plugin can't figure out which one you are referring to. 
 In that case you need to specify the full path relative to the vault root.
 
 ````
@@ -73,7 +73,7 @@ INPUT[toggle:path/to/Task A#completed]
 
 ### Properties with Spaces and Nested Properties
 
-The plugin uses JavaScript like syntax to access the front-mater. This means that, to bind to a front-matter field with special characters such as spaces, you need to use JavaScript's bracket syntax.
+The plugin uses JavaScript-like syntax to access the frontmater. This means that, to bind to a frontmatter field with special characters such as spaces, you need to use JavaScript's bracket syntax.
 
 This will **not** work.
 
@@ -91,7 +91,7 @@ INPUT[toggle:#["is completed"]]
 ```
 ````
 
-To access nested front-matter fields, you can use a simple `.` or bracket syntax. The following two examples are **equivalent**.
+To access nested frontmatter fields, you can use a simple `.` or bracket syntax. The following two examples are **equivalent**.
 
 ````
 ```meta-bind
@@ -107,11 +107,11 @@ INPUT[toggle:#this["is"].nested]
 
 ## Arguments
 
-Some input types also support arguments to further customize them.
+Some input types support arguments to further customize them.
 Arguments are specified in parentheses behind the input type.
 
 Let's say we want to create a dropdown select where you can choose between different ratings. For this we will use the `inlineSelect` input field.
-To add options to the select we will use the `option(name)` or argument.
+To add options to the dropdown select we will use the `option(name)` argument.
 
 ```meta-bind
 INPUT[inlineSelect(
@@ -123,9 +123,9 @@ INPUT[inlineSelect(
 ):rating]
 ```
 
-Now we can see for options in the dropdown.
+Now we can see four options in the dropdown.
 
-If we want numeric values to represent the rating in our front-matter, we can pass two values to `option(value, name)`. `value` will be the value written to the front-matter and `name` will be the value displayed in the dropdown select.
+If we want numeric values to represent the rating in our frontmatter, we can pass two values to `option(value, name)`.`value` will be the value written to the frontmatter and `name` will be the value displayed in the dropdown select.
 
 ```meta-bind
 INPUT[inlineSelect(
