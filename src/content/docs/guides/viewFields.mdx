@@ -4,46 +4,46 @@ description: A tutorial for Meta Bind View Fields.
 ---
 
 import { ViewFieldType, ViewFieldArgumentType } from '../../../config/static';
-import ViewFieldLink from '../../../components/viewField/ViewFieldLink.astro'
-import ViewFieldArgumentLink from '../../../components/viewField/ViewFieldArgumentLink.astro'
+import ViewFieldLink from '../../../components/viewField/ViewFieldLink.astro';
+import ViewFieldArgumentLink from '../../../components/viewField/ViewFieldArgumentLink.astro';
 
-View Fields are a powerful way to reactively display your metadata in your notes. 
-They can bind to multiple frontmatter fields and update as soon as you change them, much like dataview inline queries, but with Obsidian Publish support. 
+View Fields are a powerful way to reactively display your metadata in your notes.
+They can bind to multiple frontmatter fields and update as soon as you change them, much like dataview inline queries, but with Obsidian Publish support.
 View fields can even save their computed value back to the frontmatter.
 
 ## Creating View Fields
 
-Imagine we have a note which we use to plan an upcoming hiking trip. 
+Imagine we have a note which we use to plan an upcoming hiking trip.
 In the frontmatter we already created a field that tracks the distance in kilometers of the trip.
 And we created an input field to change the distance from within our note.
 It looks something like this.
 
-````
+```
 Distance: `INPUT[number:distance]` km
-````
+```
 
-But now we want to, for our american friends, know how long that is in freedom units. 
+But now we want to, for our american friends, know how long that is in freedom units.
 This is where view fields come in.
 
-````
+```
 Distance: `INPUT[number:distance]` km
 Distance in freedom units: `VIEW[{distance}]`
-````
+```
 
 This will display the distance and change when we change the value using the input field above, but we are still missing the conversion.
 At this point mathjs becomes useful. With it, we can simply convert the km into miles.
 
-````
+```
 Distance: `INPUT[number:distance]` km
 Distance in freedom units: `VIEW[number({distance} km, miles)]` miles
-````
+```
 
 To make it a bit nicer to view, we can also round the number to two decimal places. And the displayed value still changes instantly when we change the distance using the input field.
 
-````
+```
 Distance: `INPUT[number:distance]` km
 Distance in freedom units: `VIEW[round(number({distance} km, miles), 2)]` miles
-````
+```
 
 The references to the frontmatter in the curly brackets follow the same bind target rules as the bind target for input fields.
 
@@ -53,16 +53,16 @@ You can also specify a view field type. The default (if you don't specify any) i
 
 Specifying a view field type is done like so.
 
-````
+```
 VIEW[content][viewFieldType]
-````
+```
 
 This means the following two examples are equivalent. Both calculate `a` times `b`.
 
-````
+```
 VIEW[{a} * {b}]
 VIEW[{a} * {b}][math]
-````
+```
 
 ## Arguments
 
@@ -113,7 +113,7 @@ Let's say you have two notes, `NoteA` and `NoteB`.
 
 `NoteA` looks like this.
 
-````md
+```md
 ---
 someInputValue: 1
 someComputedValue: 2
@@ -121,28 +121,28 @@ someComputedValue: 2
 
 Input: `INPUT[number:someComputedValue]`
 Computed Value: `VIEW[{someInputValue} * 2][math:someComputedValue]`
-````
+```
 
 And let's say you want to also change and read the values of `NoteA` in `NoteB`.
 
 So `NoteB` looks like this.
 
-````md
+```md
 Input: `INPUT[number:NoteA#someComputedValue]`
 Computed Value: `VIEW[{NoteA#someComputedValue}]`
-````
+```
 
 If you have both notes open the view field in `NoteB` will update as expected, when you change the input value using the input field.
 But if you close `NoteA` (so that only `NoteB` is open), then the view field will no longer update, since the view field that does the computation is in `NoteA` and that note is no longer loaded.
 
 ## Creating JS View Fields
 
-The plugin also offers to create view fields with JavaScript from inside your notes. 
-You can activate them in the plugins settings. 
+The plugin also offers to create view fields with JavaScript from inside your notes.
+You can activate them in the plugins settings.
 By default, js view fields are disabled, as they can pose a security risk.
 
-Js view fields consist of two sections. 
-First the bind target section and then the JS section. 
+Js view fields consist of two sections.
+First the bind target section and then the JS section.
 When rendered, the JS view field displays the value returned in the JS section.
 
 ````
@@ -157,11 +157,9 @@ return `${context.var1 * context.var2} km`;
 There are multiple global variables available in the JS section.
 
 | Name       | Description                                                                                 |
-|------------|---------------------------------------------------------------------------------------------|
-| `app`      | Reference to the Obsidian app instance.                                                     | 
+| ---------- | ------------------------------------------------------------------------------------------- |
+| `app`      | Reference to the Obsidian app instance.                                                     |
 | `mb`       | Reference to the meta-bind api.                                                             |
-| `dv`       | Reference to the dataview api, if dataview is installed and enabled.                        | 
+| `dv`       | Reference to the dataview api, if dataview is installed and enabled.                        |
 | `filePath` | The file path of the note that is view field is in.                                         |
 | `context`  | This object contains your bound metadata. Updating the values in this object has no effect. |
-
-

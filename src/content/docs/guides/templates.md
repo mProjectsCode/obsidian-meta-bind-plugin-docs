@@ -12,7 +12,7 @@ First, we need to create a template in the plugin settings.
 Let's create a template for a slider as follows.
 
 | Template Name    | Template String                                      |
-|------------------|------------------------------------------------------|
+| ---------------- | ---------------------------------------------------- |
 | `sliderTemplate` | `INPUT[slider(addLabels, minValue(0), maxValue(10)]` |
 
 Notice that the template is **not** bound to any metadata.
@@ -33,4 +33,3 @@ INPUT[sliderTemplate][:rating]
 ```
 
 We have set `templateName` to `sliderTemplate` (telling meta-bind to use the template we created earlier), and in the `overrides` we bind the input field to the frontmatter property `rating`.
-

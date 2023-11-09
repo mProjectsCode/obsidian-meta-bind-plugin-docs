@@ -1,30 +1,32 @@
 ---
-import {ViewFieldArgumentConfigs, ViewFieldArgumentType} from '../../config/static';
+import { ViewFieldArgumentConfigs, ViewFieldArgumentType } from '../../config/static';
 import ViewFieldLink from './ViewFieldLink.astro';
-import {ConfigHelper} from '../../config/configHelper';
+import { ConfigHelper } from '../../config/configHelper';
 interface Props {
 	type: ViewFieldArgumentType;
 }
 
-const {type} = Astro.props;
+const { type } = Astro.props;
 const config = ViewFieldArgumentConfigs[type];
 ---
 
-{ConfigHelper.viewFieldArgument.doesAllowAllViewFieldTypes(type) ?
-
-<p>The view field argument <code>{type}</code> is allowed in all view fields.</p>
-
-	:
-
-<p>The view field argument <code>{type}</code> is allowed in the following view fields.</p>
-
-<ul>
-	{ConfigHelper.viewFieldArgument.getAllowedViewFieldTypes(type).map(x =>
-            <li>
-                <ViewFieldLink type={x}></ViewFieldLink>
-            </li>,
-	)}
-</ul>
-
-	}
-
+{
+	ConfigHelper.viewFieldArgument.doesAllowAllViewFieldTypes(type) ? (
+		<p>
+			The view field argument <code>{type}</code> is allowed in all view fields.
+		</p>
+	) : (
+		<>
+			<p>
+				The view field argument <code>{type}</code> is allowed in the following view fields.
+			</p>
+			<ul>
+				{ConfigHelper.viewFieldArgument.getAllowedViewFieldTypes(type).map(x => (
+					<li>
+						<ViewFieldLink type={x} />
+					</li>
+				))}
+			</ul>
+		</>
+	)
+}

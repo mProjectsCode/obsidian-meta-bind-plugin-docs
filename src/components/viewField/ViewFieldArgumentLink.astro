@@ -1,11 +1,11 @@
 ---
-import {ViewFieldArgumentType} from '../../config/static';
+import { ViewFieldArgumentType } from '../../config/static';
 
 interface Props {
 	type: ViewFieldArgumentType;
 }
 
-const {type} = Astro.props;
+const { type } = Astro.props;
 ---
 
 <a href={`/obsidian-meta-bind-plugin-docs/reference/viewfieldarguments/${type.toLowerCase()}/`}><code>{type}</code></a>

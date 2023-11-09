@@ -1,21 +1,23 @@
 ---
 import ViewFieldArgumentLink from './ViewFieldArgumentLink.astro';
-import {ViewFieldArgumentConfigs, ViewFieldArgumentType, ViewFieldType} from '../../config/static';
-import {ConfigHelper} from '../../config/configHelper';
+import { ViewFieldArgumentConfigs, ViewFieldArgumentType, ViewFieldType } from '../../config/static';
+import { ConfigHelper } from '../../config/configHelper';
 
 interface Props {
 	type: ViewFieldType;
 }
 
-const {type} = Astro.props;
+const { type } = Astro.props;
 ---
 
 <p>The following view field arguments are allowed for the <code>{type}</code> view field.</p>
 
 <ul>
-	{ConfigHelper.viewField.getAllowedArguments(type).map(x =>
-            <li>
-                <ViewFieldArgumentLink type={x.type}></ViewFieldArgumentLink>
-            </li>,
-	)}
+	{
+		ConfigHelper.viewField.getAllowedArguments(type).map(x => (
+			<li>
+				<ViewFieldArgumentLink type={x.type} />
+			</li>
+		))
+	}
 </ul>

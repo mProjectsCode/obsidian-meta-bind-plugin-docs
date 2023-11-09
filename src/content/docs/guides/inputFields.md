@@ -23,8 +23,8 @@ Where `inputType` is a valid input field type, like `toggle`.
 
 ## Binding to Metadata
 
-Input fields can and should be bound to metadata fields, so properties in your frontmatter. 
-This is achieved by adding the bind target behind the input type, seperated by a colon. 
+Input fields can and should be bound to metadata fields, so properties in your frontmatter.
+This is achieved by adding the bind target behind the input type, seperated by a colon.
 
 In this example we will build a toggle that toggles the notes completion status by switching the `completed` front-mater field between `true` and `false`.
 
@@ -62,7 +62,7 @@ INPUT[toggle:Task A#completed]
 ```
 ````
 
-If you have multiple notes with the same name, simply specifying the name will not be enough, as the plugin can't figure out which one you are referring to. 
+If you have multiple notes with the same name, simply specifying the name will not be enough, as the plugin can't figure out which one you are referring to.
 In that case you need to specify the full path relative to the vault root.
 
 ````
@@ -115,7 +115,7 @@ To add options to the dropdown select we will use the `option(name)` argument.
 
 ```meta-bind
 INPUT[inlineSelect(
-    option(trash), 
+    option(trash),
     option(bad),
     option(ok),
     option(good),
@@ -129,7 +129,7 @@ If we want numeric values to represent the rating in our frontmatter, we can pas
 
 ```meta-bind
 INPUT[inlineSelect(
-    option(1, trash), 
+    option(1, trash),
     option(2, bad),
     option(3, ok),
     option(4, good),
@@ -141,7 +141,7 @@ We can also include commas in our value names by surrounding them with quotes.
 
 ```meta-bind
 INPUT[inlineSelect(
-    option(1, 'trash, do not watch'), 
+    option(1, 'trash, do not watch'),
     ...
 ):rating]
 ```
@@ -150,7 +150,7 @@ Such strings also support escaping using a backslash. To have a single backslash
 
 ```meta-bind
 INPUT[inlineSelect(
-    option(1, 'trash, don\'t watch'), 
+    option(1, 'trash, don\'t watch'),
     ...
 ):rating]
 ```

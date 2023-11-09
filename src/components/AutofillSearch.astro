@@ -18,9 +18,7 @@
 
 	function openAndFillSearch(query: string) {
 		// Open the search modal
-		const openModalButton = document.querySelector<HTMLButtonElement>(
-			'site-search [data-open-modal]'
-		);
+		const openModalButton = document.querySelector<HTMLButtonElement>('site-search [data-open-modal]');
 		if (!openModalButton) return;
 		openModalButton.click();
 

@@ -1,23 +1,22 @@
 ---
-import {InputFieldArgumentConfigs, InputFieldArgumentType} from '../../config/static';
+import { InputFieldArgumentConfigs, InputFieldArgumentType } from '../../config/static';
 interface Props {
 	type: InputFieldArgumentType;
 }
 
-const {type} = Astro.props;
+const { type } = Astro.props;
 const config = InputFieldArgumentConfigs[type];
 ---
 
 <table>
-    <tbody>
-    <tr>
-        <td>Identifier</td>
-        <td><code>{config.type}</code></td>
-    </tr>
-    <tr>
-        <td>Allows Multiple</td>
-        <td><code>{config.allowMultiple ? 'true' : 'false'}</code></td>
-    </tr>
-    </tbody>
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td><code>{config.type}</code></td>
+		</tr>
+		<tr>
+			<td>Allows Multiple</td>
+			<td><code>{config.allowMultiple ? 'true' : 'false'}</code></td>
+		</tr>
+	</tbody>
 </table>
-

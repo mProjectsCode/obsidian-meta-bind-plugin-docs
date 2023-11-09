@@ -1,11 +1,11 @@
 ---
-import {InputFieldArgumentType} from '../../config/static';
+import { InputFieldArgumentType } from '../../config/static';
 
 interface Props {
 	type: InputFieldArgumentType;
 }
 
-const {type} = Astro.props;
+const { type } = Astro.props;
 ---
 
 <a href={`/obsidian-meta-bind-plugin-docs/reference/inputfieldarguments/${type.toLowerCase()}/`}><code>{type}</code></a>

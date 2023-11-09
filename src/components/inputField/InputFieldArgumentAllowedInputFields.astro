@@ -1,29 +1,31 @@
 ---
-import {InputFieldArgumentConfigs, InputFieldArgumentType, InputFieldConfigs, InputFieldType} from '../../config/static';
+import { InputFieldArgumentConfigs, InputFieldArgumentType, InputFieldConfigs, InputFieldType } from '../../config/static';
 import InputFieldLink from './InputFieldLink.astro';
-import {ConfigHelper} from '../../config/configHelper';
+import { ConfigHelper } from '../../config/configHelper';
 interface Props {
 	type: InputFieldArgumentType;
 }
 
-const {type} = Astro.props;
+const { type } = Astro.props;
 ---
 
-{ConfigHelper.inputFieldArgument.doesAllowAllInputFieldTypes(type) ?
-
-<p>The input field argument <code>{type}</code> is allowed in all input fields.</p>
-
-	:
-
-<p>The input field argument <code>{type}</code> is allowed in the following input fields.</p>
-
-<ul>
-	{ConfigHelper.inputFieldArgument.getAllowedInputFieldTypes(type).map(x =>
-            <li>
-                <InputFieldLink type={x}></InputFieldLink>
-            </li>,
-	)}
-</ul>
-
-	}
-
+{
+	ConfigHelper.inputFieldArgument.doesAllowAllInputFieldTypes(type) ? (
+		<p>
+			The input field argument <code>{type}</code> is allowed in all input fields.
+		</p>
+	) : (
+		<>
+			<p>
+				The input field argument <code>{type}</code> is allowed in the following input fields.
+			</p>
+			<ul>
+				{ConfigHelper.inputFieldArgument.getAllowedInputFieldTypes(type).map(x => (
+					<li>
+						<InputFieldLink type={x} />
+					</li>
+				))}
+			</ul>
+		</>
+	)
+}

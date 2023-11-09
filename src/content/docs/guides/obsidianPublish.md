@@ -15,4 +15,3 @@ For input fields, due to the limited publish API, the plugin will only display t
 View fields should be mostly functional.
 
 Binding to metadata of a different note is not possible for both fields.
-

@@ -1,33 +1,34 @@
 ---
-import {
-	FieldArgumentValueConfig,
-	ViewFieldArgumentConfigs,
-	ViewFieldArgumentType,
-} from '../../config/static';
-import {ConfigHelper} from '../../config/configHelper';
+import { FieldArgumentValueConfig, ViewFieldArgumentConfigs, ViewFieldArgumentType } from '../../config/static';
+import { ConfigHelper } from '../../config/configHelper';
 
 interface Props {
 	type: ViewFieldArgumentType;
 }
 
-const {type} = Astro.props;
+const { type } = Astro.props;
 const config = ViewFieldArgumentConfigs[type];
 ---
 
 <p>The view field argument <code>{config.type}</code> accepts the following value configurations.</p>
 
 <ul>
-	{config.values.map(valueConfig =>
-            <li>
-                <code>{ConfigHelper.viewFieldArgument.generateTypeSignature(type, valueConfig)}</code>
-                <ul>
+	{
+		config.values.map(valueConfig => (
+			<li>
+				<code>{ConfigHelper.viewFieldArgument.generateTypeSignature(type, valueConfig)}</code>
+				<ul>
 					{valueConfig.map(x =>
-						x.description ?
-                                <li><code>{x.name}</code> is {x.description}</li> :
-                                <></>,
+						x.description ? (
+							<li>
+								<code>{x.name}</code> is {x.description}
+							</li>
+						) : (
+							<div />
+						),
 					)}
-                </ul>
-            </li>,
-	)}
+				</ul>
+			</li>
+		))
+	}
 </ul>
-
