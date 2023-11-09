@@ -1,6 +1,7 @@
 ---
 import {ViewFieldArgumentConfigs, ViewFieldArgumentType} from '../../config/static';
 import ViewFieldLink from './ViewFieldLink.astro';
+import {ConfigHelper} from '../../config/configHelper';
 interface Props {
 	type: ViewFieldArgumentType;
 }
@@ -9,7 +10,7 @@ const {type} = Astro.props;
 const config = ViewFieldArgumentConfigs[type];
 ---
 
-{config.allowedFieldTypes.length === 0 ?
+{ConfigHelper.viewFieldArgument.doesAllowAllViewFieldTypes(type) ?
 
 <p>The view field argument <code>{type}</code> is allowed in all view fields.</p>
 
@@ -18,7 +19,7 @@ const config = ViewFieldArgumentConfigs[type];
 <p>The view field argument <code>{type}</code> is allowed in the following view fields.</p>
 
 <ul>
-	{config.allowedFieldTypes.map(x =>
+	{ConfigHelper.viewFieldArgument.getAllowedViewFieldTypes(type).map(x =>
             <li>
                 <ViewFieldLink type={x}></ViewFieldLink>
             </li>,

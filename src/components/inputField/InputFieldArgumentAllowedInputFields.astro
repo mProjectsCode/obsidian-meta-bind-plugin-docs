@@ -1,15 +1,15 @@
 ---
 import {InputFieldArgumentConfigs, InputFieldArgumentType, InputFieldConfigs, InputFieldType} from '../../config/static';
 import InputFieldLink from './InputFieldLink.astro';
+import {ConfigHelper} from '../../config/configHelper';
 interface Props {
 	type: InputFieldArgumentType;
 }
 
 const {type} = Astro.props;
-const config = InputFieldArgumentConfigs[type];
 ---
 
-{config.allowedFieldTypes.length === 0 ?
+{ConfigHelper.inputFieldArgument.doesAllowAllInputFieldTypes(type) ?
 
 <p>The input field argument <code>{type}</code> is allowed in all input fields.</p>
 
@@ -18,7 +18,7 @@ const config = InputFieldArgumentConfigs[type];
 <p>The input field argument <code>{type}</code> is allowed in the following input fields.</p>
 
 <ul>
-	{config.allowedFieldTypes.map(x =>
+	{ConfigHelper.inputFieldArgument.getAllowedInputFieldTypes(type).map(x =>
             <li>
                 <InputFieldLink type={x}></InputFieldLink>
             </li>,
