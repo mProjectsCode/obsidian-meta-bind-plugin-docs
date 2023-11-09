@@ -47,7 +47,7 @@ INPUT[toggle:completed]
 And our input field is working. The toggle will change the frontmatter and when the frontmatter changes, the toggle changes.
 
 Specifying a bind target is optional, but recommended.
-If you don't specify a bind target, the input field will not preserve its state when you reopen the note or restart obsidian, since the input field has nowhere to store its data.
+If you don't specify a bind target, the input field will not preserve its state when you reopen the note or restart Obsidian, since the input field has nowhere to store its data.
 
 ### Binding to Metadata of a different note
 
