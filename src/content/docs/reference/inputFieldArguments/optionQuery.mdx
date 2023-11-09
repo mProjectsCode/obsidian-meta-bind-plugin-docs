@@ -11,8 +11,8 @@ import { InputFieldArgumentType, InputFieldType } from '../../../../config/stati
 
 <InputFieldArgumentInfo type={InputFieldArgumentType.OPTION_QUERY}></InputFieldArgumentInfo>
 
-The `optionQuery` argument lets you add multiple options based on a [dataview data source](https://blacksmithgu.github.io/obsidian-dataview/reference/sources/).
-The <InputFieldLink type={InputFieldType.IMAGE_SUGGESTER}></InputFieldLink> input only supports folders with `"path/to/folder"`.
+The `optionQuery` argument lets you add multiple options to suggesters based on a [dataview data source](https://blacksmithgu.github.io/obsidian-dataview/reference/sources/). 
+Note that <InputFieldLink type={InputFieldType.IMAGE_SUGGESTER}></InputFieldLink> only supports providing a `"path/to/folder"`, whereas <InputFieldLink type={InputFieldType.SUGGESTER}></InputFieldLink> and <InputFieldLink type={InputFieldType.LIST_SUGGESTER}></InputFieldLink> fully support any dataview data source.
 
 ### Values
 
