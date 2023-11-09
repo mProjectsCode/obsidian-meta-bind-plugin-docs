@@ -90,7 +90,7 @@ VIEW[{a} * {b}][math:c]
 
 ### Circular Dependencies
 
-Of-course you can abuse this and create circular dependencies that cause obsidian to crash by doing something like the following example.
+Of course you can abuse this and create circular dependencies that cause Obsidian to crash by doing something like the following example.
 
 ```
 VIEW[{a}][math:b]
@@ -103,7 +103,7 @@ Or like this.
 VIEW[{a + 1}][math:a]
 ```
 
-Meta Bind **will detect** these dependency loops and **will prevent** you accidentally locking yourself out of obsidian and your notes.
+Meta Bind **will detect** these dependency loops and **will prevent** you accidentally locking yourself out of Obsidian and your notes.
 
 ### Limitations
 
@@ -158,7 +158,7 @@ There are multiple global variables available in the JS section.
 
 | Name       | Description                                                                                 |
 |------------|---------------------------------------------------------------------------------------------|
-| `app`      | Reference to the obsidian app instance.                                                     | 
+| `app`      | Reference to the Obsidian app instance.                                                     | 
 | `mb`       | Reference to the meta-bind api.                                                             |
 | `dv`       | Reference to the dataview api, if dataview is installed and enabled.                        | 
 | `filePath` | The file path of the note that is view field is in.                                         |
