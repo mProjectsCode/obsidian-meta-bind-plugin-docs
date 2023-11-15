@@ -13,11 +13,9 @@ There are two ways of creating an input field in your note.
 The first is using an **inline** code block, like this `INPUT[inputType]`.
 The second one is using a **code block** with meta-bind as the language, something like this.
 
-````
 ```meta-bind
 INPUT[inputType]
 ```
-````
 
 Where `inputType` is a valid input field type, like `toggle`.
 
@@ -30,19 +28,15 @@ In this example we will build a toggle that toggles the notes completion status 
 
 First, we create a toggle.
 
-````
 ```meta-bind
 INPUT[toggle]
 ```
-````
 
 Then we tell it to bind to the `completed` frontmatter field.
 
-````
 ```meta-bind
 INPUT[toggle:completed]
 ```
-````
 
 And our input field is working. The toggle will change the frontmatter and when the frontmatter changes, the toggle changes.
 
@@ -56,20 +50,16 @@ This is also possible. We just need to tell the plugin to change `completed` in 
 
 The input field declaration now looks like this.
 
-````
 ```meta-bind
 INPUT[toggle:Task A#completed]
 ```
-````
 
 If you have multiple notes with the same name, simply specifying the name will not be enough, as the plugin can't figure out which one you are referring to.
 In that case you need to specify the full path relative to the vault root.
 
-````
 ```meta-bind
 INPUT[toggle:path/to/Task A#completed]
 ```
-````
 
 ### Properties with Spaces and Nested Properties
 
@@ -77,33 +67,25 @@ The plugin uses JavaScript-like syntax to access the frontmater. This means that
 
 This will **not** work.
 
-````
 ```meta-bind
 INPUT[toggle:#is completed]
 ```
-````
 
 But this will.
 
-````
 ```meta-bind
 INPUT[toggle:#["is completed"]]
 ```
-````
 
 To access nested frontmatter fields, you can use a simple `.` or bracket syntax. The following two examples are **equivalent**.
 
-````
 ```meta-bind
 INPUT[toggle:#this.is.nested]
 ```
-````
 
-````
 ```meta-bind
 INPUT[toggle:#this["is"].nested]
 ```
-````
 
 ## Arguments
 

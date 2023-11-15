@@ -1,0 +1,19 @@
+---
+title: Inline List Suggester
+description: Inline List Suggester input field reference.
+---
+
+import InputFieldInfo from '../../../../components/inputField/InputFieldInfo.astro';
+import InputFieldAllowedArguments from '../../../../components/inputField/InputFieldAllowedArguments.astro';
+import InputFieldArgumentLink from '../../../../components/inputField/InputFieldArgumentLink.astro';
+import InputFieldLink from '../../../../components/inputField/InputFieldLink.astro'
+import { InputFieldArgumentType, InputFieldType } from '../../../../config/static.js';
+
+<InputFieldInfo type={InputFieldType.INLINE_LIST_SUGGESTER}></InputFieldInfo>
+
+A _inlineListSuggester_ input field allows you to add and remove elements to an inline displayed list.
+Elements are added with a suggester modal similar to the <InputFieldLink type={InputFieldType.LIST_SUGGESTER}></InputFieldLink>.
+
+### Allowed Arguments
+
+<InputFieldAllowedArguments type={InputFieldType.INLINE_LIST_SUGGESTER}></InputFieldAllowedArguments>

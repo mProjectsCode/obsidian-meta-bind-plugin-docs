@@ -19,7 +19,7 @@ Notice that the template is **not** bound to any metadata.
 
 To use the template, we open a note and write the following.
 
-```
+```meta-bind
 INPUT[templateName][overrides]
 ```
 
@@ -28,7 +28,7 @@ It can also be empty if you don't want to override anything from the template.
 
 For example, if we want to use the `sliderTemplate` for some `rating` we have in frontmatter, we would write:
 
-```
+```meta-bind
 INPUT[sliderTemplate][:rating]
 ```
 

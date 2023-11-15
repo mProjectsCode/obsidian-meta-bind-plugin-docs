@@ -18,14 +18,14 @@ In the frontmatter we already created a field that tracks the distance in kilome
 And we created an input field to change the distance from within our note.
 It looks something like this.
 
-```
+```md
 Distance: `INPUT[number:distance]` km
 ```
 
 But now we want to, for our american friends, know how long that is in freedom units.
 This is where view fields come in.
 
-```
+```md
 Distance: `INPUT[number:distance]` km
 Distance in freedom units: `VIEW[{distance}]`
 ```
@@ -33,14 +33,14 @@ Distance in freedom units: `VIEW[{distance}]`
 This will display the distance and change when we change the value using the input field above, but we are still missing the conversion.
 At this point mathjs becomes useful. With it, we can simply convert the km into miles.
 
-```
+```md
 Distance: `INPUT[number:distance]` km
 Distance in freedom units: `VIEW[number({distance} km, miles)]` miles
 ```
 
 To make it a bit nicer to view, we can also round the number to two decimal places. And the displayed value still changes instantly when we change the distance using the input field.
 
-```
+```md
 Distance: `INPUT[number:distance]` km
 Distance in freedom units: `VIEW[round(number({distance} km, miles), 2)]` miles
 ```
@@ -53,13 +53,13 @@ You can also specify a view field type. The default (if you don't specify any) i
 
 Specifying a view field type is done like so.
 
-```
+```meta-bind
 VIEW[content][viewFieldType]
 ```
 
 This means the following two examples are equivalent. Both calculate `a` times `b`.
 
-```
+```meta-bind
 VIEW[{a} * {b}]
 VIEW[{a} * {b}][math]
 ```
@@ -72,7 +72,7 @@ The syntax for them is also the same, meaning they are specified in parentheses 
 If for example you want your <ViewFieldLink type={ViewFieldType.TEXT}></ViewFieldLink> view field to render markdown instead of plain text,
 you can add the <ViewFieldArgumentLink type={ViewFieldArgumentType.RENDER_MARKDOWN}></ViewFieldArgumentLink> argument like this.
 
-```
+```meta-bind
 VIEW[**{someText}**][text(renderMarkdown)]
 ```
 
@@ -84,7 +84,7 @@ You can save the value computed by a view field back to a frontmatter property b
 
 Let's say you want to compute a value `c` that has the value of `a * b`, in other words you want to compute `a * b` and save the result to `c`. This can be done by specifying `c` as the "write-to" bind target of the view field like so.
 
-```
+```meta-bind
 VIEW[{a} * {b}][math:c]
 ```
 
@@ -92,15 +92,15 @@ VIEW[{a} * {b}][math:c]
 
 Of course you can abuse this and create circular dependencies that cause Obsidian to crash by doing something like the following example.
 
-```
+```meta-bind
 VIEW[{a}][math:b]
-VIEW[{b + 1}][math:a]
+VIEW[{b} + 1][math:a]
 ```
 
 Or like this.
 
-```
-VIEW[{a + 1}][math:a]
+```meta-bind
+VIEW[{a} + 1][math:a]
 ```
 
 Meta Bind **will detect** these dependency loops and **will prevent** you accidentally locking yourself out of Obsidian and your notes.
@@ -136,6 +136,15 @@ If you have both notes open the view field in `NoteB` will update as expected, w
 But if you close `NoteA` (so that only `NoteB` is open), then the view field will no longer update, since the view field that does the computation is in `NoteA` and that note is no longer loaded.
 
 ## Creating JS View Fields
+
+:::caution
+
+Breaking changes incoming!
+
+The plugin will move to [JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin) for running JS View Fields in the next release.
+This will allow you to do more interesting things with view fields, but this also causes the available global variables to change.
+
+:::
 
 The plugin also offers to create view fields with JavaScript from inside your notes.
 You can activate them in the plugins settings.
