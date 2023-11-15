@@ -1,8 +1,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import MetaBind from './metaBindLanguage.js';
-import { bundledLanguages } from "shikiji";
-
+import { bundledLanguages } from 'shikiji';
 
 // https://astro.build/config
 export default defineConfig({
@@ -42,15 +41,17 @@ export default defineConfig({
 			],
 		}),
 	],
-markdown: {
-	shikiConfig: {
-		langs: [...Object.keys(bundledLanguages),{
-			id: 'meta-bind',
-			scopeName: 'source.meta-bind',
-			grammar: MetaBind,
-			aliases: [],
-		}]
-	}
-}
+	markdown: {
+		shikiConfig: {
+			langs: [
+				...Object.keys(bundledLanguages),
+				{
+					id: 'meta-bind',
+					scopeName: 'source.meta-bind',
+					grammar: MetaBind,
+					aliases: [],
+				},
+			],
+		},
+	},
 });
-
