@@ -13,9 +13,11 @@ There are two ways of creating an input field in your note.
 The first is using an **inline** code block, like this `INPUT[inputType]`.
 The second one is using a **code block** with meta-bind as the language, something like this.
 
+````meta-bind
 ```meta-bind
 INPUT[inputType]
 ```
+````
 
 Where `inputType` is a valid input field type, like `toggle`.
 
