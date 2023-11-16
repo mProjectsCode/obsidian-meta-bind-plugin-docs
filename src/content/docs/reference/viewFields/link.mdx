@@ -1,0 +1,30 @@
+---
+title: Link
+description: Link view field reference.
+sidebar:
+    badge: New
+---
+
+import ViewFieldInfo from '../../../../components/viewField/ViewFieldInfo.astro';
+import ViewFieldAllowedArguments from '../../../../components/viewField/ViewFieldAllowedArguments.astro';
+import { ViewFieldType } from '../../../../config/static.js';
+
+<ViewFieldInfo type={ViewFieldType.LINK}></ViewFieldInfo>
+
+A _link_ view field only accepts a single bind target as it's content and will automatically link to the targets value.
+The following property types are supported:
+- a wiki-link to a note (e.g. `[[note]]`)
+- a markdown link (e.g. `[link](https://example.com)`)
+- a string will get turned into a wiki-link (e.g. `note` -> `[[note]]`)
+- a URL will get turned into a markdown link (e.g. `https://example.com` -> `[https://example.com](https://example.com)`)
+- a list of the above (e.g. `[[note]], [link](https://example.com), note2`)
+
+### Allowed Arguments
+
+<ViewFieldAllowedArguments type={ViewFieldType.LINK}></ViewFieldAllowedArguments>
+
+### Examples
+
+```meta-bind
+VIEW[{b}][link]
+```

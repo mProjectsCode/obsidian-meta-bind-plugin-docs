@@ -137,38 +137,26 @@ But if you close `NoteA` (so that only `NoteB` is open), then the view field wil
 
 ## Creating JS View Fields
 
-:::caution
-
-Breaking changes incoming!
-
-The plugin will move to [JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin) for running JS View Fields in the next release.
-This will allow you to do more interesting things with view fields, but this also causes the available global variables to change.
-
-:::
-
 The plugin also offers to create view fields with JavaScript from inside your notes.
-You can activate them in the plugins settings.
+You can activate this feature in the plugins settings.
 By default, js view fields are disabled, as they can pose a security risk.
+
+You need JS Engine installed and enabled for JS View Fields to work.
 
 Js view fields consist of two sections.
 First the bind target section and then the JS section.
-When rendered, the JS view field displays the value returned in the JS section.
+When rendered, the JS view field displays the value returned in the JS section just as JS Engine would.
+This means you can to things like rendering markdown.
+The JS View Field will automatically update when one of the bound variables of the bind target sections changes.
 
 ````
 ```meta-bind-js-view
 {bind_target} as var1
 {other_note#bind_target} as var2
 ---
-return `${context.var1 * context.var2} km`;
+return `${context.bound.var1 * context.bound.var2} km`;
 ```
 ````
 
-There are multiple global variables available in the JS section.
-
-| Name       | Description                                                                                 |
-| ---------- | ------------------------------------------------------------------------------------------- |
-| `app`      | Reference to the Obsidian app instance.                                                     |
-| `mb`       | Reference to the meta-bind api.                                                             |
-| `dv`       | Reference to the dataview api, if dataview is installed and enabled.                        |
-| `filePath` | The file path of the note that is view field is in.                                         |
-| `context`  | This object contains your bound metadata. Updating the values in this object has no effect. |
+The same variables and APIs that are [available in JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin#api-docs) code blocks are also available in JS view fields.
+The bound variables are available in the `context.bound` object.
