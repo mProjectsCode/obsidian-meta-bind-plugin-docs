@@ -8,14 +8,25 @@ import AutofillSearch from '../../components/AutofillSearch.astro';
 <AutofillSearch></AutofillSearch>
 
 Meta Bind is a plugin for [Obsidian](https://obsidian.md/), that allows you to create input and view fields inside your notes.
-Those input and view fields can then be bound to metadata fields in your notes.
-The plugin features live preview support as well as Obsidian Publish support.
+Those input and view fields can then be bound to frontmatter properties, which keeps them in sync those frontmatter properties.
+Allowing you to edit and view your frontmatter properties inside your notes.
+
+For example, you can create a toggle inside your note, that is bound to a frontmatter property named done, with this simple inline code block `INPUT[toggle:done]`.
+When you click the toggle, the done property will switch between true and false.
+
+## Features
+
+- **Input Fields** - Input and edit frontmatter properties from anywhere inside your notes. Properties will update in real time.
+- **View Fields** - Display frontmatter properties inside your notes. The displayed value will update in real time when the properties displayed change.
+- **Meta Bind Embed** - Seamlessly embed a note inside another note. The embedded note will be rendered as if it was part of the note it is embedded in.
 
 ## Getting Started
 
+First you will need to install the plugin from the Community Plugins tab in Obsidian's settings.
 You can find various guides on how to use the plugin under the Guides section in the sidebar.
+
 If you want to see all possible input fields in actions, you can run the `Open Meta Bind FAQ` command inside Obsidian.
-If you are looking for examples, you can explore the [example vault](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/tree/master/exampleVault) that I use for testing.
+If you are looking for examples, you can explore the [example vault](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/tree/master/exampleVault) which I use for testing.
 
 ## Bugs, Errors or Unexpected Behavior?
 
