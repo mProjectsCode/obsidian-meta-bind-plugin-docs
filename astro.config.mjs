@@ -20,8 +20,12 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Installation', link: '/guides/installation/' },
 						{ label: 'Input Fields', link: '/guides/inputfields/' },
+						{ label: 'Input Field Templates', link: '/guides/templates/' },
 						{ label: 'View Fields', link: '/guides/viewfields/' },
-						{ label: 'Templates', link: '/guides/templates/' },
+						{ label: 'Buttons', link: '/guides/buttons/', badge: 'New' },
+						{ label: 'Meta Bind Embeds', link: '/guides/metabindembed/', badge: 'New' },
+						{ label: 'Bind Targets', link: '/guides/bindtargets/' },
+						{ label: 'Syntax Highlighting', link: '/guides/syntaxhighlighting/' },
 						{ label: 'Obsidian Publish', link: '/guides/obsidianpublish/' },
 					],
 				},
@@ -35,22 +39,28 @@ export default defineConfig({
 					],
 				},
 			],
+			tableOfContents: {
+				minHeadingLevel: 2,
+				maxHeadingLevel: 3,
+			},
 			customCss: [
 				// Relative path to your custom CSS file
 				'./src/styles/custom.css',
 			],
+			expressiveCode: false,
 		}),
 	],
 	markdown: {
 		shikiConfig: {
 			langs: [
 				...Object.keys(bundledLanguages),
-				{
-					id: 'meta-bind',
-					scopeName: 'source.meta-bind',
-					grammar: MetaBind,
-					aliases: [],
-				},
+				// {
+				// 	id: 'meta-bind',
+				// 	scopeName: 'source.meta-bind',
+				// 	grammar: MetaBind,
+				// 	aliases: [],
+				// },
+				MetaBind
 			],
 		},
 	},

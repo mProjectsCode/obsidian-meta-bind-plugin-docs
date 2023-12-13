@@ -76,7 +76,7 @@ export default {
 				},
 				{
 					name: 'constant.language.meta-bind',
-					match: '\\(|\\)|\\[|\\]|:|#|,',
+					match: '\\(|\\)|\\[|\\]|:|#|,|\\^',
 				},
 			],
 		},

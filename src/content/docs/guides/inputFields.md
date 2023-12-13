@@ -23,6 +23,10 @@ Where `inputType` is a valid input field type, like `toggle`.
 
 ## Binding to Metadata
 
+:::tip
+You can find an in depth guide on bind targets and what is possible [here](/obsidian-meta-bind-plugin-docs/guides/bindtargets).
+:::
+
 Input fields can and should be bound to metadata fields, so properties in your frontmatter.
 This is achieved by adding the bind target behind the input type, seperated by a colon.
 
@@ -42,52 +46,11 @@ INPUT[toggle:completed]
 
 And our input field is working. The toggle will change the frontmatter and when the frontmatter changes, the toggle changes.
 
+:::note
 Specifying a bind target is optional, but recommended.
+
 If you don't specify a bind target, the input field will not preserve its state when you reopen the note or restart Obsidian, since the input field has nowhere to store its data.
-
-### Binding to Metadata of a different note
-
-Let's imagine we are in note called `Overview` and we want our toggle not to change this notes completion status, but the status of our task note called `Task A`.
-This is also possible. We just need to tell the plugin to change `completed` in note `Task A`. We do this by binding to `Task A#completed` (`file_name#frontmatter_field`).
-
-The input field declaration now looks like this.
-
-```meta-bind
-INPUT[toggle:Task A#completed]
-```
-
-If you have multiple notes with the same name, simply specifying the name will not be enough, as the plugin can't figure out which one you are referring to.
-In that case you need to specify the full path relative to the vault root.
-
-```meta-bind
-INPUT[toggle:path/to/Task A#completed]
-```
-
-### Properties with Spaces and Nested Properties
-
-The plugin uses JavaScript-like syntax to access the frontmater. This means that, to bind to a frontmatter field with special characters such as spaces, you need to use JavaScript's bracket syntax.
-
-This will **not** work.
-
-```meta-bind
-INPUT[toggle:#is completed]
-```
-
-But this will.
-
-```meta-bind
-INPUT[toggle:#["is completed"]]
-```
-
-To access nested frontmatter fields, you can use a simple `.` or bracket syntax. The following two examples are **equivalent**.
-
-```meta-bind
-INPUT[toggle:#this.is.nested]
-```
-
-```meta-bind
-INPUT[toggle:#this["is"].nested]
-```
+:::
 
 ## Arguments
 

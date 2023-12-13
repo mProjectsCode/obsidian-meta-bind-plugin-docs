@@ -45,7 +45,7 @@ Distance: `INPUT[number:distance]` km
 Distance in freedom units: `VIEW[round(number({distance} km, miles), 2)]` miles
 ```
 
-The references to the frontmatter in the curly brackets follow the same bind target rules as the bind target for input fields.
+The references to the frontmatter in the curly brackets follow the same [Bind Target](/obsidian-meta-bind-plugin-docs/guides/bindtargets) rules as the bind target for input fields.
 
 ## View Field Types
 
@@ -80,7 +80,7 @@ This will render the text stored in the `someText` frontmatter property as markd
 
 ## Saving the Value
 
-You can save the value computed by a view field back to a frontmatter property by specifying a "write-to" bind target. See [binding to metadata](/obsidian-meta-bind-plugin-docs/guides/inputfields/#binding-to-metadata).
+You can save the value computed by a view field back to a frontmatter property by specifying a "write-to" bind target. See [Bind Targets](/obsidian-meta-bind-plugin-docs/guides/bindtargets).
 
 Let's say you want to compute a value `c` that has the value of `a * b`, in other words you want to compute `a * b` and save the result to `c`. This can be done by specifying `c` as the "write-to" bind target of the view field like so.
 
