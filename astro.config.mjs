@@ -3,6 +3,7 @@ import starlight from '@astrojs/starlight';
 import MetaBind from './metaBindLanguage.js';
 import CustomMarkdown from './customMarkdownLanguage.js';
 import { bundledLanguages } from 'shikiji';
+import starlightLinksValidator from 'starlight-links-validator'
 
 // https://astro.build/config
 export default defineConfig({
@@ -51,7 +52,8 @@ export default defineConfig({
 			expressiveCode: {
 				themes: ['dracula', 'github-light'],
 				useStarlightUiThemeColors: true,
-			}
+			},
+			plugins: [starlightLinksValidator()],
 		}),
 	],
 	markdown: {
