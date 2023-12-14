@@ -7,7 +7,7 @@ import starlightLinksValidator from 'starlight-links-validator'
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://mprojectscode.github.io',
+	site: 'https://www.moritzjung.dev',
 	base: '/obsidian-meta-bind-plugin-docs',
 	integrations: [
 		starlight({
@@ -53,7 +53,7 @@ export default defineConfig({
 				themes: ['dracula', 'github-light'],
 				useStarlightUiThemeColors: true,
 			},
-			plugins: [starlightLinksValidator()],
+			// plugins: [starlightLinksValidator()],
 		}),
 	],
 	markdown: {
