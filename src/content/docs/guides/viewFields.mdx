@@ -18,14 +18,14 @@ In the frontmatter we already created a field that tracks the distance in kilome
 And we created an input field to change the distance from within our note.
 It looks something like this.
 
-```md
+```custom_markdown
 Distance: `INPUT[number:distance]` km
 ```
 
 But now we want to, for our american friends, know how long that is in freedom units.
 This is where view fields come in.
 
-```md
+```custom_markdown
 Distance: `INPUT[number:distance]` km
 Distance in freedom units: `VIEW[{distance}]`
 ```
@@ -33,14 +33,14 @@ Distance in freedom units: `VIEW[{distance}]`
 This will display the distance and change when we change the value using the input field above, but we are still missing the conversion.
 At this point mathjs becomes useful. With it, we can simply convert the km into miles.
 
-```md
+```custom_markdown
 Distance: `INPUT[number:distance]` km
 Distance in freedom units: `VIEW[number({distance} km, miles)]` miles
 ```
 
 To make it a bit nicer to view, we can also round the number to two decimal places. And the displayed value still changes instantly when we change the distance using the input field.
 
-```md
+```custom_markdown
 Distance: `INPUT[number:distance]` km
 Distance in freedom units: `VIEW[round(number({distance} km, miles), 2)]` miles
 ```
@@ -113,7 +113,7 @@ Let's say you have two notes, `NoteA` and `NoteB`.
 
 `NoteA` looks like this.
 
-```md
+```custom_markdown
 ---
 someInputValue: 1
 someComputedValue: 2
@@ -127,7 +127,7 @@ And let's say you want to also change and read the values of `NoteA` in `NoteB`.
 
 So `NoteB` looks like this.
 
-```md
+```custom_markdown
 Input: `INPUT[number:NoteA#someComputedValue]`
 Computed Value: `VIEW[{NoteA#someComputedValue}]`
 ```
@@ -149,7 +149,7 @@ When rendered, the JS view field displays the value returned in the JS section j
 This means you can to things like rendering markdown.
 The JS View Field will automatically update when one of the bound variables of the bind target sections changes.
 
-````
+````custom_markdown
 ```meta-bind-js-view
 {bind_target} as var1
 {other_note#bind_target} as var2

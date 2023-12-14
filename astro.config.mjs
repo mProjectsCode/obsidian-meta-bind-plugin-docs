@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import MetaBind from './metaBindLanguage.js';
+import CustomMarkdown from './customMarkdownLanguage.js';
 import { bundledLanguages } from 'shikiji';
 
 // https://astro.build/config
@@ -47,7 +48,10 @@ export default defineConfig({
 				// Relative path to your custom CSS file
 				'./src/styles/custom.css',
 			],
-			expressiveCode: false,
+			expressiveCode: {
+				themes: ['dracula', 'github-light'],
+				useStarlightUiThemeColors: true,
+			}
 		}),
 	],
 	markdown: {
@@ -60,7 +64,8 @@ export default defineConfig({
 				// 	grammar: MetaBind,
 				// 	aliases: [],
 				// },
-				MetaBind
+				MetaBind,
+				CustomMarkdown
 			],
 		},
 	},

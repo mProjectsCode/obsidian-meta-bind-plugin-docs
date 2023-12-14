@@ -63,7 +63,7 @@ export default {
 		storage: {
 			patterns: [
 				{
-					name: 'entity.name.function.meta-bind',
+					name: 'keyword.control.meta-bind',
 					match: '\\b(VIEW|INPUT)\\b',
 				},
 			],
@@ -71,11 +71,11 @@ export default {
 		keywords: {
 			patterns: [
 				{
-					name: 'keyword.meta-bind',
+					name: 'entity.name.type.meta-bind',
 					match: `\\b(${all.join('|')})\\b`,
 				},
 				{
-					name: 'constant.language.meta-bind',
+					name: 'keyword.control.meta-bind',
 					match: '\\(|\\)|\\[|\\]|:|#|,|\\^',
 				},
 			],
