@@ -64,7 +64,7 @@ export default {
 			patterns: [
 				{
 					name: 'keyword.control.meta-bind',
-					match: '\\b(VIEW|INPUT)\\b',
+					match: '\\b(VIEW|INPUT|BUTTON)\\b',
 				},
 			],
 		},

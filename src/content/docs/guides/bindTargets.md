@@ -66,14 +66,14 @@ This is also possible. We just need to tell the plugin to change `completed` in 
 
 The input field declaration now looks like this.
 
-```meta-bind
+```meta-bind "Task A#completed"
 INPUT[toggle:Task A#completed]
 ```
 
 If you have multiple notes with the same name, simply specifying the name will not be enough, as the plugin can't figure out which one you are referring to.
 In that case you need to specify the full path relative to the vault root.
 
-```meta-bind
+```meta-bind "path/to/Task A#completed" 
 INPUT[toggle:path/to/Task A#completed]
 ```
 
@@ -90,24 +90,24 @@ you need to use JavaScript's bracket syntax.
 
 This will **not** work.
 
-```meta-bind
+```meta-bind "is completed" 
 INPUT[toggle:is completed]
 ```
 
 But this will.
 
-```meta-bind
+```meta-bind '["is completed"]'
 INPUT[toggle:["is completed"]]
 ```
 
 To access nested frontmatter fields, you can use a simple `.` or bracket syntax. 
 The following two examples are **equivalent**.
 
-```meta-bind
+```meta-bind "this.is.nested"
 INPUT[toggle:this.is.nested]
 ```
 
-```meta-bind
+```meta-bind 'this["is"].nested'
 INPUT[toggle:this["is"].nested]
 ```
 

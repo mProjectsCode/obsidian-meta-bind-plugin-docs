@@ -13,7 +13,7 @@ There are two ways of creating an input field in your note.
 The first is using an **inline** code block, like this `INPUT[inputType]`.
 The second one is using a **code block** with meta-bind as the language, something like this.
 
-````meta-bind
+````custom_markdown
 ```meta-bind
 INPUT[inputType]
 ```
@@ -40,7 +40,7 @@ INPUT[toggle]
 
 Then we tell it to bind to the `completed` frontmatter field.
 
-```meta-bind
+```meta-bind ":completed" 
 INPUT[toggle:completed]
 ```
 

@@ -37,7 +37,7 @@ The following example button inline button references the code block button with
 By referencing the button code block, the inline button will have the same configuration as the code block button.
 The code block button can be hidden by setting the `hidden` YAML property to `true`.
 
-````custom_markdown
+````custom_markdown "BUTTON[help-button]" {6}
 Meta Bind has an in plugin help page. `BUTTON[help-button]` Isn't that cool?
 
 ```meta-bind-button
@@ -57,7 +57,7 @@ For this, multiple button ids separated by commas need to be passed to the `BUTT
 
 The following example displays a button group of two buttons.
 
-````custom_markdown
+````custom_markdown "BUTTON[light-mode, dark-mode]" {6-7, 16-17} 
 Theme Switcher: `BUTTON[light-mode, dark-mode]`
 
 ```meta-bind-button
@@ -119,7 +119,7 @@ interface CommandButtonAction {
 
 This button opens the Meta Bind FAQ page in obsidian.
 
-````custom_markdown
+````custom_markdown {5-6}
 ```meta-bind-button
 style: primary
 label: Meta Bind Help
@@ -146,7 +146,7 @@ interface JSButtonAction {
 
 #### Example
 
-````custom_markdown
+````custom_markdown {5-6}
 ```meta-bind-button
 style: primary
 label: Run JavaScript
@@ -179,7 +179,7 @@ interface OpenButtonAction {
 
 This button opens the Meta Bind Docs in your default browser.
 
-````custom_markdown
+````custom_markdown {5-6}
 ```meta-bind-button
 style: primary
 label: Open Meta Bind Docs
@@ -205,7 +205,7 @@ interface InputButtonAction {
 This button opens the command palette and inserts the string `help`.
 Resulting in the command palette being opened with `help` already typed in the search bar.
 
-````custom_markdown
+````custom_markdown {7-8}
 ```meta-bind-button
 style: primary
 label: Help Commands
@@ -232,7 +232,7 @@ interface SleepButtonAction {
 
 This button will open the command palette, wait for 1 second, and then type `help` into the search bar.
 
-````custom_markdown
+````custom_markdown {7-8}
 ```meta-bind-button
 style: primary
 label: Sleep
@@ -265,7 +265,7 @@ interface TemplaterCreateNoteButtonAction {
 This button creates a new note titled `New Lecture Note - RENAME ME` in the `Lectures` folder using the `Lecture Template` 
 template from the `templates` folder.
 
-````custom_markdown
+````custom_markdown {5-8}
 ```meta-bind-button
 style: primary
 label: Create Lecture Note
