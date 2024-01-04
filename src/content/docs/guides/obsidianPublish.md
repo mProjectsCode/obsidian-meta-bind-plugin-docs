@@ -3,6 +3,15 @@ title: Obsidian Publish Support
 description: A tutorial for setting up Meta Bind to work in publish.
 ---
 
+:::danger
+
+The publish version of Meta Bind is quite a burden for me to maintain, so it has been falling behind the main version.
+The current publish version probably **won't work**.
+
+Use at your own risk until I can find the time to fix it.
+
+:::
+
 This guide assumes that you already have Obsidian Publish set up with a custom domain, so that you can use a `publish.js` file.
 
 To get meta bind working in Obsidian Publish, you need to copy the contents of [this file](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/master/PublishLoad.js) into your `publish.js` file.

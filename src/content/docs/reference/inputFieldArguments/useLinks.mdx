@@ -11,7 +11,15 @@ import { InputFieldArgumentType, InputFieldType } from '../../../../config/stati
 
 <InputFieldArgumentInfo type={InputFieldArgumentType.USE_LINKS}></InputFieldArgumentInfo>
 
-The `useLinks` argument lets you disable the usage of links for <InputFieldLink type={InputFieldType.SUGGESTER}></InputFieldLink> and <InputFieldLink type={InputFieldType.LIST_SUGGESTER}></InputFieldLink>. If no value is provided, `true` will be used for the value.
+The `useLinks` argument lets you change how certain input fields handle links.
+
+There are three possible values for this argument:
+
+- `true` - Will use links of the form `[[someFolder/Note.md|Note]]`.
+- `partial` - Will use links of the form `[[Note]]`.
+- `false` - Will **not** use links. The note name will be used instead.
+
+If no value is provided, `true` will be used.
 
 ### Values
 
@@ -23,6 +31,22 @@ The `useLinks` argument lets you disable the usage of links for <InputFieldLink 
 
 ### Examples
 
+````custom_markdown
+---
+useLinksTrue: "[[someFolder/Note.md|Note]]"
+useLinksPartial: "[[Note]]"
+useLinksFalse: "Note"
+---
+
 ```meta-bind
-INPUT[suggester(optionQuery("someFolder"), useLinks(false)):bind_target]
+INPUT[suggester(optionQuery("someFolder")):useLinksTrue]
 ```
+
+```meta-bind
+INPUT[suggester(optionQuery("someFolder"), useLinks(partial)):useLinksPartial]
+```
+
+```meta-bind
+INPUT[suggester(optionQuery("someFolder"), useLinks(false)):useLinksFalse]
+```
+````

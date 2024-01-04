@@ -17,7 +17,7 @@ storageType^storagePath#property
 
 Certain can be omitted, causing them to default to their default values.
 
-The following bind target will always use the default storage type `frontmatter`, 
+The following bind target will always use the default storage type `frontmatter`,
 meaning it points to a frontmatter property.
 
 ```meta-bind
@@ -47,12 +47,11 @@ There are four different storage types.
 The default is `frontmatter` and will be used if you don't specify a storage type.
 
 | Storage Type            | Description                                                                    |
-|-------------------------|--------------------------------------------------------------------------------|
+| ----------------------- | ------------------------------------------------------------------------------ |
 | `frontmatter` (default) | The storage path points to a file and the property to a frontmatter field.     |
 | `memory`                | The storage path points to a file and the property to an in memory field.      |
 | `globalMemory`          | The storage path is not allowed and the property points to an in memory field. |
 | `scope`                 | The storage path is not allowed and the property extends another bind target.  |
-
 
 ### 2. The Storage Path
 
@@ -73,7 +72,7 @@ INPUT[toggle:Task A#completed]
 If you have multiple notes with the same name, simply specifying the name will not be enough, as the plugin can't figure out which one you are referring to.
 In that case you need to specify the full path relative to the vault root.
 
-```meta-bind "path/to/Task A#completed" 
+```meta-bind "path/to/Task A#completed"
 INPUT[toggle:path/to/Task A#completed]
 ```
 
@@ -84,13 +83,13 @@ For the default storage type `frontmatter`, this is the name of the frontmatter 
 
 #### Properties with Spaces and Nested Properties
 
-The plugin use JavaScript-like syntax to access the frontmatter. 
-This means that, to bind to a frontmatter field with special characters such as spaces, 
+The plugin use JavaScript-like syntax to access the frontmatter.
+This means that, to bind to a frontmatter field with special characters such as spaces,
 you need to use JavaScript's bracket syntax.
 
 This will **not** work.
 
-```meta-bind "is completed" 
+```meta-bind "is completed"
 INPUT[toggle:is completed]
 ```
 
@@ -100,7 +99,7 @@ But this will.
 INPUT[toggle:["is completed"]]
 ```
 
-To access nested frontmatter fields, you can use a simple `.` or bracket syntax. 
+To access nested frontmatter fields, you can use a simple `.` or bracket syntax.
 The following two examples are **equivalent**.
 
 ```meta-bind "this.is.nested"

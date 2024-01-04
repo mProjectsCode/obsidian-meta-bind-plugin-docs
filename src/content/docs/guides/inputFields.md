@@ -40,7 +40,7 @@ INPUT[toggle]
 
 Then we tell it to bind to the `completed` frontmatter field.
 
-```meta-bind ":completed" 
+```meta-bind ":completed"
 INPUT[toggle:completed]
 ```
 

@@ -1,8 +1,6 @@
 ---
 title: Link
 description: Link view field reference.
-sidebar:
-    badge: New
 ---
 
 import ViewFieldInfo from '../../../../components/viewField/ViewFieldInfo.astro';
@@ -13,6 +11,7 @@ import { ViewFieldType } from '../../../../config/static.js';
 
 A _link_ view field only accepts a single bind target as it's content and will automatically link to the targets value.
 The following property types are supported:
+
 - a wiki-link to a note (e.g. `[[note]]`)
 - a markdown link (e.g. `[link](https://example.com)`)
 - a string will get turned into a wiki-link (e.g. `note` -> `[[note]]`)

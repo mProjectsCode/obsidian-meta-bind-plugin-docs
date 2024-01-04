@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 import MetaBind from './metaBindLanguage.js';
 import CustomMarkdown from './customMarkdownLanguage.js';
 import { bundledLanguages } from 'shikiji';
-import starlightLinksValidator from 'starlight-links-validator'
+import starlightLinksValidator from 'starlight-links-validator';
 
 // https://astro.build/config
 export default defineConfig({
@@ -53,7 +53,7 @@ export default defineConfig({
 				themes: ['dracula', 'github-light'],
 				useStarlightUiThemeColors: true,
 			},
-			// plugins: [starlightLinksValidator()],
+			plugins: [starlightLinksValidator()],
 		}),
 	],
 	markdown: {
@@ -67,7 +67,7 @@ export default defineConfig({
 				// 	aliases: [],
 				// },
 				MetaBind,
-				CustomMarkdown
+				CustomMarkdown,
 			],
 		},
 	},

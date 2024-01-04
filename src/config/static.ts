@@ -185,6 +185,12 @@ export const InputFieldConfigs: Record<InputFieldType, InputFieldConfig> = {
 	},
 } as const;
 
+export enum UseLinksInputFieldArgumentValue {
+	TRUE = 'true',
+	PARTIAL = 'partial',
+	FALSE = 'false',
+}
+
 export type InputFieldArgumentConfig = FieldArgumentConfig<InputFieldArgumentType, InputFieldType>;
 
 export const InputFieldArgumentConfigs: Record<InputFieldArgumentType, InputFieldArgumentConfig> = {
@@ -338,12 +344,7 @@ export const InputFieldArgumentConfigs: Record<InputFieldArgumentType, InputFiel
 	},
 	[InputFieldArgumentType.OPTION_QUERY]: {
 		type: InputFieldArgumentType.OPTION_QUERY,
-		allowedFieldTypes: [
-			InputFieldType.SUGGESTER,
-			InputFieldType.IMAGE_SUGGESTER,
-			InputFieldType.LIST_SUGGESTER,
-			InputFieldType.INLINE_LIST_SUGGESTER,
-		],
+		allowedFieldTypes: [InputFieldType.SUGGESTER, InputFieldType.IMAGE_SUGGESTER, InputFieldType.LIST_SUGGESTER, InputFieldType.INLINE_LIST_SUGGESTER],
 		values: [
 			[
 				{
@@ -408,17 +409,13 @@ export const InputFieldArgumentConfigs: Record<InputFieldArgumentType, InputFiel
 	},
 	[InputFieldArgumentType.USE_LINKS]: {
 		type: InputFieldArgumentType.USE_LINKS,
-		allowedFieldTypes: [
-			InputFieldType.SUGGESTER,
-			InputFieldType.LIST_SUGGESTER,
-			InputFieldType.INLINE_LIST_SUGGESTER,
-		],
+		allowedFieldTypes: [InputFieldType.SUGGESTER, InputFieldType.LIST_SUGGESTER, InputFieldType.INLINE_LIST_SUGGESTER],
 		values: [
 			[],
 			[
 				{
 					name: 'value',
-					allowed: ['true', 'false'],
+					allowed: [UseLinksInputFieldArgumentValue.TRUE, UseLinksInputFieldArgumentValue.PARTIAL, UseLinksInputFieldArgumentValue.FALSE],
 					description: '',
 				},
 			],
@@ -427,12 +424,7 @@ export const InputFieldArgumentConfigs: Record<InputFieldArgumentType, InputFiel
 	},
 	[InputFieldArgumentType.LIMIT]: {
 		type: InputFieldArgumentType.LIMIT,
-		allowedFieldTypes: [
-			InputFieldType.TEXT,
-			InputFieldType.TEXT_AREA,
-			InputFieldType.LIST,
-			InputFieldType.INLINE_LIST,
-		],
+		allowedFieldTypes: [InputFieldType.TEXT, InputFieldType.TEXT_AREA, InputFieldType.LIST, InputFieldType.INLINE_LIST],
 		values: [
 			[
 				{
@@ -509,3 +501,8 @@ export const ViewFieldArgumentConfigs: Record<ViewFieldArgumentType, ViewFieldAr
 		allowMultiple: true,
 	},
 };
+
+export enum RenderChildType {
+	INLINE = 'inline',
+	BLOCK = 'block',
+}
