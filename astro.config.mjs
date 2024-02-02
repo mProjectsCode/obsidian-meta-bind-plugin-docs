@@ -52,23 +52,19 @@ export default defineConfig({
 			expressiveCode: {
 				themes: ['dracula', 'github-light'],
 				useStarlightUiThemeColors: true,
+        shiki: {
+          langs: [
+            MetaBind,
+            CustomMarkdown,
+          ]
+        }
 			},
 			plugins: [starlightLinksValidator()],
 		}),
 	],
 	markdown: {
 		shikiConfig: {
-			langs: [
-				...Object.keys(bundledLanguages),
-				// {
-				// 	id: 'meta-bind',
-				// 	scopeName: 'source.meta-bind',
-				// 	grammar: MetaBind,
-				// 	aliases: [],
-				// },
-				MetaBind,
-				CustomMarkdown,
-			],
+
 		},
 	},
 });
