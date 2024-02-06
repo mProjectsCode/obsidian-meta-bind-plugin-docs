@@ -11,9 +11,9 @@ You can specify them in the plugins settings.
 First, we need to create a template in the plugin settings.
 Let's create a template for a slider as follows.
 
-| Template Name    | Template String                                      |
-| ---------------- | ---------------------------------------------------- |
-| `sliderTemplate` | `INPUT[slider(addLabels, minValue(0), maxValue(10)]` |
+| Template Name    | Template String                                       |
+| ---------------- |-------------------------------------------------------|
+| `sliderTemplate` | `INPUT[slider(addLabels, minValue(0), maxValue(10))]` |
 
 Notice that the template is **not** bound to any metadata.
 

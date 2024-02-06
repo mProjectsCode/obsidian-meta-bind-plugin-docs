@@ -1,3 +1,4 @@
+// OUTDATED
 // taken from https://github.com/shikijs/shiki/blob/main/packages/shiki/languages/markdown.tmLanguage.json
 export default {
 	name: 'custom_markdown',

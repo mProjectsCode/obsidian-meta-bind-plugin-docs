@@ -2,8 +2,10 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import MetaBind from './metaBindLanguage.js';
 import CustomMarkdown from './customMarkdownLanguage.js';
-import { bundledLanguages } from 'shikiji';
+import CustomMD from './customMD.js';
 import starlightLinksValidator from 'starlight-links-validator';
+import { bundledLanguages } from 'shikiji';
+import markdownLang from 'shikiji/langs/markdown';
 
 // https://astro.build/config
 export default defineConfig({
@@ -52,19 +54,15 @@ export default defineConfig({
 			expressiveCode: {
 				themes: ['dracula', 'github-light'],
 				useStarlightUiThemeColors: true,
-        shiki: {
-          langs: [
+				shiki: {
+					langs: [
+            ...Object.entries(bundledLanguages).map(([_, langFn]) => langFn),
             MetaBind,
-            CustomMarkdown,
-          ]
-        }
+            CustomMD
+          ],
+				},
 			},
 			plugins: [starlightLinksValidator()],
 		}),
 	],
-	markdown: {
-		shikiConfig: {
-
-		},
-	},
 });
