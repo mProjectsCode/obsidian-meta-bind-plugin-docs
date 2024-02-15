@@ -1,6 +1,6 @@
 ---
-title: Templates
-description: A tutorial for Meta Bind Templates.
+title: Input Field Templates
+description: A tutorial for Meta Bind Input Field Templates.
 ---
 
 Templates allow you to reuse input fields across your vault.
@@ -12,7 +12,7 @@ First, we need to create a template in the plugin settings.
 Let's create a template for a slider as follows.
 
 | Template Name    | Template String                                       |
-| ---------------- |-------------------------------------------------------|
+| ---------------- | ----------------------------------------------------- |
 | `sliderTemplate` | `INPUT[slider(addLabels, minValue(0), maxValue(10))]` |
 
 Notice that the template is **not** bound to any metadata.

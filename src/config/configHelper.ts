@@ -4,9 +4,7 @@ import { InputFieldArgumentConfigs, InputFieldType, ViewFieldArgumentConfigs, Vi
 class InputFieldArgumentConfigHelper {
 	getAllowedInputFieldTypes(type: InputFieldArgumentType): InputFieldType[] {
 		const config = InputFieldArgumentConfigs[type];
-		return config.allowedFieldTypes.filter(
-			x => x !== InputFieldType.DATE_PICKER_DEPRECATED && x !== InputFieldType.MULTI_SELECT_DEPRECATED && x !== InputFieldType.TEXT_AREA_DEPRECATED,
-		);
+		return config.allowedFieldTypes;
 	}
 
 	doesAllowAllInputFieldTypes(type: InputFieldArgumentType): boolean {

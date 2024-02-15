@@ -29,6 +29,8 @@ export default defineConfig({
 						{ label: 'Buttons', link: '/guides/buttons/', badge: 'New' },
 						{ label: 'Meta Bind Embeds', link: '/guides/metabindembed/', badge: 'New' },
 						{ label: 'Bind Targets', link: '/guides/bindtargets/' },
+						{ label: 'Advanced Use-Cases', link: '/guides/advancedusecases/' },
+
 						{ label: 'Syntax Highlighting', link: '/guides/syntaxhighlighting/' },
 						{ label: 'Obsidian Publish', link: '/guides/obsidianpublish/' },
 					],
@@ -55,11 +57,7 @@ export default defineConfig({
 				themes: ['dracula', 'github-light'],
 				useStarlightUiThemeColors: true,
 				shiki: {
-					langs: [
-            ...Object.entries(bundledLanguages).map(([_, langFn]) => langFn),
-            MetaBind,
-            CustomMD
-          ],
+					langs: [...Object.entries(bundledLanguages).map(([_, langFn]) => langFn), MetaBind, CustomMD],
 				},
 			},
 			plugins: [starlightLinksValidator()],

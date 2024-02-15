@@ -1,0 +1,69 @@
+---
+title: Advanced Use-Cases
+description: A collection of more advanced use-cases.
+---
+
+If you are willing to dip your toes into the world of JavaScript, you can do quite a few interesting things with Meta Bind.
+
+:::note
+The following examples assume that you have [JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin) installed and enabled.
+:::
+
+:::caution
+I would recommend that you are familiar with JavaScript before attempting to use these examples.
+If you are not careful, you can easily create infinite loops or other performance issues.
+:::
+
+## Performance Considerations
+
+Dynamically creating input or view fields with JavaScript can have a performance impact, especially if you are doing it all over your notes.
+
+## Dynamic Bind Targets with JavaScript
+
+You can use JavaScript to dynamically change a bind target based on another bind targets value.
+
+This example demonstrates how to use a select input to change the bind target of a number input.
+The select input is bound to the `index` variable, and the number input is constructed to be bound to the `list[index]` variable.
+
+````custom_markdown
+---
+list:
+  - 1
+  - 2
+  - 3
+index: 0
+---
+
+Index: `INPUT[inlineSelect(option(0), option(1), option(2)):index]`
+
+```meta-bind-js-view
+{index} as index
+---
+const str = `\`INPUT[number:list[${context.bound.index}]]\``;
+return engine.markdown.create(str)
+```
+````
+
+## Dynamic Options for Select Inputs
+
+You can also use JavaScript to dynamically change the options of a select input.
+
+````custom_markdown
+---
+options:
+  - "1"
+  - "2"
+  - "3"
+selected: 1
+---
+
+Options: `INPUT[inlineList:options]`
+
+```meta-bind-js-view
+{options} as options
+---
+const options = context.bound.options.map(x => `option(${x})`).join(", ");
+const str = `\`INPUT[inlineSelect(${options}):selected]\``;
+return engine.markdown.create(str);
+```
+````

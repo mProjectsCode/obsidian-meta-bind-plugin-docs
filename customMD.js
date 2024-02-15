@@ -145,12 +145,12 @@ export default {
 		},
 		fenced_code_block: {
 			patterns: [
-        {
-          include: '#fenced_code_block_meta_bind',
-        },
-        {
-          include: '#fenced_code_block_meta_bind_button',
-        },
+				{
+					include: '#fenced_code_block_meta_bind',
+				},
+				{
+					include: '#fenced_code_block_meta_bind_button',
+				},
 				{
 					include: '#fenced_code_block_css',
 				},
@@ -357,72 +357,72 @@ export default {
 				},
 			],
 		},
-    fenced_code_block_meta_bind: {
-      begin: '(^|\\G)(\\s*)(`{3,}|~{3,})\\s*(?i:(meta-bind)((\\s+|:|,|\\{|\\?)[^`]*)?$)',
-      beginCaptures: {
-        3: {
-          name: 'punctuation.definition.markdown',
-        },
-        4: {
-          name: 'fenced_code.block.language.markdown',
-        },
-        5: {
-          name: 'fenced_code.block.language.attributes.markdown',
-        },
-      },
-      end: '(^|\\G)(\\2|\\s{0,3})(\\3)\\s*$',
-      endCaptures: {
-        3: {
-          name: 'punctuation.definition.markdown',
-        },
-      },
-      name: 'markup.fenced_code.block.markdown',
-      patterns: [
-        {
-          begin: '(^|\\G)(\\s*)(.*)',
-          contentName: 'meta.embedded.block.meta-bind',
-          patterns: [
-            {
-              include: 'source.meta-bind',
-            },
-          ],
-          while: '(^|\\G)(?!\\s*([`~]{3,})\\s*$)',
-        },
-      ],
-    },
-    fenced_code_block_meta_bind_button: {
-      begin: '(^|\\G)(\\s*)(`{3,}|~{3,})\\s*(?i:(meta-bind-button)((\\s+|:|,|\\{|\\?)[^`]*)?$)',
-      beginCaptures: {
-        3: {
-          name: 'punctuation.definition.markdown',
-        },
-        4: {
-          name: 'fenced_code.block.language.markdown',
-        },
-        5: {
-          name: 'fenced_code.block.language.attributes.markdown',
-        },
-      },
-      end: '(^|\\G)(\\2|\\s{0,3})(\\3)\\s*$',
-      endCaptures: {
-        3: {
-          name: 'punctuation.definition.markdown',
-        },
-      },
-      name: 'markup.fenced_code.block.markdown',
-      patterns: [
-        {
-          begin: '(^|\\G)(\\s*)(.*)',
-          contentName: 'meta.embedded.block.yaml',
-          patterns: [
-            {
-              include: 'source.yaml',
-            },
-          ],
-          while: '(^|\\G)(?!\\s*([`~]{3,})\\s*$)',
-        },
-      ],
-    },
+		fenced_code_block_meta_bind: {
+			begin: '(^|\\G)(\\s*)(`{3,}|~{3,})\\s*(?i:(meta-bind)((\\s+|:|,|\\{|\\?)[^`]*)?$)',
+			beginCaptures: {
+				3: {
+					name: 'punctuation.definition.markdown',
+				},
+				4: {
+					name: 'fenced_code.block.language.markdown',
+				},
+				5: {
+					name: 'fenced_code.block.language.attributes.markdown',
+				},
+			},
+			end: '(^|\\G)(\\2|\\s{0,3})(\\3)\\s*$',
+			endCaptures: {
+				3: {
+					name: 'punctuation.definition.markdown',
+				},
+			},
+			name: 'markup.fenced_code.block.markdown',
+			patterns: [
+				{
+					begin: '(^|\\G)(\\s*)(.*)',
+					contentName: 'meta.embedded.block.meta-bind',
+					patterns: [
+						{
+							include: 'source.meta-bind',
+						},
+					],
+					while: '(^|\\G)(?!\\s*([`~]{3,})\\s*$)',
+				},
+			],
+		},
+		fenced_code_block_meta_bind_button: {
+			begin: '(^|\\G)(\\s*)(`{3,}|~{3,})\\s*(?i:(meta-bind-button)((\\s+|:|,|\\{|\\?)[^`]*)?$)',
+			beginCaptures: {
+				3: {
+					name: 'punctuation.definition.markdown',
+				},
+				4: {
+					name: 'fenced_code.block.language.markdown',
+				},
+				5: {
+					name: 'fenced_code.block.language.attributes.markdown',
+				},
+			},
+			end: '(^|\\G)(\\2|\\s{0,3})(\\3)\\s*$',
+			endCaptures: {
+				3: {
+					name: 'punctuation.definition.markdown',
+				},
+			},
+			name: 'markup.fenced_code.block.markdown',
+			patterns: [
+				{
+					begin: '(^|\\G)(\\s*)(.*)',
+					contentName: 'meta.embedded.block.yaml',
+					patterns: [
+						{
+							include: 'source.yaml',
+						},
+					],
+					while: '(^|\\G)(?!\\s*([`~]{3,})\\s*$)',
+				},
+			],
+		},
 		fenced_code_block_bibtex: {
 			begin: '(^|\\G)(\\s*)(`{3,}|~{3,})\\s*(?i:(bibtex)((\\s+|:|,|\\{|\\?)[^`]*)?$)',
 			beginCaptures: {
@@ -3024,14 +3024,14 @@ export default {
 				1: {
 					name: 'punctuation.definition.raw.markdown',
 				},
-        2: {
-          name: 'meta.embedded.block.meta-bind',
-          patterns: [
-            {
-              include: 'source.meta-bind',
-            },
-          ],
-        },
+				2: {
+					name: 'meta.embedded.block.meta-bind',
+					patterns: [
+						{
+							include: 'source.meta-bind',
+						},
+					],
+				},
 				3: {
 					name: 'punctuation.definition.raw.markdown',
 				},
