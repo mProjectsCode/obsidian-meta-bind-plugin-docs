@@ -15,7 +15,7 @@ Bind Targets consist of three parts.
 storageType^storagePath#property
 ```
 
-Certain can be omitted, causing them to default to their default values.
+Certain parts can be omitted, causing them to default to their default values.
 
 The following bind target will always use the default storage type `frontmatter`,
 meaning it points to a frontmatter property.
@@ -60,7 +60,7 @@ If it is omitted, the current file is used.
 
 #### Example
 
-Let's imagine we are in note called `Overview` and we want our toggle not to change this notes completion status, but the status of our task note called `Task A`.
+Let's imagine we are in a note called `Overview` and we want our toggle not to change this note's completion status, but the status of our task note called `Task A`.
 This is also possible. We just need to tell the plugin to change `completed` in note `Task A`. We do this by binding to `Task A#completed` (`file_name#frontmatter_field`).
 
 The input field declaration now looks like this.
@@ -83,8 +83,8 @@ For the default storage type `frontmatter`, this is the name of the frontmatter 
 
 #### Properties with Spaces and Nested Properties
 
-The plugin use JavaScript-like syntax to access the frontmatter.
-This means that, to bind to a frontmatter field with special characters such as spaces,
+The plugin uses JavaScript-like syntax to access the frontmatter.
+This means that in order to bind to a frontmatter field with special characters such as spaces,
 you need to use JavaScript's bracket syntax.
 
 This will **not** work.
