@@ -7,16 +7,22 @@ import AutofillSearch from '../../components/AutofillSearch.astro';
 
 <AutofillSearch></AutofillSearch>
 
+:::caution
+Version `1.0.0` is around the corner and will introduce breaking changes to the plugins JavaScript API.
+:::
+
 :::tip
 **New**: Meta Bind [Buttons](/obsidian-meta-bind-plugin-docs/guides/buttons/), a spiritual successor to the discontinued [Buttons Plugin](https://github.com/shabegom/buttons).
 :::
 
-Meta Bind is a plugin for [Obsidian](https://obsidian.md/), that allows you to create input and view fields inside your notes.
-Those input and view fields can then be bound to frontmatter properties, which keeps them in sync those frontmatter properties.
+Meta Bind is a plugin for [Obsidian](https://obsidian.md/) to make your notes interactive!
+
+Meta Bind allows you to create **input fields**, **metadata displays (view fields)**, and **buttons**.
+Input and view fields can then be bound to frontmatter properties, which keeps them in sync those frontmatter properties.
 Allowing you to edit and view your frontmatter properties inside your notes.
 
-For example, you can create a toggle inside your note, that is bound to a frontmatter property named done, with this simple inline code block `INPUT[toggle:done]`.
-When you click the toggle, the done property will switch between true and false.
+For example, you can create a toggle inside your note, that is bound to a frontmatter property named `done`, with this simple inline code block `INPUT[toggle:done]`.
+When you click the toggle, the `done` property will switch between `true` and `false`.
 
 ## Features
 
