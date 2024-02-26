@@ -27,7 +27,7 @@ export default defineConfig({
 						{ label: 'Input Field Templates', link: '/guides/templates/' },
 						{ label: 'View Fields', link: '/guides/viewfields/' },
 						{ label: 'Buttons', link: '/guides/buttons/', badge: 'New' },
-						{ label: 'Meta Bind Embeds', link: '/guides/metabindembed/', badge: 'New' },
+						{ label: 'Meta Bind Embeds', link: '/guides/metabindembed/' },
 						{ label: 'Bind Targets', link: '/guides/bindtargets/' },
 						{ label: 'Advanced Use-Cases', link: '/guides/advancedusecases/' },
 
