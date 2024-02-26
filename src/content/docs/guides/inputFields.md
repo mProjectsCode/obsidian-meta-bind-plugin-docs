@@ -93,7 +93,7 @@ INPUT[inlineSelect(
 ):rating]
 ```
 
-Such strings also support escaping using a backslash. To have a single backslash in the name you can a double backslash `\\`.
+Such strings also support escaping using a backslash. To have a single backslash in the name you can use a double backslash `\\`.
 
 ```meta-bind
 INPUT[inlineSelect(
