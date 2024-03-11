@@ -27,7 +27,7 @@ This is where view fields come in.
 
 ```custom_markdown "VIEW[{distance}]"
 Distance: `INPUT[number:distance]` km
-Distance in freedom units: `VIEW[{distance}]`
+Distance in freedom units: `VIEW[{distance}]` miles
 ```
 
 This will display the distance and change when we change the value using the input field above, but we are still missing the conversion.
@@ -137,7 +137,7 @@ But if you close `NoteA` (so that only `NoteB` is open), then the view field wil
 
 ## Creating JS View Fields
 
-The plugin also offers to create view fields with JavaScript from inside your notes.
+The plugin also offers the ability to create view fields with JavaScript from inside your notes.
 You can activate this feature in the plugins settings.
 By default, js view fields are disabled, as they can pose a security risk.
 
