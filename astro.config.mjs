@@ -1,11 +1,9 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import MetaBind from './metaBindLanguage.js';
-import CustomMarkdown from './customMarkdownLanguage.js';
 import CustomMD from './customMD.js';
 import starlightLinksValidator from 'starlight-links-validator';
-import { bundledLanguages } from 'shikiji';
-import markdownLang from 'shikiji/langs/markdown';
+import { bundledLanguages } from 'shiki';
 
 // https://astro.build/config
 export default defineConfig({

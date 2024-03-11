@@ -31,7 +31,7 @@ action:
 
 Inline buttons are buttons that are displayed inline with the text.
 They are created using inline code blocks starting with `BUTTON`.
-Inline buttons must reference a button code block defined elsewhere in the note via matching ids.
+Inline buttons must reference a button code block defined elsewhere in the **same note** via matching ids.
 
 The following example button inline button references the code block button with the `help-button` id below it.
 By referencing the button code block, the inline button will have the same configuration as the code block button.
