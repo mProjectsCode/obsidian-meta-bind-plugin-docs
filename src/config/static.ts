@@ -34,6 +34,8 @@ export enum InputFieldType {
 	LIST_SUGGESTER = 'listSuggester',
 	INLINE_LIST_SUGGESTER = 'inlineListSuggester',
 	INLINE_LIST = 'inlineList',
+	IMAGE_LIST_SUGGESTER = 'imageListSuggester',
+	DATE_TIME = 'dateTime',
 
 	INVALID = 'invalid',
 }
@@ -54,6 +56,8 @@ export enum InputFieldArgumentType {
 	PLACEHOLDER = 'placeholder',
 	USE_LINKS = 'useLinks',
 	LIMIT = 'limit',
+	MULTI_LINE = 'multiLine',
+	ALLOW_OTHER = 'allowOther',
 
 	INVALID = 'invalid',
 }
@@ -157,6 +161,16 @@ export const InputFieldConfigs: Record<InputFieldType, InputFieldConfig> = {
 	},
 	[InputFieldType.INLINE_LIST]: {
 		type: InputFieldType.INLINE_LIST,
+		allowInBlock: true,
+		allowInline: true,
+	},
+	[InputFieldType.IMAGE_LIST_SUGGESTER]: {
+		type: InputFieldType.IMAGE_LIST_SUGGESTER,
+		allowInBlock: true,
+		allowInline: false,
+	},
+	[InputFieldType.DATE_TIME]: {
+		type: InputFieldType.DATE_TIME,
 		allowInBlock: true,
 		allowInline: true,
 	},
@@ -299,6 +313,7 @@ export const InputFieldArgumentConfigs: Record<InputFieldArgumentType, InputFiel
 			InputFieldType.INLINE_SELECT,
 			InputFieldType.LIST_SUGGESTER,
 			InputFieldType.INLINE_LIST_SUGGESTER,
+			InputFieldType.IMAGE_LIST_SUGGESTER,
 		],
 		values: [
 			[
@@ -325,7 +340,13 @@ export const InputFieldArgumentConfigs: Record<InputFieldArgumentType, InputFiel
 	},
 	[InputFieldArgumentType.OPTION_QUERY]: {
 		type: InputFieldArgumentType.OPTION_QUERY,
-		allowedFieldTypes: [InputFieldType.SUGGESTER, InputFieldType.IMAGE_SUGGESTER, InputFieldType.LIST_SUGGESTER, InputFieldType.INLINE_LIST_SUGGESTER],
+		allowedFieldTypes: [
+			InputFieldType.SUGGESTER,
+			InputFieldType.IMAGE_SUGGESTER,
+			InputFieldType.LIST_SUGGESTER,
+			InputFieldType.INLINE_LIST_SUGGESTER,
+			InputFieldType.IMAGE_LIST_SUGGESTER,
+		],
 		values: [
 			[
 				{
@@ -410,6 +431,36 @@ export const InputFieldArgumentConfigs: Record<InputFieldArgumentType, InputFiel
 		],
 		allowMultiple: false,
 	},
+	[InputFieldArgumentType.MULTI_LINE]: {
+		type: InputFieldArgumentType.MULTI_LINE,
+		allowedFieldTypes: [InputFieldType.LIST],
+		values: [
+			[],
+			[
+				{
+					name: 'value',
+					allowed: ['true', 'false'],
+					description: '',
+				},
+			],
+		],
+		allowMultiple: false,
+	},
+	[InputFieldArgumentType.ALLOW_OTHER]: {
+		type: InputFieldArgumentType.ALLOW_OTHER,
+		allowedFieldTypes: [InputFieldType.SUGGESTER, InputFieldType.LIST_SUGGESTER, InputFieldType.INLINE_LIST_SUGGESTER],
+		values: [
+			[],
+			[
+				{
+					name: 'value',
+					allowed: ['true', 'false'],
+					description: '',
+				},
+			],
+		],
+		allowMultiple: false,
+	},
 	[InputFieldArgumentType.INVALID]: {
 		type: InputFieldArgumentType.INVALID,
 		allowedFieldTypes: [],
@@ -424,6 +475,7 @@ export enum ViewFieldType {
 	MATH = 'math',
 	TEXT = 'text',
 	LINK = 'link',
+	IMAGE = 'image',
 
 	INVALID = 'invalid',
 }
@@ -431,6 +483,7 @@ export enum ViewFieldType {
 export enum ViewFieldArgumentType {
 	RENDER_MARKDOWN = 'renderMarkdown',
 	HIDDEN = 'hidden',
+	CLASS = 'class',
 
 	INVALID = 'invalid',
 }
@@ -468,6 +521,20 @@ export const ViewFieldArgumentConfigs: Record<ViewFieldArgumentType, ViewFieldAr
 		],
 		allowMultiple: false,
 	},
+	[ViewFieldArgumentType.CLASS]: {
+		type: ViewFieldArgumentType.CLASS,
+		allowedFieldTypes: [],
+		values: [
+			[
+				{
+					name: 'className',
+					allowed: [],
+					description: 'the name of the css class to add',
+				},
+			],
+		],
+		allowMultiple: true,
+	},
 	[ViewFieldArgumentType.INVALID]: {
 		type: ViewFieldArgumentType.INVALID,
 		allowedFieldTypes: [],
@@ -479,4 +546,22 @@ export const ViewFieldArgumentConfigs: Record<ViewFieldArgumentType, ViewFieldAr
 export enum RenderChildType {
 	INLINE = 'inline',
 	BLOCK = 'block',
+}
+
+export const EMBED_MAX_DEPTH = 8;
+
+export enum FieldType {
+	INPUT_FIELD = 'INPUT_FIELD',
+	VIEW_FIELD = 'VIEW_FIELD',
+	JS_VIEW_FIELD = 'JS_VIEW_FIELD',
+	BUTTON_GROUP = 'BUTTON_GROUP',
+	BUTTON = 'BUTTON',
+	EMBED = 'EMBED',
+	EXCLUDED = 'EXCLUDED',
+}
+
+export type InlineFieldType = FieldType.INPUT_FIELD | FieldType.VIEW_FIELD | FieldType.BUTTON_GROUP;
+
+export function isFieldTypeAllowedInline(type: FieldType): type is InlineFieldType {
+	return type === FieldType.INPUT_FIELD || type === FieldType.VIEW_FIELD || type === FieldType.BUTTON_GROUP;
 }

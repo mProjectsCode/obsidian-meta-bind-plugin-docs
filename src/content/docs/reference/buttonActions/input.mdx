@@ -1,0 +1,30 @@
+---
+title: Input Button Action
+description: Input button action reference.
+---
+
+The input action inserts text at the current cursor position in the focused element.
+
+```ts
+interface InputButtonAction {
+	type: 'input';
+	str: string; // the string to insert
+}
+```
+
+### Example
+
+This button opens the command palette and inserts the string `help`.
+Resulting in the command palette being opened with `help` already typed in the search bar.
+
+````custom_markdown {7-8}
+```meta-bind-button
+style: primary
+label: Help Commands
+actions:
+  - type: command
+    command: command-palette:open
+  - type: input
+    str: help
+```
+````

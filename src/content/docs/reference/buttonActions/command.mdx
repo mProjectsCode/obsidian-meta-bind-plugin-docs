@@ -1,0 +1,27 @@
+---
+title: Command Button Action
+description: Command button action reference.
+---
+
+The command action runs an obsidian command.
+
+```ts
+interface CommandButtonAction {
+	type: 'command';
+	command: string; // the id of the command to run
+}
+```
+
+### Example
+
+This button opens the Meta Bind FAQ page in obsidian.
+
+````custom_markdown {5-6}
+```meta-bind-button
+style: primary
+label: Meta Bind Help
+action:
+  type: command
+  command: obsidian-meta-bind-plugin:open-faq
+```
+````

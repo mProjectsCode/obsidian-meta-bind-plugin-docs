@@ -1,0 +1,37 @@
+---
+title: Run JavaScript Button Action
+description: Run JavaScript button action reference.
+---
+
+The run JavaScript action runs a JavaScript file.
+
+:::note
+This requires the [JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin) plugin to be installed and enabled.
+:::
+
+```ts
+interface JSButtonAction {
+	type: 'js';
+	file: string; // the path to the JavaScript file to run, relative to the vault root
+}
+```
+
+### Example
+
+````custom_markdown {5-6}
+```meta-bind-button
+style: primary
+label: Run JavaScript
+action:
+  type: js
+  file: someScript.js
+```
+````
+
+With the following `someScript.js` file in the vault root.
+
+```js title="someScript.js"
+console.log('Hello World!');
+```
+
+You should see the string `Hello World!` printed to the console, when you click the button.

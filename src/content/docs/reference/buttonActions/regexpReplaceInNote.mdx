@@ -1,0 +1,31 @@
+---
+title: RegExp Replace In Note Button Action
+description: RegExp Replace In Note button action reference.
+---
+
+This button action allows you to do a search and replace on the entire note where the button is in.
+
+```ts
+interface RegexpReplaceInNoteButtonAction {
+	type: 'replaceInNote';
+	regexp: string; // the regular expression to search for
+	replacement: string; // the replacement text
+}
+```
+
+You can use `$1`, `$2`, etc. in the replacement text to reference the matched groups in the regular expression.
+
+### Example
+
+This example replaces every `TODO: ...` line with `TODO: ... - Done`.
+
+````custom_markdown {5-7}
+```meta-bind-button
+style: primary
+label: RexExp Replace In Note
+action:
+  type: "regexpReplaceInNote"
+  regexp: "(TODO: .*)\\n"
+  replacement: "$1 - Done"
+```
+````

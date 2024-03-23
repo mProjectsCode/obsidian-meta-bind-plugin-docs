@@ -53,6 +53,20 @@ The default is `frontmatter` and will be used if you don't specify a storage typ
 | `globalMemory`          | The storage path is not allowed and the property points to an in memory field. |
 | `scope`                 | The storage path is not allowed and the property extends another bind target.  |
 
+#### `frontmatter`
+
+This refers the Obsidian's frontmatter which is a YAML block at the top of a file.
+
+#### `memory`
+
+Memory is an in-memory storage that is **scoped** but not saved to any file.
+This means that values you write to a file path in the cache **will be lost** when nothing uses said file path for a while, or you restart Obsidian.
+
+#### `globalMemory`
+
+Global Memory is an in-memory storage that is **not scoped** and not saved to any file.
+Global Memory is shared between all notes and **will be lost** when you restart Obsidian.
+
 ### 2. The Storage Path
 
 The storage path usually points to a file.

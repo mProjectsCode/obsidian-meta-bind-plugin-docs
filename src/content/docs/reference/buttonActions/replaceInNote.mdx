@@ -1,0 +1,41 @@
+---
+title: Replace In Note Button Action
+description: Replace In Note button action reference.
+---
+
+This button action allows you to replace a specified line range in the current note with new text or a Templater template.
+
+```ts
+interface ReplaceInNoteButtonAction {
+	type: 'replaceInNote';
+	fromLine: number; // the line to start replacing from (1-based index)
+	toLine: number; // the line to stop replacing at (1-based index)
+	replacement: string; // the replacement text or path to replacement Templater template
+	templater?: boolean; // whether the replacement is a Templater template
+}
+```
+
+If `templater` is `true`, the `replacement` field is treated as a path to a Templater template.
+If `templater` is `false` or not specified, the `replacement` field is treated as plain text.
+
+### Example
+
+This example replaces lines 3-5 in the current note with the text following text.
+
+```markdown
+some
+text
+wow
+```
+
+````custom_markdown {5-8}
+```meta-bind-button
+style: primary
+label: Replace in Note
+action:
+  type: "replaceInNote"
+  fromLine: 3
+  toLine: 5
+  replacement: "some\ntext\nwow"
+```
+````

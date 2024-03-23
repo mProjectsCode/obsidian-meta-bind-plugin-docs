@@ -1,0 +1,18 @@
+---
+title: Date Time
+description: Date Time input field reference.
+---
+
+import InputFieldInfo from '../../../../components/inputField/InputFieldInfo.astro';
+import InputFieldAllowedArguments from '../../../../components/inputField/InputFieldAllowedArguments.astro';
+import InputFieldArgumentLink from '../../../../components/inputField/InputFieldArgumentLink.astro';
+import InputFieldLink from '../../../../components/inputField/InputFieldLink.astro';
+import { InputFieldArgumentType, InputFieldType } from '../../../../config/static.js';
+
+<InputFieldInfo type={InputFieldType.DATE_TIME}></InputFieldInfo>
+
+A _date time_ input combines the <InputFieldLink type={InputFieldType.DATE}></InputFieldLink> and <InputFieldLink type={InputFieldType.TIME}></InputFieldLink> input fields.
+
+### Allowed Arguments
+
+<InputFieldAllowedArguments type={InputFieldType.DATE_TIME}></InputFieldAllowedArguments>

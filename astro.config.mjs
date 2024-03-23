@@ -40,6 +40,7 @@ export default defineConfig({
 						{ label: 'Input Field Arguments', autogenerate: { directory: 'reference/inputFieldArguments' } },
 						{ label: 'View Fields', autogenerate: { directory: 'reference/viewFields' } },
 						{ label: 'View Field Arguments', autogenerate: { directory: 'reference/viewFieldArguments' } },
+						{ label: 'Button Actions', autogenerate: { directory: 'reference/buttonActions' } },
 					],
 				},
 			],

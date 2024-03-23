@@ -1,0 +1,35 @@
+---
+title: Create Note Button Action
+description: Create Note button action reference.
+---
+
+The _create note_ action creates a new empty note in the specified location.
+
+```ts
+interface CreateNoteButtonAction {
+	type: 'createNote';
+	fileName: string; // the name of the new note
+	folderPath?: string; // the folder path where the note should be created, if not specified the note will be created in the root of the vault
+	openNote?: boolean; // if true, the note will be opened after creation
+}
+```
+
+When a note with the same name already exists in the specified location, the note will be created with a running number appended to the name.
+For example, if a note with the name `Note` already exists, the new note will be named `Note 1`.
+
+### Example
+
+This button will create a new note named `New Note` in the `My Folder` folder.
+If a note with the same name already exists, the new note will be named `New Note 1`.
+
+````custom_markdown {5-8}
+```meta-bind-button
+style: primary
+label: Create Note
+action:
+  type: createNote
+  folderPath: "My Folder"
+  fileName: "New Note"
+  openNote: false
+```
+````

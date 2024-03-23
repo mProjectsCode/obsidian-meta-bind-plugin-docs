@@ -1,0 +1,30 @@
+---
+title: Replace Self Button Action
+description: Replace Self button action reference.
+---
+
+This button action replaces the button with either plain text or a Templater template.
+
+This only works with buttons in blocks, so this action will not work with inline buttons which are not inside a `meta-bind` block.
+
+```ts
+interface ReplaceSelfButtonAction {
+	type: 'replaceSelf';
+	replacement: string; // the string or the path to the Templater template to replace the button with
+	templater?: boolean; // if true, the replacement is a Templater template
+}
+```
+
+### Example
+
+This button will replace itself with the text `i am no longer a button :(` when clicked.
+
+````custom_markdown {5-6}
+```meta-bind-button
+style: primary
+label: Replace Self
+action:
+  type: "replaceSelf"
+  replacement: "i am no longer a button :("
+```
+````

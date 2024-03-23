@@ -1,0 +1,33 @@
+---
+title: Templater Create Note Button Action
+description: Templater Create Note button action reference.
+---
+
+The templater create note action creates a new note using a [Templater](https://github.com/SilentVoid13/Templater) template.
+
+```ts
+interface TemplaterCreateNoteButtonAction {
+	type: 'templaterCreateNote';
+	templateFile: string; // the path to the template file, relative to the vault root
+	folderPath?: string; // the optional path to the folder to create the note in, relative to the vault root
+	fileName?: string; // the optional name of the file to create
+	openNote?: boolean; // whether to open the created note
+}
+```
+
+### Example
+
+This button creates a new note titled `New Lecture Note - RENAME ME` in the `Lectures` folder using the `Lecture Template`
+template from the `templates` folder.
+
+````custom_markdown {5-8}
+```meta-bind-button
+style: primary
+label: Create Lecture Note
+actions:
+  - type: templaterCreateNote
+    templateFile: "templates/Lecture Template.md"
+    folderPath: Lectures
+    fileName: "New Lecture Note - RENAME ME"
+```
+````

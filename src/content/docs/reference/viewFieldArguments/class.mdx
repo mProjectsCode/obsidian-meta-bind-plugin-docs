@@ -1,0 +1,30 @@
+---
+title: Class Argument
+description: Class view field argument reference.
+---
+
+import ViewFieldArgumentInfo from '../../../../components/viewField/ViewFieldArgumentInfo.astro';
+import ViewFieldArgumentAllowedInputFields from '../../../../components/viewField/ViewFieldArgumentAllowedInputFields.astro';
+import ViewFieldArgumentValuesInfo from '../../../../components/viewField/ViewFieldArgumentValuesInfo.astro';
+import ViewFieldLink from '../../../../components/viewField/ViewFieldLink.astro';
+import { InputFieldArgumentType, InputFieldType, ViewFieldArgumentType } from '../../../../config/static.js';
+
+<ViewFieldArgumentInfo type={ViewFieldArgumentType.CLASS}></ViewFieldArgumentInfo>
+
+The `class` argument lets you add one or multiple CSS classes to a view field.
+
+### Values
+
+<ViewFieldArgumentValuesInfo type={ViewFieldArgumentType.CLASS}></ViewFieldArgumentValuesInfo>
+
+### Allowed Input Fields
+
+<ViewFieldArgumentAllowedInputFields type={ViewFieldArgumentType.CLASS}></ViewFieldArgumentAllowedInputFields>
+
+### Examples
+
+This view field will display red text, as it has Obsidian's `mod-warning` CSS class.
+
+```meta-bind
+VIEW[{a} * {b}][math(class(mod-warning))]
+```

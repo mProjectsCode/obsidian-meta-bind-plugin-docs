@@ -1,0 +1,31 @@
+---
+title: Sleep Button Action
+description: Sleep button action reference.
+---
+
+The sleep action waits for a specified amount of time.
+
+```ts
+interface SleepButtonAction {
+	type: 'sleep';
+	ms: number; // the time to wait in milliseconds
+}
+```
+
+### Example
+
+This button will open the command palette, wait for 1 second, and then type `help` into the search bar.
+
+````custom_markdown {7-8}
+```meta-bind-button
+style: primary
+label: Sleep
+actions:
+  - type: command
+    command: command-palette:open
+  - type: sleep
+    ms: 1000
+  - type: input
+    str: help
+```
+````

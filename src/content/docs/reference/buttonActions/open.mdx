@@ -1,0 +1,27 @@
+---
+title: Open Button Action
+description: Open button action reference.
+---
+
+The open file action opens a file or URL.
+
+```ts
+interface OpenButtonAction {
+	type: 'open';
+	link: string; // the file link ([[file]]) or URL (https://www.example.com) to open
+}
+```
+
+### Example
+
+This button opens the Meta Bind Docs in your default browser.
+
+````custom_markdown {5-6}
+```meta-bind-button
+style: primary
+label: Open Meta Bind Docs
+action:
+  type: open
+  link: https://www.moritzjung.dev/obsidian-meta-bind-plugin-docs/
+```
+````

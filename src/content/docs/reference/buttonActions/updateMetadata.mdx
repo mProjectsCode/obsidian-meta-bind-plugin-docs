@@ -1,0 +1,63 @@
+---
+title: Update Metadata Button Action
+description: Update Metadata button action reference.
+---
+
+The update metadata action allows you to update a specific property specified via a [Bind Target](/obsidian-meta-bind-plugin-docs/guides/bindtargets).
+This property can be any valid [Bind Target](/obsidian-meta-bind-plugin-docs/guides/bindtargets) such as the frontmatter of a file.
+
+```ts
+interface UpdateMetadataButtonAction {
+	type: 'updateMetadata';
+	bindTarget: string; // the bind target of the property to update
+	evaluate: boolean; // whether to treat the value as a JavaScript expression
+	value: string; // the value to set the property to or the JavaScript expression to evaluate
+}
+```
+
+If `evaluate` is set to `true`, the value is treated as a JavaScript expression and evaluated.
+The current value of the property is available in the expression as `x`.
+
+#### Example
+
+This button group allows you to increment, decrement, and reset a counter stored in the frontmatter of the current file.
+
+````custom_markdown {7-10,19-22,31-34} "BUTTON[count-decrement, count-reset, count-increment]"
+```meta-bind-button
+label: "+1"
+hidden: true
+id: "count-increment"
+style: default
+actions:
+  - type: updateMetadata
+    bindTarget: count
+    evaluate: true
+    value: x + 1
+```
+
+```meta-bind-button
+label: "-1"
+hidden: true
+id: "count-decrement"
+style: default
+actions:
+  - type: updateMetadata
+    bindTarget: count
+    evaluate: true
+    value: x - 1
+```
+
+```meta-bind-button
+label: "Reset"
+hidden: true
+id: "count-reset"
+style: default
+actions:
+  - type: updateMetadata
+    bindTarget: count
+    evaluate: false
+    value: 0
+```
+
+`BUTTON[count-decrement, count-reset, count-increment]` `VIEW[{count}]`
+````

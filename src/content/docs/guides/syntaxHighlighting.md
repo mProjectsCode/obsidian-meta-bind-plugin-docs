@@ -10,3 +10,5 @@ This means that some elements of the syntax will be highlighted in different col
 ```meta-bind
 INPUT[slider(minValue(0), maxValue(10)):some/file#some.property]
 ```
+
+The syntax highlighting can be turned off in the plugin's setting.
