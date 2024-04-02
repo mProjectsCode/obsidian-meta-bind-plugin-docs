@@ -29,6 +29,7 @@ export default defineConfig({
 						{ label: 'Bind Targets', link: '/guides/bindtargets/' },
 						{ label: 'Advanced Use-Cases', link: '/guides/advancedusecases/' },
 
+            { label: 'Examples', link: '/guides/examples/' },
 						{ label: 'Syntax Highlighting', link: '/guides/syntaxhighlighting/' },
 						{ label: 'Obsidian Publish', link: '/guides/obsidianpublish/' },
 					],

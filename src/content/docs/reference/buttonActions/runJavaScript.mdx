@@ -1,9 +1,9 @@
 ---
-title: Run JavaScript Button Action
-description: Run JavaScript button action reference.
+title: Run JavaScript File Button Action
+description: Run JavaScript File button action reference.
 ---
 
-The run JavaScript action runs a JavaScript file.
+The run JavaScript file action runs a JavaScript file.
 
 :::note
 This requires the [JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin) plugin to be installed and enabled.
@@ -13,6 +13,7 @@ This requires the [JS Engine](https://github.com/mProjectsCode/obsidian-js-engin
 interface JSButtonAction {
 	type: 'js';
 	file: string; // the path to the JavaScript file to run, relative to the vault root
+  args?: Record<string, unknown>; // optional arguments to pass to the script
 }
 ```
 
@@ -21,7 +22,7 @@ interface JSButtonAction {
 ````custom_markdown {5-6}
 ```meta-bind-button
 style: primary
-label: Run JavaScript
+label: Run JavaScript File
 action:
   type: js
   file: someScript.js

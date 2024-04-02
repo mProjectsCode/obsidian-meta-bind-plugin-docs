@@ -1,0 +1,28 @@
+---
+title: Image
+description: Image view field reference.
+---
+
+import ViewFieldInfo from '../../../../components/viewField/ViewFieldInfo.astro';
+import ViewFieldAllowedArguments from '../../../../components/viewField/ViewFieldAllowedArguments.astro';
+import { ViewFieldType } from '../../../../config/static.js';
+
+<ViewFieldInfo type={ViewFieldType.IMAGE}></ViewFieldInfo>
+
+An _image_ view field only accepts a single bind target as it's content and will automatically display the image if the value is an image path.
+The following property types are supported:
+
+- a wiki-link to an image (e.g. `[[link/to/image]]`)
+- a markdown link to an image (e.g. `[link](link/to/image)`)
+- a bare path to an image (e.g. `link/to/image`)
+- a list of the above (e.g. `[[link/to/image1]], [link](link/to/image2), link/to/image3`)
+
+### Allowed Arguments
+
+<ViewFieldAllowedArguments type={ViewFieldType.IMAGE}></ViewFieldAllowedArguments>
+
+### Examples
+
+```meta-bind
+VIEW[{property}][image]
+```
