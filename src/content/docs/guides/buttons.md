@@ -92,6 +92,7 @@ The YAML configuration of a button has must follow the following TypeScript inte
 ```ts
 interface ButtonConfig {
 	label: string; // The text displayed on the button
+	icon?: string; // An optional lucide icon to display on the button
 	style: 'default' | 'primary' | 'destructive' | 'plain'; // The style of the button
 	class?: string; // Optional CSS classes to add to the button. Multiple classes can be separated by spaces
 	tooltip?: string; // Optional tooltip to display when hovering over the button. If not set, the label is used
