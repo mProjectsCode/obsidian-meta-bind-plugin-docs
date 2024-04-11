@@ -11,9 +11,9 @@
 		"format": "prettier --plugin prettier-plugin-astro --write ."
 	},
 	"dependencies": {
-		"@astrojs/starlight": "^0.21.2",
-		"astro": "^4.5.9",
-		"starlight-links-validator": "^0.6.0"
+		"@astrojs/starlight": "^0.21.5",
+		"astro": "^4.6.0",
+		"starlight-links-validator": "^0.7.1"
 	},
 	"devDependencies": {
 		"prettier": "^3.2.5",

@@ -28,7 +28,7 @@ You can find an in depth guide on bind targets and what is possible [here](/obsi
 :::
 
 Input fields can and should be bound to metadata fields, so properties in your frontmatter.
-This is achieved by adding the bind target behind the input type, seperated by a colon.
+This is achieved by adding the bind target behind the input type, separated by a colon.
 
 In this example we will build a toggle that toggles the notes completion status by switching the `completed` front-mater field between `true` and `false`.
 

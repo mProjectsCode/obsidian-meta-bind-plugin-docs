@@ -152,6 +152,9 @@ export default {
 					include: '#fenced_code_block_meta_bind_button',
 				},
 				{
+					include: '#fenced_code_block_meta_bind_js_view',
+				},
+				{
 					include: '#fenced_code_block_css',
 				},
 				{
@@ -417,6 +420,39 @@ export default {
 					patterns: [
 						{
 							include: 'source.yaml',
+						},
+					],
+					while: '(^|\\G)(?!\\s*([`~]{3,})\\s*$)',
+				},
+			],
+		},
+		fenced_code_block_meta_bind_js_view: {
+			begin: '(^|\\G)(\\s*)(`{3,}|~{3,})\\s*(?i:(meta-bind-js-view)((\\s+|:|,|\\{|\\?)[^`]*)?$)',
+			beginCaptures: {
+				3: {
+					name: 'punctuation.definition.markdown',
+				},
+				4: {
+					name: 'fenced_code.block.language.markdown',
+				},
+				5: {
+					name: 'fenced_code.block.language.attributes.markdown',
+				},
+			},
+			end: '(^|\\G)(\\2|\\s{0,3})(\\3)\\s*$',
+			endCaptures: {
+				3: {
+					name: 'punctuation.definition.markdown',
+				},
+			},
+			name: 'markup.fenced_code.block.markdown',
+			patterns: [
+				{
+					begin: '(^|\\G)(\\s*)(.*)',
+					contentName: 'meta.embedded.block.javascript',
+					patterns: [
+						{
+							include: 'source.js',
 						},
 					],
 					while: '(^|\\G)(?!\\s*([`~]{3,})\\s*$)',

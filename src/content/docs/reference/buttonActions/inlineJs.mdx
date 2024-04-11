@@ -1,0 +1,31 @@
+---
+title: Inline JS Button Action
+description: Inline JS button action reference.
+---
+
+The inline JS action runs the code provided using the JS Engine plugin.
+
+:::note
+This requires the [JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin) plugin to be installed and enabled.
+:::
+
+```ts
+interface InlineJsButtonAction {
+	type: 'inlineJS';
+	code: string; // the code to run
+}
+```
+
+### Example
+
+This button will log `Hello World!` to the console.
+
+````custom_markdown {5-6}
+```meta-bind-button
+style: primary
+label: Greet the World
+action:
+  type: inlineJS
+  code: "console.log('Hello World!');"
+```
+````

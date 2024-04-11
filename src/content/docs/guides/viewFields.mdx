@@ -135,19 +135,29 @@ Computed Value: `VIEW[{NoteA#someComputedValue}]`
 If you have both notes open the view field in `NoteB` will update as expected, when you change the input value using the input field.
 But if you close `NoteA` (so that only `NoteB` is open), then the view field will no longer update, since the view field that does the computation is in `NoteA` and that note is no longer loaded.
 
-## Creating JS View Fields
+## JS View Fields
 
-The plugin also offers the ability to create view fields with JavaScript from inside your notes.
-You can activate this feature in the plugins settings.
-By default, js view fields are disabled, as they can pose a security risk.
+You can create View Fields powered by JavaScript as well.
+Those can only be created as code blocks and **not inline**.
+By default, JS View Fields are disabled, as they can pose a security risk.
 
-You need JS Engine installed and enabled for JS View Fields to work.
+:::note
+This requires the [JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin) plugin to be installed and enabled.
+:::
 
-Js view fields consist of two sections.
-First the bind target section and then the JS section.
-When rendered, the JS view field displays the value returned in the JS section just as JS Engine would.
+JS View Fields consist of two sections, separated by `---`.
+The first section contains [Bind Targets](/obsidian-meta-bind-plugin-docs/guides/bindtargets) and other configuration.
+The second section contains the JavaScript code.
+
+When rendered, the JS view field displays the value returned in the JavaScript section just as [JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin) would.
 This means you can to things like rendering markdown.
+
+The same variables and APIs that are [available in JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin#api-docs) code blocks are also available in JS view fields.
+The bound variables are available in the `context.bound` object.
+
 The JS View Field will automatically update when one of the bound variables of the bind target sections changes.
+
+### Examples
 
 ````custom_markdown
 ```meta-bind-js-view
@@ -158,5 +168,27 @@ return `${context.bound.var1 * context.bound.var2} km`;
 ```
 ````
 
-The same variables and APIs that are [available in JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin#api-docs) code blocks are also available in JS view fields.
-The bound variables are available in the `context.bound` object.
+The following example will save it's value to another [Bind Targets](/obsidian-meta-bind-plugin-docs/guides/bindtargets).
+
+````custom_markdown {4}
+```meta-bind-js-view
+{bind_target} as var1
+{other_note#bind_target} as var2
+save to {other_bind_target}
+---
+return `${context.bound.var1 * context.bound.var2} km`;
+```
+````
+
+The following JS View Field will aditionally be hidden.
+
+````custom_markdown {5}
+```meta-bind-js-view
+{bind_target} as var1
+{other_note#bind_target} as var2
+save to {other_bind_target}
+hidden
+---
+return `${context.bound.var1 * context.bound.var2} km`;
+```
+````
