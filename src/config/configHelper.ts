@@ -1,5 +1,5 @@
-import { type FieldArgumentValueConfig, type InputFieldArgumentConfig, InputFieldArgumentType, type ViewFieldArgumentConfig } from './static.ts';
-import { InputFieldArgumentConfigs, InputFieldType, ViewFieldArgumentConfigs, ViewFieldArgumentType, ViewFieldType } from './static.ts';
+import { type FieldArgumentValueConfig, type InputFieldArgumentConfig, InputFieldArgumentType, type ViewFieldArgumentConfig } from './static';
+import { InputFieldArgumentConfigs, InputFieldType, ViewFieldArgumentConfigs, ViewFieldArgumentType, ViewFieldType } from './static';
 
 class InputFieldArgumentConfigHelper {
 	getAllowedInputFieldTypes(type: InputFieldArgumentType): InputFieldType[] {

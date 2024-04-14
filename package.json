@@ -1,22 +1,26 @@
 {
-	"name": "",
-	"type": "module",
-	"version": "0.0.1",
-	"scripts": {
-		"dev": "astro dev",
-		"start": "astro dev",
-		"build": "astro build",
-		"preview": "astro preview",
-		"astro": "astro",
-		"format": "prettier --plugin prettier-plugin-astro --write ."
-	},
-	"dependencies": {
-		"@astrojs/starlight": "^0.21.5",
-		"astro": "^4.6.0",
-		"starlight-links-validator": "^0.7.1"
-	},
-	"devDependencies": {
-		"prettier": "^3.2.5",
-		"prettier-plugin-astro": "^0.13.0"
-	}
+  "name": "",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "format": "prettier --plugin prettier-plugin-astro --write ."
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.21.5",
+    "astro": "^4.6.0",
+    "starlight-links-validator": "^0.7.1",
+    "starlight-typedoc": "^0.10.1",
+      "typedoc": "^0.25.13",
+      "typedoc-plugin-markdown": "4.0.0-next.55",
+      "typedoc-plugin-mdn-links": "^3.1.20"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0"
+  }
 }

@@ -1,0 +1,3 @@
+[submodule "obsidian-meta-bind-plugin"]
+	path = obsidian-meta-bind-plugin
+	url = https://github.com/mProjectsCode/obsidian-meta-bind-plugin

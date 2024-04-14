@@ -4,6 +4,7 @@ import MetaBind from './metaBindLanguage.js';
 import CustomMD from './customMD.js';
 import starlightLinksValidator from 'starlight-links-validator';
 import { bundledLanguages } from 'shiki';
+import starlightTypeDoc, { typeDocSidebarGroup } from 'starlight-typedoc';
 
 // https://astro.build/config
 export default defineConfig({
@@ -45,6 +46,7 @@ export default defineConfig({
 						{ label: 'Button Actions', autogenerate: { directory: 'reference/buttonActions' } },
 					],
 				},
+				typeDocSidebarGroup,
 			],
 			tableOfContents: {
 				minHeadingLevel: 2,
@@ -61,7 +63,30 @@ export default defineConfig({
 					langs: [...Object.entries(bundledLanguages).map(([_, langFn]) => langFn), MetaBind, CustomMD],
 				},
 			},
-			plugins: [starlightLinksValidator()],
+			plugins: [
+				starlightLinksValidator(),
+				starlightTypeDoc({
+					entryPoints: [
+						'obsidian-meta-bind-plugin/packages/obsidian/src/docsExports.ts',
+					],
+					typeDoc: {
+						parametersFormat: 'table',
+						propertiesFormat: 'list',
+						enumMembersFormat: 'table',
+						typeDeclarationFormat: 'table',
+						excludePrivate: true,
+						excludeProtected: true,
+						excludeInternal: true,
+
+						plugin: ['typedoc-plugin-mdn-links'],
+					},
+					tsconfig: 'obsidian-meta-bind-plugin/packages/obsidian/tsconfig.json',
+					sidebar: {
+						label: 'API Reference',
+						collapsed: true,
+					},
+				}),
+			],
 		}),
 	],
 });
