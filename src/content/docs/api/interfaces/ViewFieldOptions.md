@@ -19,7 +19,7 @@ title: "ViewFieldOptions"
 
 ### renderChildType
 
-> **renderChildType**: [`RenderChildType`](../enumerations/RenderChildType.md)
+> **renderChildType**: [`RenderChildType`](/obsidian-meta-bind-plugin-docs/api/enumerations/renderchildtype/)
 
 #### Source
 

@@ -9,7 +9,7 @@ title: "FieldOptionMap"
 
 ### BUTTON
 
-> **BUTTON**: [`ButtonOptions`](ButtonOptions.md)
+> **BUTTON**: [`ButtonOptions`](/obsidian-meta-bind-plugin-docs/api/interfaces/buttonoptions/)
 
 #### Source
 
@@ -19,7 +19,7 @@ title: "FieldOptionMap"
 
 ### BUTTON\_GROUP
 
-> **BUTTON\_GROUP**: [`ButtonGroupOptions`](ButtonGroupOptions.md)
+> **BUTTON\_GROUP**: [`ButtonGroupOptions`](/obsidian-meta-bind-plugin-docs/api/interfaces/buttongroupoptions/)
 
 #### Source
 
@@ -29,7 +29,7 @@ title: "FieldOptionMap"
 
 ### EMBED
 
-> **EMBED**: [`EmbedOptions`](EmbedOptions.md)
+> **EMBED**: [`EmbedOptions`](/obsidian-meta-bind-plugin-docs/api/interfaces/embedoptions/)
 
 #### Source
 
@@ -49,7 +49,7 @@ title: "FieldOptionMap"
 
 ### INPUT
 
-> **INPUT**: [`APIConfigs`](APIConfigs.md)
+> **INPUT**: [`APIConfigs`](/obsidian-meta-bind-plugin-docs/api/interfaces/apiconfigs/)
 
 #### Source
 
@@ -59,7 +59,7 @@ title: "FieldOptionMap"
 
 ### JS\_VIEW
 
-> **JS\_VIEW**: [`JsViewFieldOptions`](JsViewFieldOptions.md)
+> **JS\_VIEW**: [`JsViewFieldOptions`](/obsidian-meta-bind-plugin-docs/api/interfaces/jsviewfieldoptions/)
 
 #### Source
 
@@ -69,7 +69,7 @@ title: "FieldOptionMap"
 
 ### TABLE
 
-> **TABLE**: [`TableOptions`](TableOptions.md)
+> **TABLE**: [`TableOptions`](/obsidian-meta-bind-plugin-docs/api/interfaces/tableoptions/)
 
 #### Source
 
@@ -79,7 +79,7 @@ title: "FieldOptionMap"
 
 ### VIEW
 
-> **VIEW**: [`ViewFieldOptions`](ViewFieldOptions.md)
+> **VIEW**: [`ViewFieldOptions`](/obsidian-meta-bind-plugin-docs/api/interfaces/viewfieldoptions/)
 
 #### Source
 

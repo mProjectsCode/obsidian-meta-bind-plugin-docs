@@ -9,17 +9,17 @@ title: "NotePosition"
 
 ### new NotePosition(linePosition)
 
-> **new NotePosition**(`linePosition`): [`NotePosition`](NotePosition.md)
+> **new NotePosition**(`linePosition`): [`NotePosition`](/obsidian-meta-bind-plugin-docs/api/classes/noteposition/)
 
 #### Parameters
 
 | Parameter | Type |
 | :------ | :------ |
-| `linePosition` | `undefined` \| [`LinePosition`](../interfaces/LinePosition.md) |
+| `linePosition` | `undefined` \| [`LinePosition`](/obsidian-meta-bind-plugin-docs/api/interfaces/lineposition/) |
 
 #### Returns
 
-[`NotePosition`](NotePosition.md)
+[`NotePosition`](/obsidian-meta-bind-plugin-docs/api/classes/noteposition/)
 
 #### Source
 
@@ -29,7 +29,7 @@ title: "NotePosition"
 
 ### linePosition
 
-> **linePosition**: `undefined` \| [`LinePosition`](../interfaces/LinePosition.md)
+> **linePosition**: `undefined` \| [`LinePosition`](/obsidian-meta-bind-plugin-docs/api/interfaces/lineposition/)
 
 #### Source
 
@@ -39,11 +39,11 @@ title: "NotePosition"
 
 ### getPosition()
 
-> **getPosition**(): `undefined` \| [`LinePosition`](../interfaces/LinePosition.md)
+> **getPosition**(): `undefined` \| [`LinePosition`](/obsidian-meta-bind-plugin-docs/api/interfaces/lineposition/)
 
 #### Returns
 
-`undefined` \| [`LinePosition`](../interfaces/LinePosition.md)
+`undefined` \| [`LinePosition`](/obsidian-meta-bind-plugin-docs/api/interfaces/lineposition/)
 
 #### Source
 

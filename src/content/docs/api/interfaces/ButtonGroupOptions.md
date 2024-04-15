@@ -19,7 +19,7 @@ title: "ButtonGroupOptions"
 
 ### position?
 
-> **`optional`** **position**: [`NotePosition`](../classes/NotePosition.md)
+> **`optional`** **position**: [`NotePosition`](/obsidian-meta-bind-plugin-docs/api/classes/noteposition/)
 
 #### Source
 
@@ -29,7 +29,7 @@ title: "ButtonGroupOptions"
 
 ### renderChildType
 
-> **renderChildType**: [`RenderChildType`](../enumerations/RenderChildType.md)
+> **renderChildType**: [`RenderChildType`](/obsidian-meta-bind-plugin-docs/api/enumerations/renderchildtype/)
 
 #### Source
 

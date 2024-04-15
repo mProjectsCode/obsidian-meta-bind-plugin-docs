@@ -15,7 +15,7 @@ Meta Bind API for Obsidian.
 
 ### new ObsidianAPI(plugin)
 
-> **new ObsidianAPI**(`plugin`): [`ObsidianAPI`](ObsidianAPI.md)
+> **new ObsidianAPI**(`plugin`): [`ObsidianAPI`](/obsidian-meta-bind-plugin-docs/api/classes/obsidianapi/)
 
 #### Parameters
 
@@ -25,7 +25,7 @@ Meta Bind API for Obsidian.
 
 #### Returns
 
-[`ObsidianAPI`](ObsidianAPI.md)
+[`ObsidianAPI`](/obsidian-meta-bind-plugin-docs/api/classes/obsidianapi/)
 
 #### Overrides
 
@@ -201,7 +201,7 @@ Creates a MDRC widget from a given widget type.
 
 | Parameter | Type | Description |
 | :------ | :------ | :------ |
-| `mdrcType` | [`FieldType`](../enumerations/FieldType.md) |  |
+| `mdrcType` | [`FieldType`](/obsidian-meta-bind-plugin-docs/api/enumerations/fieldtype/) |  |
 | `content` | `string` |  |
 | `filePath` | `string` |  |
 | `component` | `Component` |  |
@@ -254,7 +254,7 @@ Creates a bind target declaration.
 | Parameter | Type |
 | :------ | :------ |
 | `filePath` | `string` |
-| `options` | [`ButtonGroupOptions`](../interfaces/ButtonGroupOptions.md) |
+| `options` | [`ButtonGroupOptions`](/obsidian-meta-bind-plugin-docs/api/interfaces/buttongroupoptions/) |
 
 #### Returns
 
@@ -279,7 +279,7 @@ Creates a bind target declaration.
 | Parameter | Type |
 | :------ | :------ |
 | `filePath` | `string` |
-| `options` | [`ButtonOptions`](../interfaces/ButtonOptions.md) |
+| `options` | [`ButtonOptions`](/obsidian-meta-bind-plugin-docs/api/interfaces/buttonoptions/) |
 
 #### Returns
 
@@ -304,7 +304,7 @@ Creates a bind target declaration.
 | Parameter | Type |
 | :------ | :------ |
 | `filePath` | `string` |
-| `options` | [`EmbedOptions`](../interfaces/EmbedOptions.md) |
+| `options` | [`EmbedOptions`](/obsidian-meta-bind-plugin-docs/api/interfaces/embedoptions/) |
 
 #### Returns
 
@@ -354,7 +354,7 @@ Creates a field of a given type.
 
 | Type parameter |
 | :------ |
-| `Type` extends [`FieldType`](../enumerations/FieldType.md) |
+| `Type` extends [`FieldType`](/obsidian-meta-bind-plugin-docs/api/enumerations/fieldtype/) |
 
 #### Parameters
 
@@ -362,7 +362,7 @@ Creates a field of a given type.
 | :------ | :------ | :------ | :------ |
 | `type` | `Type` | `undefined` |  |
 | `filePath` | `string` | `undefined` |  |
-| `options` | [`FieldOptionMap`](../interfaces/FieldOptionMap.md)\[`Type`\] | `undefined` |  |
+| `options` | [`FieldOptionMap`](/obsidian-meta-bind-plugin-docs/api/interfaces/fieldoptionmap/)\[`Type`\] | `undefined` |  |
 | `honorExcludedSetting` | `boolean` | `true` |  |
 
 #### Returns
@@ -393,8 +393,8 @@ Will throw an error if the string is not a valid declaration.
 | `fieldString` | `string` | `undefined` |  |
 | `filePath` | `string` | `undefined` |  |
 | `scope` | `undefined` \| `BindTargetScope` | `undefined` |  |
-| `renderChildType` | [`RenderChildType`](../enumerations/RenderChildType.md) | `RenderChildType.INLINE` |  |
-| `position`? | [`NotePosition`](NotePosition.md) | `undefined` |  |
+| `renderChildType` | [`RenderChildType`](/obsidian-meta-bind-plugin-docs/api/enumerations/renderchildtype/) | `RenderChildType.INLINE` |  |
+| `position`? | [`NotePosition`](/obsidian-meta-bind-plugin-docs/api/classes/noteposition/) | `undefined` |  |
 | `honorExcludedSetting`? | `boolean` | `true` |  |
 
 #### Returns
@@ -422,12 +422,12 @@ Will throw an error if the string is not a valid inline field type.
 
 | Parameter | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
-| `type` | [`InlineFieldType`](../type-aliases/InlineFieldType.md) | `undefined` |  |
+| `type` | [`InlineFieldType`](/obsidian-meta-bind-plugin-docs/api/type-aliases/inlinefieldtype/) | `undefined` |  |
 | `declaration` | `string` | `undefined` |  |
 | `filePath` | `string` | `undefined` |  |
 | `scope` | `undefined` \| `BindTargetScope` | `undefined` |  |
-| `renderChildType` | [`RenderChildType`](../enumerations/RenderChildType.md) | `RenderChildType.INLINE` |  |
-| `position`? | [`NotePosition`](NotePosition.md) | `undefined` |  |
+| `renderChildType` | [`RenderChildType`](/obsidian-meta-bind-plugin-docs/api/enumerations/renderchildtype/) | `RenderChildType.INLINE` |  |
+| `position`? | [`NotePosition`](/obsidian-meta-bind-plugin-docs/api/classes/noteposition/) | `undefined` |  |
 | `honorExcludedSetting`? | `boolean` | `true` |  |
 
 #### Returns
@@ -453,7 +453,7 @@ Will throw an error if the string is not a valid inline field type.
 | Parameter | Type |
 | :------ | :------ |
 | `filePath` | `string` |
-| `options` | [`APIConfigs`](../interfaces/APIConfigs.md) |
+| `options` | [`APIConfigs`](/obsidian-meta-bind-plugin-docs/api/interfaces/apiconfigs/) |
 
 #### Returns
 
@@ -478,7 +478,7 @@ Will throw an error if the string is not a valid inline field type.
 | Parameter | Type |
 | :------ | :------ |
 | `filePath` | `string` |
-| `options` | [`JsViewFieldOptions`](../interfaces/JsViewFieldOptions.md) |
+| `options` | [`JsViewFieldOptions`](/obsidian-meta-bind-plugin-docs/api/interfaces/jsviewfieldoptions/) |
 
 #### Returns
 
@@ -496,7 +496,7 @@ Will throw an error if the string is not a valid inline field type.
 
 ### createNotePosition()
 
-> **createNotePosition**(`lineStart`, `lineEnd`): [`NotePosition`](NotePosition.md)
+> **createNotePosition**(`lineStart`, `lineEnd`): [`NotePosition`](/obsidian-meta-bind-plugin-docs/api/classes/noteposition/)
 
 #### Parameters
 
@@ -507,7 +507,7 @@ Will throw an error if the string is not a valid inline field type.
 
 #### Returns
 
-[`NotePosition`](NotePosition.md)
+[`NotePosition`](/obsidian-meta-bind-plugin-docs/api/classes/noteposition/)
 
 #### Inherited from
 
@@ -558,7 +558,7 @@ Will throw an error if the string is not a valid inline field type.
 | Parameter | Type |
 | :------ | :------ |
 | `filePath` | `string` |
-| `options` | [`TableOptions`](../interfaces/TableOptions.md) |
+| `options` | [`TableOptions`](/obsidian-meta-bind-plugin-docs/api/interfaces/tableoptions/) |
 
 #### Returns
 
@@ -583,7 +583,7 @@ Will throw an error if the string is not a valid inline field type.
 | Parameter | Type |
 | :------ | :------ |
 | `filePath` | `string` |
-| `options` | [`ViewFieldOptions`](../interfaces/ViewFieldOptions.md) |
+| `options` | [`ViewFieldOptions`](/obsidian-meta-bind-plugin-docs/api/interfaces/viewfieldoptions/) |
 
 #### Returns
 
@@ -609,7 +609,7 @@ Gets the prefix of a given widget type. (e.g. INPUT or VIEW)
 
 | Parameter | Type | Description |
 | :------ | :------ | :------ |
-| `fieldType` | [`FieldType`](../enumerations/FieldType.md) |  |
+| `fieldType` | [`FieldType`](/obsidian-meta-bind-plugin-docs/api/enumerations/fieldtype/) |  |
 
 #### Returns
 
@@ -662,7 +662,7 @@ Checks if a string is a declaration of a given widget type.
 
 | Parameter | Type | Description |
 | :------ | :------ | :------ |
-| `fieldType` | [`FieldType`](../enumerations/FieldType.md) |  |
+| `fieldType` | [`FieldType`](/obsidian-meta-bind-plugin-docs/api/enumerations/fieldtype/) |  |
 | `str` | `string` |  |
 
 #### Returns
@@ -681,7 +681,7 @@ Checks if a string is a declaration of a given widget type.
 
 ### isInlineFieldDeclarationAndGetType()
 
-> **isInlineFieldDeclarationAndGetType**(`str`): `undefined` \| [`InlineFieldType`](../type-aliases/InlineFieldType.md)
+> **isInlineFieldDeclarationAndGetType**(`str`): `undefined` \| [`InlineFieldType`](/obsidian-meta-bind-plugin-docs/api/type-aliases/inlinefieldtype/)
 
 Checks if a string is any declaration and if yes returns the widget type.
 This does not use [isInlineFieldDeclaration](../../../../../obsidian-meta-bind-plugin-docs/api/classes/obsidianapi/#isinlinefielddeclaration) because of performance reasons.
@@ -694,7 +694,7 @@ This does not use [isInlineFieldDeclaration](../../../../../obsidian-meta-bind-p
 
 #### Returns
 
-`undefined` \| [`InlineFieldType`](../type-aliases/InlineFieldType.md)
+`undefined` \| [`InlineFieldType`](/obsidian-meta-bind-plugin-docs/api/type-aliases/inlinefieldtype/)
 
 #### Inherited from
 
@@ -854,7 +854,7 @@ Updates a property in meta binds metadata cache.
 | :------ | :------ |
 | `field` | `Mountable` |
 | `containerEl` | [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement) |
-| `component` | [`ComponentLike`](../interfaces/ComponentLike.md) |
+| `component` | [`ComponentLike`](/obsidian-meta-bind-plugin-docs/api/interfaces/componentlike/) |
 
 #### Returns
 

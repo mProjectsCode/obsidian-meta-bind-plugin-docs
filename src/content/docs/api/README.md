@@ -7,27 +7,27 @@ title: "meta-bind-obsidian"
 
 ## Enumerations
 
-- [FieldType](enumerations/FieldType.md)
-- [RenderChildType](enumerations/RenderChildType.md)
+- [FieldType](/obsidian-meta-bind-plugin-docs/api/enumerations/fieldtype/)
+- [RenderChildType](/obsidian-meta-bind-plugin-docs/api/enumerations/renderchildtype/)
 
 ## Classes
 
-- [NotePosition](classes/NotePosition.md)
-- [ObsidianAPI](classes/ObsidianAPI.md)
+- [NotePosition](/obsidian-meta-bind-plugin-docs/api/classes/noteposition/)
+- [ObsidianAPI](/obsidian-meta-bind-plugin-docs/api/classes/obsidianapi/)
 
 ## Interfaces
 
-- [APIConfigs](interfaces/APIConfigs.md)
-- [ButtonGroupOptions](interfaces/ButtonGroupOptions.md)
-- [ButtonOptions](interfaces/ButtonOptions.md)
-- [ComponentLike](interfaces/ComponentLike.md)
-- [EmbedOptions](interfaces/EmbedOptions.md)
-- [FieldOptionMap](interfaces/FieldOptionMap.md)
-- [JsViewFieldOptions](interfaces/JsViewFieldOptions.md)
-- [LinePosition](interfaces/LinePosition.md)
-- [TableOptions](interfaces/TableOptions.md)
-- [ViewFieldOptions](interfaces/ViewFieldOptions.md)
+- [APIConfigs](/obsidian-meta-bind-plugin-docs/api/interfaces/apiconfigs/)
+- [ButtonGroupOptions](/obsidian-meta-bind-plugin-docs/api/interfaces/buttongroupoptions/)
+- [ButtonOptions](/obsidian-meta-bind-plugin-docs/api/interfaces/buttonoptions/)
+- [ComponentLike](/obsidian-meta-bind-plugin-docs/api/interfaces/componentlike/)
+- [EmbedOptions](/obsidian-meta-bind-plugin-docs/api/interfaces/embedoptions/)
+- [FieldOptionMap](/obsidian-meta-bind-plugin-docs/api/interfaces/fieldoptionmap/)
+- [JsViewFieldOptions](/obsidian-meta-bind-plugin-docs/api/interfaces/jsviewfieldoptions/)
+- [LinePosition](/obsidian-meta-bind-plugin-docs/api/interfaces/lineposition/)
+- [TableOptions](/obsidian-meta-bind-plugin-docs/api/interfaces/tableoptions/)
+- [ViewFieldOptions](/obsidian-meta-bind-plugin-docs/api/interfaces/viewfieldoptions/)
 
 ## Type Aliases
 
-- [InlineFieldType](type-aliases/InlineFieldType.md)
+- [InlineFieldType](/obsidian-meta-bind-plugin-docs/api/type-aliases/inlinefieldtype/)

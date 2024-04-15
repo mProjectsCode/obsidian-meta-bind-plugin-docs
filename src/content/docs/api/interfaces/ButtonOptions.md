@@ -29,7 +29,7 @@ title: "ButtonOptions"
 
 ### position?
 
-> **`optional`** **position**: [`NotePosition`](../classes/NotePosition.md)
+> **`optional`** **position**: [`NotePosition`](/obsidian-meta-bind-plugin-docs/api/classes/noteposition/)
 
 #### Source
 
