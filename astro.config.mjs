@@ -64,7 +64,9 @@ export default defineConfig({
 				},
 			},
 			plugins: [
-				starlightLinksValidator(),
+				starlightLinksValidator({
+					errorOnRelativeLinks: false,
+				}),
 				starlightTypeDoc({
 					entryPoints: [
 						'obsidian-meta-bind-plugin/packages/obsidian/src/docsExports.ts',
