@@ -24,7 +24,7 @@ jobs:
       - name: install deps in submodule
         run: |
           cd obsidian-meta-bind-plugin
-          bun install --production
+          bun install --frozen-lockfile
           bun run pack:i
           cd ..
       - name: Install, build, and upload your site
