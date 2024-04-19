@@ -6,6 +6,10 @@ description: A tutorial for buttons, a spiritual successor the the buttons plugi
 Button are well... Buttons, inside your notes.
 They can be configured to do a variety of things, like opening a file, running a command, or even running a JavaScript file.
 
+:::note
+A list of button actions, their required properties, and examples can be found in the sidebar under `Reference -> Button Actions`.
+:::
+
 ## Creating a button
 
 :::tip

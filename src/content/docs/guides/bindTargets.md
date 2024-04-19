@@ -7,6 +7,12 @@ Bind Targets are a core concept of Meta Bind.
 They are a text based way to point the plugin at a specific frontmatter property.
 This tutorial will teach you how to use them.
 
+:::caution[Limitations]
+Bind targets are **static**, meaning that they can not be changed after they have been created.
+
+This means that you can **not** have a property that controls where a bind target points to, without using JavaScript. See [Advanced Examples](/obsidian-meta-bind-plugin-docs/guides/advancedusecases/).
+:::
+
 ## Syntax
 
 Bind Targets consist of three parts.
@@ -123,8 +129,3 @@ INPUT[toggle:this.is.nested]
 ```meta-bind 'this["is"].nested'
 INPUT[toggle:this["is"].nested]
 ```
-
-## Limitations
-
-Bind targets are static, meaning that they can not be changed after they have been created.
-This means that you can not have a property that controls where a bind target points to.

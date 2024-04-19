@@ -5,10 +5,10 @@ description: Where can examples be found?
 
 There are two places where you can look for examples.
 
-## FAQ
+## Playground
 
-The first place to look for examples is the FAQ page that is build into the plugin.
-It can be opened from the plugins settings, or with the `Open Meta Bind FAQ` command.
+The first place to look for examples is the playground that is build into the plugin.
+It can be opened from the plugins settings, or with the `Open Meta Bind Playground` command.
 There you will find an interactive list of all input and view fields to play around with.
 
 ## Example Vault
