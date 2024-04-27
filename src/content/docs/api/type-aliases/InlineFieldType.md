@@ -9,4 +9,4 @@ title: "InlineFieldType"
 
 ## Source
 
-[packages/core/src/config/APIConfigs.ts:95](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/045545feac3698bacd2c17d33d02a947eafdab85/packages/core/src/config/APIConfigs.ts#L95)
+[packages/core/src/config/APIConfigs.ts:95](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f9023ae676220bedb04ba32015467653a5c722bf/packages/core/src/config/APIConfigs.ts#L95)

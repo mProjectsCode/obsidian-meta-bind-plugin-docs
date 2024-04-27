@@ -23,7 +23,7 @@ title: "NotePosition"
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:65](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/045545feac3698bacd2c17d33d02a947eafdab85/packages/core/src/config/APIConfigs.ts#L65)
+[packages/core/src/config/APIConfigs.ts:65](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f9023ae676220bedb04ba32015467653a5c722bf/packages/core/src/config/APIConfigs.ts#L65)
 
 ## Properties
 
@@ -33,7 +33,7 @@ title: "NotePosition"
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:63](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/045545feac3698bacd2c17d33d02a947eafdab85/packages/core/src/config/APIConfigs.ts#L63)
+[packages/core/src/config/APIConfigs.ts:63](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f9023ae676220bedb04ba32015467653a5c722bf/packages/core/src/config/APIConfigs.ts#L63)
 
 ## Methods
 
@@ -47,4 +47,4 @@ title: "NotePosition"
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:69](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/045545feac3698bacd2c17d33d02a947eafdab85/packages/core/src/config/APIConfigs.ts#L69)
+[packages/core/src/config/APIConfigs.ts:69](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f9023ae676220bedb04ba32015467653a5c722bf/packages/core/src/config/APIConfigs.ts#L69)

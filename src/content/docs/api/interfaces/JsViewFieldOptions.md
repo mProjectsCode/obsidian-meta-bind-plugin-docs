@@ -13,4 +13,4 @@ title: "JsViewFieldOptions"
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:41](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/045545feac3698bacd2c17d33d02a947eafdab85/packages/core/src/config/APIConfigs.ts#L41)
+[packages/core/src/config/APIConfigs.ts:41](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f9023ae676220bedb04ba32015467653a5c722bf/packages/core/src/config/APIConfigs.ts#L41)

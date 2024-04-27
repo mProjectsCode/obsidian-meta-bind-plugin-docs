@@ -5,7 +5,7 @@ prev: false
 title: "ComponentLike"
 ---
 
-Either MarkdownPostProcessorContext or Component.
+Either a [Component](https://docs.obsidian.md/Reference/TypeScript+API/Component) or a [MarkdownPostProcessorContext](https://docs.obsidian.md/Reference/TypeScript+API/MarkdownPostProcessorContext).
 
 ## Methods
 
@@ -25,4 +25,4 @@ Either MarkdownPostProcessorContext or Component.
 
 #### Source
 
-[packages/obsidian/src/ObsidianAPI.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/045545feac3698bacd2c17d33d02a947eafdab85/packages/obsidian/src/ObsidianAPI.ts#L22)
+[packages/obsidian/src/ObsidianAPI.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f9023ae676220bedb04ba32015467653a5c722bf/packages/obsidian/src/ObsidianAPI.ts#L22)

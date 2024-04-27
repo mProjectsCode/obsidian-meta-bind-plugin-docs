@@ -13,7 +13,7 @@ title: "ButtonOptions"
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:57](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/045545feac3698bacd2c17d33d02a947eafdab85/packages/core/src/config/APIConfigs.ts#L57)
+[packages/core/src/config/APIConfigs.ts:57](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f9023ae676220bedb04ba32015467653a5c722bf/packages/core/src/config/APIConfigs.ts#L57)
 
 ***
 
@@ -23,7 +23,7 @@ title: "ButtonOptions"
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:59](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/045545feac3698bacd2c17d33d02a947eafdab85/packages/core/src/config/APIConfigs.ts#L59)
+[packages/core/src/config/APIConfigs.ts:59](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f9023ae676220bedb04ba32015467653a5c722bf/packages/core/src/config/APIConfigs.ts#L59)
 
 ***
 
@@ -33,4 +33,4 @@ title: "ButtonOptions"
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:58](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/045545feac3698bacd2c17d33d02a947eafdab85/packages/core/src/config/APIConfigs.ts#L58)
+[packages/core/src/config/APIConfigs.ts:58](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f9023ae676220bedb04ba32015467653a5c722bf/packages/core/src/config/APIConfigs.ts#L58)
