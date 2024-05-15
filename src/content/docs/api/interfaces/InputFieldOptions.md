@@ -13,7 +13,7 @@ title: "InputFieldOptions"
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f9023ae676220bedb04ba32015467653a5c722bf/packages/core/src/config/APIConfigs.ts#L30)
+[packages/core/src/config/APIConfigs.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/44a7e027a84722d307997fb2e516e63a228818fe/packages/core/src/config/APIConfigs.ts#L30)
 
 ***
 
@@ -23,14 +23,14 @@ title: "InputFieldOptions"
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:29](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f9023ae676220bedb04ba32015467653a5c722bf/packages/core/src/config/APIConfigs.ts#L29)
+[packages/core/src/config/APIConfigs.ts:29](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/44a7e027a84722d307997fb2e516e63a228818fe/packages/core/src/config/APIConfigs.ts#L29)
 
 ***
 
 ### scope?
 
-> **`optional`** **scope**: `BindTargetScope`
+> `optional` **scope**: `BindTargetScope`
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f9023ae676220bedb04ba32015467653a5c722bf/packages/core/src/config/APIConfigs.ts#L31)
+[packages/core/src/config/APIConfigs.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/44a7e027a84722d307997fb2e516e63a228818fe/packages/core/src/config/APIConfigs.ts#L31)

@@ -4,3 +4,6 @@ package-lock.json
 dist
 .idea
 .vscode
+
+/obsidian-meta-bind-plugin
+/src/content/docs/api

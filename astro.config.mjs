@@ -68,9 +68,7 @@ export default defineConfig({
 					errorOnRelativeLinks: false,
 				}),
 				starlightTypeDoc({
-					entryPoints: [
-						'obsidian-meta-bind-plugin/packages/obsidian/src/docsExports.ts',
-					],
+					entryPoints: ['obsidian-meta-bind-plugin/packages/obsidian/src/docsExports.ts'],
 					typeDoc: {
 						parametersFormat: 'table',
 						propertiesFormat: 'list',
