@@ -13,9 +13,12 @@ This requires the [JS Engine](https://github.com/mProjectsCode/obsidian-js-engin
 interface JSButtonAction {
 	type: 'js';
 	file: string; // the path to the JavaScript file to run, relative to the vault root
-	args?: Record<string, unknown>; // optional arguments to pass to the script
+	args?: Record<string, unknown>; // optional arguments to pass to the script (available in the script as `context.args`)
 }
 ```
+
+The button configuration is available as a **read only** variable in the script as `context.buttonConfig`.
+The args is passed to the script as `context.args`.
 
 ### Example
 
