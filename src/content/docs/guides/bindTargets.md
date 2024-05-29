@@ -76,7 +76,7 @@ Global Memory is shared between all notes and **will be lost** when you restart 
 ### 2. The Storage Path
 
 The storage path usually points to a file.
-If it is omitted, the current file is used.
+If omitted, it defaults to the current file.
 
 #### Example
 
