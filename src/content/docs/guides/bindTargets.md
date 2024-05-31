@@ -21,7 +21,7 @@ Bind Targets consist of three parts.
 storageType^storagePath#property
 ```
 
-Certain parts can be omitted, causing them to default to their default values.
+The `storageType` and `storagePath` can be omitted, causing them to default to their default values.
 
 The following bind target will always use the default storage type `frontmatter`,
 meaning it points to a frontmatter property.
@@ -30,13 +30,16 @@ meaning it points to a frontmatter property.
 storagePath#property
 ```
 
-The following bind targets will always use the current file as the storage path.
+The following bind targets will always use the containing file as the storage path.
+Containing file means the file the bind target or field, that the bind target is part of, is in.
 
 ```meta-bind
 property
 
 storageType^property
 ```
+
+### Default Values Example
 
 This means that the following bind targets are **equivalent**, assuming the current file is `Test Note`.
 
@@ -76,7 +79,8 @@ Global Memory is shared between all notes and **will be lost** when you restart 
 ### 2. The Storage Path
 
 The storage path usually points to a file.
-If omitted, it defaults to the current file.
+If omitted, it defaults to the containing file.
+Containing file means the file the bind target or field, that the bind target is part of, is in.
 
 #### Example
 

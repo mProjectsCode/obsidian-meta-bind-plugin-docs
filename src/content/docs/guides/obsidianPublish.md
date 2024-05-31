@@ -5,10 +5,10 @@ description: A tutorial for setting up Meta Bind to work in publish.
 
 :::danger
 
-The publish version of Meta Bind is quite a burden for me to maintain, so it has been falling behind the main version.
-The current publish version probably **won't work**.
+I am currently waiting for the Obsidian Team to deliver on promised improvements to the Obsidian Publish API.
+Until then, Meta Binds publish support will be broken.
 
-Use at your own risk until I can find the time to fix it.
+Use at your own risk. I do not accept issues and feature requests for publish specific issues at this point in time.
 
 :::
 
@@ -16,11 +16,3 @@ This guide assumes that you already have Obsidian Publish set up with a custom d
 
 To get meta bind working in Obsidian Publish, you need to copy the contents of [this file](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/master/PublishLoad.js) into your `publish.js` file.
 For the correct appearance, you need to copy [this file](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/master/styles.css) into your `publish.css` file.
-
-## What it can do and what it can't
-
-For input fields, due to the limited publish API, the plugin will only display the bound metadata instead of showing input field.
-
-View fields should be mostly functional.
-
-Binding to metadata of a different note is not possible for both fields.
