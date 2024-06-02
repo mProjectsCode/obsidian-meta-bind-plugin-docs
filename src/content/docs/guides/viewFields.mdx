@@ -8,8 +8,8 @@ import ViewFieldLink from '../../../components/viewField/ViewFieldLink.astro';
 import ViewFieldArgumentLink from '../../../components/viewField/ViewFieldArgumentLink.astro';
 
 View Fields are a powerful way to reactively display your metadata in your notes.
-They can bind to multiple frontmatter fields and update as soon as you change them, much like dataview inline queries, but with Obsidian Publish support.
-View fields can even save their computed value back to the frontmatter.
+They can bind to multiple frontmatter fields and the view field update as soon as the value of the frontmatter fields change, much like dataview inline queries, but with instant updates.
+View fields can even do computations and save their computed value back to the frontmatter.
 
 ## Creating View Fields
 
@@ -183,7 +183,7 @@ return `${context.bound.var1 * context.bound.var2} km`;
 ```
 ````
 
-The following JS View Field will aditionally be hidden.
+The following JS View Field will additionally be hidden.
 
 ````custom_markdown {5}
 ```meta-bind-js-view

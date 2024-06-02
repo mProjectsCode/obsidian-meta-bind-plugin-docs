@@ -1,0 +1,136 @@
+---
+
+export const COLORS = {
+	rainbow: [
+		'hsl(0deg 0% 18%)',
+		'hsl(30deg 60% 30%)',
+		'hsl(0deg 90% 55%)',
+		'hsl(30deg 95% 65%)',
+		'hsl(55deg 90% 65%)',
+		'hsl(100deg 65% 45%)',
+		'hsl(220deg 80% 55%)',
+		'hsl(265deg 80% 50%)',
+	],
+	'rainbow-original': [
+		'hsl(0deg 90% 55%)',
+		'hsl(30deg 95% 65%)',
+		'hsl(55deg 90% 65%)',
+		'hsl(100deg 65% 45%)',
+		'hsl(220deg 80% 55%)',
+		'hsl(265deg 80% 50%)',
+	],
+	trans: [
+		'hsl(200deg 85% 70%)',
+		'hsl(350deg 85% 85%)',
+		'hsl(0deg 0% 100%)',
+		'hsl(350deg 85% 85%)',
+		'hsl(200deg 85% 70%)',
+	],
+	pan: [
+		'hsl(331deg 100% 55%)',
+		'hsl(50deg 100% 50%)',
+		'hsl(200deg 100% 55%)',
+	]
+};
+
+const variant = 'rainbow-original'; // rainbow | rainbow-original | trans | pan
+const width = 200;
+const numOfColumns = 20;
+const staggeredDelay = 50;
+const billow = 10;
+
+const colors = COLORS[variant];
+const friendlyWidth =
+	Math.round(width / numOfColumns) * numOfColumns;
+
+const firstColumnDelay = numOfColumns * staggeredDelay * -1;
+
+function generateGradientString(colors) {
+	const numOfColors = colors.length;
+	const segmentHeight = 100 / numOfColors;
+
+	const gradientStops = colors.map((color, index) => {
+		const from = index * segmentHeight;
+		const to = (index + 1) * segmentHeight;
+
+		return `${color} ${from}% ${to}%`;
+	});
+
+	return `linear-gradient(to bottom, ${gradientStops.join(', ')})`;
+}
+
+function range(n) {
+	return Array.from({ length: n }, (_, i) => i);
+}
+
+---
+
+<div style="position: relative" onclick="window.open('https://en.wikipedia.org/wiki/Pride_Month', '_blank')">
+    <div class="flag" style={{ width: friendlyWidth }}>
+		{range(numOfColumns).map((columnIndex) => (
+                <div
+                        class="column"
+                        style={{
+							'--billow': columnIndex / numOfColumns * billow + 'px',
+							background: generateGradientString(colors),
+							animationDelay:
+								firstColumnDelay + columnIndex * staggeredDelay + 'ms',
+						}}
+                />
+		))}
+    </div>
+	<span class="flag-text">
+		Pride Month
+	</span>
+</div>
+
+
+<style>
+    @keyframes oscillate {
+        from {
+            transform: translateY(var(--billow));
+        }
+        to {
+            transform: translateY(calc(var(--billow) * -1));
+        }
+    }
+
+    .flag {
+        display: flex;
+        aspect-ratio: 12 / 2;
+        animation-duration: 600ms;
+		cursor: pointer;
+    }
+
+	.flag-text {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 2rem;
+		font-weight: bold;
+		text-shadow: 0 0 10px black, 0 0 20px black;
+        color: white !important;
+		user-select: none;
+		cursor: pointer;
+		text-wrap: nowrap;
+	}
+
+    .column {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        animation: oscillate 500ms alternate infinite ease-in-out both;
+		margin: 0 !important;
+    }
+
+    .column:first-child {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+
+    .column:last-child {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+</style>

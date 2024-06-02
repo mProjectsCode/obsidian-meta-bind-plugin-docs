@@ -4,7 +4,7 @@ description: A tutorial for Meta Bind Input Fields.
 ---
 
 Input fields allow you to create input fields for your notes metadata and interact with them in live preview and reading mode.
-A bit like properties, but not just at the top of your note.
+A bit like Obsidians properties UI, but not just at the top of your note.
 
 ### Creating Input Fields
 
