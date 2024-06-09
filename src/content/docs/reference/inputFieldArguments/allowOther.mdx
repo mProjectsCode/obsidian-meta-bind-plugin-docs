@@ -1,0 +1,34 @@
+---
+title: Allow Other Argument
+description: Allow Other argument reference.
+---
+
+import InputFieldArgumentInfo from '../../../../components/inputField/InputFieldArgumentInfo.astro';
+import InputFieldArgumentAllowedInputFields from '../../../../components/inputField/InputFieldArgumentAllowedInputFields.astro';
+import InputFieldArgumentValuesInfo from '../../../../components/inputField/InputFieldArgumentValuesInfo.astro';
+import InputFieldArgumentLink from '../../../../components/inputField/InputFieldArgumentLink.astro';
+import InputFieldLink from '../../../../components/inputField/InputFieldLink.astro';
+import { InputFieldArgumentType, InputFieldType } from '../../../../config/static.js';
+
+<InputFieldArgumentInfo type={InputFieldArgumentType.ALLOW_OTHER}></InputFieldArgumentInfo>
+
+The `allowOther` argument lets you set a custom value, which is not specified with the <InputFieldArgumentLink type={InputFieldArgumentType.OPTION}></InputFieldArgumentLink> argument, for suggester like input fields.
+
+### Values
+
+<InputFieldArgumentValuesInfo type={InputFieldArgumentType.ALLOW_OTHER}></InputFieldArgumentValuesInfo>
+
+### Allowed Input Fields
+
+<InputFieldArgumentAllowedInputFields type={InputFieldArgumentType.ALLOW_OTHER}></InputFieldArgumentAllowedInputFields>
+
+### Examples
+
+```meta-bind
+INPUT[suggester(
+	option(option 1),
+	option(option 2),
+	option(option 3),
+	allowOther
+):bind_target]
+```
