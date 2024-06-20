@@ -13,7 +13,7 @@ title: "FieldOptionMap"
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:90](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/5952743cb03c16c1a586df9c5fea8ee1061e6cec/packages/core/src/config/APIConfigs.ts#L90)
+[packages/core/src/config/APIConfigs.ts:90](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/core/src/config/APIConfigs.ts#L90)
 
 ***
 
@@ -23,7 +23,7 @@ title: "FieldOptionMap"
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:89](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/5952743cb03c16c1a586df9c5fea8ee1061e6cec/packages/core/src/config/APIConfigs.ts#L89)
+[packages/core/src/config/APIConfigs.ts:89](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/core/src/config/APIConfigs.ts#L89)
 
 ***
 
@@ -33,7 +33,7 @@ title: "FieldOptionMap"
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:91](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/5952743cb03c16c1a586df9c5fea8ee1061e6cec/packages/core/src/config/APIConfigs.ts#L91)
+[packages/core/src/config/APIConfigs.ts:91](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/core/src/config/APIConfigs.ts#L91)
 
 ***
 
@@ -43,7 +43,7 @@ title: "FieldOptionMap"
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:92](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/5952743cb03c16c1a586df9c5fea8ee1061e6cec/packages/core/src/config/APIConfigs.ts#L92)
+[packages/core/src/config/APIConfigs.ts:92](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/core/src/config/APIConfigs.ts#L92)
 
 ***
 
@@ -53,7 +53,7 @@ title: "FieldOptionMap"
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:85](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/5952743cb03c16c1a586df9c5fea8ee1061e6cec/packages/core/src/config/APIConfigs.ts#L85)
+[packages/core/src/config/APIConfigs.ts:85](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/core/src/config/APIConfigs.ts#L85)
 
 ***
 
@@ -63,7 +63,7 @@ title: "FieldOptionMap"
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:87](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/5952743cb03c16c1a586df9c5fea8ee1061e6cec/packages/core/src/config/APIConfigs.ts#L87)
+[packages/core/src/config/APIConfigs.ts:87](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/core/src/config/APIConfigs.ts#L87)
 
 ***
 
@@ -73,7 +73,7 @@ title: "FieldOptionMap"
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:88](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/5952743cb03c16c1a586df9c5fea8ee1061e6cec/packages/core/src/config/APIConfigs.ts#L88)
+[packages/core/src/config/APIConfigs.ts:88](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/core/src/config/APIConfigs.ts#L88)
 
 ***
 
@@ -83,4 +83,4 @@ title: "FieldOptionMap"
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:86](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/5952743cb03c16c1a586df9c5fea8ee1061e6cec/packages/core/src/config/APIConfigs.ts#L86)
+[packages/core/src/config/APIConfigs.ts:86](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/core/src/config/APIConfigs.ts#L86)

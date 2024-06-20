@@ -13,7 +13,7 @@ title: "ButtonGroupOptions"
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:52](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/5952743cb03c16c1a586df9c5fea8ee1061e6cec/packages/core/src/config/APIConfigs.ts#L52)
+[packages/core/src/config/APIConfigs.ts:52](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/core/src/config/APIConfigs.ts#L52)
 
 ***
 
@@ -23,7 +23,7 @@ title: "ButtonGroupOptions"
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:53](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/5952743cb03c16c1a586df9c5fea8ee1061e6cec/packages/core/src/config/APIConfigs.ts#L53)
+[packages/core/src/config/APIConfigs.ts:53](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/core/src/config/APIConfigs.ts#L53)
 
 ***
 
@@ -33,4 +33,4 @@ title: "ButtonGroupOptions"
 
 #### Source
 
-[packages/core/src/config/APIConfigs.ts:51](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/5952743cb03c16c1a586df9c5fea8ee1061e6cec/packages/core/src/config/APIConfigs.ts#L51)
+[packages/core/src/config/APIConfigs.ts:51](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/core/src/config/APIConfigs.ts#L51)
