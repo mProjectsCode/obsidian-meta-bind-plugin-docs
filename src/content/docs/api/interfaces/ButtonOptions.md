@@ -11,9 +11,9 @@ title: "ButtonOptions"
 
 > **declaration**: `string` \| `ButtonConfig`
 
-#### Source
+#### Defined in
 
-[packages/core/src/config/APIConfigs.ts:57](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/core/src/config/APIConfigs.ts#L57)
+[packages/core/src/config/APIConfigs.ts:57](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6d84d4e1af13951a4f9f713d142b213b046a5a9e/packages/core/src/config/APIConfigs.ts#L57)
 
 ***
 
@@ -21,9 +21,9 @@ title: "ButtonOptions"
 
 > **isPreview**: `boolean`
 
-#### Source
+#### Defined in
 
-[packages/core/src/config/APIConfigs.ts:59](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/core/src/config/APIConfigs.ts#L59)
+[packages/core/src/config/APIConfigs.ts:59](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6d84d4e1af13951a4f9f713d142b213b046a5a9e/packages/core/src/config/APIConfigs.ts#L59)
 
 ***
 
@@ -31,6 +31,6 @@ title: "ButtonOptions"
 
 > `optional` **position**: [`NotePosition`](/obsidian-meta-bind-plugin-docs/api/classes/noteposition/)
 
-#### Source
+#### Defined in
 
-[packages/core/src/config/APIConfigs.ts:58](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/core/src/config/APIConfigs.ts#L58)
+[packages/core/src/config/APIConfigs.ts:58](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6d84d4e1af13951a4f9f713d142b213b046a5a9e/packages/core/src/config/APIConfigs.ts#L58)

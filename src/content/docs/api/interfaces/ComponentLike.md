@@ -15,14 +15,29 @@ Either a [Component](https://docs.obsidian.md/Reference/TypeScript+API/Component
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `child` | `Component` |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>
+
+`child`
+
+</td>
+<td>
+
+`Component`
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
 `void`
 
-#### Source
+#### Defined in
 
-[packages/obsidian/src/ObsidianAPI.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/obsidian/src/ObsidianAPI.ts#L22)
+[packages/obsidian/src/ObsidianAPI.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6d84d4e1af13951a4f9f713d142b213b046a5a9e/packages/obsidian/src/ObsidianAPI.ts#L22)

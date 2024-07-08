@@ -1,5 +1,5 @@
 ---
-title: RegExp Replace In Note Button Action
+title: RegExp Replace In Note
 description: RegExp Replace In Note button action reference.
 ---
 
@@ -9,6 +9,7 @@ This button action allows you to do a search and replace on the entire note wher
 interface RegexpReplaceInNoteButtonAction {
 	type: 'replaceInNote';
 	regexp: string; // the regular expression to search for
+	regexpFlags?: string; // the regexp flags for the regular expression, defaults to `g` if omitted
 	replacement: string; // the replacement text
 }
 ```
@@ -25,7 +26,8 @@ style: primary
 label: RexExp Replace In Note
 action:
   type: "regexpReplaceInNote"
-  regexp: "(TODO: .*)\\n"
+  regexp: "^(TODO: .*)$"
+  regexpFlags: "gm"
   replacement: "$1 - Done"
 ```
 ````

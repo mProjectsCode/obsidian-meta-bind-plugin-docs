@@ -29,7 +29,7 @@ export default defineConfig({
 						{ label: 'Input Fields', link: '/guides/inputfields/' },
 						{ label: 'Input Field Templates', link: '/guides/templates/' },
 						{ label: 'View Fields', link: '/guides/viewfields/' },
-						{ label: 'Buttons', link: '/guides/buttons/', badge: 'New' },
+						{ label: 'Buttons', link: '/guides/buttons/' },
 						{ label: 'Meta Bind Embeds', link: '/guides/metabindembed/' },
 						{ label: 'Bind Targets', link: '/guides/bindtargets/' },
 
@@ -70,13 +70,14 @@ export default defineConfig({
 			plugins: [
 				starlightLinksValidator({
 					errorOnRelativeLinks: false,
+					exclude: ['/obsidian-meta-bind-plugin-docs/api/**/*'],
 				}),
 				starlightTypeDoc({
 					entryPoints: ['obsidian-meta-bind-plugin/packages/obsidian/src/docsExports.ts'],
 					typeDoc: {
-						parametersFormat: 'table',
+						parametersFormat: 'htmlTable',
 						propertiesFormat: 'list',
-						enumMembersFormat: 'table',
+						enumMembersFormat: 'htmlTable',
 						typeDeclarationFormat: 'table',
 						excludePrivate: true,
 						excludeProtected: true,

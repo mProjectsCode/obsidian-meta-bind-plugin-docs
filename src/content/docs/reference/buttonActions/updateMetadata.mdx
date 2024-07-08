@@ -1,5 +1,5 @@
 ---
-title: Update Metadata Button Action
+title: Update Metadata
 description: Update Metadata button action reference.
 ---
 
@@ -18,12 +18,16 @@ interface UpdateMetadataButtonAction {
 If `evaluate` is set to `true`, the value is treated as a JavaScript expression and evaluated.
 The current value of the property is available in the expression as `x`.
 
+Other properties can be reference using `getMetadata(bindTarget)` where `bindTarget` is a [Bind Target](/obsidian-meta-bind-plugin-docs/guides/bindtargets) string.
+
 :::note
+
 The evaluate feature requires that you have the following:
 
 1. [JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin) installed and enabled.
 2. Enabled **JavaScript** in the Meta Bind settings.
-   :::
+
+:::
 
 #### Example
 
@@ -67,4 +71,42 @@ actions:
 ```
 
 `BUTTON[count-decrement, count-reset, count-increment]` `VIEW[{count}]`
+````
+
+This is a simple health tracker for e.g. a TTRPG.
+
+````custom_markdown
+---
+health: 35
+max_health: 50
+damage: 5
+---
+
+```meta-bind-button
+label: "Deal"
+style: destructive
+hidden: true
+id: "deal-damage"
+actions:
+  - type: updateMetadata
+    bindTarget: health
+    evaluate: true
+    value: x - getMetadata('damage')
+```
+
+```meta-bind-button
+label: "Reset"
+style: primary
+hidden: true
+id: "reset-health"
+actions:
+  - type: updateMetadata
+    bindTarget: health
+    evaluate: true
+    value: getMetadata('max_health')
+```
+
+Health: `VIEW[{health}][text]` `BUTTON[reset-health]`
+
+Damage: `INPUT[number:damage]` `BUTTON[deal-damage]`
 ````

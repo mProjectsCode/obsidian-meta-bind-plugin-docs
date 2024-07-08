@@ -11,9 +11,9 @@ title: "ViewFieldOptions"
 
 > **declaration**: `string` \| `SimpleViewFieldDeclaration`
 
-#### Source
+#### Defined in
 
-[packages/core/src/config/APIConfigs.ts:36](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/core/src/config/APIConfigs.ts#L36)
+[packages/core/src/config/APIConfigs.ts:36](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6d84d4e1af13951a4f9f713d142b213b046a5a9e/packages/core/src/config/APIConfigs.ts#L36)
 
 ***
 
@@ -21,9 +21,9 @@ title: "ViewFieldOptions"
 
 > **renderChildType**: [`RenderChildType`](/obsidian-meta-bind-plugin-docs/api/enumerations/renderchildtype/)
 
-#### Source
+#### Defined in
 
-[packages/core/src/config/APIConfigs.ts:35](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/core/src/config/APIConfigs.ts#L35)
+[packages/core/src/config/APIConfigs.ts:35](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6d84d4e1af13951a4f9f713d142b213b046a5a9e/packages/core/src/config/APIConfigs.ts#L35)
 
 ***
 
@@ -31,6 +31,6 @@ title: "ViewFieldOptions"
 
 > `optional` **scope**: `BindTargetScope`
 
-#### Source
+#### Defined in
 
-[packages/core/src/config/APIConfigs.ts:37](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/core/src/config/APIConfigs.ts#L37)
+[packages/core/src/config/APIConfigs.ts:37](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6d84d4e1af13951a4f9f713d142b213b046a5a9e/packages/core/src/config/APIConfigs.ts#L37)

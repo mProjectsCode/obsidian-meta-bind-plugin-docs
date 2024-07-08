@@ -13,17 +13,32 @@ title: "NotePosition"
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `linePosition` | `undefined` \| [`LinePosition`](/obsidian-meta-bind-plugin-docs/api/interfaces/lineposition/) |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>
+
+`linePosition`
+
+</td>
+<td>
+
+`undefined` \| [`LinePosition`](/obsidian-meta-bind-plugin-docs/api/interfaces/lineposition/)
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
 [`NotePosition`](/obsidian-meta-bind-plugin-docs/api/classes/noteposition/)
 
-#### Source
+#### Defined in
 
-[packages/core/src/config/APIConfigs.ts:65](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/core/src/config/APIConfigs.ts#L65)
+[packages/core/src/config/APIConfigs.ts:65](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6d84d4e1af13951a4f9f713d142b213b046a5a9e/packages/core/src/config/APIConfigs.ts#L65)
 
 ## Properties
 
@@ -31,9 +46,9 @@ title: "NotePosition"
 
 > **linePosition**: `undefined` \| [`LinePosition`](/obsidian-meta-bind-plugin-docs/api/interfaces/lineposition/)
 
-#### Source
+#### Defined in
 
-[packages/core/src/config/APIConfigs.ts:63](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/core/src/config/APIConfigs.ts#L63)
+[packages/core/src/config/APIConfigs.ts:63](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6d84d4e1af13951a4f9f713d142b213b046a5a9e/packages/core/src/config/APIConfigs.ts#L63)
 
 ## Methods
 
@@ -45,6 +60,6 @@ title: "NotePosition"
 
 `undefined` \| [`LinePosition`](/obsidian-meta-bind-plugin-docs/api/interfaces/lineposition/)
 
-#### Source
+#### Defined in
 
-[packages/core/src/config/APIConfigs.ts:69](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/8e08e1ccdd48957df7fc9ebdd7577cd62133b8ff/packages/core/src/config/APIConfigs.ts#L69)
+[packages/core/src/config/APIConfigs.ts:69](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6d84d4e1af13951a4f9f713d142b213b046a5a9e/packages/core/src/config/APIConfigs.ts#L69)
