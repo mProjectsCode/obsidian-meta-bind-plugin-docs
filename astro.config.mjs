@@ -36,7 +36,7 @@ export default defineConfig({
 						{ label: 'Examples', link: '/guides/examples/' },
 						{ label: 'Advanced Use-Cases', link: '/guides/advancedusecases/' },
 
-						{ label: 'Syntax Highlighting', link: '/guides/syntaxhighlighting/' },
+						{ label: 'Styling and CSS', link: '/guides/stylingandcss/' },
 						{ label: 'Obsidian Publish', link: '/guides/obsidianpublish/' },
 					],
 				},

@@ -1,3 +1,13 @@
 li > ul {
 	margin-top: 0 !important;
 }
+
+/* headerless table fix */
+tbody:first-child tr:first-child td {
+	border-top: 1px solid var(--sl-color-gray-5);
+}
+
+table.full-width {
+	display: table;
+	width: 100%;
+}

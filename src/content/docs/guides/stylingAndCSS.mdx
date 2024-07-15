@@ -1,0 +1,29 @@
+---
+title: Styling and CSS
+description: How to style Meta Bind with CSS.
+---
+
+import InputFieldArgumentLink from '../../../components/inputField/InputFieldArgumentLink.astro';
+import { InputFieldArgumentType } from '../../../config/static.js';
+
+To style various Meta Bind elements you need to write custom [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS).
+The easiest way to load custom CSS into Obsidian is with a [CSS snippet](https://help.obsidian.md/Extending+Obsidian/CSS+snippets).
+
+### Example
+
+Let's say we want to color specific progress bars red. For this we can utilize the <InputFieldArgumentLink type={InputFieldArgumentType.CLASS}></InputFieldArgumentLink> argument.
+
+First we create our progress bar with the class argument. In this case we name our special class `red-progress-bar`.
+
+```meta-bind
+INPUT[progressBar(class(red-progress-bar)):someProperty]
+```
+
+Then we create our [CSS snippet](https://help.obsidian.md/Extending+Obsidian/CSS+snippets) with a selector for a progress bar with the class `red-progress-bar`.
+Then we target the progress bar progress element and set the background color to red.
+
+```css title="snippet.css" ".red-progress-bar"
+.mb-input-type-progressBar.red-progress-bar .mb-progress-bar-progress {
+	background: var(--color-red);
+}
+```
