@@ -58,8 +58,8 @@ The default is `frontmatter` and will be used if you don't specify a storage typ
 | Storage Type            | Description                                                                    |
 | ----------------------- | ------------------------------------------------------------------------------ |
 | `frontmatter` (default) | The storage path points to a file and the property to a frontmatter field.     |
-| `memory`                | The storage path points to a file and the property to an in memory field.      |
-| `globalMemory`          | The storage path is not allowed and the property points to an in memory field. |
+| `memory`                | The storage path points to a file and the property to an in-memory field.      |
+| `globalMemory`          | The storage path is not allowed and the property points to an in-memory field. |
 | `scope`                 | The storage path is not allowed and the property extends another bind target.  |
 
 #### `frontmatter`

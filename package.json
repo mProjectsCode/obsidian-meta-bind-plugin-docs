@@ -11,17 +11,17 @@
 		"format": "prettier --plugin prettier-plugin-astro --plugin prettier-plugin-svelte --write ."
 	},
 	"dependencies": {
-		"@astrojs/starlight": "0.25.1",
-		"astro": "4.11.5",
+		"@astrojs/starlight": "0.25.3",
+		"astro": "4.13.1",
 		"starlight-links-validator": "^0.9.1",
-		"starlight-typedoc": "^0.13.0",
-		"typedoc": "^0.26.4",
-		"typedoc-plugin-markdown": "^4.2.1",
-		"typedoc-plugin-mdn-links": "^3.2.4"
+		"starlight-typedoc": "^0.14.0",
+		"typedoc": "^0.26.5",
+		"typedoc-plugin-markdown": "^4.2.3",
+		"typedoc-plugin-mdn-links": "^3.2.7"
 	},
 	"devDependencies": {
 		"prettier": "^3.3.3",
-		"prettier-plugin-astro": "^0.14.0",
-		"prettier-plugin-svelte": "^3.2.5"
+		"prettier-plugin-astro": "^0.14.1",
+		"prettier-plugin-svelte": "^3.2.6"
 	}
 }
