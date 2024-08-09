@@ -88,7 +88,7 @@ export default defineConfig({
 					tsconfig: 'obsidian-meta-bind-plugin/packages/obsidian/tsconfig.json',
 					sidebar: {
 						label: 'API Reference',
-						collapsed: true,
+						collapsed: false,
 					},
 				}),
 			],
