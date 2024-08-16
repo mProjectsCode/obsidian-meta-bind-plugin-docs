@@ -35,6 +35,7 @@ export default defineConfig({
 
 						{ label: 'Examples', link: '/guides/examples/' },
 						{ label: 'Advanced Use-Cases', link: '/guides/advancedusecases/' },
+						{ label: 'API', link: '/guides/api/' },
 
 						{ label: 'Styling and CSS', link: '/guides/stylingandcss/' },
 						{ label: 'Obsidian Publish', link: '/guides/obsidianpublish/' },
@@ -66,6 +67,7 @@ export default defineConfig({
 				shiki: {
 					langs: [...Object.entries(bundledLanguages).map(([_, langFn]) => langFn), MetaBind, CustomMD],
 				},
+				tabWidth: 4,
 			},
 			plugins: [
 				starlightLinksValidator({

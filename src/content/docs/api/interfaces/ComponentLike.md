@@ -16,10 +16,13 @@ Either a [Component](https://docs.obsidian.md/Reference/TypeScript+API/Component
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -32,6 +35,7 @@ Either a [Component](https://docs.obsidian.md/Reference/TypeScript+API/Component
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -40,4 +44,4 @@ Either a [Component](https://docs.obsidian.md/Reference/TypeScript+API/Component
 
 #### Defined in
 
-[packages/obsidian/src/ObsidianAPI.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6d84d4e1af13951a4f9f713d142b213b046a5a9e/packages/obsidian/src/ObsidianAPI.ts#L22)
+[packages/obsidian/src/ObsidianAPI.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/obsidian/src/ObsidianAPI.ts#L24)

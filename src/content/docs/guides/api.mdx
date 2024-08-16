@@ -1,0 +1,247 @@
+---
+title: Meta Bind API
+description: A guide on how to use the Meta Bind JavaScript API.
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+Meta Bind offers a JavaScript API that allows you to interact with the Meta Bind internals via JavaScript.
+
+Documentation for the API can be found [here](/obsidian-meta-bind-plugin-docs/api/classes/obsidianapi/).
+
+## Usage
+
+To use the API you need some way to execute JavaScript. This can be done with another plugin like [JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin) or [Dataview](https://blacksmithgu.github.io/obsidian-dataview/api/intro/).
+
+Before you can use the API, you need to get a reference to it. This can be done via first getting an instance to the loaded Meta Bind plugin and then getting the API from it.
+
+<Tabs>
+  <TabItem label="With JS Engine">
+```js
+// First we get an instance of the Meta Bind plugin, then we access the API.
+// If the plugin is not loaded, this will return `undefined`.
+const mb = engine.getPlugin('obsidian-meta-bind-plugin')?.api;
+
+// Optional: Handle the case where the plugin is not loaded.
+if (!mb) {
+// ...
+}
+
+// Now we can use the API!
+
+````
+  </TabItem>
+  <TabItem label="Plain JavaScript">
+```js
+// `app` refers to the Obsidian App object, depending on how you execute JavaScript you might need to get it from somewhere.
+// First we get an instance of the Meta Bind plugin, then we access the API.
+// If the plugin is not loaded, this will return `null`.
+const mb = app.plugins.getPlugin('obsidian-meta-bind-plugin')?.api;
+
+// Optional: Handle the case where the plugin is not loaded.
+if (!mb) {
+    // ...
+}
+
+// Now we can use the API!
+````
+
+  </TabItem>
+</Tabs>
+
+:::caution
+Do not destructure the API object like this. This will lead to errors, as the class method looses it's reference to itself via `this`.
+
+```js
+const { someAPIMethod } = app.plugins.getPlugin('obsidian-meta-bind-plugin')?.api;
+```
+
+This is a general issue with object destructuring and JavaScript classes.
+
+```js
+class Foo {
+	constructor() {
+		this.bar = 5;
+	}
+
+	baz() {
+		console.log(this.bar);
+	}
+}
+
+const foo = new Foo();
+foo.baz(); // will log 5
+
+const { baz } = foo;
+// `baz` became a standalone function and thus `this` is now `undefined`.
+baz(); // error: can't access property `bar`, `this` is `undefined`
+```
+
+:::
+
+## Lifecycle Management
+
+:::danger
+
+Not handling the lifecycle of mountable objects can lead to memory leaks and other bugs. Make sure to read this section carefully and remember always clean up after yourself.
+
+:::
+
+Lifecycle management is very important when working with the Meta Bind API. You need to make sure that you clean up after yourself to prevent memory leaks and other bugs.
+
+Most things that need lifecycle managment inherit from [`Mountable`](/obsidian-meta-bind-plugin-docs/api/classes/mountable), which has a `mount` and `unmount` method.
+If you call `mount` you nned to also call `unmount` at some point.
+
+The API also provides a helper function called `wrapInMDRC` that can be used to handle the lifecycle of a mountable object for you.
+
+```js
+// Create a mountable object.
+const mountable = ...;
+
+// Mount the mountable via the helper function.
+// `container` is the parent HTMLElement that the mountable should be mounted to.
+// `component` is an Obsidian `Component` object.
+mb.wrapInMDRC(mountable, container, component);
+```
+
+In the background this will create a [`MarkdownRenderChild`](https://docs.obsidian.md/Reference/TypeScript+API/MarkdownRenderChild)
+which mounts and unmounts the mountable on load and unload respectivly and then registers that as a child of the component.
+
+You can also handle the lifecycle yourself by mounting the mountable to the DOM and then registering a callback to unmount it when the component is destroyed.
+
+```js
+// Create a mountable object.
+const mountable = ...;
+
+// Mount the mountable to the DOM.
+mountable.mount(container);
+// Register a callback to unmount the mountable when the component is destroyed.
+component.register(() => mountable.unmount());
+```
+
+## Examples
+
+:::note
+The following examples use `js-engine` code blocks from the [JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin) plugin.
+To use the examples as they are, make sure you have the [JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin) plugin installed and enabled
+Though the API is usable without it, the examples might not work without it.
+
+The used globals that are exclusive to JS Engine are as follows.
+For more information on them refer to the [JS Engine documentation](https://www.moritzjung.dev/obsidian-js-engine-plugin-docs/api/interfaces/jsexecutionglobals/).
+
+- `engine` - Refers to the JS Engine API.
+- `context.file` - The `TFile` object for file containing the `js-engine` code block. This is only available in the context of a note.
+- `container` - The container for the rendered content. This is of type `HTMLElement`.
+- `component` - An Obsidian `Component` for lifecycle management.
+  :::
+
+### Buttons
+
+Creating a button via the API.
+
+```js
+// First we get an instance of the Meta Bind plugin, then we access the API.
+const mb = app.plugins.getPlugin('obsidian-meta-bind-plugin')?.api;
+
+// We create a button configuration object.
+const buttonConfig = {
+	label: 'Greet the World',
+	style: 'primary',
+	action: {
+		type: 'inlineJS',
+		code: "console.log('Hello World!');",
+	},
+};
+
+// We specify the button options.
+const buttonOptions = {
+	declaration: buttonConfig,
+	isPreview: false,
+};
+
+// We create the button. This will return something that inherits from `Mountable` and can be mounted to the DOM.
+const button = mb.createButtonMountable(context.file.path, buttonOptions);
+
+// Mount the button to the DOM and make sure it gets unmounted when the component is destroyed.
+mb.wrapInMDRC(button, container, component);
+```
+
+If you are daring you can skipt the intermediate objects.
+
+```js
+// First we get an instance of the Meta Bind plugin, then we access the API.
+const mb = app.plugins.getPlugin('obsidian-meta-bind-plugin')?.api;
+
+// We create the button. This will return something that inherits from `Mountable` and can be mounted to the DOM.
+const button = mb.createButtonMountable(context.file.path, {
+	// the button options
+	declaration: {
+		// the button config
+		label: 'Greet the World',
+		style: 'primary',
+		action: {
+			type: 'inlineJS',
+			code: "console.log('Hello World!');",
+		},
+	},
+	isPreview: false,
+});
+
+// Mount the button to the DOM and make sure it gets unmounted when the component is destroyed.
+mb.wrapInMDRC(button, container, component);
+```
+
+### Input Fields
+
+Creating an input field via the API.
+
+```js
+const mb = engine.getPlugin('obsidian-meta-bind-plugin').api;
+const primeNumberBound = 200;
+
+/*
+ * A function to calculate prime numbers up to a given bound.
+ */
+function calculatePrimeNumbers(bound) {
+	const primeNumbers = [2];
+
+	for (let i = 3; i <= bound; i++) {
+		let halfI = i / 2;
+		for (const p of primeNumbers) {
+			if (p > halfI) {
+				primeNumbers.push(i);
+				break;
+			}
+			if (i % p === 0) {
+				break;
+			}
+		}
+	}
+
+	return primeNumbers;
+}
+
+// Create the input field declaration with the bind target and arguments.
+const declaration = {
+	inputFieldType: 'suggester',
+	bindTarget: mb.createBindTarget('frontmatter', context.file.path, ['favoritePrime']),
+	arguments: calculatePrimeNumbers(primeNumberBound).map(x => {
+		return {
+			name: 'option',
+			value: [x.toString()],
+		};
+	}),
+};
+
+// Create the input field options.
+const options = {
+	declaration: declaration,
+	renderChildType: 'block',
+};
+
+// Create the input field.
+const inputField = mb.createInputFieldMountable(context.file.path, options);
+
+// Mount the input field to the DOM and make sure it gets unmounted when the component is destroyed.
+mb.wrapInMDRC(inputField, container, component);
+```

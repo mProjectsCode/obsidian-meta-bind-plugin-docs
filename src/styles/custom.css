@@ -68,3 +68,7 @@ aside.starlight-aside {
 	border: none;
 	border-radius: 0.5rem;
 }
+
+code {
+	border-radius: 0.25rem;
+}
