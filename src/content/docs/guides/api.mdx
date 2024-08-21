@@ -90,9 +90,9 @@ Not handling the lifecycle of mountable objects can lead to memory leaks and oth
 Lifecycle management is very important when working with the Meta Bind API. You need to make sure that you clean up after yourself to prevent memory leaks and other bugs.
 
 Most things that need lifecycle managment inherit from [`Mountable`](/obsidian-meta-bind-plugin-docs/api/classes/mountable), which has a `mount` and `unmount` method.
-If you call `mount` you nned to also call `unmount` at some point.
+If you call `mount`, you need to call `unmount` at some point.
 
-The API also provides a helper function called `wrapInMDRC` that can be used to handle the lifecycle of a mountable object for you.
+The API provides a helper function called `wrapInMDRC` that can be used to handle the lifecycle of a mountable object for you.
 
 ```js
 // Create a mountable object.
@@ -105,7 +105,7 @@ mb.wrapInMDRC(mountable, container, component);
 ```
 
 In the background this will create a [`MarkdownRenderChild`](https://docs.obsidian.md/Reference/TypeScript+API/MarkdownRenderChild)
-which mounts and unmounts the mountable on load and unload respectivly and then registers that as a child of the component.
+which mounts and unmounts the mountable on load and unload respectivly and then registers that [`MarkdownRenderChild`](https://docs.obsidian.md/Reference/TypeScript+API/MarkdownRenderChild) as a child of the component.
 
 You can also handle the lifecycle yourself by mounting the mountable to the DOM and then registering a callback to unmount it when the component is destroyed.
 
@@ -123,8 +123,8 @@ component.register(() => mountable.unmount());
 
 :::note
 The following examples use `js-engine` code blocks from the [JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin) plugin.
-To use the examples as they are, make sure you have the [JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin) plugin installed and enabled
-Though the API is usable without it, the examples might not work without it.
+To use the examples as they are, make sure you have the [JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin) plugin installed and enabled.
+Though the API is usable without it, the examples might not work without [JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin).
 
 The used globals that are exclusive to JS Engine are as follows.
 For more information on them refer to the [JS Engine documentation](https://www.moritzjung.dev/obsidian-js-engine-plugin-docs/api/interfaces/jsexecutionglobals/).
