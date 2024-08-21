@@ -14,10 +14,12 @@
 		"@astrojs/starlight": "0.26.1",
 		"astro": "4.14.2",
 		"starlight-links-validator": "^0.9.1",
+		"starlight-site-graph": "0.0.13",
 		"starlight-typedoc": "^0.14.0",
-		"typedoc": "^0.26.5",
+		"typedoc": "^0.26.6",
 		"typedoc-plugin-markdown": "^4.2.5",
-		"typedoc-plugin-mdn-links": "^3.2.8"
+		"typedoc-plugin-mdn-links": "^3.2.9",
+		"typescript": "^5.5.4"
 	},
 	"devDependencies": {
 		"prettier": "^3.3.3",

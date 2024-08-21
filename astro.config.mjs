@@ -3,6 +3,7 @@ import starlight from '@astrojs/starlight';
 import MetaBind from './metaBindLanguage.js';
 import CustomMD from './customMD.js';
 import starlightLinksValidator from 'starlight-links-validator';
+import starlightSiteGraph from 'starlight-site-graph';
 import { bundledLanguages } from 'shiki';
 import starlightTypeDoc, { typeDocSidebarGroup } from 'starlight-typedoc';
 
@@ -92,6 +93,18 @@ export default defineConfig({
 						label: 'API Reference',
 						collapsed: false,
 					},
+				}),
+				starlightSiteGraph({
+					graphConfig: {
+						depth: 5,
+						trackVisitedPages: false,
+					},
+					storageLocation: 'none',
+					contentRoot: './src/content/docs',
+					include_sitemap: ['./api/*/**/*.md'],
+					exclude_sitemap: ['**'],
+					show_graph: ['api/**'],
+					hide_graph: ['**', ''],
 				}),
 			],
 		}),
