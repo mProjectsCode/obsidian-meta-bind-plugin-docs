@@ -27,19 +27,29 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Installation', link: '/guides/installation/' },
-						{ label: 'Input Fields', link: '/guides/inputfields/' },
-						{ label: 'Input Field Templates', link: '/guides/templates/' },
-						{ label: 'View Fields', link: '/guides/viewfields/' },
-						{ label: 'Buttons', link: '/guides/buttons/' },
-						{ label: 'Meta Bind Embeds', link: '/guides/metabindembed/' },
-						{ label: 'Bind Targets', link: '/guides/bindtargets/' },
-
 						{ label: 'Examples', link: '/guides/examples/' },
-						{ label: 'Advanced Use-Cases', link: '/guides/advancedusecases/' },
-						{ label: 'API', link: '/guides/api/' },
-
 						{ label: 'Styling and CSS', link: '/guides/stylingandcss/' },
 						{ label: 'Obsidian Publish', link: '/guides/obsidianpublish/' },
+
+						{ 
+							label: 'Features and Concepts',
+							items: [
+								{ label: 'Input Fields', link: '/guides/inputfields/' },
+								{ label: 'Input Field Templates', link: '/guides/templates/' },
+								{ label: 'View Fields', link: '/guides/viewfields/' },
+								{ label: 'Buttons', link: '/guides/buttons/' },
+								{ label: 'Meta Bind Embeds', link: '/guides/metabindembed/' },
+								{ label: 'Bind Targets', link: '/guides/bindtargets/' },
+							]
+						},
+
+						{
+							label: 'Advanced',
+							items: [
+								{ label: 'API', link: '/guides/api/' },
+								{ label: 'Advanced Use-Cases', link: '/guides/advancedusecases/' },
+							]
+						}
 					],
 				},
 				{
@@ -95,6 +105,20 @@ export default defineConfig({
 					},
 				}),
 				starlightSiteGraph({
+					// graphConfig: {
+					// 	depth: 5,
+					// 	visibilityRules: [
+					// 		'api/**'
+					// 	]
+					// },
+					// trackVisitedPages: false,
+					// storageLocation: 'none',
+					// sitemapConfig: {
+					// 	contentRoot: './src/content/docs',
+					// 	pageInclusionRules: [
+					// 		'**/api/**',
+					// 	]
+					// },
 					graphConfig: {
 						depth: 5,
 						trackVisitedPages: false,

@@ -62,8 +62,8 @@ To add options to the dropdown select we will use the `option(name)` argument.
 
 ```meta-bind
 INPUT[inlineSelect(
-    option(trash),
     option(bad),
+    option(meh),
     option(ok),
     option(good),
     option(great)
@@ -76,8 +76,8 @@ If we want numeric values to represent the rating in our frontmatter, we can pas
 
 ```meta-bind
 INPUT[inlineSelect(
-    option(1, trash),
-    option(2, bad),
+    option(1, bad),
+    option(2, meh),
     option(3, ok),
     option(4, good),
     option(5, great)
@@ -88,7 +88,7 @@ We can also include commas in our value names by surrounding them with quotes.
 
 ```meta-bind
 INPUT[inlineSelect(
-    option(1, 'trash, do not watch'),
+    option(1, 'if you value your time, do not watch'),
     ...
 ):rating]
 ```
@@ -97,7 +97,7 @@ Such strings also support escaping using a backslash. To have a single backslash
 
 ```meta-bind
 INPUT[inlineSelect(
-    option(1, 'trash, don\'t watch'),
+    option(1, 'if you value your time, don\'t watch'),
     ...
 ):rating]
 ```

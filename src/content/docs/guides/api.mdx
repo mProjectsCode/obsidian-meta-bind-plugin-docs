@@ -29,7 +29,7 @@ if (!mb) {
 
 // Now we can use the API!
 
-````
+```
   </TabItem>
   <TabItem label="Plain JavaScript">
 ```js
@@ -44,19 +44,28 @@ if (!mb) {
 }
 
 // Now we can use the API!
-````
+```
 
   </TabItem>
 </Tabs>
 
 :::caution
-Do not destructure the API object like this. This will lead to errors, as the class method looses it's reference to itself via `this`.
+Do not try to use API methods as standalone functions. This will lead to errors, as the class method looses it's reference to itself via `this`.
 
 ```js
+// DON'T DO THIS
 const { someAPIMethod } = app.plugins.getPlugin('obsidian-meta-bind-plugin')?.api;
+someAPIMethod(); // will most likely error
+// OR
+const someAPIMethod = app.plugins.getPlugin('obsidian-meta-bind-plugin')?.api.someAPIMethod;
+someAPIMethod(); // will most likely error
+
+// DO THIS
+const mb = app.plugins.getPlugin('obsidian-meta-bind-plugin')?.api;
+mb.someAPIMethod(); // works
 ```
 
-This is a general issue with object destructuring and JavaScript classes.
+This is a general issue with JavaScript classes.
 
 ```js
 class Foo {
@@ -75,6 +84,10 @@ foo.baz(); // will log 5
 const { baz } = foo;
 // `baz` became a standalone function and thus `this` is now `undefined`.
 baz(); // error: can't access property `bar`, `this` is `undefined`
+
+const baz2 = foo.baz;
+// `baz2` became a standalone function and thus `this` is now `undefined`.
+baz2(); // error: can't access property `bar`, `this` is `undefined`
 ```
 
 :::

@@ -20,7 +20,12 @@ Canary build might contain new features that are **not yet ready** and therefore
 These feature previews may introduce **breaking changes without warning**.
 There is no changelog for canary builds.
 
-You can install canary builds via [BRAT](https://github.com/TfTHacker/obsidian42-brat).
-
 If you don't know if you are using a canary build, you can look at the version number in the Obsidian settings.
 Canary builds have a version number ending in `-canary` plus a timestamp, e.g. `0.9.0-canary.20231129T131457`.
+
+Canary builds can be installed using BRAT by following the steps outlined below.
+
+1. Install and enable the BRAT plugin
+2. Run the BRAT: Plugins: Add a beta plugin for testing command
+3. Enter https://github.com/mProjectsCode/obsidian-meta-bind-plugin into the text field
+4. Click on Add Plugin
