@@ -31,7 +31,7 @@ export default defineConfig({
 						{ label: 'Styling and CSS', link: '/guides/stylingandcss/' },
 						{ label: 'Obsidian Publish', link: '/guides/obsidianpublish/' },
 
-						{ 
+						{
 							label: 'Features and Concepts',
 							items: [
 								{ label: 'Input Fields', link: '/guides/inputfields/' },
@@ -40,7 +40,7 @@ export default defineConfig({
 								{ label: 'Buttons', link: '/guides/buttons/' },
 								{ label: 'Meta Bind Embeds', link: '/guides/metabindembed/' },
 								{ label: 'Bind Targets', link: '/guides/bindtargets/' },
-							]
+							],
 						},
 
 						{
@@ -48,8 +48,8 @@ export default defineConfig({
 							items: [
 								{ label: 'API', link: '/guides/api/' },
 								{ label: 'Advanced Use-Cases', link: '/guides/advancedusecases/' },
-							]
-						}
+							],
+						},
 					],
 				},
 				{
@@ -105,30 +105,26 @@ export default defineConfig({
 					},
 				}),
 				starlightSiteGraph({
-					// graphConfig: {
-					// 	depth: 5,
-					// 	visibilityRules: [
-					// 		'api/**'
-					// 	]
-					// },
-					// trackVisitedPages: false,
-					// storageLocation: 'none',
-					// sitemapConfig: {
-					// 	contentRoot: './src/content/docs',
-					// 	pageInclusionRules: [
-					// 		'**/api/**',
-					// 	]
-					// },
 					graphConfig: {
 						depth: 5,
-						trackVisitedPages: false,
+						visibilityRules: ['api/**'],
 					},
+					trackVisitedPages: false,
 					storageLocation: 'none',
-					contentRoot: './src/content/docs',
-					include_sitemap: ['./api/*/**/*.md'],
-					exclude_sitemap: ['**'],
-					show_graph: ['api/**'],
-					hide_graph: ['**', ''],
+					sitemapConfig: {
+						contentRoot: './src/content/docs',
+						pageInclusionRules: ['**/api/**'],
+					},
+					// graphConfig: {
+					// 	depth: 5,
+					// 	trackVisitedPages: false,
+					// },
+					// storageLocation: 'none',
+					// contentRoot: './src/content/docs',
+					// include_sitemap: ['./api/*/**/*.md'],
+					// exclude_sitemap: ['**'],
+					// show_graph: ['api/**'],
+					// hide_graph: ['**', ''],
 				}),
 			],
 		}),

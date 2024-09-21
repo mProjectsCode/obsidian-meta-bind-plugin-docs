@@ -38,13 +38,19 @@ First, we create a toggle.
 INPUT[toggle]
 ```
 
-Then we tell it to bind to the `completed` frontmatter field.
+Then we tell it to bind to the `completed` frontmatter field using a [Bind Target](/obsidian-meta-bind-plugin-docs/guides/bindtargets).
 
 ```meta-bind ":completed"
 INPUT[toggle:completed]
 ```
 
 And our input field is working. The toggle will change the frontmatter and when the frontmatter changes, the toggle changes.
+
+Of course you can utilize the full functionality of [Bind Targets](/obsidian-meta-bind-plugin-docs/guides/bindtargets) with input field. E.g. the following is possible.
+
+```meta-bind ":memory^completed"
+INPUT[toggle:memory^completed]
+```
 
 :::note
 Specifying a bind target is optional, but recommended.
