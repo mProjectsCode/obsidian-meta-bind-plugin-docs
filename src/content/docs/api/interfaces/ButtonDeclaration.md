@@ -13,7 +13,7 @@ title: "ButtonDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/ButtonParser.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/parsers/ButtonParser.ts#L31)
+[packages/core/src/parsers/ButtonParser.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/ButtonParser.ts#L31)
 
 ***
 
@@ -23,7 +23,7 @@ title: "ButtonDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/ButtonParser.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/parsers/ButtonParser.ts#L30)
+[packages/core/src/parsers/ButtonParser.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/ButtonParser.ts#L30)
 
 ***
 
@@ -33,4 +33,4 @@ title: "ButtonDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/ButtonParser.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/parsers/ButtonParser.ts#L32)
+[packages/core/src/parsers/ButtonParser.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/ButtonParser.ts#L32)

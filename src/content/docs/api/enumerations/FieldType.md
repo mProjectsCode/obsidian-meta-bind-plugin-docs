@@ -29,7 +29,7 @@ title: "FieldType"
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:23](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/APIConfigs.ts#L23)
+[packages/core/src/config/APIConfigs.ts:23](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/APIConfigs.ts#L23)
 
 </td>
 </tr>
@@ -46,7 +46,7 @@ title: "FieldType"
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/APIConfigs.ts#L22)
+[packages/core/src/config/APIConfigs.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/APIConfigs.ts#L22)
 
 </td>
 </tr>
@@ -63,7 +63,7 @@ title: "FieldType"
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/APIConfigs.ts#L24)
+[packages/core/src/config/APIConfigs.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/APIConfigs.ts#L24)
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ title: "FieldType"
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/APIConfigs.ts#L25)
+[packages/core/src/config/APIConfigs.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/APIConfigs.ts#L25)
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ title: "FieldType"
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:18](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/APIConfigs.ts#L18)
+[packages/core/src/config/APIConfigs.ts:18](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/APIConfigs.ts#L18)
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ title: "FieldType"
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:20](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/APIConfigs.ts#L20)
+[packages/core/src/config/APIConfigs.ts:20](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/APIConfigs.ts#L20)
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ title: "FieldType"
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:21](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/APIConfigs.ts#L21)
+[packages/core/src/config/APIConfigs.ts:21](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/APIConfigs.ts#L21)
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ title: "FieldType"
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:19](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/APIConfigs.ts#L19)
+[packages/core/src/config/APIConfigs.ts:19](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/APIConfigs.ts#L19)
 
 </td>
 </tr>

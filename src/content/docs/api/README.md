@@ -28,6 +28,7 @@ title: "meta-bind-obsidian"
 
 - [BindTargetDeclaration](/obsidian-meta-bind-plugin-docs/api/interfaces/bindtargetdeclaration/)
 - [ButtonConfig](/obsidian-meta-bind-plugin-docs/api/interfaces/buttonconfig/)
+- [ButtonContext](/obsidian-meta-bind-plugin-docs/api/interfaces/buttoncontext/)
 - [ButtonDeclaration](/obsidian-meta-bind-plugin-docs/api/interfaces/buttondeclaration/)
 - [ButtonGroupDeclaration](/obsidian-meta-bind-plugin-docs/api/interfaces/buttongroupdeclaration/)
 - [ButtonGroupOptions](/obsidian-meta-bind-plugin-docs/api/interfaces/buttongroupoptions/)

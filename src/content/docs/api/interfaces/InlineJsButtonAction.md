@@ -13,7 +13,7 @@ title: "InlineJsButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:103](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L103)
+[packages/core/src/config/ButtonConfig.ts:107](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L107)
 
 ***
 
@@ -23,4 +23,4 @@ title: "InlineJsButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:102](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L102)
+[packages/core/src/config/ButtonConfig.ts:106](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L106)

@@ -13,7 +13,7 @@ title: "SimpleJsViewFieldDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:68](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L68)
+[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:68](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L68)
 
 ***
 
@@ -23,7 +23,7 @@ title: "SimpleJsViewFieldDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:71](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L71)
+[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:71](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L71)
 
 ***
 
@@ -33,7 +33,7 @@ title: "SimpleJsViewFieldDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:70](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L70)
+[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:70](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L70)
 
 ***
 
@@ -43,4 +43,4 @@ title: "SimpleJsViewFieldDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:69](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L69)
+[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:69](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L69)

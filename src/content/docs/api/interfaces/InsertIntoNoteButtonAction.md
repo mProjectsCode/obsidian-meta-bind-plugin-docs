@@ -13,7 +13,7 @@ title: "InsertIntoNoteButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:96](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L96)
+[packages/core/src/config/ButtonConfig.ts:100](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L100)
 
 ***
 
@@ -23,7 +23,7 @@ title: "InsertIntoNoteButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:98](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L98)
+[packages/core/src/config/ButtonConfig.ts:102](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L102)
 
 ***
 
@@ -33,7 +33,7 @@ title: "InsertIntoNoteButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:95](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L95)
+[packages/core/src/config/ButtonConfig.ts:99](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L99)
 
 ***
 
@@ -43,4 +43,4 @@ title: "InsertIntoNoteButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:97](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L97)
+[packages/core/src/config/ButtonConfig.ts:101](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L101)

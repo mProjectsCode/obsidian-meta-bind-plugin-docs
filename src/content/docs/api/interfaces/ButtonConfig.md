@@ -13,7 +13,7 @@ title: "ButtonConfig"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:129](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L129)
+[packages/core/src/config/ButtonConfig.ts:133](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L133)
 
 ***
 
@@ -23,7 +23,7 @@ title: "ButtonConfig"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:130](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L130)
+[packages/core/src/config/ButtonConfig.ts:134](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L134)
 
 ***
 
@@ -33,7 +33,7 @@ title: "ButtonConfig"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:125](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L125)
+[packages/core/src/config/ButtonConfig.ts:129](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L129)
 
 ***
 
@@ -43,7 +43,7 @@ title: "ButtonConfig"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:128](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L128)
+[packages/core/src/config/ButtonConfig.ts:132](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L132)
 
 ***
 
@@ -53,7 +53,7 @@ title: "ButtonConfig"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:123](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L123)
+[packages/core/src/config/ButtonConfig.ts:127](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L127)
 
 ***
 
@@ -63,7 +63,7 @@ title: "ButtonConfig"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:127](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L127)
+[packages/core/src/config/ButtonConfig.ts:131](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L131)
 
 ***
 
@@ -73,7 +73,7 @@ title: "ButtonConfig"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:122](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L122)
+[packages/core/src/config/ButtonConfig.ts:126](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L126)
 
 ***
 
@@ -83,7 +83,7 @@ title: "ButtonConfig"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:124](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L124)
+[packages/core/src/config/ButtonConfig.ts:128](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L128)
 
 ***
 
@@ -93,4 +93,4 @@ title: "ButtonConfig"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:126](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L126)
+[packages/core/src/config/ButtonConfig.ts:130](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L130)

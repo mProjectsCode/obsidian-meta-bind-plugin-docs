@@ -13,7 +13,7 @@ title: "SimpleViewFieldDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:33](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L33)
+[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:33](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L33)
 
 ***
 
@@ -23,7 +23,7 @@ title: "SimpleViewFieldDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L32)
+[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L32)
 
 ***
 
@@ -33,7 +33,7 @@ title: "SimpleViewFieldDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L31)
+[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L31)
 
 ***
 
@@ -43,4 +43,4 @@ title: "SimpleViewFieldDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:34](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L34)
+[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:34](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L34)

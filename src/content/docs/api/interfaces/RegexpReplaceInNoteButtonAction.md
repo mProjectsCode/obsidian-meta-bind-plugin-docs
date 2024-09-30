@@ -13,7 +13,7 @@ title: "RegexpReplaceInNoteButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:89](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L89)
+[packages/core/src/config/ButtonConfig.ts:93](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L93)
 
 ***
 
@@ -23,7 +23,7 @@ title: "RegexpReplaceInNoteButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:90](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L90)
+[packages/core/src/config/ButtonConfig.ts:94](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L94)
 
 ***
 
@@ -33,7 +33,7 @@ title: "RegexpReplaceInNoteButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:91](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L91)
+[packages/core/src/config/ButtonConfig.ts:95](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L95)
 
 ***
 
@@ -43,4 +43,4 @@ title: "RegexpReplaceInNoteButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:88](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L88)
+[packages/core/src/config/ButtonConfig.ts:92](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L92)

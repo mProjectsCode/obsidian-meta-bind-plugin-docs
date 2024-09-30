@@ -29,7 +29,7 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:9](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L9)
+[packages/core/src/config/ButtonConfig.ts:11](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L11)
 
 </td>
 </tr>
@@ -46,7 +46,7 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:16](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L16)
+[packages/core/src/config/ButtonConfig.ts:18](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L18)
 
 </td>
 </tr>
@@ -63,7 +63,7 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:21](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L21)
+[packages/core/src/config/ButtonConfig.ts:23](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L23)
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:12](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L12)
+[packages/core/src/config/ButtonConfig.ts:14](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L14)
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:20](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L20)
+[packages/core/src/config/ButtonConfig.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L22)
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:10](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L10)
+[packages/core/src/config/ButtonConfig.ts:12](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L12)
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:11](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L11)
+[packages/core/src/config/ButtonConfig.ts:13](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L13)
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:18](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L18)
+[packages/core/src/config/ButtonConfig.ts:20](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L20)
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:17](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L17)
+[packages/core/src/config/ButtonConfig.ts:19](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L19)
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:19](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L19)
+[packages/core/src/config/ButtonConfig.ts:21](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L21)
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:13](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L13)
+[packages/core/src/config/ButtonConfig.ts:15](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L15)
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:14](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L14)
+[packages/core/src/config/ButtonConfig.ts:16](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L16)
 
 </td>
 </tr>
@@ -233,7 +233,7 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:15](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L15)
+[packages/core/src/config/ButtonConfig.ts:17](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L17)
 
 </td>
 </tr>

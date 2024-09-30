@@ -9,4 +9,4 @@ title: "ButtonAction"
 
 ## Defined in
 
-[packages/core/src/config/ButtonConfig.ts:106](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/ButtonConfig.ts#L106)
+[packages/core/src/config/ButtonConfig.ts:110](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L110)

@@ -29,7 +29,7 @@ title: "ViewFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:530](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/FieldConfigs.ts#L530)
+[packages/core/src/config/FieldConfigs.ts:530](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/FieldConfigs.ts#L530)
 
 </td>
 </tr>
@@ -46,7 +46,7 @@ title: "ViewFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:529](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/FieldConfigs.ts#L529)
+[packages/core/src/config/FieldConfigs.ts:529](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/FieldConfigs.ts#L529)
 
 </td>
 </tr>
@@ -63,7 +63,7 @@ title: "ViewFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:532](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/FieldConfigs.ts#L532)
+[packages/core/src/config/FieldConfigs.ts:532](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/FieldConfigs.ts#L532)
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ title: "ViewFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:528](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/4b16a75fb63dfdb34e3ccf2756a324a84dd8fd85/packages/core/src/config/FieldConfigs.ts#L528)
+[packages/core/src/config/FieldConfigs.ts:528](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/FieldConfigs.ts#L528)
 
 </td>
 </tr>
