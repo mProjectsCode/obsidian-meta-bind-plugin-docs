@@ -13,7 +13,7 @@ title: "InputFieldOptions"
 
 #### Defined in
 
-[packages/core/src/config/APIConfigs.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/APIConfigs.ts#L30)
+[packages/core/src/config/APIConfigs.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/APIConfigs.ts#L30)
 
 ***
 
@@ -23,7 +23,7 @@ title: "InputFieldOptions"
 
 #### Defined in
 
-[packages/core/src/config/APIConfigs.ts:29](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/APIConfigs.ts#L29)
+[packages/core/src/config/APIConfigs.ts:29](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/APIConfigs.ts#L29)
 
 ***
 
@@ -33,4 +33,4 @@ title: "InputFieldOptions"
 
 #### Defined in
 
-[packages/core/src/config/APIConfigs.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/APIConfigs.ts#L31)
+[packages/core/src/config/APIConfigs.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/APIConfigs.ts#L31)

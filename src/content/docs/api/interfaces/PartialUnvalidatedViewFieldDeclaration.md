@@ -17,7 +17,7 @@ title: "PartialUnvalidatedViewFieldDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:26](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L26)
+[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:26](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L26)
 
 ***
 
@@ -27,7 +27,7 @@ title: "PartialUnvalidatedViewFieldDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L24)
+[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L24)
 
 ***
 
@@ -37,7 +37,7 @@ title: "PartialUnvalidatedViewFieldDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L25)
+[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L25)
 
 ***
 
@@ -47,4 +47,4 @@ title: "PartialUnvalidatedViewFieldDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:27](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L27)
+[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:27](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L27)

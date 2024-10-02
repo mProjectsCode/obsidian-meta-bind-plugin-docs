@@ -13,7 +13,7 @@ title: "SimpleFieldArgument"
 
 #### Defined in
 
-[packages/core/src/parsers/FieldDeclaration.ts:10](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/FieldDeclaration.ts#L10)
+[packages/core/src/parsers/FieldDeclaration.ts:10](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/FieldDeclaration.ts#L10)
 
 ***
 
@@ -23,4 +23,4 @@ title: "SimpleFieldArgument"
 
 #### Defined in
 
-[packages/core/src/parsers/FieldDeclaration.ts:11](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/FieldDeclaration.ts#L11)
+[packages/core/src/parsers/FieldDeclaration.ts:11](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/FieldDeclaration.ts#L11)

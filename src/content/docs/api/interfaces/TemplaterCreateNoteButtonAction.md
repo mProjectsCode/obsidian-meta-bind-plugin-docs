@@ -13,7 +13,7 @@ title: "TemplaterCreateNoteButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:57](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L57)
+[packages/core/src/config/ButtonConfig.ts:57](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L57)
 
 ***
 
@@ -23,7 +23,7 @@ title: "TemplaterCreateNoteButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:56](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L56)
+[packages/core/src/config/ButtonConfig.ts:56](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L56)
 
 ***
 
@@ -33,7 +33,7 @@ title: "TemplaterCreateNoteButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:59](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L59)
+[packages/core/src/config/ButtonConfig.ts:59](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L59)
 
 ***
 
@@ -43,7 +43,7 @@ title: "TemplaterCreateNoteButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:58](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L58)
+[packages/core/src/config/ButtonConfig.ts:58](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L58)
 
 ***
 
@@ -53,7 +53,7 @@ title: "TemplaterCreateNoteButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:55](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L55)
+[packages/core/src/config/ButtonConfig.ts:55](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L55)
 
 ***
 
@@ -63,4 +63,4 @@ title: "TemplaterCreateNoteButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:54](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L54)
+[packages/core/src/config/ButtonConfig.ts:54](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L54)

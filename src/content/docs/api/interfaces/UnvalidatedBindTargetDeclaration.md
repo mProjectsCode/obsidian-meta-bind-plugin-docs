@@ -13,7 +13,7 @@ title: "UnvalidatedBindTargetDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:16](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L16)
+[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:16](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L16)
 
 ***
 
@@ -23,7 +23,7 @@ title: "UnvalidatedBindTargetDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:14](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L14)
+[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:14](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L14)
 
 ***
 
@@ -33,7 +33,7 @@ title: "UnvalidatedBindTargetDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:15](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L15)
+[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:15](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L15)
 
 ***
 
@@ -43,4 +43,4 @@ title: "UnvalidatedBindTargetDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:13](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L13)
+[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:13](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L13)

@@ -13,7 +13,7 @@ title: "ViewFieldOptions"
 
 #### Defined in
 
-[packages/core/src/config/APIConfigs.ts:36](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/APIConfigs.ts#L36)
+[packages/core/src/config/APIConfigs.ts:36](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/APIConfigs.ts#L36)
 
 ***
 
@@ -23,7 +23,7 @@ title: "ViewFieldOptions"
 
 #### Defined in
 
-[packages/core/src/config/APIConfigs.ts:35](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/APIConfigs.ts#L35)
+[packages/core/src/config/APIConfigs.ts:35](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/APIConfigs.ts#L35)
 
 ***
 
@@ -33,4 +33,4 @@ title: "ViewFieldOptions"
 
 #### Defined in
 
-[packages/core/src/config/APIConfigs.ts:37](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/APIConfigs.ts#L37)
+[packages/core/src/config/APIConfigs.ts:37](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/APIConfigs.ts#L37)

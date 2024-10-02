@@ -13,7 +13,7 @@ title: "ButtonContext"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:139](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L139)
+[packages/core/src/config/ButtonConfig.ts:139](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L139)
 
 ***
 
@@ -23,7 +23,7 @@ title: "ButtonContext"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:140](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L140)
+[packages/core/src/config/ButtonConfig.ts:140](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L140)
 
 ***
 
@@ -33,4 +33,4 @@ title: "ButtonContext"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:138](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/ButtonConfig.ts#L138)
+[packages/core/src/config/ButtonConfig.ts:138](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L138)

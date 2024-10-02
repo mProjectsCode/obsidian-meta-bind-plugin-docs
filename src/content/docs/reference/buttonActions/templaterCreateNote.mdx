@@ -12,6 +12,7 @@ interface TemplaterCreateNoteButtonAction {
 	folderPath?: string; // the optional path to the folder to create the note in, relative to the vault root
 	fileName?: string; // the optional name of the file to create
 	openNote?: boolean; // whether to open the created note
+	openIfAlreadyExists?: boolean; // whether to open the note if it already exists instead of creating a new one with an incremented name
 }
 ```
 

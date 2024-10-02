@@ -11,6 +11,7 @@ interface CreateNoteButtonAction {
 	fileName: string; // the name of the new note
 	folderPath?: string; // the folder path where the note should be created, if not specified the note will be created in the root of the vault
 	openNote?: boolean; // if true, the note will be opened after creation
+  openIfAlreadyExists?: boolean; // whether to open the note if it already exists instead of creating a new one with an incremented name
 }
 ```
 

@@ -29,7 +29,7 @@ title: "RenderChildType"
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:14](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/APIConfigs.ts#L14)
+[packages/core/src/config/APIConfigs.ts:14](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/APIConfigs.ts#L14)
 
 </td>
 </tr>
@@ -46,7 +46,7 @@ title: "RenderChildType"
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:13](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/46993a4bea44fea6720d8d001cc5324f264501f1/packages/core/src/config/APIConfigs.ts#L13)
+[packages/core/src/config/APIConfigs.ts:13](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/APIConfigs.ts#L13)
 
 </td>
 </tr>
