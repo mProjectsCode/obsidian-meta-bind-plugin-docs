@@ -13,7 +13,7 @@ title: "InputButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:45](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L45)
+[packages/core/src/config/ButtonConfig.ts:45](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L45)
 
 ***
 
@@ -23,4 +23,4 @@ title: "InputButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:44](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L44)
+[packages/core/src/config/ButtonConfig.ts:44](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L44)

@@ -29,7 +29,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L30)
+[packages/core/src/config/FieldConfigs.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L30)
 
 </td>
 </tr>
@@ -46,7 +46,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L32)
+[packages/core/src/config/FieldConfigs.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L32)
 
 </td>
 </tr>
@@ -63,7 +63,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:44](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L44)
+[packages/core/src/config/FieldConfigs.ts:44](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L44)
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:35](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L35)
+[packages/core/src/config/FieldConfigs.ts:35](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L35)
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:43](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L43)
+[packages/core/src/config/FieldConfigs.ts:43](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L43)
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:36](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L36)
+[packages/core/src/config/FieldConfigs.ts:36](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L36)
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:42](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L42)
+[packages/core/src/config/FieldConfigs.ts:42](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L42)
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:41](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L41)
+[packages/core/src/config/FieldConfigs.ts:41](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L41)
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:38](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L38)
+[packages/core/src/config/FieldConfigs.ts:38](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L38)
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:46](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L46)
+[packages/core/src/config/FieldConfigs.ts:46](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L46)
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:39](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L39)
+[packages/core/src/config/FieldConfigs.ts:39](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L39)
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:40](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L40)
+[packages/core/src/config/FieldConfigs.ts:40](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L40)
 
 </td>
 </tr>
@@ -233,7 +233,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:29](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L29)
+[packages/core/src/config/FieldConfigs.ts:29](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L29)
 
 </td>
 </tr>
@@ -250,7 +250,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:33](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L33)
+[packages/core/src/config/FieldConfigs.ts:33](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L33)
 
 </td>
 </tr>
@@ -267,7 +267,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:37](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L37)
+[packages/core/src/config/FieldConfigs.ts:37](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L37)
 
 </td>
 </tr>
@@ -284,7 +284,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:28](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L28)
+[packages/core/src/config/FieldConfigs.ts:28](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L28)
 
 </td>
 </tr>
@@ -301,7 +301,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L25)
+[packages/core/src/config/FieldConfigs.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L25)
 
 </td>
 </tr>
@@ -318,7 +318,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:34](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L34)
+[packages/core/src/config/FieldConfigs.ts:34](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L34)
 
 </td>
 </tr>
@@ -335,7 +335,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:26](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L26)
+[packages/core/src/config/FieldConfigs.ts:26](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L26)
 
 </td>
 </tr>
@@ -352,7 +352,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:27](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L27)
+[packages/core/src/config/FieldConfigs.ts:27](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L27)
 
 </td>
 </tr>
@@ -369,7 +369,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L31)
+[packages/core/src/config/FieldConfigs.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L31)
 
 </td>
 </tr>
@@ -386,7 +386,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L24)
+[packages/core/src/config/FieldConfigs.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L24)
 
 </td>
 </tr>

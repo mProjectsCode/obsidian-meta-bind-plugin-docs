@@ -29,7 +29,7 @@ title: "ButtonStyleType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:4](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L4)
+[packages/core/src/config/ButtonConfig.ts:4](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L4)
 
 </td>
 </tr>
@@ -46,7 +46,7 @@ title: "ButtonStyleType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:6](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L6)
+[packages/core/src/config/ButtonConfig.ts:6](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L6)
 
 </td>
 </tr>
@@ -63,7 +63,7 @@ title: "ButtonStyleType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:7](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L7)
+[packages/core/src/config/ButtonConfig.ts:7](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L7)
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ title: "ButtonStyleType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:5](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L5)
+[packages/core/src/config/ButtonConfig.ts:5](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L5)
 
 </td>
 </tr>

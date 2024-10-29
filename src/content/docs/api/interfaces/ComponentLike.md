@@ -44,4 +44,4 @@ Either a [Component](https://docs.obsidian.md/Reference/TypeScript+API/Component
 
 #### Defined in
 
-[packages/obsidian/src/ObsidianAPI.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/obsidian/src/ObsidianAPI.ts#L24)
+[packages/obsidian/src/ObsidianAPI.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/obsidian/src/ObsidianAPI.ts#L24)

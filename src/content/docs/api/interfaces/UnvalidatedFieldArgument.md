@@ -13,7 +13,7 @@ title: "UnvalidatedFieldArgument"
 
 #### Defined in
 
-[packages/core/src/parsers/FieldDeclaration.ts:15](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/FieldDeclaration.ts#L15)
+[packages/core/src/parsers/FieldDeclaration.ts:15](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/FieldDeclaration.ts#L15)
 
 ***
 
@@ -23,4 +23,4 @@ title: "UnvalidatedFieldArgument"
 
 #### Defined in
 
-[packages/core/src/parsers/FieldDeclaration.ts:16](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/FieldDeclaration.ts#L16)
+[packages/core/src/parsers/FieldDeclaration.ts:16](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/FieldDeclaration.ts#L16)

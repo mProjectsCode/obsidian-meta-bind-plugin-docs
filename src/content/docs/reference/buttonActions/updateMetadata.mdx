@@ -20,9 +20,15 @@ The current value of the property is available in the expression as `x`.
 
 Other properties can be reference using `getMetadata(bindTarget)` where `bindTarget` is a [Bind Target](/obsidian-meta-bind-plugin-docs/guides/bindtargets) string.
 
-:::note
+:::tip[Prevent YAML and Validation Errors]
 
-The evaluate feature requires that you have the following:
+Make sure to use quotes around your JavaScript expressions to avoid accidentally creating invalid YAML.
+
+:::
+
+:::note[Requires JS Engine]
+
+When trying to use the `evaluate` option to run JavaScript expressions, make sure you have the following:
 
 1. [JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin) installed and enabled.
 2. Enabled **JavaScript** in the Meta Bind settings.
@@ -43,7 +49,7 @@ actions:
   - type: updateMetadata
     bindTarget: count
     evaluate: true
-    value: x + 1
+    value: "x + 1"
 ```
 
 ```meta-bind-button
@@ -55,7 +61,7 @@ actions:
   - type: updateMetadata
     bindTarget: count
     evaluate: true
-    value: x - 1
+    value: "x - 1"
 ```
 
 ```meta-bind-button
@@ -91,7 +97,7 @@ actions:
   - type: updateMetadata
     bindTarget: health
     evaluate: true
-    value: x - getMetadata('damage')
+    value: "x - getMetadata('damage')"
 ```
 
 ```meta-bind-button
@@ -103,7 +109,7 @@ actions:
   - type: updateMetadata
     bindTarget: health
     evaluate: true
-    value: getMetadata('max_health')
+    value: "getMetadata('max_health')"
 ```
 
 Health: `VIEW[{health}][text]` `BUTTON[reset-health]`

@@ -29,7 +29,7 @@ title: "ViewFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:522](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L522)
+[packages/core/src/config/FieldConfigs.ts:522](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L522)
 
 </td>
 </tr>
@@ -46,7 +46,7 @@ title: "ViewFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:524](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L524)
+[packages/core/src/config/FieldConfigs.ts:524](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L524)
 
 </td>
 </tr>
@@ -63,7 +63,7 @@ title: "ViewFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:521](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L521)
+[packages/core/src/config/FieldConfigs.ts:521](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L521)
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ title: "ViewFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:519](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L519)
+[packages/core/src/config/FieldConfigs.ts:519](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L519)
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ title: "ViewFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:520](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/FieldConfigs.ts#L520)
+[packages/core/src/config/FieldConfigs.ts:520](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L520)
 
 </td>
 </tr>

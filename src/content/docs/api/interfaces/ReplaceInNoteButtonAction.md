@@ -13,7 +13,7 @@ title: "ReplaceInNoteButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:79](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L79)
+[packages/core/src/config/ButtonConfig.ts:79](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L79)
 
 ***
 
@@ -23,7 +23,7 @@ title: "ReplaceInNoteButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:81](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L81)
+[packages/core/src/config/ButtonConfig.ts:81](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L81)
 
 ***
 
@@ -33,7 +33,7 @@ title: "ReplaceInNoteButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:82](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L82)
+[packages/core/src/config/ButtonConfig.ts:82](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L82)
 
 ***
 
@@ -43,7 +43,7 @@ title: "ReplaceInNoteButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:80](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L80)
+[packages/core/src/config/ButtonConfig.ts:80](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L80)
 
 ***
 
@@ -53,4 +53,4 @@ title: "ReplaceInNoteButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:78](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L78)
+[packages/core/src/config/ButtonConfig.ts:78](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L78)

@@ -29,7 +29,7 @@ title: "BindTargetStorageType"
 </td>
 <td>
 
-[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L30)
+[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L30)
 
 </td>
 </tr>
@@ -46,7 +46,7 @@ title: "BindTargetStorageType"
 </td>
 <td>
 
-[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L32)
+[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L32)
 
 </td>
 </tr>
@@ -63,7 +63,7 @@ title: "BindTargetStorageType"
 </td>
 <td>
 
-[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L31)
+[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L31)
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ title: "BindTargetStorageType"
 </td>
 <td>
 
-[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:33](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L33)
+[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:33](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L33)
 
 </td>
 </tr>

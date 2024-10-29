@@ -13,7 +13,7 @@ title: "UpdateMetadataButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:64](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L64)
+[packages/core/src/config/ButtonConfig.ts:64](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L64)
 
 ***
 
@@ -23,7 +23,7 @@ title: "UpdateMetadataButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:65](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L65)
+[packages/core/src/config/ButtonConfig.ts:65](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L65)
 
 ***
 
@@ -33,7 +33,7 @@ title: "UpdateMetadataButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:63](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L63)
+[packages/core/src/config/ButtonConfig.ts:63](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L63)
 
 ***
 
@@ -43,4 +43,4 @@ title: "UpdateMetadataButtonAction"
 
 #### Defined in
 
-[packages/core/src/config/ButtonConfig.ts:66](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/config/ButtonConfig.ts#L66)
+[packages/core/src/config/ButtonConfig.ts:66](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L66)

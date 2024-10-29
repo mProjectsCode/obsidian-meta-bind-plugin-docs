@@ -13,7 +13,7 @@ title: "JsViewFieldBindTargetMapping"
 
 #### Defined in
 
-[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:49](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L49)
+[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:49](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L49)
 
 ***
 
@@ -23,4 +23,4 @@ title: "JsViewFieldBindTargetMapping"
 
 #### Defined in
 
-[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:50](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L50)
+[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:50](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L50)

@@ -13,7 +13,7 @@ title: "SimpleInputFieldDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts:33](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts#L33)
+[packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts:33](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts#L33)
 
 ***
 
@@ -23,7 +23,7 @@ title: "SimpleInputFieldDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts#L32)
+[packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts#L32)
 
 ***
 
@@ -33,7 +33,7 @@ title: "SimpleInputFieldDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts#L30)
+[packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts#L30)
 
 ***
 
@@ -43,4 +43,4 @@ title: "SimpleInputFieldDeclaration"
 
 #### Defined in
 
-[packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts#L31)
+[packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts#L31)

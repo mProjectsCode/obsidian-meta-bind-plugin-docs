@@ -74,7 +74,7 @@ title: "FieldMountable"
 
 #### Defined in
 
-[packages/core/src/fields/FieldMountable.ts:9](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/fields/FieldMountable.ts#L9)
+[packages/core/src/fields/FieldMountable.ts:9](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/fields/FieldMountable.ts#L9)
 
 ## Properties
 
@@ -84,7 +84,7 @@ title: "FieldMountable"
 
 #### Defined in
 
-[packages/core/src/fields/FieldMountable.ts:5](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/fields/FieldMountable.ts#L5)
+[packages/core/src/fields/FieldMountable.ts:5](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/fields/FieldMountable.ts#L5)
 
 ## Methods
 
@@ -98,7 +98,7 @@ title: "FieldMountable"
 
 #### Defined in
 
-[packages/core/src/fields/FieldMountable.ts:21](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/fields/FieldMountable.ts#L21)
+[packages/core/src/fields/FieldMountable.ts:21](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/fields/FieldMountable.ts#L21)
 
 ***
 
@@ -118,7 +118,7 @@ Get the element that the mountable is currently mounted to.
 
 #### Defined in
 
-[packages/core/src/utils/Mountable.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/utils/Mountable.ts#L22)
+[packages/core/src/utils/Mountable.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/utils/Mountable.ts#L22)
 
 ***
 
@@ -132,7 +132,7 @@ Get the element that the mountable is currently mounted to.
 
 #### Defined in
 
-[packages/core/src/fields/FieldMountable.ts:17](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/fields/FieldMountable.ts#L17)
+[packages/core/src/fields/FieldMountable.ts:17](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/fields/FieldMountable.ts#L17)
 
 ***
 
@@ -152,7 +152,7 @@ Check if the mountable is currently mounted.
 
 #### Defined in
 
-[packages/core/src/utils/Mountable.ts:15](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/utils/Mountable.ts#L15)
+[packages/core/src/utils/Mountable.ts:15](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/utils/Mountable.ts#L15)
 
 ***
 
@@ -202,7 +202,7 @@ Will throw an error if the mountable is already mounted.
 
 #### Defined in
 
-[packages/core/src/utils/Mountable.ts:50](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/utils/Mountable.ts#L50)
+[packages/core/src/utils/Mountable.ts:50](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/utils/Mountable.ts#L50)
 
 ***
 
@@ -251,7 +251,7 @@ Register a callback that will be called when the mountable is unmounted.
 
 #### Defined in
 
-[packages/core/src/utils/Mountable.ts:85](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/utils/Mountable.ts#L85)
+[packages/core/src/utils/Mountable.ts:85](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/utils/Mountable.ts#L85)
 
 ***
 
@@ -272,4 +272,4 @@ Will throw an error if the mountable is not mounted.
 
 #### Defined in
 
-[packages/core/src/utils/Mountable.ts:65](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f6219a613aed1d40ff7f62bc1faab53d3dd969bb/packages/core/src/utils/Mountable.ts#L65)
+[packages/core/src/utils/Mountable.ts:65](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/utils/Mountable.ts#L65)
