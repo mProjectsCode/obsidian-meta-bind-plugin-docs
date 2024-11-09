@@ -11,14 +11,14 @@
 		"format": "prettier --plugin prettier-plugin-astro --plugin prettier-plugin-svelte --write ."
 	},
 	"dependencies": {
-		"@astrojs/starlight": "0.28.4",
-		"astro": "4.16.7",
-		"starlight-links-validator": "^0.12.3",
-		"starlight-site-graph": "0.1.7",
-		"starlight-typedoc": "^0.16.0",
-		"typedoc": "^0.26.10",
-		"typedoc-plugin-markdown": "^4.2.9",
-		"typedoc-plugin-mdn-links": "^3.3.5",
+		"@astrojs/starlight": "0.29.0",
+		"astro": "4.16.10",
+		"starlight-links-validator": "^0.13.0",
+		"starlight-site-graph": "0.1.8",
+		"starlight-typedoc": "^0.17.0",
+		"typedoc": "^0.26.11",
+		"typedoc-plugin-markdown": "^4.2.10",
+		"typedoc-plugin-mdn-links": "^3.3.6",
 		"typescript": "^5.6.3"
 	},
 	"devDependencies": {

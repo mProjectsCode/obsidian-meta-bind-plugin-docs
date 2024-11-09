@@ -21,7 +21,7 @@ interface JSButtonAction {
 ```
 
 The button configuration is available as a **read only** variable in the script as `context.buttonConfig`.
-Aditional information about the button is available in the `context.buttonContext` object. 
+Aditional information about the button is available in the `context.buttonContext` object.
 See [Button Context](/obsidian-meta-bind-plugin-docs/api/interfaces/buttoncontext/) for more information.
 The args is passed to the script as `context.args`.
 
@@ -34,13 +34,15 @@ label: Run JavaScript File
 action:
   type: js
   file: someScript.js
+  args:
+    greeting: "Meta Bind User"
 ```
 ````
 
 With the following `someScript.js` file in the vault root.
 
 ```js title="someScript.js"
-console.log('Hello World!');
+console.log('Hello ${context.args.greeting}!');
 ```
 
-You should see the string `Hello World!` printed to the console, when you click the button.
+You should see the string `Hello Meta Bind User!` printed to the console, when you click the button.
