@@ -107,7 +107,7 @@ export default defineConfig({
 				starlightSiteGraph({
 					graphConfig: {
 						depth: 5,
-						visibilityRules: ['*/api/**'],
+						visibilityRules: ['!**/api/README.md', '*/api/**'],
 					},
 					trackVisitedPages: 'disable',
 					storageLocation: 'none',
