@@ -1,0 +1,39 @@
+---
+title: Run Templater File
+description: Run Templater File button action reference.
+---
+
+Executes all [Templater](https://github.com/SilentVoid13/Templater) templates within a single file.
+
+```ts
+interface RunTemplaterFileButtonAction {
+	type: 'runTemplaterFile';
+	templateFile: string; // the path to the template file, relative to the vault root
+}
+```
+
+### Examples
+
+#### Banner Notice
+
+This will display a banner with the title of the file you are in.
+
+##### Button
+
+````custom_markdown {5-8}
+```meta-bind-button
+style: primary
+label: Say Filename
+actions:
+  - type: runTemplaterFile
+    templateFile: "templates/Notice.md"
+```
+````
+
+##### File (Notice.md)
+
+```js
+<%*
+new Notice(tp.file.title);
+%>
+```
