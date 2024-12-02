@@ -8,7 +8,7 @@ There are two places where you can look for examples.
 ## Playground
 
 The first place to look for examples is the playground that is build into the plugin.
-It can be opened from the plugins settings, or with the `Open Meta Bind Playground` command.
+It can be opened from the plugins settings, or with the `Meta Bind: Open playground` command.
 There you will find an interactive list of all input and view fields to play around with.
 
 ## Example Vault
