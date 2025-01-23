@@ -5,6 +5,8 @@ prev: false
 title: "ButtonStyleType"
 ---
 
+Defined in: [packages/core/src/config/ButtonConfig.ts:3](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L3)
+
 ## Enumeration Members
 
 <table>
@@ -12,6 +14,7 @@ title: "ButtonStyleType"
 <tr>
 <th>Enumeration Member</th>
 <th>Value</th>
+<th>Description</th>
 <th>Defined in</th>
 </tr>
 </thead>
@@ -19,7 +22,7 @@ title: "ButtonStyleType"
 <tr>
 <td>
 
-`DEFAULT`
+<a id="default"></a> `DEFAULT`
 
 </td>
 <td>
@@ -29,14 +32,19 @@ title: "ButtonStyleType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:4](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L4)
+Default grey button
+
+</td>
+<td>
+
+[packages/core/src/config/ButtonConfig.ts:7](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L7)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`DESTRUCTIVE`
+<a id="destructive"></a> `DESTRUCTIVE`
 
 </td>
 <td>
@@ -46,14 +54,19 @@ title: "ButtonStyleType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:6](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L6)
+Red button for destructive actions
+
+</td>
+<td>
+
+[packages/core/src/config/ButtonConfig.ts:15](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L15)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`PLAIN`
+<a id="plain"></a> `PLAIN`
 
 </td>
 <td>
@@ -63,14 +76,19 @@ title: "ButtonStyleType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:7](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L7)
+Plain button with no background
+
+</td>
+<td>
+
+[packages/core/src/config/ButtonConfig.ts:19](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L19)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`PRIMARY`
+<a id="primary"></a> `PRIMARY`
 
 </td>
 <td>
@@ -80,7 +98,12 @@ title: "ButtonStyleType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:5](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L5)
+Primary button in the accent color
+
+</td>
+<td>
+
+[packages/core/src/config/ButtonConfig.ts:11](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L11)
 
 </td>
 </tr>

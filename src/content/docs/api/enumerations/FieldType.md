@@ -5,6 +5,8 @@ prev: false
 title: "FieldType"
 ---
 
+Defined in: [packages/core/src/config/APIConfigs.ts:17](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L17)
+
 ## Enumeration Members
 
 <table>
@@ -19,7 +21,7 @@ title: "FieldType"
 <tr>
 <td>
 
-`BUTTON`
+<a id="button"></a> `BUTTON`
 
 </td>
 <td>
@@ -29,14 +31,14 @@ title: "FieldType"
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:23](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/APIConfigs.ts#L23)
+[packages/core/src/config/APIConfigs.ts:23](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L23)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`BUTTON_GROUP`
+<a id="button_group"></a> `BUTTON_GROUP`
 
 </td>
 <td>
@@ -46,14 +48,14 @@ title: "FieldType"
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/APIConfigs.ts#L22)
+[packages/core/src/config/APIConfigs.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L22)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`EMBED`
+<a id="embed"></a> `EMBED`
 
 </td>
 <td>
@@ -63,14 +65,14 @@ title: "FieldType"
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/APIConfigs.ts#L24)
+[packages/core/src/config/APIConfigs.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L24)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`EXCLUDED`
+<a id="excluded"></a> `EXCLUDED`
 
 </td>
 <td>
@@ -80,14 +82,14 @@ title: "FieldType"
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/APIConfigs.ts#L25)
+[packages/core/src/config/APIConfigs.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L25)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`INPUT`
+<a id="input"></a> `INPUT`
 
 </td>
 <td>
@@ -97,14 +99,14 @@ title: "FieldType"
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:18](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/APIConfigs.ts#L18)
+[packages/core/src/config/APIConfigs.ts:18](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L18)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`JS_VIEW`
+<a id="js_view"></a> `JS_VIEW`
 
 </td>
 <td>
@@ -114,14 +116,14 @@ title: "FieldType"
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:20](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/APIConfigs.ts#L20)
+[packages/core/src/config/APIConfigs.ts:20](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L20)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`TABLE`
+<a id="table"></a> `TABLE`
 
 </td>
 <td>
@@ -131,14 +133,14 @@ title: "FieldType"
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:21](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/APIConfigs.ts#L21)
+[packages/core/src/config/APIConfigs.ts:21](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L21)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`VIEW`
+<a id="view"></a> `VIEW`
 
 </td>
 <td>
@@ -148,7 +150,7 @@ title: "FieldType"
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:19](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/APIConfigs.ts#L19)
+[packages/core/src/config/APIConfigs.ts:19](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L19)
 
 </td>
 </tr>

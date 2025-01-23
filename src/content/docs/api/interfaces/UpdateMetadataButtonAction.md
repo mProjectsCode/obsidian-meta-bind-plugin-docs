@@ -5,15 +5,15 @@ prev: false
 title: "UpdateMetadataButtonAction"
 ---
 
+Defined in: [packages/core/src/config/ButtonConfig.ts:80](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L80)
+
 ## Properties
 
 ### bindTarget
 
 > **bindTarget**: `string`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:64](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L64)
+Defined in: [packages/core/src/config/ButtonConfig.ts:82](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L82)
 
 ***
 
@@ -21,9 +21,7 @@ title: "UpdateMetadataButtonAction"
 
 > **evaluate**: `boolean`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:65](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L65)
+Defined in: [packages/core/src/config/ButtonConfig.ts:83](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L83)
 
 ***
 
@@ -31,9 +29,7 @@ title: "UpdateMetadataButtonAction"
 
 > **type**: [`UPDATE_METADATA`](/obsidian-meta-bind-plugin-docs/api/enumerations/buttonactiontype/#update_metadata)
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:63](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L63)
+Defined in: [packages/core/src/config/ButtonConfig.ts:81](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L81)
 
 ***
 
@@ -41,6 +37,4 @@ title: "UpdateMetadataButtonAction"
 
 > **value**: `string`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:66](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L66)
+Defined in: [packages/core/src/config/ButtonConfig.ts:84](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L84)

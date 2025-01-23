@@ -5,15 +5,15 @@ prev: false
 title: "InputButtonAction"
 ---
 
+Defined in: [packages/core/src/config/ButtonConfig.ts:56](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L56)
+
 ## Properties
 
 ### str
 
 > **str**: `string`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:45](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L45)
+Defined in: [packages/core/src/config/ButtonConfig.ts:58](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L58)
 
 ***
 
@@ -21,6 +21,4 @@ title: "InputButtonAction"
 
 > **type**: [`INPUT`](/obsidian-meta-bind-plugin-docs/api/enumerations/buttonactiontype/#input)
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:44](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L44)
+Defined in: [packages/core/src/config/ButtonConfig.ts:57](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L57)

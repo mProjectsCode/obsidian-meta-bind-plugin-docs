@@ -5,6 +5,8 @@ prev: false
 title: "FieldDeclaration"
 ---
 
+Defined in: [packages/core/src/parsers/FieldDeclaration.ts:4](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/FieldDeclaration.ts#L4)
+
 ## Extended by
 
 - [`InputFieldDeclaration`](/obsidian-meta-bind-plugin-docs/api/interfaces/inputfielddeclaration/)
@@ -20,9 +22,7 @@ title: "FieldDeclaration"
 
 > `optional` **declarationString**: `string`
 
-#### Defined in
-
-[packages/core/src/parsers/FieldDeclaration.ts:5](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/FieldDeclaration.ts#L5)
+Defined in: [packages/core/src/parsers/FieldDeclaration.ts:5](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/FieldDeclaration.ts#L5)
 
 ***
 
@@ -30,6 +30,4 @@ title: "FieldDeclaration"
 
 > **errorCollection**: `ErrorCollection`
 
-#### Defined in
-
-[packages/core/src/parsers/FieldDeclaration.ts:6](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/FieldDeclaration.ts#L6)
+Defined in: [packages/core/src/parsers/FieldDeclaration.ts:6](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/FieldDeclaration.ts#L6)

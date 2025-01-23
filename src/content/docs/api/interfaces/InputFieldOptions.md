@@ -5,15 +5,15 @@ prev: false
 title: "InputFieldOptions"
 ---
 
+Defined in: [packages/core/src/config/APIConfigs.ts:28](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L28)
+
 ## Properties
 
 ### declaration
 
 > **declaration**: `string` \| [`SimpleInputFieldDeclaration`](/obsidian-meta-bind-plugin-docs/api/interfaces/simpleinputfielddeclaration/)
 
-#### Defined in
-
-[packages/core/src/config/APIConfigs.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/APIConfigs.ts#L30)
+Defined in: [packages/core/src/config/APIConfigs.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L30)
 
 ***
 
@@ -21,9 +21,7 @@ title: "InputFieldOptions"
 
 > **renderChildType**: [`RenderChildType`](/obsidian-meta-bind-plugin-docs/api/enumerations/renderchildtype/)
 
-#### Defined in
-
-[packages/core/src/config/APIConfigs.ts:29](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/APIConfigs.ts#L29)
+Defined in: [packages/core/src/config/APIConfigs.ts:29](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L29)
 
 ***
 
@@ -31,6 +29,4 @@ title: "InputFieldOptions"
 
 > `optional` **scope**: `BindTargetScope`
 
-#### Defined in
-
-[packages/core/src/config/APIConfigs.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/APIConfigs.ts#L31)
+Defined in: [packages/core/src/config/APIConfigs.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L31)

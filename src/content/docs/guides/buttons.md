@@ -99,6 +99,8 @@ interface ButtonConfig {
 	icon?: string; // An optional lucide icon to display on the button
 	style: 'default' | 'primary' | 'destructive' | 'plain'; // The style of the button
 	class?: string; // Optional CSS classes to add to the button. Multiple classes can be separated by spaces
+	cssStyle?: string; // Optional CSS inline stiles to apply to the button.
+	backgroundImage?: string; // Optional path to a background image for the button.
 	tooltip?: string; // Optional tooltip to display when hovering over the button. If not set, the label is used
 	id?: string; // The optional id of the button, used for referencing the button in inline buttons
 	hidden?: boolean; // Whether this button should be hidden, useful when only using the button in inline buttons

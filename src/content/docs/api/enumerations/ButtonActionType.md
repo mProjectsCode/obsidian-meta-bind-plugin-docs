@@ -5,6 +5,8 @@ prev: false
 title: "ButtonActionType"
 ---
 
+Defined in: [packages/core/src/config/ButtonConfig.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L22)
+
 ## Enumeration Members
 
 <table>
@@ -19,7 +21,7 @@ title: "ButtonActionType"
 <tr>
 <td>
 
-`COMMAND`
+<a id="command"></a> `COMMAND`
 
 </td>
 <td>
@@ -29,14 +31,14 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:11](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L11)
+[packages/core/src/config/ButtonConfig.ts:23](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L23)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`CREATE_NOTE`
+<a id="create_note"></a> `CREATE_NOTE`
 
 </td>
 <td>
@@ -46,14 +48,14 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:18](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L18)
+[packages/core/src/config/ButtonConfig.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L31)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`INLINE_JS`
+<a id="inline_js"></a> `INLINE_JS`
 
 </td>
 <td>
@@ -63,14 +65,14 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:23](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L23)
+[packages/core/src/config/ButtonConfig.ts:36](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L36)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`INPUT`
+<a id="input"></a> `INPUT`
 
 </td>
 <td>
@@ -80,14 +82,14 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:14](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L14)
+[packages/core/src/config/ButtonConfig.ts:26](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L26)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`INSERT_INTO_NOTE`
+<a id="insert_into_note"></a> `INSERT_INTO_NOTE`
 
 </td>
 <td>
@@ -97,14 +99,14 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L22)
+[packages/core/src/config/ButtonConfig.ts:35](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L35)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`JS`
+<a id="js"></a> `JS`
 
 </td>
 <td>
@@ -114,14 +116,14 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:12](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L12)
+[packages/core/src/config/ButtonConfig.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L24)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`OPEN`
+<a id="open"></a> `OPEN`
 
 </td>
 <td>
@@ -131,14 +133,14 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:13](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L13)
+[packages/core/src/config/ButtonConfig.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L25)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`REGEXP_REPLACE_IN_NOTE`
+<a id="regexp_replace_in_note"></a> `REGEXP_REPLACE_IN_NOTE`
 
 </td>
 <td>
@@ -148,14 +150,14 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:20](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L20)
+[packages/core/src/config/ButtonConfig.ts:33](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L33)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`REPLACE_IN_NOTE`
+<a id="replace_in_note"></a> `REPLACE_IN_NOTE`
 
 </td>
 <td>
@@ -165,14 +167,14 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:19](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L19)
+[packages/core/src/config/ButtonConfig.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L32)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`REPLACE_SELF`
+<a id="replace_self"></a> `REPLACE_SELF`
 
 </td>
 <td>
@@ -182,14 +184,31 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:21](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L21)
+[packages/core/src/config/ButtonConfig.ts:34](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L34)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`SLEEP`
+<a id="run_templater_file"></a> `RUN_TEMPLATER_FILE`
+
+</td>
+<td>
+
+`"runTemplaterFile"`
+
+</td>
+<td>
+
+[packages/core/src/config/ButtonConfig.ts:29](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L29)
+
+</td>
+</tr>
+<tr>
+<td>
+
+<a id="sleep"></a> `SLEEP`
 
 </td>
 <td>
@@ -199,14 +218,14 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:15](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L15)
+[packages/core/src/config/ButtonConfig.ts:27](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L27)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`TEMPLATER_CREATE_NOTE`
+<a id="templater_create_note"></a> `TEMPLATER_CREATE_NOTE`
 
 </td>
 <td>
@@ -216,14 +235,14 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:16](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L16)
+[packages/core/src/config/ButtonConfig.ts:28](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L28)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`UPDATE_METADATA`
+<a id="update_metadata"></a> `UPDATE_METADATA`
 
 </td>
 <td>
@@ -233,7 +252,7 @@ title: "ButtonActionType"
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:17](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L17)
+[packages/core/src/config/ButtonConfig.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L30)
 
 </td>
 </tr>

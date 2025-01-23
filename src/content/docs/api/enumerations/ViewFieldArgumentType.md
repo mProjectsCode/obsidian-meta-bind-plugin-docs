@@ -5,6 +5,8 @@ prev: false
 title: "ViewFieldArgumentType"
 ---
 
+Defined in: [packages/core/src/config/FieldConfigs.ts:527](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L527)
+
 ## Enumeration Members
 
 <table>
@@ -19,7 +21,7 @@ title: "ViewFieldArgumentType"
 <tr>
 <td>
 
-`CLASS`
+<a id="class"></a> `CLASS`
 
 </td>
 <td>
@@ -29,14 +31,14 @@ title: "ViewFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:530](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L530)
+[packages/core/src/config/FieldConfigs.ts:530](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L530)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`HIDDEN`
+<a id="hidden"></a> `HIDDEN`
 
 </td>
 <td>
@@ -46,14 +48,14 @@ title: "ViewFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:529](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L529)
+[packages/core/src/config/FieldConfigs.ts:529](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L529)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`INVALID`
+<a id="invalid"></a> `INVALID`
 
 </td>
 <td>
@@ -63,14 +65,14 @@ title: "ViewFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:532](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L532)
+[packages/core/src/config/FieldConfigs.ts:532](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L532)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`RENDER_MARKDOWN`
+<a id="render_markdown"></a> `RENDER_MARKDOWN`
 
 </td>
 <td>
@@ -80,7 +82,7 @@ title: "ViewFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:528](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L528)
+[packages/core/src/config/FieldConfigs.ts:528](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L528)
 
 </td>
 </tr>

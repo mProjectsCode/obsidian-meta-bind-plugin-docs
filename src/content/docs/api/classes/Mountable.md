@@ -5,6 +5,8 @@ prev: false
 title: "Mountable"
 ---
 
+Defined in: [packages/core/src/utils/Mountable.ts:1](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/utils/Mountable.ts#L1)
+
 ## Extended by
 
 - [`FieldMountable`](/obsidian-meta-bind-plugin-docs/api/classes/fieldmountable/)
@@ -15,13 +17,11 @@ title: "Mountable"
 
 > **new Mountable**(): [`Mountable`](/obsidian-meta-bind-plugin-docs/api/classes/mountable/)
 
+Defined in: [packages/core/src/utils/Mountable.ts:6](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/utils/Mountable.ts#L6)
+
 #### Returns
 
 [`Mountable`](/obsidian-meta-bind-plugin-docs/api/classes/mountable/)
-
-#### Defined in
-
-[packages/core/src/utils/Mountable.ts:6](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/utils/Mountable.ts#L6)
 
 ## Methods
 
@@ -29,15 +29,13 @@ title: "Mountable"
 
 > **getTargetEl**(): `undefined` \| [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement)
 
+Defined in: [packages/core/src/utils/Mountable.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/utils/Mountable.ts#L22)
+
 Get the element that the mountable is currently mounted to.
 
 #### Returns
 
 `undefined` \| [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement)
-
-#### Defined in
-
-[packages/core/src/utils/Mountable.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/utils/Mountable.ts#L22)
 
 ***
 
@@ -45,21 +43,21 @@ Get the element that the mountable is currently mounted to.
 
 > **isMounted**(): `boolean`
 
+Defined in: [packages/core/src/utils/Mountable.ts:15](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/utils/Mountable.ts#L15)
+
 Check if the mountable is currently mounted.
 
 #### Returns
 
 `boolean`
 
-#### Defined in
-
-[packages/core/src/utils/Mountable.ts:15](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/utils/Mountable.ts#L15)
-
 ***
 
 ### mount()
 
 > **mount**(`targetEl`): `void`
+
+Defined in: [packages/core/src/utils/Mountable.ts:50](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/utils/Mountable.ts#L50)
 
 Mount the mountable to the given element.
 Will throw an error if the mountable is already mounted.
@@ -97,15 +95,13 @@ Will throw an error if the mountable is already mounted.
 
 `void`
 
-#### Defined in
-
-[packages/core/src/utils/Mountable.ts:50](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/utils/Mountable.ts#L50)
-
 ***
 
 ### registerUnmountCb()
 
 > **registerUnmountCb**(`cb`): `void`
+
+Defined in: [packages/core/src/utils/Mountable.ts:91](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/utils/Mountable.ts#L91)
 
 Register a callback that will be called when the mountable is unmounted.
 
@@ -142,23 +138,16 @@ Register a callback that will be called when the mountable is unmounted.
 
 `void`
 
-#### Defined in
-
-[packages/core/src/utils/Mountable.ts:85](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/utils/Mountable.ts#L85)
-
 ***
 
 ### unmount()
 
 > **unmount**(): `void`
 
+Defined in: [packages/core/src/utils/Mountable.ts:70](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/utils/Mountable.ts#L70)
+
 Unmount the mountable from the current element.
-Will throw an error if the mountable is not mounted.
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-[packages/core/src/utils/Mountable.ts:65](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/utils/Mountable.ts#L65)

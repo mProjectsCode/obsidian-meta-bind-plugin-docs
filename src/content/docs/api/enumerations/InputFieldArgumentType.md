@@ -5,6 +5,8 @@ prev: false
 title: "InputFieldArgumentType"
 ---
 
+Defined in: [packages/core/src/config/FieldConfigs.ts:49](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L49)
+
 ## Enumeration Members
 
 <table>
@@ -19,7 +21,7 @@ title: "InputFieldArgumentType"
 <tr>
 <td>
 
-`ADD_LABELS`
+<a id="add_labels"></a> `ADD_LABELS`
 
 </td>
 <td>
@@ -29,14 +31,14 @@ title: "InputFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:51](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L51)
+[packages/core/src/config/FieldConfigs.ts:51](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L51)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`ALLOW_OTHER`
+<a id="allow_other"></a> `ALLOW_OTHER`
 
 </td>
 <td>
@@ -46,14 +48,14 @@ title: "InputFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:66](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L66)
+[packages/core/src/config/FieldConfigs.ts:66](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L66)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`CLASS`
+<a id="class"></a> `CLASS`
 
 </td>
 <td>
@@ -63,14 +65,14 @@ title: "InputFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:50](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L50)
+[packages/core/src/config/FieldConfigs.ts:50](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L50)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`DEFAULT_VALUE`
+<a id="default_value"></a> `DEFAULT_VALUE`
 
 </td>
 <td>
@@ -80,14 +82,14 @@ title: "InputFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:61](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L61)
+[packages/core/src/config/FieldConfigs.ts:61](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L61)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`INVALID`
+<a id="invalid"></a> `INVALID`
 
 </td>
 <td>
@@ -97,14 +99,14 @@ title: "InputFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:68](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L68)
+[packages/core/src/config/FieldConfigs.ts:68](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L68)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`LIMIT`
+<a id="limit"></a> `LIMIT`
 
 </td>
 <td>
@@ -114,14 +116,14 @@ title: "InputFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:64](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L64)
+[packages/core/src/config/FieldConfigs.ts:64](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L64)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`MAX_VALUE`
+<a id="max_value"></a> `MAX_VALUE`
 
 </td>
 <td>
@@ -131,14 +133,14 @@ title: "InputFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:53](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L53)
+[packages/core/src/config/FieldConfigs.ts:53](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L53)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`MIN_VALUE`
+<a id="min_value"></a> `MIN_VALUE`
 
 </td>
 <td>
@@ -148,14 +150,14 @@ title: "InputFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:52](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L52)
+[packages/core/src/config/FieldConfigs.ts:52](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L52)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`MULTI_LINE`
+<a id="multi_line"></a> `MULTI_LINE`
 
 </td>
 <td>
@@ -165,14 +167,14 @@ title: "InputFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:65](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L65)
+[packages/core/src/config/FieldConfigs.ts:65](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L65)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`OFF_VALUE`
+<a id="off_value"></a> `OFF_VALUE`
 
 </td>
 <td>
@@ -182,14 +184,14 @@ title: "InputFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:60](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L60)
+[packages/core/src/config/FieldConfigs.ts:60](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L60)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`ON_VALUE`
+<a id="on_value"></a> `ON_VALUE`
 
 </td>
 <td>
@@ -199,14 +201,14 @@ title: "InputFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:59](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L59)
+[packages/core/src/config/FieldConfigs.ts:59](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L59)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`OPTION`
+<a id="option"></a> `OPTION`
 
 </td>
 <td>
@@ -216,14 +218,14 @@ title: "InputFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:55](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L55)
+[packages/core/src/config/FieldConfigs.ts:55](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L55)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`OPTION_QUERY`
+<a id="option_query"></a> `OPTION_QUERY`
 
 </td>
 <td>
@@ -233,14 +235,14 @@ title: "InputFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:57](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L57)
+[packages/core/src/config/FieldConfigs.ts:57](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L57)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`PLACEHOLDER`
+<a id="placeholder"></a> `PLACEHOLDER`
 
 </td>
 <td>
@@ -250,14 +252,14 @@ title: "InputFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:62](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L62)
+[packages/core/src/config/FieldConfigs.ts:62](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L62)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`SHOWCASE`
+<a id="showcase"></a> `SHOWCASE`
 
 </td>
 <td>
@@ -267,14 +269,14 @@ title: "InputFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:58](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L58)
+[packages/core/src/config/FieldConfigs.ts:58](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L58)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`STEP_SIZE`
+<a id="step_size"></a> `STEP_SIZE`
 
 </td>
 <td>
@@ -284,14 +286,14 @@ title: "InputFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:54](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L54)
+[packages/core/src/config/FieldConfigs.ts:54](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L54)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`TITLE`
+<a id="title"></a> `TITLE`
 
 </td>
 <td>
@@ -301,14 +303,14 @@ title: "InputFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:56](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L56)
+[packages/core/src/config/FieldConfigs.ts:56](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L56)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`USE_LINKS`
+<a id="use_links"></a> `USE_LINKS`
 
 </td>
 <td>
@@ -318,7 +320,7 @@ title: "InputFieldArgumentType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:63](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L63)
+[packages/core/src/config/FieldConfigs.ts:63](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L63)
 
 </td>
 </tr>

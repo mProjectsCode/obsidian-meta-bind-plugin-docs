@@ -5,15 +5,15 @@ prev: false
 title: "ButtonContext"
 ---
 
+Defined in: [packages/core/src/config/ButtonConfig.ts:201](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L201)
+
 ## Properties
 
 ### isInGroup
 
 > **isInGroup**: `boolean`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:139](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L139)
+Defined in: [packages/core/src/config/ButtonConfig.ts:203](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L203)
 
 ***
 
@@ -21,9 +21,7 @@ title: "ButtonContext"
 
 > **isInline**: `boolean`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:140](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L140)
+Defined in: [packages/core/src/config/ButtonConfig.ts:204](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L204)
 
 ***
 
@@ -31,6 +29,4 @@ title: "ButtonContext"
 
 > **position**: `undefined` \| [`LinePosition`](/obsidian-meta-bind-plugin-docs/api/interfaces/lineposition/)
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:138](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L138)
+Defined in: [packages/core/src/config/ButtonConfig.ts:202](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L202)

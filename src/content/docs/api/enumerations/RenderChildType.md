@@ -5,6 +5,8 @@ prev: false
 title: "RenderChildType"
 ---
 
+Defined in: [packages/core/src/config/APIConfigs.ts:12](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L12)
+
 ## Enumeration Members
 
 <table>
@@ -19,7 +21,7 @@ title: "RenderChildType"
 <tr>
 <td>
 
-`BLOCK`
+<a id="block"></a> `BLOCK`
 
 </td>
 <td>
@@ -29,14 +31,14 @@ title: "RenderChildType"
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:14](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/APIConfigs.ts#L14)
+[packages/core/src/config/APIConfigs.ts:14](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L14)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`INLINE`
+<a id="inline"></a> `INLINE`
 
 </td>
 <td>
@@ -46,7 +48,7 @@ title: "RenderChildType"
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:13](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/APIConfigs.ts#L13)
+[packages/core/src/config/APIConfigs.ts:13](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L13)
 
 </td>
 </tr>

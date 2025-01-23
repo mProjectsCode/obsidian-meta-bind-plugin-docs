@@ -5,15 +5,15 @@ prev: false
 title: "OpenButtonAction"
 ---
 
+Defined in: [packages/core/src/config/ButtonConfig.ts:50](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L50)
+
 ## Properties
 
 ### link
 
 > **link**: `string`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:39](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L39)
+Defined in: [packages/core/src/config/ButtonConfig.ts:52](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L52)
 
 ***
 
@@ -21,9 +21,7 @@ title: "OpenButtonAction"
 
 > `optional` **newTab**: `boolean`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:40](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L40)
+Defined in: [packages/core/src/config/ButtonConfig.ts:53](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L53)
 
 ***
 
@@ -31,6 +29,4 @@ title: "OpenButtonAction"
 
 > **type**: [`OPEN`](/obsidian-meta-bind-plugin-docs/api/enumerations/buttonactiontype/#open)
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:38](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L38)
+Defined in: [packages/core/src/config/ButtonConfig.ts:51](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L51)

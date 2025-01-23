@@ -5,6 +5,8 @@ prev: false
 title: "ComponentLike"
 ---
 
+Defined in: [packages/obsidian/src/ObsidianAPI.ts:23](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/obsidian/src/ObsidianAPI.ts#L23)
+
 Either a [Component](https://docs.obsidian.md/Reference/TypeScript+API/Component) or a [MarkdownPostProcessorContext](https://docs.obsidian.md/Reference/TypeScript+API/MarkdownPostProcessorContext).
 
 ## Methods
@@ -12,6 +14,8 @@ Either a [Component](https://docs.obsidian.md/Reference/TypeScript+API/Component
 ### addChild()
 
 > **addChild**(`child`): `void`
+
+Defined in: [packages/obsidian/src/ObsidianAPI.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/obsidian/src/ObsidianAPI.ts#L24)
 
 #### Parameters
 
@@ -41,7 +45,3 @@ Either a [Component](https://docs.obsidian.md/Reference/TypeScript+API/Component
 #### Returns
 
 `void`
-
-#### Defined in
-
-[packages/obsidian/src/ObsidianAPI.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/obsidian/src/ObsidianAPI.ts#L24)

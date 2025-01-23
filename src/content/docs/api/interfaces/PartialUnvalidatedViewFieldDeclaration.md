@@ -5,6 +5,8 @@ prev: false
 title: "PartialUnvalidatedViewFieldDeclaration"
 ---
 
+Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:23](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L23)
+
 ## Extended by
 
 - [`UnvalidatedViewFieldDeclaration`](/obsidian-meta-bind-plugin-docs/api/interfaces/unvalidatedviewfielddeclaration/)
@@ -15,9 +17,7 @@ title: "PartialUnvalidatedViewFieldDeclaration"
 
 > **arguments**: [`UnvalidatedFieldArgument`](/obsidian-meta-bind-plugin-docs/api/interfaces/unvalidatedfieldargument/)[]
 
-#### Defined in
-
-[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:26](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L26)
+Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:26](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L26)
 
 ***
 
@@ -25,9 +25,7 @@ title: "PartialUnvalidatedViewFieldDeclaration"
 
 > `optional` **templateDeclaration**: (`string` \| [`UnvalidatedBindTargetDeclaration`](/obsidian-meta-bind-plugin-docs/api/interfaces/unvalidatedbindtargetdeclaration/))[]
 
-#### Defined in
-
-[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L24)
+Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L24)
 
 ***
 
@@ -35,9 +33,7 @@ title: "PartialUnvalidatedViewFieldDeclaration"
 
 > `optional` **viewFieldType**: `ParsingResultNode`
 
-#### Defined in
-
-[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L25)
+Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L25)
 
 ***
 
@@ -45,6 +41,4 @@ title: "PartialUnvalidatedViewFieldDeclaration"
 
 > `optional` **writeToBindTarget**: [`UnvalidatedBindTargetDeclaration`](/obsidian-meta-bind-plugin-docs/api/interfaces/unvalidatedbindtargetdeclaration/)
 
-#### Defined in
-
-[packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:27](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L27)
+Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:27](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L27)

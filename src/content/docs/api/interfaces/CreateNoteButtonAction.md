@@ -5,15 +5,15 @@ prev: false
 title: "CreateNoteButtonAction"
 ---
 
+Defined in: [packages/core/src/config/ButtonConfig.ts:87](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L87)
+
 ## Properties
 
 ### fileName
 
 > **fileName**: `string`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:72](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L72)
+Defined in: [packages/core/src/config/ButtonConfig.ts:90](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L90)
 
 ***
 
@@ -21,9 +21,7 @@ title: "CreateNoteButtonAction"
 
 > `optional` **folderPath**: `string`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:71](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L71)
+Defined in: [packages/core/src/config/ButtonConfig.ts:89](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L89)
 
 ***
 
@@ -31,9 +29,7 @@ title: "CreateNoteButtonAction"
 
 > `optional` **openIfAlreadyExists**: `boolean`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:74](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L74)
+Defined in: [packages/core/src/config/ButtonConfig.ts:92](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L92)
 
 ***
 
@@ -41,9 +37,7 @@ title: "CreateNoteButtonAction"
 
 > `optional` **openNote**: `boolean`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:73](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L73)
+Defined in: [packages/core/src/config/ButtonConfig.ts:91](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L91)
 
 ***
 
@@ -51,6 +45,4 @@ title: "CreateNoteButtonAction"
 
 > **type**: [`CREATE_NOTE`](/obsidian-meta-bind-plugin-docs/api/enumerations/buttonactiontype/#create_note)
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:70](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L70)
+Defined in: [packages/core/src/config/ButtonConfig.ts:88](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L88)

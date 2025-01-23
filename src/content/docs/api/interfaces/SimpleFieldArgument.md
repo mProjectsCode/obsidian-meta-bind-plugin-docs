@@ -5,15 +5,15 @@ prev: false
 title: "SimpleFieldArgument"
 ---
 
+Defined in: [packages/core/src/parsers/FieldDeclaration.ts:9](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/FieldDeclaration.ts#L9)
+
 ## Properties
 
 ### name
 
 > **name**: `string`
 
-#### Defined in
-
-[packages/core/src/parsers/FieldDeclaration.ts:10](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/FieldDeclaration.ts#L10)
+Defined in: [packages/core/src/parsers/FieldDeclaration.ts:10](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/FieldDeclaration.ts#L10)
 
 ***
 
@@ -21,6 +21,4 @@ title: "SimpleFieldArgument"
 
 > **value**: `string`[]
 
-#### Defined in
-
-[packages/core/src/parsers/FieldDeclaration.ts:11](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/FieldDeclaration.ts#L11)
+Defined in: [packages/core/src/parsers/FieldDeclaration.ts:11](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/FieldDeclaration.ts#L11)

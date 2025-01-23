@@ -5,6 +5,8 @@ prev: false
 title: "InputFieldType"
 ---
 
+Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L23)
+
 ## Enumeration Members
 
 <table>
@@ -19,7 +21,7 @@ title: "InputFieldType"
 <tr>
 <td>
 
-`DATE`
+<a id="date"></a> `DATE`
 
 </td>
 <td>
@@ -29,14 +31,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L30)
+[packages/core/src/config/FieldConfigs.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L30)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`DATE_PICKER`
+<a id="date_picker"></a> `DATE_PICKER`
 
 </td>
 <td>
@@ -46,14 +48,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L32)
+[packages/core/src/config/FieldConfigs.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L32)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`DATE_TIME`
+<a id="date_time"></a> `DATE_TIME`
 
 </td>
 <td>
@@ -63,14 +65,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:44](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L44)
+[packages/core/src/config/FieldConfigs.ts:44](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L44)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`EDITOR`
+<a id="editor"></a> `EDITOR`
 
 </td>
 <td>
@@ -80,14 +82,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:35](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L35)
+[packages/core/src/config/FieldConfigs.ts:35](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L35)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`IMAGE_LIST_SUGGESTER`
+<a id="image_list_suggester"></a> `IMAGE_LIST_SUGGESTER`
 
 </td>
 <td>
@@ -97,14 +99,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:43](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L43)
+[packages/core/src/config/FieldConfigs.ts:43](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L43)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`IMAGE_SUGGESTER`
+<a id="image_suggester"></a> `IMAGE_SUGGESTER`
 
 </td>
 <td>
@@ -114,14 +116,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:36](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L36)
+[packages/core/src/config/FieldConfigs.ts:36](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L36)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`INLINE_LIST`
+<a id="inline_list"></a> `INLINE_LIST`
 
 </td>
 <td>
@@ -131,14 +133,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:42](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L42)
+[packages/core/src/config/FieldConfigs.ts:42](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L42)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`INLINE_LIST_SUGGESTER`
+<a id="inline_list_suggester"></a> `INLINE_LIST_SUGGESTER`
 
 </td>
 <td>
@@ -148,14 +150,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:41](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L41)
+[packages/core/src/config/FieldConfigs.ts:41](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L41)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`INLINE_SELECT`
+<a id="inline_select"></a> `INLINE_SELECT`
 
 </td>
 <td>
@@ -165,14 +167,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:38](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L38)
+[packages/core/src/config/FieldConfigs.ts:38](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L38)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`INVALID`
+<a id="invalid"></a> `INVALID`
 
 </td>
 <td>
@@ -182,14 +184,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:46](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L46)
+[packages/core/src/config/FieldConfigs.ts:46](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L46)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`LIST`
+<a id="list"></a> `LIST`
 
 </td>
 <td>
@@ -199,14 +201,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:39](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L39)
+[packages/core/src/config/FieldConfigs.ts:39](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L39)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`LIST_SUGGESTER`
+<a id="list_suggester"></a> `LIST_SUGGESTER`
 
 </td>
 <td>
@@ -216,14 +218,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:40](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L40)
+[packages/core/src/config/FieldConfigs.ts:40](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L40)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`MULTI_SELECT`
+<a id="multi_select"></a> `MULTI_SELECT`
 
 </td>
 <td>
@@ -233,14 +235,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:29](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L29)
+[packages/core/src/config/FieldConfigs.ts:29](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L29)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`NUMBER`
+<a id="number"></a> `NUMBER`
 
 </td>
 <td>
@@ -250,14 +252,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:33](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L33)
+[packages/core/src/config/FieldConfigs.ts:33](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L33)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`PROGRESS_BAR`
+<a id="progress_bar"></a> `PROGRESS_BAR`
 
 </td>
 <td>
@@ -267,14 +269,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:37](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L37)
+[packages/core/src/config/FieldConfigs.ts:37](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L37)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`SELECT`
+<a id="select"></a> `SELECT`
 
 </td>
 <td>
@@ -284,14 +286,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:28](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L28)
+[packages/core/src/config/FieldConfigs.ts:28](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L28)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`SLIDER`
+<a id="slider"></a> `SLIDER`
 
 </td>
 <td>
@@ -301,14 +303,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L25)
+[packages/core/src/config/FieldConfigs.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L25)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`SUGGESTER`
+<a id="suggester"></a> `SUGGESTER`
 
 </td>
 <td>
@@ -318,14 +320,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:34](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L34)
+[packages/core/src/config/FieldConfigs.ts:34](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L34)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`TEXT`
+<a id="text"></a> `TEXT`
 
 </td>
 <td>
@@ -335,14 +337,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:26](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L26)
+[packages/core/src/config/FieldConfigs.ts:26](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L26)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`TEXT_AREA`
+<a id="text_area"></a> `TEXT_AREA`
 
 </td>
 <td>
@@ -352,14 +354,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:27](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L27)
+[packages/core/src/config/FieldConfigs.ts:27](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L27)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`TIME`
+<a id="time"></a> `TIME`
 
 </td>
 <td>
@@ -369,14 +371,14 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L31)
+[packages/core/src/config/FieldConfigs.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L31)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`TOGGLE`
+<a id="toggle"></a> `TOGGLE`
 
 </td>
 <td>
@@ -386,7 +388,7 @@ title: "InputFieldType"
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/FieldConfigs.ts#L24)
+[packages/core/src/config/FieldConfigs.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/FieldConfigs.ts#L24)
 
 </td>
 </tr>

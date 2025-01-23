@@ -5,6 +5,8 @@ prev: false
 title: "BindTargetStorageType"
 ---
 
+Defined in: [packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:29](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L29)
+
 ## Enumeration Members
 
 <table>
@@ -19,7 +21,7 @@ title: "BindTargetStorageType"
 <tr>
 <td>
 
-`FRONTMATTER`
+<a id="frontmatter"></a> `FRONTMATTER`
 
 </td>
 <td>
@@ -29,14 +31,14 @@ title: "BindTargetStorageType"
 </td>
 <td>
 
-[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L30)
+[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L30)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`GLOBAL_MEMORY`
+<a id="global_memory"></a> `GLOBAL_MEMORY`
 
 </td>
 <td>
@@ -46,14 +48,14 @@ title: "BindTargetStorageType"
 </td>
 <td>
 
-[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L32)
+[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L32)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`MEMORY`
+<a id="memory"></a> `MEMORY`
 
 </td>
 <td>
@@ -63,14 +65,14 @@ title: "BindTargetStorageType"
 </td>
 <td>
 
-[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L31)
+[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L31)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`SCOPE`
+<a id="scope"></a> `SCOPE`
 
 </td>
 <td>
@@ -80,7 +82,7 @@ title: "BindTargetStorageType"
 </td>
 <td>
 
-[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:33](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L33)
+[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:33](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L33)
 
 </td>
 </tr>

@@ -5,15 +5,15 @@ prev: false
 title: "JSButtonAction"
 ---
 
+Defined in: [packages/core/src/config/ButtonConfig.ts:44](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L44)
+
 ## Properties
 
 ### args?
 
 > `optional` **args**: [`Record`](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type)\<`string`, `unknown`\>
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:34](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L34)
+Defined in: [packages/core/src/config/ButtonConfig.ts:47](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L47)
 
 ***
 
@@ -21,9 +21,7 @@ title: "JSButtonAction"
 
 > **file**: `string`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:33](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L33)
+Defined in: [packages/core/src/config/ButtonConfig.ts:46](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L46)
 
 ***
 
@@ -31,6 +29,4 @@ title: "JSButtonAction"
 
 > **type**: [`JS`](/obsidian-meta-bind-plugin-docs/api/enumerations/buttonactiontype/#js)
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L32)
+Defined in: [packages/core/src/config/ButtonConfig.ts:45](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L45)

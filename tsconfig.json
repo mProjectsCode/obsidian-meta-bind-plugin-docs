@@ -8,5 +8,6 @@
 		"allowSyntheticDefaultImports": true,
 		"esModuleInterop": true,
 		"verbatimModuleSyntax": true
-	}
+	},
+	"include": ["src/**/*.ts", "src/**/*.mdx", "src/**/*.astro"]
 }

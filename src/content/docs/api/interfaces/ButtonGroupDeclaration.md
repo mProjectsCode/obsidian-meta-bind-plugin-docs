@@ -5,15 +5,15 @@ prev: false
 title: "ButtonGroupDeclaration"
 ---
 
+Defined in: [packages/core/src/parsers/ButtonParser.ts:19](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/ButtonParser.ts#L19)
+
 ## Properties
 
 ### declarationString
 
 > **declarationString**: `undefined` \| `string`
 
-#### Defined in
-
-[packages/core/src/parsers/ButtonParser.ts:20](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/ButtonParser.ts#L20)
+Defined in: [packages/core/src/parsers/ButtonParser.ts:20](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/ButtonParser.ts#L20)
 
 ***
 
@@ -21,9 +21,7 @@ title: "ButtonGroupDeclaration"
 
 > **errorCollection**: `ErrorCollection`
 
-#### Defined in
-
-[packages/core/src/parsers/ButtonParser.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/ButtonParser.ts#L22)
+Defined in: [packages/core/src/parsers/ButtonParser.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/ButtonParser.ts#L22)
 
 ***
 
@@ -31,6 +29,4 @@ title: "ButtonGroupDeclaration"
 
 > **referencedButtonIds**: `string`[]
 
-#### Defined in
-
-[packages/core/src/parsers/ButtonParser.ts:21](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/ButtonParser.ts#L21)
+Defined in: [packages/core/src/parsers/ButtonParser.ts:21](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/ButtonParser.ts#L21)

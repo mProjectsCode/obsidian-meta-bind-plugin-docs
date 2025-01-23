@@ -5,15 +5,15 @@ prev: false
 title: "RegexpReplaceInNoteButtonAction"
 ---
 
+Defined in: [packages/core/src/config/ButtonConfig.ts:109](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L109)
+
 ## Properties
 
 ### regexp
 
 > **regexp**: `string`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:93](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L93)
+Defined in: [packages/core/src/config/ButtonConfig.ts:111](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L111)
 
 ***
 
@@ -21,9 +21,7 @@ title: "RegexpReplaceInNoteButtonAction"
 
 > `optional` **regexpFlags**: `string`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:94](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L94)
+Defined in: [packages/core/src/config/ButtonConfig.ts:112](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L112)
 
 ***
 
@@ -31,9 +29,7 @@ title: "RegexpReplaceInNoteButtonAction"
 
 > **replacement**: `string`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:95](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L95)
+Defined in: [packages/core/src/config/ButtonConfig.ts:113](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L113)
 
 ***
 
@@ -41,6 +37,4 @@ title: "RegexpReplaceInNoteButtonAction"
 
 > **type**: [`REGEXP_REPLACE_IN_NOTE`](/obsidian-meta-bind-plugin-docs/api/enumerations/buttonactiontype/#regexp_replace_in_note)
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:92](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L92)
+Defined in: [packages/core/src/config/ButtonConfig.ts:110](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L110)

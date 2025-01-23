@@ -5,15 +5,15 @@ prev: false
 title: "InsertIntoNoteButtonAction"
 ---
 
+Defined in: [packages/core/src/config/ButtonConfig.ts:116](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L116)
+
 ## Properties
 
 ### line
 
 > **line**: `number`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:100](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L100)
+Defined in: [packages/core/src/config/ButtonConfig.ts:118](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L118)
 
 ***
 
@@ -21,9 +21,7 @@ title: "InsertIntoNoteButtonAction"
 
 > `optional` **templater**: `boolean`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:102](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L102)
+Defined in: [packages/core/src/config/ButtonConfig.ts:120](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L120)
 
 ***
 
@@ -31,9 +29,7 @@ title: "InsertIntoNoteButtonAction"
 
 > **type**: [`INSERT_INTO_NOTE`](/obsidian-meta-bind-plugin-docs/api/enumerations/buttonactiontype/#insert_into_note)
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:99](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L99)
+Defined in: [packages/core/src/config/ButtonConfig.ts:117](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L117)
 
 ***
 
@@ -41,6 +37,4 @@ title: "InsertIntoNoteButtonAction"
 
 > **value**: `string`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:101](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L101)
+Defined in: [packages/core/src/config/ButtonConfig.ts:119](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L119)

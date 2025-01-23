@@ -5,6 +5,8 @@ prev: false
 title: "PartialUnvalidatedInputFieldDeclaration"
 ---
 
+Defined in: [packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts:20](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts#L20)
+
 ## Extended by
 
 - [`UnvalidatedInputFieldDeclaration`](/obsidian-meta-bind-plugin-docs/api/interfaces/unvalidatedinputfielddeclaration/)
@@ -15,9 +17,7 @@ title: "PartialUnvalidatedInputFieldDeclaration"
 
 > **arguments**: [`UnvalidatedFieldArgument`](/obsidian-meta-bind-plugin-docs/api/interfaces/unvalidatedfieldargument/)[]
 
-#### Defined in
-
-[packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts#L24)
+Defined in: [packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts#L24)
 
 ***
 
@@ -25,9 +25,7 @@ title: "PartialUnvalidatedInputFieldDeclaration"
 
 > `optional` **bindTarget**: [`UnvalidatedBindTargetDeclaration`](/obsidian-meta-bind-plugin-docs/api/interfaces/unvalidatedbindtargetdeclaration/)
 
-#### Defined in
-
-[packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts:23](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts#L23)
+Defined in: [packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts:23](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts#L23)
 
 ***
 
@@ -35,9 +33,7 @@ title: "PartialUnvalidatedInputFieldDeclaration"
 
 > `optional` **inputFieldType**: `ParsingResultNode`
 
-#### Defined in
-
-[packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts:21](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts#L21)
+Defined in: [packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts:21](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts#L21)
 
 ***
 
@@ -45,6 +41,4 @@ title: "PartialUnvalidatedInputFieldDeclaration"
 
 > `optional` **templateName**: `ParsingResultNode`
 
-#### Defined in
-
-[packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts#L22)
+Defined in: [packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/inputFieldParser/InputFieldDeclaration.ts#L22)

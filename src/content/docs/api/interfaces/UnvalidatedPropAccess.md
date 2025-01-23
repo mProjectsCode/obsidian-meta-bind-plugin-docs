@@ -5,15 +5,15 @@ prev: false
 title: "UnvalidatedPropAccess"
 ---
 
+Defined in: [packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:19](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L19)
+
 ## Properties
 
 ### prop
 
 > **prop**: `ParsingResultNode`
 
-#### Defined in
-
-[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:21](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L21)
+Defined in: [packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:21](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L21)
 
 ***
 
@@ -21,6 +21,4 @@ title: "UnvalidatedPropAccess"
 
 > **type**: `PropAccessType`
 
-#### Defined in
-
-[packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:20](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L20)
+Defined in: [packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:20](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L20)

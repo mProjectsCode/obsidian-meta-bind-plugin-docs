@@ -9,6 +9,7 @@ title: "meta-bind-obsidian"
 
 - [BindTargetStorageType](/obsidian-meta-bind-plugin-docs/api/enumerations/bindtargetstoragetype/)
 - [ButtonActionType](/obsidian-meta-bind-plugin-docs/api/enumerations/buttonactiontype/)
+- [ButtonClickType](/obsidian-meta-bind-plugin-docs/api/enumerations/buttonclicktype/)
 - [ButtonStyleType](/obsidian-meta-bind-plugin-docs/api/enumerations/buttonstyletype/)
 - [FieldType](/obsidian-meta-bind-plugin-docs/api/enumerations/fieldtype/)
 - [InputFieldArgumentType](/obsidian-meta-bind-plugin-docs/api/enumerations/inputfieldargumenttype/)
@@ -27,6 +28,8 @@ title: "meta-bind-obsidian"
 ## Interfaces
 
 - [BindTargetDeclaration](/obsidian-meta-bind-plugin-docs/api/interfaces/bindtargetdeclaration/)
+- [ButtonActionMap](/obsidian-meta-bind-plugin-docs/api/interfaces/buttonactionmap/)
+- [ButtonClickContext](/obsidian-meta-bind-plugin-docs/api/interfaces/buttonclickcontext/)
 - [ButtonConfig](/obsidian-meta-bind-plugin-docs/api/interfaces/buttonconfig/)
 - [ButtonContext](/obsidian-meta-bind-plugin-docs/api/interfaces/buttoncontext/)
 - [ButtonDeclaration](/obsidian-meta-bind-plugin-docs/api/interfaces/buttondeclaration/)
@@ -39,7 +42,7 @@ title: "meta-bind-obsidian"
 - [EmbedOptions](/obsidian-meta-bind-plugin-docs/api/interfaces/embedoptions/)
 - [FieldDeclaration](/obsidian-meta-bind-plugin-docs/api/interfaces/fielddeclaration/)
 - [FieldOptionMap](/obsidian-meta-bind-plugin-docs/api/interfaces/fieldoptionmap/)
-- [InlineJsButtonAction](/obsidian-meta-bind-plugin-docs/api/interfaces/inlinejsbuttonaction/)
+- [InlineJSButtonAction](/obsidian-meta-bind-plugin-docs/api/interfaces/inlinejsbuttonaction/)
 - [InputButtonAction](/obsidian-meta-bind-plugin-docs/api/interfaces/inputbuttonaction/)
 - [InputFieldDeclaration](/obsidian-meta-bind-plugin-docs/api/interfaces/inputfielddeclaration/)
 - [InputFieldOptions](/obsidian-meta-bind-plugin-docs/api/interfaces/inputfieldoptions/)
@@ -56,6 +59,7 @@ title: "meta-bind-obsidian"
 - [RegexpReplaceInNoteButtonAction](/obsidian-meta-bind-plugin-docs/api/interfaces/regexpreplaceinnotebuttonaction/)
 - [ReplaceInNoteButtonAction](/obsidian-meta-bind-plugin-docs/api/interfaces/replaceinnotebuttonaction/)
 - [ReplaceSelfButtonAction](/obsidian-meta-bind-plugin-docs/api/interfaces/replaceselfbuttonaction/)
+- [RunTemplaterFileButtonAction](/obsidian-meta-bind-plugin-docs/api/interfaces/runtemplaterfilebuttonaction/)
 - [SimpleButtonGroupDeclaration](/obsidian-meta-bind-plugin-docs/api/interfaces/simplebuttongroupdeclaration/)
 - [SimpleFieldArgument](/obsidian-meta-bind-plugin-docs/api/interfaces/simplefieldargument/)
 - [SimpleInputFieldDeclaration](/obsidian-meta-bind-plugin-docs/api/interfaces/simpleinputfielddeclaration/)

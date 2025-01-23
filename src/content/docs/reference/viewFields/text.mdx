@@ -5,13 +5,16 @@ description: Text view field reference.
 
 import ViewFieldInfo from '../../../../components/viewField/ViewFieldInfo.astro';
 import ViewFieldAllowedArguments from '../../../../components/viewField/ViewFieldAllowedArguments.astro';
-import { ViewFieldType } from '../../../../config/static.js';
+import ViewFieldArgumentLink from '../../../../components/viewField/ViewFieldArgumentLink.astro';
+import { ViewFieldType, ViewFieldArgumentType } from '../../../../config/static.js';
 
 <ViewFieldInfo type={ViewFieldType.TEXT}></ViewFieldInfo>
 
 ### Description
 
 A text view field displays its content as plain text.
+
+Using the <ViewFieldArgumentLink type={ViewFieldArgumentType.RENDER_MARKDOWN}></ViewFieldArgumentLink> argument, the content can be rendered as markdown.
 
 ### Allowed Arguments
 

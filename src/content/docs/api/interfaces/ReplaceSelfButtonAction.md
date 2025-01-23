@@ -5,15 +5,15 @@ prev: false
 title: "ReplaceSelfButtonAction"
 ---
 
+Defined in: [packages/core/src/config/ButtonConfig.ts:103](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L103)
+
 ## Properties
 
 ### replacement
 
 > **replacement**: `string`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:87](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L87)
+Defined in: [packages/core/src/config/ButtonConfig.ts:105](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L105)
 
 ***
 
@@ -21,9 +21,7 @@ title: "ReplaceSelfButtonAction"
 
 > `optional` **templater**: `boolean`
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:88](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L88)
+Defined in: [packages/core/src/config/ButtonConfig.ts:106](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L106)
 
 ***
 
@@ -31,6 +29,4 @@ title: "ReplaceSelfButtonAction"
 
 > **type**: [`REPLACE_SELF`](/obsidian-meta-bind-plugin-docs/api/enumerations/buttonactiontype/#replace_self)
 
-#### Defined in
-
-[packages/core/src/config/ButtonConfig.ts:86](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/f797e384bc51b3b69ee936c1c8f585862087d6d3/packages/core/src/config/ButtonConfig.ts#L86)
+Defined in: [packages/core/src/config/ButtonConfig.ts:104](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L104)
