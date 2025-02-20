@@ -5,7 +5,7 @@ prev: false
 title: "ReplaceInNoteButtonAction"
 ---
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:95](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L95)
+Defined in: [packages/core/src/config/ButtonConfig.ts:95](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L95)
 
 ## Properties
 
@@ -13,7 +13,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:95](https://github.com/mPr
 
 > **fromLine**: `number`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:97](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L97)
+Defined in: [packages/core/src/config/ButtonConfig.ts:97](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L97)
 
 ***
 
@@ -21,7 +21,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:97](https://github.com/mPr
 
 > **replacement**: `string`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:99](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L99)
+Defined in: [packages/core/src/config/ButtonConfig.ts:99](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L99)
 
 ***
 
@@ -29,7 +29,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:99](https://github.com/mPr
 
 > `optional` **templater**: `boolean`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:100](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L100)
+Defined in: [packages/core/src/config/ButtonConfig.ts:100](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L100)
 
 ***
 
@@ -37,7 +37,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:100](https://github.com/mP
 
 > **toLine**: `number`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:98](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L98)
+Defined in: [packages/core/src/config/ButtonConfig.ts:98](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L98)
 
 ***
 
@@ -45,4 +45,4 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:98](https://github.com/mPr
 
 > **type**: [`REPLACE_IN_NOTE`](/obsidian-meta-bind-plugin-docs/api/enumerations/buttonactiontype/#replace_in_note)
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:96](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L96)
+Defined in: [packages/core/src/config/ButtonConfig.ts:96](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L96)

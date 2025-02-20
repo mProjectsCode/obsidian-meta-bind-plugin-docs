@@ -5,7 +5,7 @@ prev: false
 title: "FieldOptionMap"
 ---
 
-Defined in: [packages/core/src/config/APIConfigs.ts:84](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L84)
+Defined in: [packages/core/src/config/APIConfigs.ts:84](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/APIConfigs.ts#L84)
 
 ## Properties
 
@@ -13,7 +13,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:84](https://github.com/mProj
 
 > **BUTTON**: [`ButtonOptions`](/obsidian-meta-bind-plugin-docs/api/interfaces/buttonoptions/)
 
-Defined in: [packages/core/src/config/APIConfigs.ts:90](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L90)
+Defined in: [packages/core/src/config/APIConfigs.ts:90](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/APIConfigs.ts#L90)
 
 ***
 
@@ -21,7 +21,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:90](https://github.com/mProj
 
 > **BUTTON\_GROUP**: [`ButtonGroupOptions`](/obsidian-meta-bind-plugin-docs/api/interfaces/buttongroupoptions/)
 
-Defined in: [packages/core/src/config/APIConfigs.ts:89](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L89)
+Defined in: [packages/core/src/config/APIConfigs.ts:89](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/APIConfigs.ts#L89)
 
 ***
 
@@ -29,7 +29,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:89](https://github.com/mProj
 
 > **EMBED**: [`EmbedOptions`](/obsidian-meta-bind-plugin-docs/api/interfaces/embedoptions/)
 
-Defined in: [packages/core/src/config/APIConfigs.ts:91](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L91)
+Defined in: [packages/core/src/config/APIConfigs.ts:91](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/APIConfigs.ts#L91)
 
 ***
 
@@ -37,7 +37,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:91](https://github.com/mProj
 
 > **EXCLUDED**: `undefined`
 
-Defined in: [packages/core/src/config/APIConfigs.ts:92](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L92)
+Defined in: [packages/core/src/config/APIConfigs.ts:92](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/APIConfigs.ts#L92)
 
 ***
 
@@ -45,7 +45,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:92](https://github.com/mProj
 
 > **INPUT**: [`InputFieldOptions`](/obsidian-meta-bind-plugin-docs/api/interfaces/inputfieldoptions/)
 
-Defined in: [packages/core/src/config/APIConfigs.ts:85](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L85)
+Defined in: [packages/core/src/config/APIConfigs.ts:85](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/APIConfigs.ts#L85)
 
 ***
 
@@ -53,7 +53,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:85](https://github.com/mProj
 
 > **JS\_VIEW**: [`JsViewFieldOptions`](/obsidian-meta-bind-plugin-docs/api/interfaces/jsviewfieldoptions/)
 
-Defined in: [packages/core/src/config/APIConfigs.ts:87](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L87)
+Defined in: [packages/core/src/config/APIConfigs.ts:87](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/APIConfigs.ts#L87)
 
 ***
 
@@ -61,7 +61,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:87](https://github.com/mProj
 
 > **TABLE**: [`TableOptions`](/obsidian-meta-bind-plugin-docs/api/interfaces/tableoptions/)
 
-Defined in: [packages/core/src/config/APIConfigs.ts:88](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L88)
+Defined in: [packages/core/src/config/APIConfigs.ts:88](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/APIConfigs.ts#L88)
 
 ***
 
@@ -69,4 +69,4 @@ Defined in: [packages/core/src/config/APIConfigs.ts:88](https://github.com/mProj
 
 > **VIEW**: [`ViewFieldOptions`](/obsidian-meta-bind-plugin-docs/api/interfaces/viewfieldoptions/)
 
-Defined in: [packages/core/src/config/APIConfigs.ts:86](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/APIConfigs.ts#L86)
+Defined in: [packages/core/src/config/APIConfigs.ts:86](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/APIConfigs.ts#L86)

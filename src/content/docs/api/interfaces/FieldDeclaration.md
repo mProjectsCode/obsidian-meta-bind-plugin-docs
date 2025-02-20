@@ -5,7 +5,7 @@ prev: false
 title: "FieldDeclaration"
 ---
 
-Defined in: [packages/core/src/parsers/FieldDeclaration.ts:4](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/FieldDeclaration.ts#L4)
+Defined in: [packages/core/src/parsers/FieldDeclaration.ts:4](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/parsers/FieldDeclaration.ts#L4)
 
 ## Extended by
 
@@ -22,7 +22,7 @@ Defined in: [packages/core/src/parsers/FieldDeclaration.ts:4](https://github.com
 
 > `optional` **declarationString**: `string`
 
-Defined in: [packages/core/src/parsers/FieldDeclaration.ts:5](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/FieldDeclaration.ts#L5)
+Defined in: [packages/core/src/parsers/FieldDeclaration.ts:5](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/parsers/FieldDeclaration.ts#L5)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [packages/core/src/parsers/FieldDeclaration.ts:5](https://github.com
 
 > **errorCollection**: `ErrorCollection`
 
-Defined in: [packages/core/src/parsers/FieldDeclaration.ts:6](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/FieldDeclaration.ts#L6)
+Defined in: [packages/core/src/parsers/FieldDeclaration.ts:6](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/parsers/FieldDeclaration.ts#L6)

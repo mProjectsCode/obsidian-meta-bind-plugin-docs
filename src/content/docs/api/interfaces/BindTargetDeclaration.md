@@ -5,7 +5,7 @@ prev: false
 title: "BindTargetDeclaration"
 ---
 
-Defined in: [packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:5](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L5)
+Defined in: [packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:5](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L5)
 
 ## Properties
 
@@ -13,7 +13,7 @@ Defined in: [packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts
 
 > **listenToChildren**: `boolean`
 
-Defined in: [packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:9](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L9)
+Defined in: [packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:9](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L9)
 
 ***
 
@@ -21,7 +21,7 @@ Defined in: [packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts
 
 > **storagePath**: `string`
 
-Defined in: [packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:7](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L7)
+Defined in: [packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:7](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L7)
 
 ***
 
@@ -29,7 +29,7 @@ Defined in: [packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts
 
 > **storageProp**: `PropPath`
 
-Defined in: [packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:8](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L8)
+Defined in: [packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:8](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L8)
 
 ***
 
@@ -37,4 +37,4 @@ Defined in: [packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts
 
 > **storageType**: `string`
 
-Defined in: [packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:6](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L6)
+Defined in: [packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts:6](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/parsers/bindTargetParser/BindTargetDeclaration.ts#L6)

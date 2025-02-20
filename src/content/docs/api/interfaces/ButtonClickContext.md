@@ -5,7 +5,7 @@ prev: false
 title: "ButtonClickContext"
 ---
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:210](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L210)
+Defined in: [packages/core/src/config/ButtonConfig.ts:210](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L210)
 
 Provides information about the button click event.
 
@@ -15,7 +15,7 @@ Provides information about the button click event.
 
 > **altKey**: `boolean`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:214](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L214)
+Defined in: [packages/core/src/config/ButtonConfig.ts:214](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L214)
 
 ***
 
@@ -23,7 +23,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:214](https://github.com/mP
 
 > **ctrlKey**: `boolean`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:213](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L213)
+Defined in: [packages/core/src/config/ButtonConfig.ts:213](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L213)
 
 ***
 
@@ -31,7 +31,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:213](https://github.com/mP
 
 > **shiftKey**: `boolean`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:212](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L212)
+Defined in: [packages/core/src/config/ButtonConfig.ts:212](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L212)
 
 ***
 
@@ -39,4 +39,4 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:212](https://github.com/mP
 
 > **type**: [`ButtonClickType`](/obsidian-meta-bind-plugin-docs/api/enumerations/buttonclicktype/)
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:211](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/config/ButtonConfig.ts#L211)
+Defined in: [packages/core/src/config/ButtonConfig.ts:211](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L211)

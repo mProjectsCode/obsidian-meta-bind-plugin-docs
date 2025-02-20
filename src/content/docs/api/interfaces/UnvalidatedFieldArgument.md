@@ -5,7 +5,7 @@ prev: false
 title: "UnvalidatedFieldArgument"
 ---
 
-Defined in: [packages/core/src/parsers/FieldDeclaration.ts:14](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/FieldDeclaration.ts#L14)
+Defined in: [packages/core/src/parsers/FieldDeclaration.ts:14](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/parsers/FieldDeclaration.ts#L14)
 
 ## Properties
 
@@ -13,7 +13,7 @@ Defined in: [packages/core/src/parsers/FieldDeclaration.ts:14](https://github.co
 
 > **name**: `ParsingResultNode`
 
-Defined in: [packages/core/src/parsers/FieldDeclaration.ts:15](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/FieldDeclaration.ts#L15)
+Defined in: [packages/core/src/parsers/FieldDeclaration.ts:15](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/parsers/FieldDeclaration.ts#L15)
 
 ***
 
@@ -21,4 +21,4 @@ Defined in: [packages/core/src/parsers/FieldDeclaration.ts:15](https://github.co
 
 > **value**: `ParsingResultNode`[]
 
-Defined in: [packages/core/src/parsers/FieldDeclaration.ts:16](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/43804cae2c305431d6768245a6348f2ee7f14fca/packages/core/src/parsers/FieldDeclaration.ts#L16)
+Defined in: [packages/core/src/parsers/FieldDeclaration.ts:16](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/parsers/FieldDeclaration.ts#L16)

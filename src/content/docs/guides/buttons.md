@@ -95,21 +95,39 @@ The YAML configuration of a button has must follow the following TypeScript inte
 
 ```ts
 interface ButtonConfig {
-	label: string; // The text displayed on the button
-	icon?: string; // An optional lucide icon to display on the button
-	style: 'default' | 'primary' | 'destructive' | 'plain'; // The style of the button
-	class?: string; // Optional CSS classes to add to the button. Multiple classes can be separated by spaces
-	cssStyle?: string; // Optional CSS inline stiles to apply to the button.
-	backgroundImage?: string; // Optional path to a background image for the button.
-	tooltip?: string; // Optional tooltip to display when hovering over the button. If not set, the label is used
-	id?: string; // The optional id of the button, used for referencing the button in inline buttons
-	hidden?: boolean; // Whether this button should be hidden, useful when only using the button in inline buttons
-	action?: ButtonAction; // The action to perform when the button is clicked
-	actions?: ButtonAction[]; // Optionally multiple actions can be performed when the button is clicked
+	// Required fields:
+	// The text displayed on the button.
+	label: string; 
+	// The style of the button.
+	style: 'default' | 'primary' | 'destructive' | 'plain'; 
+
+	// Optional fields:
+	// An optional lucide icon to display on the button.
+	icon?: string;
+	// Optional CSS classes to add to the button. Multiple classes can be separated by spaces.
+	class?: string;
+	// Optional CSS inline stiles to apply to the button.
+	cssStyle?: string; 
+	// Optional path to a background image for the button.
+	backgroundImage?: string; 
+	// Optional tooltip to display when hovering over the button. If not set, the label is used.
+	tooltip?: string; 
+	// The optional id of the button, used for referencing the button in inline buttons.
+	id?: string; 
+	// Whether this button should be hidden, useful when only using the button in inline buttons.
+	hidden?: boolean; 
+
+	// Button Actions:
+	// The action to perform when the button is clicked.
+	action?: ButtonAction; 
+	// Optionally multiple actions can be performed when the button is clicked.
+	actions?: ButtonAction[]; 
 }
 ```
 
 `action` and `actions` are mutually exclusive, meaning that only one of them can be used.
+
+For examples of how to style buttons with CSS classes, see the [`Styling and CSS`](/obsidian-meta-bind-plugin-docs/guides/stylingandcss/#button-styling-example) page.
 
 ## Button Actions
 
