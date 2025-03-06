@@ -48,6 +48,7 @@ export default defineConfig({
 							items: [
 								{ label: 'API', link: '/guides/api/' },
 								{ label: 'Advanced Use-Cases', link: '/guides/advancedusecases/' },
+								{ label: 'Customizing MathJS', link: '/guides/custommathjs/' },
 							],
 						},
 					],
