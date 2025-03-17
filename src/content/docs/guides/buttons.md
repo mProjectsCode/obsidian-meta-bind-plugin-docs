@@ -91,7 +91,7 @@ actions:
 
 ### Button Properties
 
-The YAML configuration of a button has must follow the following TypeScript interface.
+The YAML configuration of a button must adhere to the following TypeScript interface.
 
 ```ts
 interface ButtonConfig {
