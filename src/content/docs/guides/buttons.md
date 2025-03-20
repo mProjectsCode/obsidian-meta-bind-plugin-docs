@@ -97,9 +97,9 @@ The YAML configuration of a button must adhere to the following TypeScript inter
 interface ButtonConfig {
 	// Required fields:
 	// The text displayed on the button.
-	label: string; 
+	label: string;
 	// The style of the button.
-	style: 'default' | 'primary' | 'destructive' | 'plain'; 
+	style: 'default' | 'primary' | 'destructive' | 'plain';
 
 	// Optional fields:
 	// An optional lucide icon to display on the button.
@@ -107,21 +107,21 @@ interface ButtonConfig {
 	// Optional CSS classes to add to the button. Multiple classes can be separated by spaces.
 	class?: string;
 	// Optional CSS inline stiles to apply to the button.
-	cssStyle?: string; 
+	cssStyle?: string;
 	// Optional path to a background image for the button.
-	backgroundImage?: string; 
+	backgroundImage?: string;
 	// Optional tooltip to display when hovering over the button. If not set, the label is used.
-	tooltip?: string; 
+	tooltip?: string;
 	// The optional id of the button, used for referencing the button in inline buttons.
-	id?: string; 
+	id?: string;
 	// Whether this button should be hidden, useful when only using the button in inline buttons.
-	hidden?: boolean; 
+	hidden?: boolean;
 
 	// Button Actions:
 	// The action to perform when the button is clicked.
-	action?: ButtonAction; 
+	action?: ButtonAction;
 	// Optionally multiple actions can be performed when the button is clicked.
-	actions?: ButtonAction[]; 
+	actions?: ButtonAction[];
 }
 ```
 

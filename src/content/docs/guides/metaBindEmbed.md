@@ -5,7 +5,7 @@ description: A tutorial for the Meta Bind Embed.
 
 Meta Bind Embeds are a way to embed a note inside another note, which works a bit differently than the normal Obsidian embeds.
 
-Together with Meta Binds other features, they allow you to build dynamic templates. 
+Together with Meta Binds other features, they allow you to build dynamic templates.
 The major disadvantage with a traditional template based approach is that modifications to the templates don't automatically apply to all notes created using that template.
 Meta Bind Embeds on the other hand propagate changes to the "template" to all notes embedding it instantly, since the "template" file is read every time the note renders and not just once when the note is created.
 

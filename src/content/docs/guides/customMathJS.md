@@ -24,7 +24,7 @@ As an example, we will define a `clamp()` function, which is not part of default
 The function should take in three parameters, the current value, a minimum, and a maximum. It returns the current value as long as its inside the range otherwise the boundary-value.
 
 ```js
-clamp: (val, min, max) => Math.min(Math.max(min, val), max)
+clamp: (val, min, max) => Math.min(Math.max(min, val), max);
 ```
 
 Add this definitions inside a JavaScrypt file stored in you Vault and enable that file to be [run as a startup script](https://www.moritzjung.dev/obsidian-js-engine-plugin-docs/guides/startupscripts/).
@@ -34,11 +34,11 @@ Inside the file you can use the `mathJSImport(dict, options)` function from the 
 const mb = engine.getPlugin('obsidian-meta-bind-plugin').api;
 
 mb.mathJSImport({
-    // definition of the clamp function
-    clamp: (val, min, max) => Math.min(Math.max(min, val), max),
+	// definition of the clamp function
+	clamp: (val, min, max) => Math.min(Math.max(min, val), max),
 
-    // we can also define useful constants here
-    foo: 42
+	// we can also define useful constants here
+	foo: 42,
 });
 ```
 
