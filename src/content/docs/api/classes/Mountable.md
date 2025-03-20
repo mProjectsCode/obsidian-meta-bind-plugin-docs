@@ -5,7 +5,7 @@ prev: false
 title: "Mountable"
 ---
 
-Defined in: [packages/core/src/utils/Mountable.ts:1](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/utils/Mountable.ts#L1)
+Defined in: [packages/core/src/utils/Mountable.ts:1](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/utils/Mountable.ts#L1)
 
 ## Extended by
 
@@ -17,7 +17,7 @@ Defined in: [packages/core/src/utils/Mountable.ts:1](https://github.com/mProject
 
 > **new Mountable**(): [`Mountable`](/obsidian-meta-bind-plugin-docs/api/classes/mountable/)
 
-Defined in: [packages/core/src/utils/Mountable.ts:6](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/utils/Mountable.ts#L6)
+Defined in: [packages/core/src/utils/Mountable.ts:6](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/utils/Mountable.ts#L6)
 
 #### Returns
 
@@ -29,7 +29,7 @@ Defined in: [packages/core/src/utils/Mountable.ts:6](https://github.com/mProject
 
 > **getTargetEl**(): `undefined` \| [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement)
 
-Defined in: [packages/core/src/utils/Mountable.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/utils/Mountable.ts#L22)
+Defined in: [packages/core/src/utils/Mountable.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/utils/Mountable.ts#L22)
 
 Get the element that the mountable is currently mounted to.
 
@@ -43,7 +43,7 @@ Get the element that the mountable is currently mounted to.
 
 > **isMounted**(): `boolean`
 
-Defined in: [packages/core/src/utils/Mountable.ts:15](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/utils/Mountable.ts#L15)
+Defined in: [packages/core/src/utils/Mountable.ts:15](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/utils/Mountable.ts#L15)
 
 Check if the mountable is currently mounted.
 
@@ -57,7 +57,7 @@ Check if the mountable is currently mounted.
 
 > **mount**(`targetEl`): `void`
 
-Defined in: [packages/core/src/utils/Mountable.ts:50](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/utils/Mountable.ts#L50)
+Defined in: [packages/core/src/utils/Mountable.ts:50](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/utils/Mountable.ts#L50)
 
 Mount the mountable to the given element.
 Will throw an error if the mountable is already mounted.
@@ -101,7 +101,7 @@ Will throw an error if the mountable is already mounted.
 
 > **registerUnmountCb**(`cb`): `void`
 
-Defined in: [packages/core/src/utils/Mountable.ts:91](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/utils/Mountable.ts#L91)
+Defined in: [packages/core/src/utils/Mountable.ts:91](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/utils/Mountable.ts#L91)
 
 Register a callback that will be called when the mountable is unmounted.
 
@@ -144,7 +144,7 @@ Register a callback that will be called when the mountable is unmounted.
 
 > **unmount**(): `void`
 
-Defined in: [packages/core/src/utils/Mountable.ts:70](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/utils/Mountable.ts#L70)
+Defined in: [packages/core/src/utils/Mountable.ts:70](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/utils/Mountable.ts#L70)
 
 Unmount the mountable from the current element.
 

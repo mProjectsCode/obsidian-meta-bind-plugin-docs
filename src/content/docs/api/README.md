@@ -20,16 +20,16 @@ title: "meta-bind-obsidian"
 
 ## Classes
 
+- [ButtonClickContext](/obsidian-meta-bind-plugin-docs/api/classes/buttonclickcontext/)
 - [FieldMountable](/obsidian-meta-bind-plugin-docs/api/classes/fieldmountable/)
 - [Mountable](/obsidian-meta-bind-plugin-docs/api/classes/mountable/)
 - [NotePosition](/obsidian-meta-bind-plugin-docs/api/classes/noteposition/)
-- [ObsidianAPI](/obsidian-meta-bind-plugin-docs/api/classes/obsidianapi/)
+- [ObsAPI](/obsidian-meta-bind-plugin-docs/api/classes/obsapi/)
 
 ## Interfaces
 
 - [BindTargetDeclaration](/obsidian-meta-bind-plugin-docs/api/interfaces/bindtargetdeclaration/)
 - [ButtonActionMap](/obsidian-meta-bind-plugin-docs/api/interfaces/buttonactionmap/)
-- [ButtonClickContext](/obsidian-meta-bind-plugin-docs/api/interfaces/buttonclickcontext/)
 - [ButtonConfig](/obsidian-meta-bind-plugin-docs/api/interfaces/buttonconfig/)
 - [ButtonContext](/obsidian-meta-bind-plugin-docs/api/interfaces/buttoncontext/)
 - [ButtonDeclaration](/obsidian-meta-bind-plugin-docs/api/interfaces/buttondeclaration/)

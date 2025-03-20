@@ -5,7 +5,7 @@ prev: false
 title: "ButtonClickType"
 ---
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:217](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L217)
+Defined in: [packages/core/src/config/ButtonConfig.ts:238](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L238)
 
 ## Enumeration Members
 
@@ -37,7 +37,7 @@ The user used the left mouse button to click the button
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:221](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L221)
+[packages/core/src/config/ButtonConfig.ts:242](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L242)
 
 </td>
 </tr>
@@ -59,7 +59,7 @@ The user used the middle mouse button (also known as scroll wheel click) to clic
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:225](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L225)
+[packages/core/src/config/ButtonConfig.ts:246](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L246)
 
 </td>
 </tr>

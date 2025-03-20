@@ -5,7 +5,7 @@ prev: false
 title: "ReplaceSelfButtonAction"
 ---
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:103](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L103)
+Defined in: [packages/core/src/config/ButtonConfig.ts:103](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L103)
 
 ## Properties
 
@@ -13,7 +13,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:103](https://github.com/mP
 
 > **replacement**: `string`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:105](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L105)
+Defined in: [packages/core/src/config/ButtonConfig.ts:105](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L105)
 
 ***
 
@@ -21,7 +21,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:105](https://github.com/mP
 
 > `optional` **templater**: `boolean`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:106](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L106)
+Defined in: [packages/core/src/config/ButtonConfig.ts:106](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L106)
 
 ***
 
@@ -29,4 +29,4 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:106](https://github.com/mP
 
 > **type**: [`REPLACE_SELF`](/obsidian-meta-bind-plugin-docs/api/enumerations/buttonactiontype/#replace_self)
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:104](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L104)
+Defined in: [packages/core/src/config/ButtonConfig.ts:104](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L104)

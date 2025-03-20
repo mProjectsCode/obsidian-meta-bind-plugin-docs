@@ -11,45 +11,45 @@ And as they use [mathjs](https://mathjs.org/) internally, you actually can!
 The mathjs library allows the user to define his own functions and constants, as described in [their documentation](https://mathjs.org/docs/core/extension.html).
 
 To leverage that, Meta Bind exposed its mathjs instance for you to modify.
-The most sensible place to do this, is inside a [JS-Engine startup-script](/obsidian-js-engine-plugin-docs/guides/startupscripts/).
+The most sensible place to do this, is inside a [JS Engine startup script](https://www.moritzjung.dev/obsidian-js-engine-plugin-docs/guides/startupscripts/).
 This ensures the modifications are loaded early and will be immediately available when the first documents gets rendered.
 
 :::caution
-Modifying mathJS via a js-engine codeblock inside a document may cause timing problems and is not recommended!
+Modifying mathJS via a `js-engine` codeblock inside a document may cause timing problems and is not recommended!
 :::
 
 ### Adding a custom function `clamp`
 
-As an example, we defined the `clamp()` function, which is not part of default mathJS, but can be very helpful.
-It takes in three parameters, the current value, a minimum and a maximum. It returns the current value as long as its inside the range otherwise the boundary-value.
+As an example, we will define a `clamp()` function, which is not part of default mathJS, but can be very helpful.
+The function should take in three parameters, the current value, a minimum, and a maximum. It returns the current value as long as its inside the range otherwise the boundary-value.
 
 ```js
-clamp:  (val, min, max) => Math.min(Math.max(min, val), max)
+clamp: (val, min, max) => Math.min(Math.max(min, val), max)
 ```
 
-Add this definitions inside a JavaScrypt file stored in you Vault and enable that file to be [run as a startup script](/obsidian-js-engine-plugin-docs/guides/startupscripts/).
-Inside the file you use the `mathJSimport(dict, options)` function from the API to import you definitions into mathjs.
+Add this definitions inside a JavaScrypt file stored in you Vault and enable that file to be [run as a startup script](https://www.moritzjung.dev/obsidian-js-engine-plugin-docs/guides/startupscripts/).
+Inside the file you can use the `mathJSImport(dict, options)` function from the API to import you definitions into mathjs.
 
 ```js
 const mb = engine.getPlugin('obsidian-meta-bind-plugin').api;
 
-mb.mathJSimport({
- // we define the function 'clamp'
- clamp:  (val, min, max) => Math.min(Math.max(min, val), max),
+mb.mathJSImport({
+    // definition of the clamp function
+    clamp: (val, min, max) => Math.min(Math.max(min, val), max),
 
- // and a constant 'foo'
- foo: 42
+    // we can also define useful constants here
+    foo: 42
 });
 ```
 
-Now you can create a view field using that function.
+Now you can use this newly defined function in a view field.
 This example will always display values between 0 and 10, even if `num` gets outside that range.
 
 ```meta-bind
 VIEW[clamp({num}, 0, 10)]
 ```
 
-You can also use the new constant `foo`. This will display 52:
+You can also use the new constant `foo`. The following example will display `52`.
 
 ```meta-bind
 VIEW[foo + 10]

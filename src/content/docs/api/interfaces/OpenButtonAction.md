@@ -5,7 +5,7 @@ prev: false
 title: "OpenButtonAction"
 ---
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:50](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L50)
+Defined in: [packages/core/src/config/ButtonConfig.ts:50](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L50)
 
 ## Properties
 
@@ -13,7 +13,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:50](https://github.com/mPr
 
 > **link**: `string`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:52](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L52)
+Defined in: [packages/core/src/config/ButtonConfig.ts:52](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L52)
 
 ***
 
@@ -21,7 +21,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:52](https://github.com/mPr
 
 > `optional` **newTab**: `boolean`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:53](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L53)
+Defined in: [packages/core/src/config/ButtonConfig.ts:53](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L53)
 
 ***
 
@@ -29,4 +29,4 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:53](https://github.com/mPr
 
 > **type**: [`OPEN`](/obsidian-meta-bind-plugin-docs/api/enumerations/buttonactiontype/#open)
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:51](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L51)
+Defined in: [packages/core/src/config/ButtonConfig.ts:51](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L51)

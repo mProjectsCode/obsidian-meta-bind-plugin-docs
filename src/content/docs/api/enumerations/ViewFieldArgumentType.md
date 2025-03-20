@@ -5,7 +5,7 @@ prev: false
 title: "ViewFieldArgumentType"
 ---
 
-Defined in: [packages/core/src/config/FieldConfigs.ts:527](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/FieldConfigs.ts#L527)
+Defined in: [packages/core/src/config/FieldConfigs.ts:527](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/FieldConfigs.ts#L527)
 
 ## Enumeration Members
 
@@ -31,7 +31,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:527](https://github.com/mP
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:530](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/FieldConfigs.ts#L530)
+[packages/core/src/config/FieldConfigs.ts:530](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/FieldConfigs.ts#L530)
 
 </td>
 </tr>
@@ -48,7 +48,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:527](https://github.com/mP
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:529](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/FieldConfigs.ts#L529)
+[packages/core/src/config/FieldConfigs.ts:529](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/FieldConfigs.ts#L529)
 
 </td>
 </tr>
@@ -65,7 +65,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:527](https://github.com/mP
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:532](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/FieldConfigs.ts#L532)
+[packages/core/src/config/FieldConfigs.ts:532](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/FieldConfigs.ts#L532)
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:527](https://github.com/mP
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:528](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/FieldConfigs.ts#L528)
+[packages/core/src/config/FieldConfigs.ts:528](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/FieldConfigs.ts#L528)
 
 </td>
 </tr>

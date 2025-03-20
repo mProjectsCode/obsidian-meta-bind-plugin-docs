@@ -5,7 +5,7 @@ prev: false
 title: "JsViewFieldDeclaration"
 ---
 
-Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:41](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L41)
+Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:41](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L41)
 
 ## Extends
 
@@ -17,7 +17,7 @@ Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:4
 
 > **bindTargetMappings**: [`JsViewFieldBindTargetMapping`](/obsidian-meta-bind-plugin-docs/api/interfaces/jsviewfieldbindtargetmapping/)[]
 
-Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:42](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L42)
+Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:42](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L42)
 
 ***
 
@@ -25,7 +25,7 @@ Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:4
 
 > **code**: `string`
 
-Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:45](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L45)
+Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:45](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L45)
 
 ***
 
@@ -33,7 +33,7 @@ Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:4
 
 > `optional` **declarationString**: `string`
 
-Defined in: [packages/core/src/parsers/FieldDeclaration.ts:5](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/parsers/FieldDeclaration.ts#L5)
+Defined in: [packages/core/src/parsers/FieldDeclaration.ts:5](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/parsers/FieldDeclaration.ts#L5)
 
 #### Inherited from
 
@@ -45,7 +45,7 @@ Defined in: [packages/core/src/parsers/FieldDeclaration.ts:5](https://github.com
 
 > **errorCollection**: `ErrorCollection`
 
-Defined in: [packages/core/src/parsers/FieldDeclaration.ts:6](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/parsers/FieldDeclaration.ts#L6)
+Defined in: [packages/core/src/parsers/FieldDeclaration.ts:6](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/parsers/FieldDeclaration.ts#L6)
 
 #### Inherited from
 
@@ -57,7 +57,7 @@ Defined in: [packages/core/src/parsers/FieldDeclaration.ts:6](https://github.com
 
 > **hidden**: `boolean`
 
-Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:44](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L44)
+Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:44](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L44)
 
 ***
 
@@ -65,4 +65,4 @@ Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:4
 
 > `optional` **writeToBindTarget**: [`BindTargetDeclaration`](/obsidian-meta-bind-plugin-docs/api/interfaces/bindtargetdeclaration/)
 
-Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:43](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L43)
+Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:43](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L43)

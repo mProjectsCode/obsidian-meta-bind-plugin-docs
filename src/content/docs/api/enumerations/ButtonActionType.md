@@ -5,7 +5,7 @@ prev: false
 title: "ButtonActionType"
 ---
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L22)
+Defined in: [packages/core/src/config/ButtonConfig.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L22)
 
 ## Enumeration Members
 
@@ -31,7 +31,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:22](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:23](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L23)
+[packages/core/src/config/ButtonConfig.ts:23](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L23)
 
 </td>
 </tr>
@@ -48,7 +48,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:22](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L31)
+[packages/core/src/config/ButtonConfig.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L31)
 
 </td>
 </tr>
@@ -65,7 +65,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:22](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:36](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L36)
+[packages/core/src/config/ButtonConfig.ts:36](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L36)
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:22](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:26](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L26)
+[packages/core/src/config/ButtonConfig.ts:26](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L26)
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:22](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:35](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L35)
+[packages/core/src/config/ButtonConfig.ts:35](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L35)
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:22](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L24)
+[packages/core/src/config/ButtonConfig.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L24)
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:22](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L25)
+[packages/core/src/config/ButtonConfig.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L25)
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:22](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:33](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L33)
+[packages/core/src/config/ButtonConfig.ts:33](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L33)
 
 </td>
 </tr>
@@ -167,7 +167,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:22](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L32)
+[packages/core/src/config/ButtonConfig.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L32)
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:22](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:34](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L34)
+[packages/core/src/config/ButtonConfig.ts:34](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L34)
 
 </td>
 </tr>
@@ -201,7 +201,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:22](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:29](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L29)
+[packages/core/src/config/ButtonConfig.ts:29](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L29)
 
 </td>
 </tr>
@@ -218,7 +218,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:22](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:27](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L27)
+[packages/core/src/config/ButtonConfig.ts:27](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L27)
 
 </td>
 </tr>
@@ -235,7 +235,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:22](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:28](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L28)
+[packages/core/src/config/ButtonConfig.ts:28](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L28)
 
 </td>
 </tr>
@@ -252,7 +252,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:22](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/164b4e159d0a9103f56c4079fbd94da824499fe4/packages/core/src/config/ButtonConfig.ts#L30)
+[packages/core/src/config/ButtonConfig.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L30)
 
 </td>
 </tr>
