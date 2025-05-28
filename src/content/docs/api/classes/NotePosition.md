@@ -5,15 +5,15 @@ prev: false
 title: "NotePosition"
 ---
 
-Defined in: [packages/core/src/config/APIConfigs.ts:62](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/APIConfigs.ts#L62)
+Defined in: [packages/core/src/config/APIConfigs.ts:62](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L62)
 
 ## Constructors
 
-### new NotePosition()
+### Constructor
 
-> **new NotePosition**(`linePosition`): [`NotePosition`](/obsidian-meta-bind-plugin-docs/api/classes/noteposition/)
+> **new NotePosition**(`linePosition`): `NotePosition`
 
-Defined in: [packages/core/src/config/APIConfigs.ts:65](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/APIConfigs.ts#L65)
+Defined in: [packages/core/src/config/APIConfigs.ts:65](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L65)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:65](https://github.com/mProj
 
 #### Returns
 
-[`NotePosition`](/obsidian-meta-bind-plugin-docs/api/classes/noteposition/)
+`NotePosition`
 
 ## Properties
 
@@ -50,7 +50,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:65](https://github.com/mProj
 
 > **linePosition**: `undefined` \| [`LinePosition`](/obsidian-meta-bind-plugin-docs/api/interfaces/lineposition/)
 
-Defined in: [packages/core/src/config/APIConfigs.ts:63](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/APIConfigs.ts#L63)
+Defined in: [packages/core/src/config/APIConfigs.ts:63](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L63)
 
 ## Methods
 
@@ -58,7 +58,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:63](https://github.com/mProj
 
 > **getPosition**(): `undefined` \| [`LinePosition`](/obsidian-meta-bind-plugin-docs/api/interfaces/lineposition/)
 
-Defined in: [packages/core/src/config/APIConfigs.ts:69](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/APIConfigs.ts#L69)
+Defined in: [packages/core/src/config/APIConfigs.ts:69](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L69)
 
 #### Returns
 

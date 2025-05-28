@@ -5,7 +5,7 @@ prev: false
 title: "SleepButtonAction"
 ---
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:61](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L61)
+Defined in: [packages/core/src/config/ButtonConfig.ts:61](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L61)
 
 ## Properties
 
@@ -13,7 +13,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:61](https://github.com/mPr
 
 > **ms**: `number`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:63](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L63)
+Defined in: [packages/core/src/config/ButtonConfig.ts:63](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L63)
 
 ***
 
@@ -21,4 +21,4 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:63](https://github.com/mPr
 
 > **type**: [`SLEEP`](/obsidian-meta-bind-plugin-docs/api/enumerations/buttonactiontype/#sleep)
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:62](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L62)
+Defined in: [packages/core/src/config/ButtonConfig.ts:62](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L62)

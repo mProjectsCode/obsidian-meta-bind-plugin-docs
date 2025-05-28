@@ -5,7 +5,7 @@ prev: false
 title: "ButtonGroupOptions"
 ---
 
-Defined in: [packages/core/src/config/APIConfigs.ts:50](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/APIConfigs.ts#L50)
+Defined in: [packages/core/src/config/APIConfigs.ts:50](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L50)
 
 ## Properties
 
@@ -13,7 +13,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:50](https://github.com/mProj
 
 > **declaration**: `string` \| [`SimpleButtonGroupDeclaration`](/obsidian-meta-bind-plugin-docs/api/interfaces/simplebuttongroupdeclaration/)
 
-Defined in: [packages/core/src/config/APIConfigs.ts:52](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/APIConfigs.ts#L52)
+Defined in: [packages/core/src/config/APIConfigs.ts:52](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L52)
 
 ***
 
@@ -21,7 +21,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:52](https://github.com/mProj
 
 > `optional` **position**: [`NotePosition`](/obsidian-meta-bind-plugin-docs/api/classes/noteposition/)
 
-Defined in: [packages/core/src/config/APIConfigs.ts:53](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/APIConfigs.ts#L53)
+Defined in: [packages/core/src/config/APIConfigs.ts:53](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L53)
 
 ***
 
@@ -29,4 +29,4 @@ Defined in: [packages/core/src/config/APIConfigs.ts:53](https://github.com/mProj
 
 > **renderChildType**: [`RenderChildType`](/obsidian-meta-bind-plugin-docs/api/enumerations/renderchildtype/)
 
-Defined in: [packages/core/src/config/APIConfigs.ts:51](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/APIConfigs.ts#L51)
+Defined in: [packages/core/src/config/APIConfigs.ts:51](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L51)

@@ -5,7 +5,7 @@ prev: false
 title: "ButtonStyleType"
 ---
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:3](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L3)
+Defined in: [packages/core/src/config/ButtonConfig.ts:3](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L3)
 
 ## Enumeration Members
 
@@ -37,7 +37,7 @@ Default grey button
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:7](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L7)
+[packages/core/src/config/ButtonConfig.ts:7](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L7)
 
 </td>
 </tr>
@@ -59,7 +59,7 @@ Red button for destructive actions
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:15](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L15)
+[packages/core/src/config/ButtonConfig.ts:15](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L15)
 
 </td>
 </tr>
@@ -81,7 +81,7 @@ Plain button with no background
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:19](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L19)
+[packages/core/src/config/ButtonConfig.ts:19](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L19)
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Primary button in the accent color
 </td>
 <td>
 
-[packages/core/src/config/ButtonConfig.ts:11](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L11)
+[packages/core/src/config/ButtonConfig.ts:11](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L11)
 
 </td>
 </tr>

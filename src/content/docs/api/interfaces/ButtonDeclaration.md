@@ -5,7 +5,7 @@ prev: false
 title: "ButtonDeclaration"
 ---
 
-Defined in: [packages/core/src/parsers/ButtonParser.ts:29](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/parsers/ButtonParser.ts#L29)
+Defined in: [packages/core/src/parsers/ButtonParser.ts:29](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/parsers/ButtonParser.ts#L29)
 
 ## Properties
 
@@ -13,7 +13,7 @@ Defined in: [packages/core/src/parsers/ButtonParser.ts:29](https://github.com/mP
 
 > **config**: `undefined` \| [`ButtonConfig`](/obsidian-meta-bind-plugin-docs/api/interfaces/buttonconfig/)
 
-Defined in: [packages/core/src/parsers/ButtonParser.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/parsers/ButtonParser.ts#L31)
+Defined in: [packages/core/src/parsers/ButtonParser.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/parsers/ButtonParser.ts#L31)
 
 ***
 
@@ -21,7 +21,7 @@ Defined in: [packages/core/src/parsers/ButtonParser.ts:31](https://github.com/mP
 
 > **declarationString**: `undefined` \| `string`
 
-Defined in: [packages/core/src/parsers/ButtonParser.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/parsers/ButtonParser.ts#L30)
+Defined in: [packages/core/src/parsers/ButtonParser.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/parsers/ButtonParser.ts#L30)
 
 ***
 
@@ -29,4 +29,4 @@ Defined in: [packages/core/src/parsers/ButtonParser.ts:30](https://github.com/mP
 
 > **errorCollection**: `ErrorCollection`
 
-Defined in: [packages/core/src/parsers/ButtonParser.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/parsers/ButtonParser.ts#L32)
+Defined in: [packages/core/src/parsers/ButtonParser.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/parsers/ButtonParser.ts#L32)

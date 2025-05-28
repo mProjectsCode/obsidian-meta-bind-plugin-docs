@@ -17,6 +17,12 @@ The `option` argument lets you add a single option. If you supply only one value
 If you supply two values (`value`, `name`), the `value` will be written to the front-matter and the `name` will be displayed in the input field.
 Note that the plugin can not differentiate between two options with the same `value`, even if the `name` is different.
 
+Some specific values are interpreted as types other than strings.
+
+- `true` and `false` are interpreted as booleans
+- `null` is interpreted as a null value
+- numbers are interpreted as numbers
+
 ### Values
 
 <InputFieldArgumentValuesInfo type={InputFieldArgumentType.OPTION}></InputFieldArgumentValuesInfo>

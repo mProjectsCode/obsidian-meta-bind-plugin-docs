@@ -5,7 +5,7 @@ prev: false
 title: "ObsAPI"
 ---
 
-Defined in: [packages/obsidian/src/ObsAPI.ts:38](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/obsidian/src/ObsAPI.ts#L38)
+Defined in: [packages/obsidian/src/ObsAPI.ts:38](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/obsidian/src/ObsAPI.ts#L38)
 
 Meta Bind API for Obsidian.
 
@@ -15,11 +15,11 @@ Meta Bind API for Obsidian.
 
 ## Constructors
 
-### new ObsAPI()
+### Constructor
 
-> **new ObsAPI**(`mb`): [`ObsAPI`](/obsidian-meta-bind-plugin-docs/api/classes/obsapi/)
+> **new ObsAPI**(`mb`): `ObsAPI`
 
-Defined in: [packages/obsidian/src/ObsAPI.ts:42](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/obsidian/src/ObsAPI.ts#L42)
+Defined in: [packages/obsidian/src/ObsAPI.ts:42](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/obsidian/src/ObsAPI.ts#L42)
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: [packages/obsidian/src/ObsAPI.ts:42](https://github.com/mProjectsCod
 
 #### Returns
 
-[`ObsAPI`](/obsidian-meta-bind-plugin-docs/api/classes/obsapi/)
+`ObsAPI`
 
 #### Overrides
 
@@ -60,7 +60,7 @@ Defined in: [packages/obsidian/src/ObsAPI.ts:42](https://github.com/mProjectsCod
 
 > `readonly` **mb**: `MetaBind`\<`ObsComponents`\>
 
-Defined in: [packages/core/src/api/API.ts:63](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L63)
+Defined in: [packages/core/src/api/API.ts:63](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L63)
 
 #### Inherited from
 
@@ -72,7 +72,7 @@ Defined in: [packages/core/src/api/API.ts:63](https://github.com/mProjectsCode/o
 
 > **constructMDRCWidget**(`inlineFieldType`, `content`, `filePath`, `component`): `MarkdownRenderChildWidget`
 
-Defined in: [packages/obsidian/src/ObsAPI.ts:88](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/obsidian/src/ObsAPI.ts#L88)
+Defined in: [packages/obsidian/src/ObsAPI.ts:88](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/obsidian/src/ObsAPI.ts#L88)
 
 Creates a CM6 widget from a given widget type.
 
@@ -162,7 +162,7 @@ This is only useful for use in a CodeMirror plugin.
 
 > **createBindTarget**(`storageType`, `storagePath`, `property`, `listenToChildren`): [`BindTargetDeclaration`](/obsidian-meta-bind-plugin-docs/api/interfaces/bindtargetdeclaration/)
 
-Defined in: [packages/core/src/api/API.ts:591](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L591)
+Defined in: [packages/core/src/api/API.ts:591](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L591)
 
 Creates a bind target declaration.
 
@@ -283,7 +283,7 @@ whether to listen to children, only relevant for arrays and objects
 
 > **createButtonGroupMountable**(`filePath`, `options`): `ButtonGroupMountable`
 
-Defined in: [packages/core/src/api/API.ts:386](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L386)
+Defined in: [packages/core/src/api/API.ts:386](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L386)
 
 Creates a button group from an options object.
 
@@ -347,7 +347,7 @@ the file path that the field is located in or an empty string
 
 > **createButtonMountable**(`filePath`, `options`): `ButtonMountable`
 
-Defined in: [packages/core/src/api/API.ts:423](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L423)
+Defined in: [packages/core/src/api/API.ts:423](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L423)
 
 Creates a button from an options object.
 
@@ -411,7 +411,7 @@ the file path that the field is located in or an empty string
 
 > **createEmbedMountable**(`filePath`, `options`): `EmbedMountable`
 
-Defined in: [packages/core/src/api/API.ts:453](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L453)
+Defined in: [packages/core/src/api/API.ts:453](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L453)
 
 Creates a meta bind embed fields from an options object.
 
@@ -475,7 +475,7 @@ the file path that the field is located in or an empty string
 
 > **createExcludedMountable**(`filePath`): `ExcludedMountable`
 
-Defined in: [packages/core/src/api/API.ts:474](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L474)
+Defined in: [packages/core/src/api/API.ts:474](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L474)
 
 Creates an excluded notification mountable for the excluded folders setting.
 
@@ -524,7 +524,7 @@ the file path that the field is located in or an empty string
 
 > **createField**\<`Type`\>(`type`, `filePath`, `options`, `honorExcludedSetting`): [`FieldMountable`](/obsidian-meta-bind-plugin-docs/api/classes/fieldmountable/)
 
-Defined in: [packages/core/src/api/API.ts:77](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L77)
+Defined in: [packages/core/src/api/API.ts:77](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L77)
 
 Creates a field of a given type.
 
@@ -660,9 +660,9 @@ whether to honor the excluded folders settings for this field
 
 ### createInlineFieldFromString()
 
-> **createInlineFieldFromString**(`fieldString`, `filePath`, `scope`, `renderChildType`, `position`?, `honorExcludedSetting`?): [`FieldMountable`](/obsidian-meta-bind-plugin-docs/api/classes/fieldmountable/)
+> **createInlineFieldFromString**(`fieldString`, `filePath`, `scope`, `renderChildType`, `position?`, `honorExcludedSetting?`): [`FieldMountable`](/obsidian-meta-bind-plugin-docs/api/classes/fieldmountable/)
 
-Defined in: [packages/core/src/api/API.ts:137](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L137)
+Defined in: [packages/core/src/api/API.ts:137](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L137)
 
 Creates an inline field from a string.
 Will throw an error if the string is not a valid declaration.
@@ -770,7 +770,7 @@ the render child type, default INLINE
 <tr>
 <td>
 
-`position`?
+`position?`
 
 </td>
 <td>
@@ -792,7 +792,7 @@ an optional note position
 <tr>
 <td>
 
-`honorExcludedSetting`?
+`honorExcludedSetting?`
 
 </td>
 <td>
@@ -826,9 +826,9 @@ whether to honor the excluded folders settings for this field
 
 ### createInlineFieldOfTypeFromString()
 
-> **createInlineFieldOfTypeFromString**(`type`, `declaration`, `filePath`, `scope`, `renderChildType`, `position`?, `honorExcludedSetting`?): [`FieldMountable`](/obsidian-meta-bind-plugin-docs/api/classes/fieldmountable/)
+> **createInlineFieldOfTypeFromString**(`type`, `declaration`, `filePath`, `scope`, `renderChildType`, `position?`, `honorExcludedSetting?`): [`FieldMountable`](/obsidian-meta-bind-plugin-docs/api/classes/fieldmountable/)
 
-Defined in: [packages/core/src/api/API.ts:194](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L194)
+Defined in: [packages/core/src/api/API.ts:194](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L194)
 
 Creates an inline field of a given type and string.
 Will throw an error if the string is not a valid inline field type.
@@ -958,7 +958,7 @@ the render child type, default INLINE
 <tr>
 <td>
 
-`position`?
+`position?`
 
 </td>
 <td>
@@ -980,7 +980,7 @@ an optional note position
 <tr>
 <td>
 
-`honorExcludedSetting`?
+`honorExcludedSetting?`
 
 </td>
 <td>
@@ -1016,7 +1016,7 @@ whether to honor the excluded folders settings for this field
 
 > **createInputFieldMountable**(`filePath`, `options`): `InputFieldMountable`
 
-Defined in: [packages/core/src/api/API.ts:265](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L265)
+Defined in: [packages/core/src/api/API.ts:265](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L265)
 
 Creates an input field from an options object.
 
@@ -1080,7 +1080,7 @@ the file path that the field is located in or an empty string
 
 > **createJsViewFieldMountable**(`filePath`, `options`): `JsViewFieldMountable`
 
-Defined in: [packages/core/src/api/API.ts:333](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L333)
+Defined in: [packages/core/src/api/API.ts:333](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L333)
 
 Creates a JS view field from an options object.
 
@@ -1144,7 +1144,7 @@ the file path that the field is located in or an empty string
 
 > **createNotePosition**(`lineStart`, `lineEnd`): [`NotePosition`](/obsidian-meta-bind-plugin-docs/api/classes/noteposition/)
 
-Defined in: [packages/core/src/api/API.ts:763](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L763)
+Defined in: [packages/core/src/api/API.ts:783](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L783)
 
 Creates a note position from a line start and line end number.
 
@@ -1206,7 +1206,7 @@ Creates a note position from a line start and line end number.
 
 > **createSignal**\<`T`\>(`value`): `Signal`\<`T`\>
 
-Defined in: [packages/core/src/api/API.ts:579](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L579)
+Defined in: [packages/core/src/api/API.ts:579](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L579)
 
 Creates a signal.
 
@@ -1272,7 +1272,7 @@ Creates a signal.
 
 > **createTableMountable**(`filePath`, `options`): `TableMountable`
 
-Defined in: [packages/core/src/api/API.ts:363](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L363)
+Defined in: [packages/core/src/api/API.ts:363](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L363)
 
 Creates a table from an options object.
 
@@ -1336,7 +1336,7 @@ the file path that the field is located in or an empty string
 
 > **createViewFieldMountable**(`filePath`, `options`): `ViewFieldMountable`
 
-Defined in: [packages/core/src/api/API.ts:299](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L299)
+Defined in: [packages/core/src/api/API.ts:299](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L299)
 
 Creates a view field from an options object.
 
@@ -1400,7 +1400,7 @@ the file path that the field is located in or an empty string
 
 > **getInlineFieldDeclarationPrefix**(`fieldType`): `string`
 
-Defined in: [packages/core/src/api/API.ts:493](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L493)
+Defined in: [packages/core/src/api/API.ts:493](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L493)
 
 Gets the prefix of a given widget type. (e.g. INPUT or VIEW).
 
@@ -1447,7 +1447,7 @@ Gets the prefix of a given widget type. (e.g. INPUT or VIEW).
 
 > **getMetadata**(`bindTarget`): `unknown`
 
-Defined in: [packages/core/src/api/API.ts:673](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L673)
+Defined in: [packages/core/src/api/API.ts:685](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L685)
 
 Reads a property from meta binds metadata cache.
 If the value is not present in the cache, it will check the underlying source. E.g. Obsidians metadata cache.
@@ -1485,6 +1485,15 @@ If the value is not present in the cache, it will check the underlying source. E
 
 `unknown`
 
+#### Example
+
+```ts
+// Assumes you use the JS Engine plugin to run this.
+const mb = engine.getPlugin("obsidian-meta-bind-plugin").api;
+const bindTarget = mb.parseBindTarget("property", context.file.path);
+const value = mb.getMetadata(bindTarget);
+```
+
 #### Inherited from
 
 `API.getMetadata`
@@ -1495,7 +1504,7 @@ If the value is not present in the cache, it will check the underlying source. E
 
 > **isInlineFieldDeclaration**(`fieldType`, `str`): `boolean`
 
-Defined in: [packages/core/src/api/API.ts:524](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L524)
+Defined in: [packages/core/src/api/API.ts:524](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L524)
 
 Checks if a string is a declaration of a given widget type.
 
@@ -1559,7 +1568,7 @@ the declaration string
 
 > **isInlineFieldDeclarationAndGetType**(`str`): `undefined` \| [`InlineFieldType`](/obsidian-meta-bind-plugin-docs/api/type-aliases/inlinefieldtype/)
 
-Defined in: [packages/core/src/api/API.ts:547](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L547)
+Defined in: [packages/core/src/api/API.ts:547](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L547)
 
 Checks if a string is any declaration. If yes, it returns the widget type, otherwise undefined.
 
@@ -1606,9 +1615,9 @@ the declaration string
 
 ### mathJSImport()
 
-> **mathJSImport**(`object`, `options`?): `void`
+> **mathJSImport**(`object`, `options?`): `void`
 
-Defined in: [packages/core/src/api/API.ts:785](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L785)
+Defined in: [packages/core/src/api/API.ts:805](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L805)
 
 Import new definitions into the internal mathJS instance.
 For details on how to use, see https://mathjs.org/docs/reference/functions/import.html
@@ -1638,7 +1647,7 @@ For details on how to use, see https://mathjs.org/docs/reference/functions/impor
 <tr>
 <td>
 
-`options`?
+`options?`
 
 </td>
 <td>
@@ -1662,9 +1671,9 @@ For details on how to use, see https://mathjs.org/docs/reference/functions/impor
 
 ### parseBindTarget()
 
-> **parseBindTarget**(`declarationString`, `filePath`, `scope`?): [`BindTargetDeclaration`](/obsidian-meta-bind-plugin-docs/api/interfaces/bindtargetdeclaration/)
+> **parseBindTarget**(`declarationString`, `filePath`, `scope?`): [`BindTargetDeclaration`](/obsidian-meta-bind-plugin-docs/api/interfaces/bindtargetdeclaration/)
 
-Defined in: [packages/core/src/api/API.ts:627](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L627)
+Defined in: [packages/core/src/api/API.ts:627](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L627)
 
 Parses a bind target declaration from a string.
 
@@ -1716,7 +1725,7 @@ the file path that this bind target is relative to
 <tr>
 <td>
 
-`scope`?
+`scope?`
 
 </td>
 <td>
@@ -1747,7 +1756,7 @@ optional bind target scope
 
 > **reactiveMetadata**(`bindTargets`, `lifecycleHook`, `callback`): `ReactiveComponent`
 
-Defined in: [packages/obsidian/src/ObsAPI.ts:114](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/obsidian/src/ObsAPI.ts#L114)
+Defined in: [packages/obsidian/src/ObsAPI.ts:114](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/obsidian/src/ObsAPI.ts#L114)
 
 Creates a JS Engine reactive component that will re-render when the given bind targets change.
 
@@ -1828,7 +1837,7 @@ the callback to call with all the values of the bind targets when one of them ch
 
 > **setMetadata**(`bindTarget`, `value`): `void`
 
-Defined in: [packages/core/src/api/API.ts:654](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L654)
+Defined in: [packages/core/src/api/API.ts:660](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L660)
 
 Sets a property in meta binds metadata cache.
 
@@ -1880,6 +1889,15 @@ Sets a property in meta binds metadata cache.
 
 `void`
 
+#### Example
+
+```ts
+// Assumes you use the JS Engine plugin to run this.
+const mb = engine.getPlugin("obsidian-meta-bind-plugin").api;
+const bindTarget = mb.parseBindTarget("property", context.file.path);
+mb.setMetadata(bindTarget, "some value");
+```
+
 #### Inherited from
 
 `API.setMetadata`
@@ -1890,7 +1908,7 @@ Sets a property in meta binds metadata cache.
 
 > **subscribeToMetadata**(`bindTarget`, `lifecycleHook`, `callback`): `void`
 
-Defined in: [packages/core/src/api/API.ts:723](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L723)
+Defined in: [packages/core/src/api/API.ts:743](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L743)
 
 Subscribes to a property in meta binds metadata cache.
 This expects some sort of lifecycle hook to be passed in.
@@ -1976,7 +1994,7 @@ In Obsidian this is an instance of the Component class. The subscription will be
 
 > **updateMetadata**(`bindTarget`, `updateFn`): `void`
 
-Defined in: [packages/core/src/api/API.ts:692](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/api/API.ts#L692)
+Defined in: [packages/core/src/api/API.ts:712](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/api/API.ts#L712)
 
 Updates a property in meta binds metadata cache.
 
@@ -2030,6 +2048,17 @@ a function that takes the current value and returns the new value
 
 `void`
 
+#### Example
+
+```ts
+// Assumes you use the JS Engine plugin to run this.
+const mb = engine.getPlugin("obsidian-meta-bind-plugin").api;
+const bindTarget = mb.parseBindTarget("property", context.file.path);
+mb.updateMetadata(bindTarget, (value) => {
+    return value + 1;
+});
+```
+
 #### Inherited from
 
 `API.updateMetadata`
@@ -2040,12 +2069,12 @@ a function that takes the current value and returns the new value
 
 > **wrapInMDRC**(`mountable`, `containerEl`, `component`): `MountableMDRC`
 
-Defined in: [packages/obsidian/src/ObsAPI.ts:58](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/obsidian/src/ObsAPI.ts#L58)
+Defined in: [packages/obsidian/src/ObsAPI.ts:58](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/obsidian/src/ObsAPI.ts#L58)
 
 Wraps any mountable in a [MarkdownRenderChild](https://docs.obsidian.md/Reference/TypeScript+API/MarkdownRenderChild)
-and adds it as a child to the passed in [ComponentLike](../../../../../obsidian-meta-bind-plugin-docs/api/interfaces/componentlike).
+and adds it as a child to the passed in [ComponentLike](/obsidian-meta-bind-plugin-docs/api/interfaces/componentlike/).
 
-A [ComponentLike](../../../../../obsidian-meta-bind-plugin-docs/api/interfaces/componentlike) is either a [Component](https://docs.obsidian.md/Reference/TypeScript+API/Component) or a [MarkdownPostProcessorContext](https://docs.obsidian.md/Reference/TypeScript+API/MarkdownPostProcessorContext)
+A [ComponentLike](/obsidian-meta-bind-plugin-docs/api/interfaces/componentlike/) is either a [Component](https://docs.obsidian.md/Reference/TypeScript+API/Component) or a [MarkdownPostProcessorContext](https://docs.obsidian.md/Reference/TypeScript+API/MarkdownPostProcessorContext)
 
 #### Parameters
 
@@ -2105,7 +2134,7 @@ the element to mount the [MarkdownRenderChild](https://docs.obsidian.md/Referenc
 </td>
 <td>
 
-the [ComponentLike](../../../../../obsidian-meta-bind-plugin-docs/api/interfaces/componentlike) to register the [MarkdownRenderChild](https://docs.obsidian.md/Reference/TypeScript+API/MarkdownRenderChild) to
+the [ComponentLike](/obsidian-meta-bind-plugin-docs/api/interfaces/componentlike/) to register the [MarkdownRenderChild](https://docs.obsidian.md/Reference/TypeScript+API/MarkdownRenderChild) to
 
 </td>
 </tr>

@@ -5,7 +5,7 @@ prev: false
 title: "RenderChildType"
 ---
 
-Defined in: [packages/core/src/config/APIConfigs.ts:12](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/APIConfigs.ts#L12)
+Defined in: [packages/core/src/config/APIConfigs.ts:12](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L12)
 
 ## Enumeration Members
 
@@ -31,7 +31,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:12](https://github.com/mProj
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:14](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/APIConfigs.ts#L14)
+[packages/core/src/config/APIConfigs.ts:14](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L14)
 
 </td>
 </tr>
@@ -48,7 +48,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:12](https://github.com/mProj
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:13](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/APIConfigs.ts#L13)
+[packages/core/src/config/APIConfigs.ts:13](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L13)
 
 </td>
 </tr>

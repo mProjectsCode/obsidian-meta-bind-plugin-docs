@@ -5,7 +5,7 @@ prev: false
 title: "UpdateMetadataButtonAction"
 ---
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:80](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L80)
+Defined in: [packages/core/src/config/ButtonConfig.ts:80](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L80)
 
 ## Properties
 
@@ -13,7 +13,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:80](https://github.com/mPr
 
 > **bindTarget**: `string`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:82](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L82)
+Defined in: [packages/core/src/config/ButtonConfig.ts:82](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L82)
 
 ***
 
@@ -21,7 +21,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:82](https://github.com/mPr
 
 > **evaluate**: `boolean`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:83](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L83)
+Defined in: [packages/core/src/config/ButtonConfig.ts:83](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L83)
 
 ***
 
@@ -29,7 +29,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:83](https://github.com/mPr
 
 > **type**: [`UPDATE_METADATA`](/obsidian-meta-bind-plugin-docs/api/enumerations/buttonactiontype/#update_metadata)
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:81](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L81)
+Defined in: [packages/core/src/config/ButtonConfig.ts:81](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L81)
 
 ***
 
@@ -37,4 +37,4 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:81](https://github.com/mPr
 
 > **value**: `string`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:84](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L84)
+Defined in: [packages/core/src/config/ButtonConfig.ts:84](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L84)

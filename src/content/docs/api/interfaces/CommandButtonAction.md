@@ -5,7 +5,7 @@ prev: false
 title: "CommandButtonAction"
 ---
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:39](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L39)
+Defined in: [packages/core/src/config/ButtonConfig.ts:39](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L39)
 
 ## Properties
 
@@ -13,7 +13,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:39](https://github.com/mPr
 
 > **command**: `string`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:41](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L41)
+Defined in: [packages/core/src/config/ButtonConfig.ts:41](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L41)
 
 ***
 
@@ -21,4 +21,4 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:41](https://github.com/mPr
 
 > **type**: [`COMMAND`](/obsidian-meta-bind-plugin-docs/api/enumerations/buttonactiontype/#command)
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:40](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/config/ButtonConfig.ts#L40)
+Defined in: [packages/core/src/config/ButtonConfig.ts:40](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L40)

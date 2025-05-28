@@ -15,6 +15,9 @@ import { InputFieldArgumentType, InputFieldType } from '../../../../config/stati
 
 The `defaultValue` argument allows for the specification of a custom default value for the input field.
 A default value is displayed when the value of the bind target is `null` or invalid.
+Note that input fields only change the bound value when they are interacted with.
+This holds true for the `defaultValue` argument as well, meaning the default value will not be automatically written to the bind target.
+See also the `placeholder` argument.
 
 ### Values
 

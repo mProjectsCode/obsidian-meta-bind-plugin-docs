@@ -58,6 +58,9 @@ Specifying a bind target is optional, but recommended.
 If you don't specify a bind target, the input field will not preserve its state when you reopen the note or restart Obsidian, since the input field has nowhere to store its data.
 :::
 
+An input field will only write to it's bound value when it's interacted with.
+This means for example, that an input field does not automatically, on load, create it's bound property when that property does not yet exist.
+
 ## Arguments
 
 Some input types support arguments to further customize them.
@@ -90,7 +93,7 @@ INPUT[inlineSelect(
 ):rating]
 ```
 
-We can also include commas in our value names by surrounding them with quotes.
+We can also include commas in our value names by surrounding them with single quotes. Note that only single quotes are supported, double quotes will not work.
 
 ```meta-bind
 INPUT[inlineSelect(

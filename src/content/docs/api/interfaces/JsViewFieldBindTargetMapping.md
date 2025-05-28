@@ -5,7 +5,7 @@ prev: false
 title: "JsViewFieldBindTargetMapping"
 ---
 
-Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:48](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L48)
+Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:48](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L48)
 
 ## Properties
 
@@ -13,7 +13,7 @@ Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:4
 
 > **bindTarget**: [`BindTargetDeclaration`](/obsidian-meta-bind-plugin-docs/api/interfaces/bindtargetdeclaration/)
 
-Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:49](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L49)
+Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:49](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L49)
 
 ***
 
@@ -21,4 +21,4 @@ Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:4
 
 > **name**: `string`
 
-Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:50](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6b3651315380ea977c7f8746a2130e83024d2b95/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L50)
+Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:50](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L50)

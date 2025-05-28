@@ -14,9 +14,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Meta Bind Docs',
-			social: {
-				github: 'https://github.com/mProjectsCode/obsidian-meta-bind-plugin',
-			},
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/mProjectsCode/obsidian-meta-bind-plugin' }],
 			components: {
 				TableOfContents: './src/components/TableOfContents.astro',
 				SocialIcons: './src/components/SocialIcons.astro',
@@ -105,18 +103,18 @@ export default defineConfig({
 						collapsed: false,
 					},
 				}),
-				// starlightSiteGraph({
-				// 	graphConfig: {
-				// 		depth: 5,
-				// 		visibilityRules: ['!**/api/README.md', '*/api/**'],
-				// 	},
-				// 	trackVisitedPages: 'disable',
-				// 	storageLocation: 'none',
-				// 	sitemapConfig: {
-				// 		contentRoot: './src/content/docs',
-				// 		pageInclusionRules: ['!**/api/README.md', '**/api/**'],
-				// 	},
-				// }),
+				starlightSiteGraph({
+					graphConfig: {
+						depth: 5,
+						visibilityRules: ['!**/api/README.md', '*/api/**'],
+					},
+					trackVisitedPages: 'disable',
+					storageLocation: 'none',
+					sitemapConfig: {
+						contentRoot: './src/content/docs',
+						pageInclusionRules: ['!**/api/README.md', '**/api/**'],
+					},
+				}),
 			],
 		}),
 	],
