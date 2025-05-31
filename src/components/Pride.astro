@@ -15,18 +15,26 @@ export const COLORS = {
 	pan: ['hsl(331deg 100% 55%)', 'hsl(50deg 100% 50%)', 'hsl(200deg 100% 55%)'],
 };
 
+interface Props {
+	fontSize?: string;
+}
+
+const {
+	fontSize = "1.2rem",
+} = Astro.props;
+
 const variant = 'rainbow-original'; // rainbow | rainbow-original | trans | pan
 const width = 200;
 const numOfColumns = 20;
 const staggeredDelay = 50;
-const billow = 10;
+const billow = 5;
 
 const colors = COLORS[variant];
 const friendlyWidth = Math.round(width / numOfColumns) * numOfColumns;
 
 const firstColumnDelay = numOfColumns * staggeredDelay * -1;
 
-function generateGradientString(colors) {
+function generateGradientString(colors: string[]) {
 	const numOfColors = colors.length;
 	const segmentHeight = 100 / numOfColors;
 
@@ -40,7 +48,7 @@ function generateGradientString(colors) {
 	return `linear-gradient(to bottom, ${gradientStops.join(', ')})`;
 }
 
-function range(n) {
+function range(n: number) {
 	return Array.from({ length: n }, (_, i) => i);
 }
 ---
@@ -60,7 +68,7 @@ function range(n) {
 			))
 		}
 	</div>
-	<span class="flag-text"> Pride Month </span>
+	<span class="flag-text" style={`--font-size: ${fontSize}`}> Happy Pride Month! </span>
 </div>
 
 <style>
@@ -75,7 +83,7 @@ function range(n) {
 
 	.flag {
 		display: flex;
-		aspect-ratio: 12 / 2;
+		aspect-ratio: 6 / 2;
 		animation-duration: 600ms;
 		cursor: pointer;
 	}
@@ -84,8 +92,8 @@ function range(n) {
 		position: absolute;
 		top: 50%;
 		left: 50%;
-		transform: translate(-50%, -50%);
-		font-size: 2rem;
+		transform: translate(-50%, -55%);
+		font-size: var(--font-size);
 		font-weight: bold;
 		text-shadow:
 			0 0 10px black,
@@ -94,6 +102,7 @@ function range(n) {
 		user-select: none;
 		cursor: pointer;
 		text-wrap: nowrap;
+		text-align: center;
 	}
 
 	.column {
