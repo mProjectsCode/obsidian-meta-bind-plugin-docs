@@ -5,7 +5,7 @@ prev: false
 title: "ButtonClickContext"
 ---
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:210](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L210)
+Defined in: [packages/core/src/config/ButtonConfig.ts:210](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/ButtonConfig.ts#L210)
 
 Provides information about the button click event.
 
@@ -15,7 +15,7 @@ Provides information about the button click event.
 
 > **new ButtonClickContext**(`type`, `shiftKey`, `ctrlKey`, `altKey`): `ButtonClickContext`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:216](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L216)
+Defined in: [packages/core/src/config/ButtonConfig.ts:216](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/ButtonConfig.ts#L216)
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:216](https://github.com/mP
 
 > **altKey**: `boolean`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:214](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L214)
+Defined in: [packages/core/src/config/ButtonConfig.ts:214](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/ButtonConfig.ts#L214)
 
 ***
 
@@ -96,7 +96,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:214](https://github.com/mP
 
 > **ctrlKey**: `boolean`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:213](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L213)
+Defined in: [packages/core/src/config/ButtonConfig.ts:213](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/ButtonConfig.ts#L213)
 
 ***
 
@@ -104,7 +104,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:213](https://github.com/mP
 
 > **shiftKey**: `boolean`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:212](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L212)
+Defined in: [packages/core/src/config/ButtonConfig.ts:212](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/ButtonConfig.ts#L212)
 
 ***
 
@@ -112,7 +112,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:212](https://github.com/mP
 
 > **type**: [`ButtonClickType`](/obsidian-meta-bind-plugin-docs/api/enumerations/buttonclicktype/)
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:211](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L211)
+Defined in: [packages/core/src/config/ButtonConfig.ts:211](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/ButtonConfig.ts#L211)
 
 ## Methods
 
@@ -120,7 +120,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:211](https://github.com/mP
 
 > **openInNewTab**(): `boolean`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:233](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L233)
+Defined in: [packages/core/src/config/ButtonConfig.ts:233](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/ButtonConfig.ts#L233)
 
 Whether the click should cause a link to open in a new tab.
 Only applicable when the click is on a link.
@@ -135,7 +135,7 @@ Only applicable when the click is on a link.
 
 > `static` **fromMouseEvent**(`event`, `type`): `ButtonClickContext`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:223](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L223)
+Defined in: [packages/core/src/config/ButtonConfig.ts:223](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/ButtonConfig.ts#L223)
 
 #### Parameters
 

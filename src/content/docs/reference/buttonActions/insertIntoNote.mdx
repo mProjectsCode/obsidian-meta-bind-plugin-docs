@@ -8,7 +8,7 @@ This action inserts plain text or a Templater template at a specified line numbe
 ```ts
 interface InsertIntoNoteButtonAction {
 	type: 'insertIntoNote';
-	line: number; // the line number to insert the text at
+	line: number | RelativeLineNumberExpression; // the line number to insert the text at
 	value: string; // the text to insert or the path to the Templater template
 	templater?: boolean; // if true, the value is a path to a Templater template
 }
@@ -16,6 +16,8 @@ interface InsertIntoNoteButtonAction {
 
 If `templater` is `true`, the `value` field is treated as a path to a Templater template.
 If `templater` is `false` or not specified, the `value` field is treated as plain text.
+
+This button action supports [relative line numbers](/obsidian-meta-bind-plugin-docs/guides/buttons/#relative-line-numbers).
 
 ### Example
 
@@ -30,5 +32,18 @@ action:
   line: 3
   value: "Hello, world!"
   templater: false
+```
+````
+
+The below example adds the line "Hello" below the button using relative line numbers.
+
+````custom_markdown {5-7}
+```meta-bind-button
+label: Insert with relative line numbers
+style: default
+action:
+  type: insertIntoNote
+  line: selfEnd + 1
+  value: Hello
 ```
 ````

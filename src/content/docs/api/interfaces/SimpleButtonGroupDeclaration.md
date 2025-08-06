@@ -5,7 +5,7 @@ prev: false
 title: "SimpleButtonGroupDeclaration"
 ---
 
-Defined in: [packages/core/src/parsers/ButtonParser.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/parsers/ButtonParser.ts#L25)
+Defined in: [packages/core/src/parsers/ButtonParser.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/parsers/ButtonParser.ts#L24)
 
 ## Properties
 
@@ -13,4 +13,4 @@ Defined in: [packages/core/src/parsers/ButtonParser.ts:25](https://github.com/mP
 
 > **referencedButtonIds**: `string`[]
 
-Defined in: [packages/core/src/parsers/ButtonParser.ts:26](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/parsers/ButtonParser.ts#L26)
+Defined in: [packages/core/src/parsers/ButtonParser.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/parsers/ButtonParser.ts#L25)

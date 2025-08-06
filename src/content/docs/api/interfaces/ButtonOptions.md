@@ -5,7 +5,7 @@ prev: false
 title: "ButtonOptions"
 ---
 
-Defined in: [packages/core/src/config/APIConfigs.ts:56](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L56)
+Defined in: [packages/core/src/config/APIConfigs.ts:56](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L56)
 
 ## Properties
 
@@ -13,7 +13,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:56](https://github.com/mProj
 
 > **declaration**: `string` \| [`ButtonConfig`](/obsidian-meta-bind-plugin-docs/api/interfaces/buttonconfig/)
 
-Defined in: [packages/core/src/config/APIConfigs.ts:57](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L57)
+Defined in: [packages/core/src/config/APIConfigs.ts:57](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L57)
 
 ***
 
@@ -21,7 +21,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:57](https://github.com/mProj
 
 > **isPreview**: `boolean`
 
-Defined in: [packages/core/src/config/APIConfigs.ts:59](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L59)
+Defined in: [packages/core/src/config/APIConfigs.ts:59](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L59)
 
 ***
 
@@ -29,4 +29,4 @@ Defined in: [packages/core/src/config/APIConfigs.ts:59](https://github.com/mProj
 
 > `optional` **position**: [`NotePosition`](/obsidian-meta-bind-plugin-docs/api/classes/noteposition/)
 
-Defined in: [packages/core/src/config/APIConfigs.ts:58](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L58)
+Defined in: [packages/core/src/config/APIConfigs.ts:58](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L58)

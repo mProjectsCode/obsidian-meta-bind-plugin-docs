@@ -5,7 +5,7 @@ prev: false
 title: "UnvalidatedViewFieldDeclaration"
 ---
 
-Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:21](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L21)
+Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:21](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L21)
 
 ## Extends
 
@@ -17,7 +17,7 @@ Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:2
 
 > **arguments**: [`UnvalidatedFieldArgument`](/obsidian-meta-bind-plugin-docs/api/interfaces/unvalidatedfieldargument/)[]
 
-Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:26](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L26)
+Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:26](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L26)
 
 #### Inherited from
 
@@ -29,7 +29,7 @@ Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:2
 
 > `optional` **declarationString**: `string`
 
-Defined in: [packages/core/src/parsers/FieldDeclaration.ts:5](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/parsers/FieldDeclaration.ts#L5)
+Defined in: [packages/core/src/parsers/FieldDeclaration.ts:5](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/parsers/FieldDeclaration.ts#L5)
 
 #### Inherited from
 
@@ -41,7 +41,7 @@ Defined in: [packages/core/src/parsers/FieldDeclaration.ts:5](https://github.com
 
 > **errorCollection**: `ErrorCollection`
 
-Defined in: [packages/core/src/parsers/FieldDeclaration.ts:6](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/parsers/FieldDeclaration.ts#L6)
+Defined in: [packages/core/src/parsers/FieldDeclaration.ts:6](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/parsers/FieldDeclaration.ts#L6)
 
 #### Inherited from
 
@@ -53,7 +53,7 @@ Defined in: [packages/core/src/parsers/FieldDeclaration.ts:6](https://github.com
 
 > `optional` **templateDeclaration**: (`string` \| [`UnvalidatedBindTargetDeclaration`](/obsidian-meta-bind-plugin-docs/api/interfaces/unvalidatedbindtargetdeclaration/))[]
 
-Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L24)
+Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L24)
 
 #### Inherited from
 
@@ -65,7 +65,7 @@ Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:2
 
 > `optional` **viewFieldType**: `ParsingResultNode`
 
-Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L25)
+Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L25)
 
 #### Inherited from
 
@@ -77,7 +77,7 @@ Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:2
 
 > `optional` **writeToBindTarget**: [`UnvalidatedBindTargetDeclaration`](/obsidian-meta-bind-plugin-docs/api/interfaces/unvalidatedbindtargetdeclaration/)
 
-Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:27](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L27)
+Defined in: [packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts:27](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/parsers/viewFieldParser/ViewFieldDeclaration.ts#L27)
 
 #### Inherited from
 

@@ -5,7 +5,7 @@ prev: false
 title: "FieldType"
 ---
 
-Defined in: [packages/core/src/config/APIConfigs.ts:17](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L17)
+Defined in: [packages/core/src/config/APIConfigs.ts:17](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L17)
 
 ## Enumeration Members
 
@@ -31,7 +31,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:17](https://github.com/mProj
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:23](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L23)
+[packages/core/src/config/APIConfigs.ts:23](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L23)
 
 </td>
 </tr>
@@ -48,7 +48,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:17](https://github.com/mProj
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L22)
+[packages/core/src/config/APIConfigs.ts:22](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L22)
 
 </td>
 </tr>
@@ -65,7 +65,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:17](https://github.com/mProj
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L24)
+[packages/core/src/config/APIConfigs.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L24)
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:17](https://github.com/mProj
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L25)
+[packages/core/src/config/APIConfigs.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L25)
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:17](https://github.com/mProj
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:18](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L18)
+[packages/core/src/config/APIConfigs.ts:18](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L18)
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:17](https://github.com/mProj
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:20](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L20)
+[packages/core/src/config/APIConfigs.ts:20](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L20)
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:17](https://github.com/mProj
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:21](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L21)
+[packages/core/src/config/APIConfigs.ts:21](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L21)
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:17](https://github.com/mProj
 </td>
 <td>
 
-[packages/core/src/config/APIConfigs.ts:19](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L19)
+[packages/core/src/config/APIConfigs.ts:19](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L19)
 
 </td>
 </tr>

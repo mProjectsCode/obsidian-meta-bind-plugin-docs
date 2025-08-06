@@ -93,7 +93,7 @@ actions:
 
 The YAML configuration of a button must adhere to the following TypeScript interface.
 
-```ts
+```ts wrap
 interface ButtonConfig {
 	// Required fields:
 	// The text displayed on the button.
@@ -134,3 +134,49 @@ For examples of how to style buttons with CSS classes, see the [`Styling and CSS
 Button actions can require multiple properties depending on the type of action, but every action has a `type` property, by which it is identified.
 
 A list of button actions and their required properties can be found in the sidebar under `Reference -> Button Actions`.
+
+## Relative Line Numbers
+
+Some button actions support relative line numbers.
+This means that instead of absolute line numbers, you can specify simple expressions like `contentStart + 3` using relative line numbers instead.
+Note that due to Obsidian API limitations, relative line numbers might not work as expected for buttons in callouts.
+
+The available relative line numbers are listed below.
+
+- `fileStart`: The first line number in the file, so always line 1.
+- `fileEnd`: The last line number in the file.
+- `frontmatterStart`: The start of the frontmatter block, so always 1. Even if no frontmatter block is present.
+- `frontmatterEnd`: The end of the frontmatter block, or 1 if no frontmatter block is present.
+- `contentStart`: The first line of the note content. This is 1 if no frontmatter block is present.
+- `contentEnd`: The same as `fileEnd`.
+- `selfStart`: The start of the code block. Will error when not available.
+- `selfEnd`: The end of the code block. Will error when not available.
+
+Below is an example note, with which shows which lines the above relative lines refer to.
+
+````txt "<-"
+--- <- fileStart, frontmatterStart
+foo: bar
+--- <- frontmatterEnd
+# My cool note <- contentStart
+
+```meta-bind-button <- selfStart
+label: My Button
+...
+``` <- selfEnd
+
+Some cool text. <- contentEnd, fileEnd
+````
+
+Below is an example button using relative line numbers to insert a line of text below the button.
+
+````custom_markdown
+```meta-bind-button
+label: Insert with relative line numbers
+style: default
+action:
+  type: insertIntoNote
+  line: selfEnd + 1
+  value: Hello
+```
+````

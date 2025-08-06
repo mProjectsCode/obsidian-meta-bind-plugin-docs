@@ -15,7 +15,7 @@ The most sensible place to do this, is inside a [JS Engine startup script](https
 This ensures the modifications are loaded early and will be immediately available when the first documents gets rendered.
 
 :::caution
-Modifying mathJS via a `js-engine` codeblock inside a document may cause timing problems and is not recommended!
+Modifying mathJS via a `js-engine` codeblock inside a note may cause timing problems and is not recommended!
 :::
 
 ### Adding a custom function `clamp`

@@ -163,8 +163,11 @@ This means you can do things like rendering markdown.
 
 The same variables and APIs that are [available in JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin#api-docs) code blocks are also available in JS view fields.
 The bound variables are available in the `context.bound` object.
+Note that the `context.bound` object is read-only.
+If you want to change the value of a bind target from within the JS View Field, you need to either use the `save to` bind target or the [`setMetadata` API method](/obsidian-meta-bind-plugin-docs/api/classes/obsapi/#setmetadata).
 
 The JS View Field will automatically update when one of the bound variables of the bind target sections changes.
+This also means that input fields rendered by the JS View Field will lose focus when one of the JS View Field's bound variables changes.
 
 ### Examples
 
@@ -201,3 +204,7 @@ hidden
 return `${context.bound.var1 * context.bound.var2} km`;
 ```
 ````
+
+:::tip
+You can find more examples [here](/obsidian-meta-bind-plugin-docs/guides/advancedusecases/).
+:::

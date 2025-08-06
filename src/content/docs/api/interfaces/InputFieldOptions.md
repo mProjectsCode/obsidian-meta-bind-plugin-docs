@@ -5,7 +5,7 @@ prev: false
 title: "InputFieldOptions"
 ---
 
-Defined in: [packages/core/src/config/APIConfigs.ts:28](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L28)
+Defined in: [packages/core/src/config/APIConfigs.ts:28](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L28)
 
 ## Properties
 
@@ -13,7 +13,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:28](https://github.com/mProj
 
 > **declaration**: `string` \| [`SimpleInputFieldDeclaration`](/obsidian-meta-bind-plugin-docs/api/interfaces/simpleinputfielddeclaration/)
 
-Defined in: [packages/core/src/config/APIConfigs.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L30)
+Defined in: [packages/core/src/config/APIConfigs.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L30)
 
 ***
 
@@ -21,7 +21,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:30](https://github.com/mProj
 
 > **renderChildType**: [`RenderChildType`](/obsidian-meta-bind-plugin-docs/api/enumerations/renderchildtype/)
 
-Defined in: [packages/core/src/config/APIConfigs.ts:29](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L29)
+Defined in: [packages/core/src/config/APIConfigs.ts:29](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L29)
 
 ***
 
@@ -29,4 +29,4 @@ Defined in: [packages/core/src/config/APIConfigs.ts:29](https://github.com/mProj
 
 > `optional` **scope**: `BindTargetScope`
 
-Defined in: [packages/core/src/config/APIConfigs.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L31)
+Defined in: [packages/core/src/config/APIConfigs.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L31)

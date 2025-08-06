@@ -8,8 +8,8 @@ This button action allows you to replace a specified line range in the current n
 ```ts
 interface ReplaceInNoteButtonAction {
 	type: 'replaceInNote';
-	fromLine: number; // the line to start replacing from (1-based index)
-	toLine: number; // the line to stop replacing at (1-based index)
+	fromLine: number | RelativeLineNumberExpression; // the line to start replacing from
+	toLine: number | RelativeLineNumberExpression; // the line to stop replacing at
 	replacement: string; // the replacement text or path to replacement Templater template
 	templater?: boolean; // whether the replacement is a Templater template
 }
@@ -17,6 +17,8 @@ interface ReplaceInNoteButtonAction {
 
 If `templater` is `true`, the `replacement` field is treated as a path to a Templater template.
 If `templater` is `false` or not specified, the `replacement` field is treated as plain text.
+
+This button action supports [relative line numbers](/obsidian-meta-bind-plugin-docs/guides/buttons/#relative-line-numbers).
 
 ### Example
 

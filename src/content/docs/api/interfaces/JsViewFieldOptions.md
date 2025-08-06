@@ -5,7 +5,7 @@ prev: false
 title: "JsViewFieldOptions"
 ---
 
-Defined in: [packages/core/src/config/APIConfigs.ts:40](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L40)
+Defined in: [packages/core/src/config/APIConfigs.ts:40](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L40)
 
 ## Properties
 
@@ -13,4 +13,4 @@ Defined in: [packages/core/src/config/APIConfigs.ts:40](https://github.com/mProj
 
 > **declaration**: `string` \| [`SimpleJsViewFieldDeclaration`](/obsidian-meta-bind-plugin-docs/api/interfaces/simplejsviewfielddeclaration/)
 
-Defined in: [packages/core/src/config/APIConfigs.ts:41](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L41)
+Defined in: [packages/core/src/config/APIConfigs.ts:41](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L41)

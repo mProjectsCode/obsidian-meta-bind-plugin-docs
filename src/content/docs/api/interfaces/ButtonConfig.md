@@ -5,7 +5,7 @@ prev: false
 title: "ButtonConfig"
 ---
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:151](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L151)
+Defined in: [packages/core/src/config/ButtonConfig.ts:151](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/ButtonConfig.ts#L151)
 
 ## Properties
 
@@ -13,7 +13,7 @@ Defined in: [packages/core/src/config/ButtonConfig.ts:151](https://github.com/mP
 
 > `optional` **action**: [`ButtonAction`](/obsidian-meta-bind-plugin-docs/api/type-aliases/buttonaction/)
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:193](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L193)
+Defined in: [packages/core/src/config/ButtonConfig.ts:193](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/ButtonConfig.ts#L193)
 
 A single action to run when the button is clicked
 Mutually exclusive with `actions`
@@ -24,7 +24,7 @@ Mutually exclusive with `actions`
 
 > `optional` **actions**: [`ButtonAction`](/obsidian-meta-bind-plugin-docs/api/type-aliases/buttonaction/)[]
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:198](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L198)
+Defined in: [packages/core/src/config/ButtonConfig.ts:198](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/ButtonConfig.ts#L198)
 
 Multiple actions to run when the button is clicked
 Mutually exclusive with `action`
@@ -35,7 +35,7 @@ Mutually exclusive with `action`
 
 > `optional` **backgroundImage**: `string`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:176](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L176)
+Defined in: [packages/core/src/config/ButtonConfig.ts:176](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/ButtonConfig.ts#L176)
 
 Optional background image to add to the button,
 needed since you can't load images from the vault via pure CSS
@@ -46,7 +46,7 @@ needed since you can't load images from the vault via pure CSS
 
 > `optional` **class**: `string`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:167](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L167)
+Defined in: [packages/core/src/config/ButtonConfig.ts:167](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/ButtonConfig.ts#L167)
 
 Optional CSS class to add to the button
 
@@ -56,7 +56,7 @@ Optional CSS class to add to the button
 
 > `optional` **cssStyle**: `string`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:171](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L171)
+Defined in: [packages/core/src/config/ButtonConfig.ts:171](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/ButtonConfig.ts#L171)
 
 Optional CSS styles to add to the button
 
@@ -66,7 +66,7 @@ Optional CSS styles to add to the button
 
 > `optional` **hidden**: `boolean`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:188](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L188)
+Defined in: [packages/core/src/config/ButtonConfig.ts:188](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/ButtonConfig.ts#L188)
 
 Whether the button is hidden
 
@@ -76,7 +76,7 @@ Whether the button is hidden
 
 > `optional` **icon**: `string`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:159](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L159)
+Defined in: [packages/core/src/config/ButtonConfig.ts:159](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/ButtonConfig.ts#L159)
 
 Optional icon to display in front of the label
 
@@ -86,7 +86,7 @@ Optional icon to display in front of the label
 
 > `optional` **id**: `string`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:184](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L184)
+Defined in: [packages/core/src/config/ButtonConfig.ts:184](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/ButtonConfig.ts#L184)
 
 Optional ID for use in inline buttons
 
@@ -96,7 +96,7 @@ Optional ID for use in inline buttons
 
 > **label**: `string`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:155](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L155)
+Defined in: [packages/core/src/config/ButtonConfig.ts:155](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/ButtonConfig.ts#L155)
 
 The text displayed on the button
 
@@ -106,7 +106,7 @@ The text displayed on the button
 
 > **style**: [`ButtonStyleType`](/obsidian-meta-bind-plugin-docs/api/enumerations/buttonstyletype/)
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:163](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L163)
+Defined in: [packages/core/src/config/ButtonConfig.ts:163](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/ButtonConfig.ts#L163)
 
 The style of the button
 
@@ -116,6 +116,6 @@ The style of the button
 
 > `optional` **tooltip**: `string`
 
-Defined in: [packages/core/src/config/ButtonConfig.ts:180](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/ButtonConfig.ts#L180)
+Defined in: [packages/core/src/config/ButtonConfig.ts:180](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/ButtonConfig.ts#L180)
 
 Optional tooltip to display when hovering over the button

@@ -5,7 +5,7 @@ prev: false
 title: "EmbedOptions"
 ---
 
-Defined in: [packages/core/src/config/APIConfigs.ts:79](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L79)
+Defined in: [packages/core/src/config/APIConfigs.ts:79](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L79)
 
 ## Properties
 
@@ -13,7 +13,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:79](https://github.com/mProj
 
 > **content**: `string`
 
-Defined in: [packages/core/src/config/APIConfigs.ts:81](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L81)
+Defined in: [packages/core/src/config/APIConfigs.ts:81](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L81)
 
 ***
 
@@ -21,4 +21,4 @@ Defined in: [packages/core/src/config/APIConfigs.ts:81](https://github.com/mProj
 
 > **depth**: `number`
 
-Defined in: [packages/core/src/config/APIConfigs.ts:80](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L80)
+Defined in: [packages/core/src/config/APIConfigs.ts:80](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L80)

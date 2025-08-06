@@ -5,7 +5,7 @@ prev: false
 title: "NotePosition"
 ---
 
-Defined in: [packages/core/src/config/APIConfigs.ts:62](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L62)
+Defined in: [packages/core/src/config/APIConfigs.ts:62](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L62)
 
 ## Constructors
 
@@ -13,7 +13,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:62](https://github.com/mProj
 
 > **new NotePosition**(`linePosition`): `NotePosition`
 
-Defined in: [packages/core/src/config/APIConfigs.ts:65](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L65)
+Defined in: [packages/core/src/config/APIConfigs.ts:65](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L65)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:65](https://github.com/mProj
 
 > **linePosition**: `undefined` \| [`LinePosition`](/obsidian-meta-bind-plugin-docs/api/interfaces/lineposition/)
 
-Defined in: [packages/core/src/config/APIConfigs.ts:63](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L63)
+Defined in: [packages/core/src/config/APIConfigs.ts:63](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L63)
 
 ## Methods
 
@@ -58,7 +58,7 @@ Defined in: [packages/core/src/config/APIConfigs.ts:63](https://github.com/mProj
 
 > **getPosition**(): `undefined` \| [`LinePosition`](/obsidian-meta-bind-plugin-docs/api/interfaces/lineposition/)
 
-Defined in: [packages/core/src/config/APIConfigs.ts:69](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/APIConfigs.ts#L69)
+Defined in: [packages/core/src/config/APIConfigs.ts:69](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/APIConfigs.ts#L69)
 
 #### Returns
 

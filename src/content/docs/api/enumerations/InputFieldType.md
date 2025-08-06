@@ -5,7 +5,7 @@ prev: false
 title: "InputFieldType"
 ---
 
-Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L23)
+Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L23)
 
 ## Enumeration Members
 
@@ -31,7 +31,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L30)
+[packages/core/src/config/FieldConfigs.ts:30](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L30)
 
 </td>
 </tr>
@@ -48,7 +48,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L32)
+[packages/core/src/config/FieldConfigs.ts:32](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L32)
 
 </td>
 </tr>
@@ -65,7 +65,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:44](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L44)
+[packages/core/src/config/FieldConfigs.ts:44](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L44)
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:35](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L35)
+[packages/core/src/config/FieldConfigs.ts:35](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L35)
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:43](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L43)
+[packages/core/src/config/FieldConfigs.ts:43](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L43)
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:36](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L36)
+[packages/core/src/config/FieldConfigs.ts:36](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L36)
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:42](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L42)
+[packages/core/src/config/FieldConfigs.ts:42](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L42)
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:41](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L41)
+[packages/core/src/config/FieldConfigs.ts:41](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L41)
 
 </td>
 </tr>
@@ -167,7 +167,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:38](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L38)
+[packages/core/src/config/FieldConfigs.ts:38](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L38)
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:46](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L46)
+[packages/core/src/config/FieldConfigs.ts:46](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L46)
 
 </td>
 </tr>
@@ -201,7 +201,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:39](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L39)
+[packages/core/src/config/FieldConfigs.ts:39](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L39)
 
 </td>
 </tr>
@@ -218,7 +218,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:40](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L40)
+[packages/core/src/config/FieldConfigs.ts:40](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L40)
 
 </td>
 </tr>
@@ -235,7 +235,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:29](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L29)
+[packages/core/src/config/FieldConfigs.ts:29](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L29)
 
 </td>
 </tr>
@@ -252,7 +252,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:33](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L33)
+[packages/core/src/config/FieldConfigs.ts:33](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L33)
 
 </td>
 </tr>
@@ -269,7 +269,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:37](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L37)
+[packages/core/src/config/FieldConfigs.ts:37](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L37)
 
 </td>
 </tr>
@@ -286,7 +286,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:28](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L28)
+[packages/core/src/config/FieldConfigs.ts:28](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L28)
 
 </td>
 </tr>
@@ -303,7 +303,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L25)
+[packages/core/src/config/FieldConfigs.ts:25](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L25)
 
 </td>
 </tr>
@@ -320,7 +320,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:34](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L34)
+[packages/core/src/config/FieldConfigs.ts:34](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L34)
 
 </td>
 </tr>
@@ -337,7 +337,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:26](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L26)
+[packages/core/src/config/FieldConfigs.ts:26](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L26)
 
 </td>
 </tr>
@@ -354,7 +354,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:27](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L27)
+[packages/core/src/config/FieldConfigs.ts:27](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L27)
 
 </td>
 </tr>
@@ -371,7 +371,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L31)
+[packages/core/src/config/FieldConfigs.ts:31](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L31)
 
 </td>
 </tr>
@@ -388,7 +388,7 @@ Defined in: [packages/core/src/config/FieldConfigs.ts:23](https://github.com/mPr
 </td>
 <td>
 
-[packages/core/src/config/FieldConfigs.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/6e87907d27dd07b6437b63c980b11d2bfef62599/packages/core/src/config/FieldConfigs.ts#L24)
+[packages/core/src/config/FieldConfigs.ts:24](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/blob/563ae7213e1de72cfcc12505f0ad569434535dc5/packages/core/src/config/FieldConfigs.ts#L24)
 
 </td>
 </tr>

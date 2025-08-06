@@ -102,7 +102,7 @@ Not handling the lifecycle of mountable objects can lead to memory leaks and oth
 
 Lifecycle management is very important when working with the Meta Bind API. You need to make sure that you clean up after yourself to prevent memory leaks and other bugs.
 
-Most things that need lifecycle managment inherit from [`Mountable`](/obsidian-meta-bind-plugin-docs/api/classes/mountable), which has a `mount` and `unmount` method.
+Most things that need lifecycle management inherit from [`Mountable`](/obsidian-meta-bind-plugin-docs/api/classes/mountable), which has a `mount` and `unmount` method.
 If you call `mount`, you need to call `unmount` at some point.
 
 The API provides a helper function called `wrapInMDRC` that can be used to handle the lifecycle of a mountable object for you.
@@ -118,9 +118,12 @@ mb.wrapInMDRC(mountable, container, component);
 ```
 
 In the background this will create a [`MarkdownRenderChild`](https://docs.obsidian.md/Reference/TypeScript+API/MarkdownRenderChild)
-which mounts and unmounts the mountable on load and unload respectivly and then registers that [`MarkdownRenderChild`](https://docs.obsidian.md/Reference/TypeScript+API/MarkdownRenderChild) as a child of the component.
+which mounts and unmounts the mountable on load and unload respectively, then it registers that [`MarkdownRenderChild`](https://docs.obsidian.md/Reference/TypeScript+API/MarkdownRenderChild) as a child of the passed in component.
+Note that this just defers the lifecycle management to the [component](https://docs.obsidian.md/Reference/TypeScript+API/Component), which is the primitive that Obsidian uses to do lifecycle management.
+You still need to make sure that the [component](https://docs.obsidian.md/Reference/TypeScript+API/Component) is correctly loaded and unloaded.
 
 You can also handle the lifecycle yourself by mounting the mountable to the DOM and then registering a callback to unmount it when the component is destroyed.
+Note that you still need to make sure that the [component](https://docs.obsidian.md/Reference/TypeScript+API/Component) is correctly loaded and unloaded.
 
 ```js
 // Create a mountable object.
@@ -131,6 +134,8 @@ mountable.mount(container);
 // Register a callback to unmount the mountable when the component is destroyed.
 component.register(() => mountable.unmount());
 ```
+
+When using [JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin), in most cases you should be using the global `container` and `component` variables provided by [JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin).
 
 ## Examples
 
@@ -144,7 +149,7 @@ For more information on them refer to the [JS Engine documentation](https://www.
 
 - `engine` - Refers to the JS Engine API.
 - `context.file` - The `TFile` object for file containing the `js-engine` code block. This is only available in the context of a note.
-- `container` - The container for the rendered content. This is of type `HTMLElement`.
+- `container` - The container for the rendered content. This is of type `HTMLElement`. Only available in a rendering context.
 - `component` - An Obsidian `Component` for lifecycle management.
   :::
 
@@ -152,7 +157,7 @@ For more information on them refer to the [JS Engine documentation](https://www.
 
 Creating a button via the API.
 
-```js
+```js wrap
 // First we get an instance of the Meta Bind plugin, then we access the API.
 const mb = app.plugins.getPlugin('obsidian-meta-bind-plugin')?.api;
 
@@ -169,7 +174,7 @@ const buttonConfig = {
 // We specify the button options.
 const buttonOptions = {
 	declaration: buttonConfig,
-	isPreview: false,
+	isPreview: false, // This flag is used to render a non-functional preview of the button. Internally this is used for the Button Builder.
 };
 
 // We create the button. This will return something that inherits from `Mountable` and can be mounted to the DOM.
@@ -181,7 +186,7 @@ mb.wrapInMDRC(button, container, component);
 
 If you are daring you can skip the intermediate objects.
 
-```js
+```js wrap
 // First we get an instance of the Meta Bind plugin, then we access the API.
 const mb = app.plugins.getPlugin('obsidian-meta-bind-plugin')?.api;
 
@@ -208,7 +213,7 @@ mb.wrapInMDRC(button, container, component);
 
 Creating an input field via the API.
 
-```js
+```js wrap
 const mb = engine.getPlugin('obsidian-meta-bind-plugin').api;
 const primeNumberBound = 200;
 

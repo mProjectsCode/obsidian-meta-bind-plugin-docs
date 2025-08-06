@@ -106,13 +106,13 @@ export default defineConfig({
 				starlightSiteGraph({
 					graphConfig: {
 						depth: 5,
-						visibilityRules: ['!**/api/README.md', '*/api/**'],
+						visibilityRules: ['!**/README.md', '!**/readme', '*/api/**'],
 					},
 					trackVisitedPages: 'disable',
 					storageLocation: 'none',
 					sitemapConfig: {
 						contentRoot: './src/content/docs',
-						pageInclusionRules: ['!**/api/README.md', '**/api/**'],
+						pageInclusionRules: ['!**/README.md', '!**/readme', '**/api/**'],
 					},
 				}),
 			],
